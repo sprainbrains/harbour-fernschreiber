@@ -1607,7 +1607,6 @@
         <translation>Färgmarkera konversationer med olästa meddelanden</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Hide content in notifications</source>
         <translation>Dölj innehåll i aviseringar</translation>
     </message>

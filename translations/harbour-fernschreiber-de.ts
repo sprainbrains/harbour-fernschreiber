@@ -1607,7 +1607,6 @@
         <translation>Unterhaltungen mit ungelesenen Nachrichten hervorheben</translation>
     </message>
     <message>
-<<<<<<< HEAD
         <source>Hide content in notifications</source>
         <translation>Inhalte in Hinweisen verbergen</translation>
     </message>
@@ -1619,11 +1618,6 @@
         <source>When tapping a quoted message, open it in chat instead of showing it in an overlay.</source>
         <translation>Beim Tippen auf eine zitierte Nachricht zu dieser springen anstatt es in einem Overlay anzuzeigen.</translation>
     </message>
-=======
-        <source>Hide content in Notifications</source>
-        <translation>Inhalte in Hinweisen verbergen</translation>
-    </message>
->>>>>>> f771a9a (Some minor adjustments)
 </context>
 <context>
     <name>SettingsPage</name>
