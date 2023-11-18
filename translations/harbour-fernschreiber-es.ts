@@ -1626,6 +1626,18 @@
         <source>In addition to showing the number of unread messages, the latest message will also be appended to notifications.</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Highlight unread messages</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Highlight Conversations with unread messages</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Hide content in Notifications</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>SettingsPage</name>

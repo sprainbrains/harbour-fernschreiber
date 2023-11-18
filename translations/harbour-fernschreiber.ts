@@ -1598,7 +1598,6 @@
         <source>In addition to showing the number of unread messages, the latest message will also be appended to notifications.</source>
         <translation type="unfinished"></translation>
     </message>
-<<<<<<< HEAD
     <message>
         <source>Highlight unread messages</source>
         <translation type="unfinished"></translation>
@@ -1619,8 +1618,6 @@
         <source>When tapping a quoted message, open it in chat instead of showing it in an overlay.</source>
         <translation type="unfinished"></translation>
     </message>
-=======
->>>>>>> b11f7dd (Always append last message content to notifications (#514))
 </context>
 <context>
     <name>SettingsPage</name>

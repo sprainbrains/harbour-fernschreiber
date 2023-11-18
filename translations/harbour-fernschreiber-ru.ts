@@ -1649,6 +1649,18 @@
         <source>When tapping a quoted message, open it in chat instead of showing it in an overlay.</source>
         <translation>По нажатию на цитируемое сообщение, переходить к нему в чате вместо отображения во всплывающем окне.</translation>
     </message>
+    <message>
+        <source>Highlight unread messages</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Highlight Conversations with unread messages</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Hide content in Notifications</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>SettingsPage</name>

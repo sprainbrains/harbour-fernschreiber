@@ -1635,6 +1635,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+<<<<<<< HEAD
         <source>Hide content in notifications</source>
         <translation type="unfinished"></translation>
     </message>
@@ -1644,6 +1645,9 @@
     </message>
     <message>
         <source>When tapping a quoted message, open it in chat instead of showing it in an overlay.</source>
+=======
+        <source>Hide content in Notifications</source>
+>>>>>>> f771a9a (Some minor adjustments)
         <translation type="unfinished"></translation>
     </message>
 </context>
