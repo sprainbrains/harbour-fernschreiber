@@ -97,9 +97,12 @@ public:
     bool notificationAlwaysShowPreview() const;
     void setNotificationAlwaysShowPreview(bool enable);
 
+<<<<<<< HEAD
     bool goToQuotedMessage() const;
     void setGoToQuotedMessage(bool enable);
 
+=======
+>>>>>>> b11f7dd (Always append last message content to notifications (#514))
     bool storageOptimizer() const;
     void setStorageOptimizer(bool enable);
 
@@ -139,7 +142,10 @@ signals:
     void notificationSuppressContentChanged();
     void notificationFeedbackChanged();
     void notificationAlwaysShowPreviewChanged();
+<<<<<<< HEAD
     void goToQuotedMessageChanged();
+=======
+>>>>>>> b11f7dd (Always append last message content to notifications (#514))
     void storageOptimizerChanged();
     void allowInlineBotLocationAccessChanged();
     void remainingInteractionHintsChanged();

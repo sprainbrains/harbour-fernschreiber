@@ -1618,6 +1618,14 @@
         <source>When tapping a quoted message, open it in chat instead of showing it in an overlay.</source>
         <translation>Al Pulsar mensaje citado, abrirá en Charla en lugar de mostrarlo en una superposición.</translation>
     </message>
+    <message>
+        <source>Always append message preview to notifications</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>In addition to showing the number of unread messages, the latest message will also be appended to notifications.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>SettingsPage</name>

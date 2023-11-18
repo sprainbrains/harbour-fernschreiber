@@ -216,6 +216,17 @@ AccordionItem {
                     }
                 }
             }
+
+            TextSwitch {
+                width: parent.columnWidth
+                checked: appSettings.notificationAlwaysShowPreview
+                text: qsTr("Always append message preview to notifications")
+                description: qsTr("In addition to showing the number of unread messages, the latest message will also be appended to notifications.")
+                automaticCheck: false
+                onClicked: {
+                    appSettings.notificationAlwaysShowPreview = !checked
+                }
+            }
         }
     }
 }
