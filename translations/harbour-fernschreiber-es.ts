@@ -1756,6 +1756,7 @@
     </message>
     <message>
         <source>1 week</source>
+<<<<<<< HEAD
         <translation> 1 semana</translation>
     </message>
     <message>
