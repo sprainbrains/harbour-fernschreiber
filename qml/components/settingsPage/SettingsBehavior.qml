@@ -216,15 +216,35 @@ AccordionItem {
                     }
                 }
             }
+                TextSwitch {
+                    checked: appSettings.notificationSuppressContent && enabled
+                    text: qsTr("Hide content in notifications")
+                    enabled: parent.enabled
+                    automaticCheck: false
+                    onClicked: {
+                        appSettings.notificationSuppressContent = !checked
+                    }
+                }
 
-            TextSwitch {
-                width: parent.columnWidth
-                checked: appSettings.notificationAlwaysShowPreview
-                text: qsTr("Always append message preview to notifications")
-                description: qsTr("In addition to showing the number of unread messages, the latest message will also be appended to notifications.")
-                automaticCheck: false
-                onClicked: {
-                    appSettings.notificationAlwaysShowPreview = !checked
+                TextSwitch {
+                    checked: appSettings.notificationTurnsDisplayOn && enabled
+                    text: qsTr("Notification turns on the display")
+                    enabled: parent.enabled
+                    automaticCheck: false
+                    onClicked: {
+                        appSettings.notificationTurnsDisplayOn = !checked
+                    }
+                }
+
+                TextSwitch {
+                    checked: appSettings.notificationSoundsEnabled && enabled
+                    text: qsTr("Enable notification sounds")
+                    description: qsTr("When sounds are enabled, Fernschreiber will use the current Sailfish OS notification sound for chats, which can be configured in the system settings.")
+                    enabled: parent.enabled
+                    automaticCheck: false
+                    onClicked: {
+                        appSettings.notificationSoundsEnabled = !checked
+                    }
                 }
             }
         }
