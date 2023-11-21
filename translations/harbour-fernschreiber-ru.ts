@@ -1651,15 +1651,15 @@
     </message>
     <message>
         <source>Highlight unread messages</source>
-        <translation type="unfinished"></translation>
+        <translation>Выделять непрочитанные сообщения</translation>
     </message>
     <message>
         <source>Highlight Conversations with unread messages</source>
-        <translation type="unfinished"></translation>
+        <translation>Помечать чаты и каналы с непрочитанными сообщениями другим шрифтом и цветом.</translation>
     </message>
     <message>
         <source>Hide content in notifications</source>
-        <translation type="unfinished"></translation>
+        <translation>Не показывать содержимое сообщений в уведомлениях</translation>
     </message>
 </context>
 <context>
