@@ -1620,23 +1620,23 @@
     </message>
     <message>
         <source>Always append message preview to notifications</source>
-        <translation type="unfinished"></translation>
+        <translation>Agregar vista previa mensaje a notificaciones</translation>
     </message>
     <message>
         <source>In addition to showing the number of unread messages, the latest message will also be appended to notifications.</source>
-        <translation type="unfinished"></translation>
+        <translation>Mostrará cantidad mensajes no leídos, el último mensaje se agregará a notificaciones.</translation>
     </message>
     <message>
         <source>Highlight unread messages</source>
-        <translation type="unfinished"></translation>
+        <translation>Resaltar mensajes no leídos</translation>
     </message>
     <message>
         <source>Highlight Conversations with unread messages</source>
-        <translation type="unfinished"></translation>
+        <translation>Resaltar conversaciones a mensajes no leídos</translation>
     </message>
     <message>
         <source>Hide content in notifications</source>
-        <translation type="unfinished"></translation>
+        <translation>Ocultar contenido a notificaciones</translation>
     </message>
 </context>
 <context>
@@ -1756,7 +1756,6 @@
     </message>
     <message>
         <source>1 week</source>
-<<<<<<< HEAD
         <translation> 1 semana</translation>
     </message>
     <message>
@@ -2376,11 +2375,11 @@
     <message>
         <source>sent a game</source>
         <comment>myself</comment>
-        <translation>envió un juego</translation>
+        <translation>envió juego</translation>
     </message>
     <message>
         <source>sent a game</source>
-        <translation>envió un juego</translation>
+        <translation>envió juego</translation>
     </message>
 </context>
 </TS>
