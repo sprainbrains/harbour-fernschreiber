@@ -1620,15 +1620,15 @@
     </message>
     <message>
         <source>Highlight unread messages</source>
-        <translation type="unfinished"></translation>
+        <translation>Mettre en valeur les messages non-lus</translation>
     </message>
     <message>
         <source>Highlight Conversations with unread messages</source>
-        <translation type="unfinished"></translation>
+        <translation>Mettre en valeur les conversations avec des messages non-lus</translation>
     </message>
     <message>
         <source>Hide content in notifications</source>
-        <translation type="unfinished"></translation>
+        <translation>Masquer le contenu dans les notifications</translation>
     </message>
 </context>
 <context>
