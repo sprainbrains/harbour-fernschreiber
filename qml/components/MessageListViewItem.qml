@@ -132,6 +132,10 @@ ListItem {
 
             if (messageListItem.messageReactions) {
                 messageListItem.messageReactions = null;
+                selectReactionBubble.visible = false;
+            } else {
+                selectReactionBubble.visible = !selectReactionBubble.visible;
+                elementSelected(index);
             }
         }
     }
@@ -167,6 +171,19 @@ ListItem {
         onOpenChanged: {
             if (!messageOptionsDrawer.open) {
                 additionalOptionsOpened = false
+            }
+        }
+    }
+
+    Connections {
+        target: chatPage
+        onResetElements: {
+            messageListItem.messageReactions = null;
+            selectReactionBubble.visible = false;
+        }
+        onElementSelected: {
+            if (elementIndex !== index) {
+                selectReactionBubble.visible = false;
             }
         }
     }
@@ -274,6 +291,9 @@ ListItem {
             } else {
                 messageListItem.messageReactions = null;
             }
+        }
+        onReactionsUpdated: {
+            chatReactions = tdLibWrapper.getChatReactions(page.chatInformation.id);
         }
     }
 
