@@ -1633,7 +1633,6 @@ QVariantMap TDLibWrapper::getChat(const QString &chatId)
 
 QStringList TDLibWrapper::getChatReactions(const QString &chatId)
 {
-
     LOG("Obtaining chat reactions for chat" << chatId);
     const QVariant available_reactions(chats.value(chatId).toMap().value(CHAT_AVAILABLE_REACTIONS));
     const QVariantMap map(available_reactions.toMap());
