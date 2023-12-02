@@ -216,6 +216,7 @@ AccordionItem {
                     }
                 }
             }
+
                 TextSwitch {
                     checked: appSettings.notificationSuppressContent && enabled
                     text: qsTr("Hide content in notifications")
