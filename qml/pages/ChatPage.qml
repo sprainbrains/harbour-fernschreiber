@@ -1230,7 +1230,7 @@ Page {
                             readonly property int profileThumbnailDimensions: showUserInfo ? Theme.itemSizeSmall : 0
                             readonly property int pageMarginDouble: 2 * Theme.horizontalPageMargin
                             readonly property int paddingMediumDouble: 2 * Theme.paddingMedium
-                            readonly property int entryWidth: chatView.width - pageMarginDouble
+                            readonly property int entryWidth: Functions.isTablet(appWindow) ? chatView.width * 0.75 : chatView.width - pageMarginDouble
                             readonly property int textItemWidth: entryWidth - profileThumbnailDimensions - Theme.paddingSmall
                             readonly property int backgroundWidth: page.isPrivateChat ? textItemWidth - pageMarginDouble : textItemWidth  //уменьшенная ширина сообщений для приватных чатов
                             readonly property int backgroundRadius: textItemWidth/50
