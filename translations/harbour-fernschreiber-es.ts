@@ -2375,11 +2375,11 @@
     <message>
         <source>sent a game</source>
         <comment>myself</comment>
-        <translation>envió juego</translation>
+        <translation>envió un juego</translation>
     </message>
     <message>
         <source>sent a game</source>
-        <translation>envió juego</translation>
+        <translation>envió un juego</translation>
     </message>
 </context>
 </TS>
