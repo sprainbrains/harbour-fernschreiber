@@ -151,8 +151,7 @@ ListItem {
 
             if (messageListItem.messageReactions) {
                 messageListItem.messageReactions = null;
-            } else if (messageListItem.chatReactions) {
-                messageListItem.messageReactions = chatReactions
+                selectReactionBubble.visible = false;
             } else {
                 selectReactionBubble.visible = !selectReactionBubble.visible;
                 elementSelected(index);
