@@ -6,9 +6,9 @@
 Name:       harbour-fernschreiber
 
 # >> macros
+# << macros
 %define __provides_exclude_from ^%{_datadir}/.*$
 %define __requires_exclude ^lib(tdjson|ssl|crypto).*$
-# << macros
 
 Summary:    Fernschreiber is a Telegram client for Aurora OS
 Version:    0.17
@@ -70,7 +70,7 @@ desktop-file-install --delete-original       \
 
 %files
 %defattr(-,root,root,-)
-%{_bindir}
+%{_bindir}/%{name}
 %{_datadir}/%{name}
 %{_datadir}/applications/%{name}.desktop
 %{_datadir}/icons/hicolor/*/apps/%{name}.png

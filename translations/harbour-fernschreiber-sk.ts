@@ -495,7 +495,11 @@
     </message>
     <message>
         <source>Double-tap on a message to choose a reaction</source>
+<<<<<<< HEAD
         <translation type="unfinished"></translation>
+=======
+        <translation>Dvojitým klepnutím na správu vybrať reakciu</translation>
+>>>>>>> fix_ballons/master
     </message>
 </context>
 <context>
@@ -1580,7 +1584,7 @@
     </message>
     <message>
         <source>Use non-graphical feedback (sound, vibration) for notifications</source>
-        <translation>Pre upozornenia použiť negrafickú reakciu (zvuk, vibrovanie)</translation>
+        <translation>Pre oznamy použiť negrafickú reakciu (zvuk, vibrovanie)</translation>
     </message>
     <message>
         <source>All events</source>
@@ -1600,11 +1604,39 @@
     </message>
     <message>
         <source>Enable notification sounds</source>
-        <translation>Povoliť zvukové upozornenia</translation>
+        <translation>Povoliť zvukové oznamy</translation>
     </message>
     <message>
         <source>When sounds are enabled, Fernschreiber will use the current Sailfish OS notification sound for chats, which can be configured in the system settings.</source>
-        <translation>Keď sú povolené zvukové upozornenia, Fernschreiber použije aktuálne zvukové upozornenia Sailfish OS pre čety, ktoré môžu byť upravené v nastaveniach systému.</translation>
+        <translation>Keď sú povolené zvukové oznamy, Fernschreiber použije aktuálne zvukové oznamy Sailfish OS pre čety, ktoré môžu byť upravené v nastaveniach systému.</translation>
+    </message>
+    <message>
+        <source>Always append message preview to notifications</source>
+        <translation>K upozorneniam vždy pripojiť ukážku správy</translation>
+    </message>
+    <message>
+        <source>In addition to showing the number of unread messages, the latest message will also be appended to notifications.</source>
+        <translation>Okrem zobrazenia počtu neprečítaných správ pripojiť k upozorneniam aj najnovšiu správu.</translation>
+    </message>
+    <message>
+        <source>Highlight unread messages</source>
+        <translation>Zvýrazniť neprečítané správy</translation>
+    </message>
+    <message>
+        <source>Highlight Conversations with unread messages</source>
+        <translation>Zvýrazniť konverzácie s neprečítanými správami</translation>
+    </message>
+    <message>
+        <source>Hide content in notifications</source>
+        <translation>V upozorneniach skryť obsah</translation>
+    </message>
+    <message>
+        <source>Go to quoted message</source>
+        <translation>Prejsť na citovanú správu</translation>
+    </message>
+    <message>
+        <source>When tapping a quoted message, open it in chat instead of showing it in an overlay.</source>
+        <translation>Citovanú správu otvoriť v čete namiesto v náhľade.</translation>
     </message>
     <message>
         <source>Always append message preview to notifications</source>
@@ -1745,14 +1777,22 @@
     </message>
     <message numerus="yes">
         <source>%1 day(s)</source>
+<<<<<<< HEAD
         <translation type="unfinished">
             <numerusform></numerusform>
             <numerusform></numerusform>
             <numerusform></numerusform>
+=======
+        <translation>
+            <numerusform>%1 deň</numerusform>
+            <numerusform>%1 dni</numerusform>
+            <numerusform>%1 dní</numerusform>
+>>>>>>> fix_ballons/master
         </translation>
     </message>
     <message>
         <source>1 week</source>
+<<<<<<< HEAD
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1778,6 +1818,33 @@
     <message>
         <source>Inactive sessions will be terminated after this timeframe</source>
         <translation type="unfinished"></translation>
+=======
+        <translation>1 týždeň</translation>
+    </message>
+    <message>
+        <source>1 month</source>
+        <translation>1 mesiac</translation>
+    </message>
+    <message>
+        <source>3 months</source>
+        <translation>3 mesiace</translation>
+    </message>
+    <message>
+        <source>6 months</source>
+        <translation>6 mesiacov</translation>
+    </message>
+    <message>
+        <source>1 year</source>
+        <translation>1 rok</translation>
+    </message>
+    <message>
+        <source>Session Timeout</source>
+        <translation>Časový limit relácie</translation>
+    </message>
+    <message>
+        <source>Inactive sessions will be terminated after this timeframe</source>
+        <translation>Neaktívne relácie budú po tomto časovom rámci ukončené</translation>
+>>>>>>> fix_ballons/master
     </message>
 </context>
 <context>
