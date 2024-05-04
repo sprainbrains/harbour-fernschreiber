@@ -1634,34 +1634,6 @@
         <source>When tapping a quoted message, open it in chat instead of showing it in an overlay.</source>
         <translation>Citovanú správu otvoriť v čete namiesto v náhľade.</translation>
     </message>
-    <message>
-        <source>Always append message preview to notifications</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>In addition to showing the number of unread messages, the latest message will also be appended to notifications.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Highlight unread messages</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Highlight Conversations with unread messages</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Hide content in notifications</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Go to quoted message</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>When tapping a quoted message, open it in chat instead of showing it in an overlay.</source>
-        <translation type="unfinished"></translation>
-    </message>
 </context>
 <context>
     <name>SettingsPage</name>
