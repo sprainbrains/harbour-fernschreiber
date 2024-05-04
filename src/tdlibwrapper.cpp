@@ -1633,15 +1633,23 @@ QVariantMap TDLibWrapper::getChat(const QString &chatId)
 
 QStringList TDLibWrapper::getChatReactions(const QString &chatId)
 {
+<<<<<<< HEAD
     LOG("Obtaining chat reactions for chat" << chatId);
+=======
+>>>>>>> 1ee8d13 (Adapt to changes in TdLib (#524))
     const QVariant available_reactions(chats.value(chatId).toMap().value(CHAT_AVAILABLE_REACTIONS));
     const QVariantMap map(available_reactions.toMap());
     const QString reactions_type(map.value(_TYPE).toString());
     if (reactions_type == CHAT_AVAILABLE_REACTIONS_ALL) {
+<<<<<<< HEAD
         LOG("Chat uses all available reactions, currently available number" << activeEmojiReactions.size());
         return activeEmojiReactions;
     } else if (reactions_type == CHAT_AVAILABLE_REACTIONS_SOME) {
         LOG("Chat uses reduced set of reactions");
+=======
+        return activeEmojiReactions;
+    } else if (reactions_type == CHAT_AVAILABLE_REACTIONS_SOME) {
+>>>>>>> 1ee8d13 (Adapt to changes in TdLib (#524))
         const QVariantList reactions(map.value(REACTIONS).toList());
         const int n = reactions.count();
         QStringList emojis;
@@ -1663,6 +1671,7 @@ QStringList TDLibWrapper::getChatReactions(const QString &chatId)
                 }
             }
         }
+<<<<<<< HEAD
         LOG("Found emojis for this chat" << emojis.size());
         return emojis;
     } else if (reactions_type.isEmpty()) {
@@ -1670,6 +1679,12 @@ QStringList TDLibWrapper::getChatReactions(const QString &chatId)
         return available_reactions.toStringList();
     } else {
         LOG("Unknown chat reaction type" << reactions_type);
+=======
+        return emojis;
+    } else if (reactions_type.isEmpty()) {
+        return available_reactions.toStringList();
+    } else {
+>>>>>>> 1ee8d13 (Adapt to changes in TdLib (#524))
         return QStringList();
     }
 }
