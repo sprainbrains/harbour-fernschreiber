@@ -405,11 +405,7 @@
     </message>
     <message>
         <source>This secret chat is not yet ready. Your chat partner needs to go online first.</source>
-<<<<<<< HEAD
-        <translation>Esta conversación secreta no está lista. El contacto no está conectado.</translation>
-=======
         <translation>Esta charla secreta no está lista. El contacto no está conectado.</translation>
->>>>>>> fix_ballons/master
     </message>
     <message>
         <source>Closing chat</source>
@@ -500,9 +496,6 @@
     </message>
     <message>
         <source>You don&apos;t have any chats yet.</source>
-<<<<<<< HEAD
-        <translation>No hay conversaciones.</translation>
-=======
         <translation>No hay charlas.</translation>
     </message>
 </context>
@@ -511,7 +504,6 @@
     <message>
         <source>Could not synchronize your contacts with Telegram.</source>
         <translation>No se puede sincronizar los contactos con Telegrama.</translation>
->>>>>>> fix_ballons/master
     </message>
 </context>
 <context>
@@ -677,11 +669,7 @@
     <message>
         <source>have registered with Telegram</source>
         <comment>myself</comment>
-<<<<<<< HEAD
-        <translation>registrado a Telegram</translation>
-=======
         <translation>registrado a Telegrama</translation>
->>>>>>> fix_ballons/master
     </message>
     <message>
         <source>has registered with Telegram</source>
@@ -776,11 +764,7 @@
     <message>
         <source>deleted the chat photo</source>
         <comment>myself</comment>
-<<<<<<< HEAD
-        <translation>borró foto de conversación</translation>
-=======
         <translation>borró foto de charla</translation>
->>>>>>> fix_ballons/master
     </message>
     <message>
         <source>deleted the chat photo</source>
@@ -789,19 +773,11 @@
     <message>
         <source>changed the secret chat TTL setting</source>
         <comment>myself</comment>
-<<<<<<< HEAD
-        <translation>cambió ajustes TTL en conversación secreta</translation>
-    </message>
-    <message>
-        <source>changed the secret chat TTL setting</source>
-        <translation>cambió ajustes TTL en conversación secreta</translation>
-=======
         <translation>cambió ajustes TTL en charla secreta</translation>
     </message>
     <message>
         <source>changed the secret chat TTL setting</source>
         <translation>cambió ajustes TTL en charla secreta</translation>
->>>>>>> fix_ballons/master
     </message>
     <message>
         <source>upgraded this group to a supergroup</source>
@@ -820,19 +796,11 @@
     <message>
         <source>created a screenshot in this chat</source>
         <comment>myself</comment>
-<<<<<<< HEAD
-        <translation>creó pantallazo a esta conversación</translation>
-    </message>
-    <message>
-        <source>created a screenshot in this chat</source>
-        <translation>creó pantallazo a esta conversación</translation>
-=======
         <translation>creó pantallazo a esta charla</translation>
     </message>
     <message>
         <source>created a screenshot in this chat</source>
         <translation>creó pantallazo a esta charla</translation>
->>>>>>> fix_ballons/master
     </message>
     <message>
         <source>sent an unsupported message</source>
@@ -885,37 +853,21 @@
     </message>
     <message>
         <source>has added %1 to the chat</source>
-<<<<<<< HEAD
-        <translation>ha añadido %1 a conversación</translation>
-    </message>
-    <message>
-        <source>has removed %1 from the chat</source>
-        <translation>ha quitado %1 de conversación</translation>
-=======
         <translation>ha añadido %1 a charla</translation>
     </message>
     <message>
         <source>has removed %1 from the chat</source>
         <translation>ha quitado %1 de charla</translation>
->>>>>>> fix_ballons/master
     </message>
     <message>
         <source>have added %1 to the chat</source>
         <comment>myself</comment>
-<<<<<<< HEAD
-        <translation>ha añadido %1 a conversación</translation>
-=======
         <translation>ha añadido %1 a charla</translation>
->>>>>>> fix_ballons/master
     </message>
     <message>
         <source>have removed %1 from the chat</source>
         <comment>myself</comment>
-<<<<<<< HEAD
-        <translation>ha quitado %1 de conversación</translation>
-=======
         <translation>ha quitado %1 de charla</translation>
->>>>>>> fix_ballons/master
     </message>
     <message numerus="yes">
         <source>scored %Ln points</source>
@@ -1259,11 +1211,7 @@
     </message>
     <message>
         <source>Loading chat list...</source>
-<<<<<<< HEAD
-        <translation>cargando lista de conversación...</translation>
-=======
         <translation>cargando lista de charla...</translation>
->>>>>>> fix_ballons/master
     </message>
     <message>
         <source>Settings</source>
@@ -1271,11 +1219,7 @@
     </message>
     <message>
         <source>You don&apos;t have any chats yet.</source>
-<<<<<<< HEAD
-        <translation>No hay conversaciones.</translation>
-=======
         <translation>No hay charlas.</translation>
->>>>>>> fix_ballons/master
     </message>
     <message>
         <source>New Chat</source>
@@ -1580,19 +1524,11 @@
     </message>
     <message>
         <source>Focus text input on chat open</source>
-<<<<<<< HEAD
-        <translation>Enfocar entrada de texto a conversación</translation>
-    </message>
-    <message>
-        <source>Focus the text input area when entering a chat</source>
-        <translation>Enfoca área de entrada de texto al ingresar a  conversación</translation>
-=======
         <translation>Enfocar entrada de texto de Charla</translation>
     </message>
     <message>
         <source>Focus the text input area when entering a chat</source>
         <translation>Enfoca área de entrada de texto al ingresar a charla</translation>
->>>>>>> fix_ballons/master
     </message>
     <message>
         <source>Focus text input area after send</source>
@@ -1608,11 +1544,7 @@
     </message>
     <message>
         <source>Fernschreiber will wait a bit before messages are marked as read</source>
-<<<<<<< HEAD
-        <translation>Si esta habilitado, apl espera un segundo hasta que mensaje que está en pantalla se marque como leído. Si deshabilita esta función,  mensajes se marcarán inmediatamente como leído una vez que esté en pantalla sin desplazarse a mensaje</translation>
-=======
         <translation>Si esta habilitado, Apl espera un segundo hasta que mensaje que está en monitor se marque como leído. Si deshabilita esta función,  mensajes se marcarán inmediatamente como leído una vez que esté en monitor sin desplazarse a mensaje</translation>
->>>>>>> fix_ballons/master
     </message>
     <message>
         <source>Open-with menu integration</source>
@@ -1648,17 +1580,6 @@
     </message>
     <message>
         <source>Enable notification sounds</source>
-<<<<<<< HEAD
-        <translation>Habilitar sonidos notificación</translation>
-    </message>
-    <message>
-        <source>When sounds are enabled, Fernschreiber will use the current Sailfish OS notification sound for chats, which can be configured in the system settings.</source>
-        <translation>Cuando sonidos están habilitados, Ferni utilizará sonido de notificación actual de Sailfish OS para los grupos, que se puede ajustar a configuración del sistema.</translation>
-    </message>
-    <message>
-        <source>Always append message preview to notifications</source>
-        <translation>Agregar vista previa mensaje a notificaciones</translation>
-=======
         <translation>Habilitar sonidos de Notificación</translation>
     </message>
     <message>
@@ -1668,7 +1589,6 @@
     <message>
         <source>Always append message preview to notifications</source>
         <translation>Vista previa de mensaje en Notificaciones</translation>
->>>>>>> fix_ballons/master
     </message>
     <message>
         <source>In addition to showing the number of unread messages, the latest message will also be appended to notifications.</source>
@@ -1676,17 +1596,6 @@
     </message>
     <message>
         <source>Highlight unread messages</source>
-<<<<<<< HEAD
-        <translation>Resaltar mensajes no leídos</translation>
-    </message>
-    <message>
-        <source>Highlight Conversations with unread messages</source>
-        <translation>Resaltar conversaciones a mensajes no leídos</translation>
-    </message>
-    <message>
-        <source>Hide content in notifications</source>
-        <translation>Ocultar contenido a notificaciones</translation>
-=======
         <translation>Resaltar mensajes no Leídos</translation>
     </message>
     <message>
@@ -1696,7 +1605,6 @@
     <message>
         <source>Hide content in notifications</source>
         <translation>Ocultar contenido de notificaciones</translation>
->>>>>>> fix_ballons/master
     </message>
     <message>
         <source>Go to quoted message</source>
@@ -1750,11 +1658,7 @@
     </message>
     <message>
         <source>Show link in forwarded messages</source>
-<<<<<<< HEAD
-        <translation>Mostrar enlace a mensajes reenviados</translation>
-=======
         <translation>Mostrar enlace a mensajes Reenviados</translation>
->>>>>>> fix_ballons/master
     </message>
     <message>
         <source>Privacy setting for managing whether a link to your account is included in forwarded messages.</source>
@@ -1863,19 +1767,11 @@
     </message>
     <message>
         <source>Enable online-only mode</source>
-<<<<<<< HEAD
-        <translation>Modo solo enlínea</translation>
-    </message>
-    <message>
-        <source>Disables offline caching. Certain features may be limited or missing in this mode. Changes require a restart of Fernschreiber to take effect.</source>
-        <translation>Deshabilita almacenamiento en caché sin conexión. Algunas funciones pueden estar limitadas o ausentes en este modo. Se requiere reiniciar Ferni para efecto.</translation>
-=======
         <translation>Modo solo Enlínea</translation>
     </message>
     <message>
         <source>Disables offline caching. Certain features may be limited or missing in this mode. Changes require a restart of Fernschreiber to take effect.</source>
         <translation>Deshabilita el almacenamiento en caché sin conexión. Algunas funciones pueden estar limitadas o ausentes en este modo. Se requiere reiniciar Ferni para efecto.</translation>
->>>>>>> fix_ballons/master
     </message>
     <message>
         <source>Enable storage optimizer</source>
@@ -1949,11 +1845,7 @@
     </message>
     <message>
         <source>Synchronize Contacts with Telegram</source>
-<<<<<<< HEAD
-        <translation>Sincronizar Telegram</translation>
-=======
         <translation>Sincronizar Telegrama</translation>
->>>>>>> fix_ballons/master
     </message>
 </context>
 <context>
@@ -2334,20 +2226,12 @@
     <message>
         <source>changed the secret chat TTL setting</source>
         <comment>myself; TTL = Time To Live</comment>
-<<<<<<< HEAD
-        <translation>cambió ajustes de TTL de conversación secreta</translation>
-=======
         <translation>cambió ajustes de TTL de charla secreta</translation>
->>>>>>> fix_ballons/master
     </message>
     <message>
         <source>changed the secret chat TTL setting</source>
         <comment>TTL = Time To Live</comment>
-<<<<<<< HEAD
-        <translation>cambió ajustes de TTL de conversación secreta</translation>
-=======
         <translation>cambió ajustes de TTL de charla secreta</translation>
->>>>>>> fix_ballons/master
     </message>
     <message>
         <source>upgraded this group to a supergroup</source>
@@ -2366,19 +2250,11 @@
     <message>
         <source>created a screenshot in this chat</source>
         <comment>myself</comment>
-<<<<<<< HEAD
-        <translation>creó pantallazo a conversación</translation>
-    </message>
-    <message>
-        <source>created a screenshot in this chat</source>
-        <translation>creó pantallazo a conversación</translation>
-=======
         <translation>creó pantallazo de charla</translation>
     </message>
     <message>
         <source>created a screenshot in this chat</source>
         <translation>creó pantallazo a charla</translation>
->>>>>>> fix_ballons/master
     </message>
     <message>
         <source>sent an unsupported message</source>

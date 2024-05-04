@@ -485,11 +485,7 @@
     </message>
     <message>
         <source>Double-tap on a message to choose a reaction</source>
-<<<<<<< HEAD
-        <translation type="unfinished"></translation>
-=======
         <translation>Dubbeltryck på ett meddelande för att välja en reaktion</translation>
->>>>>>> fix_ballons/master
     </message>
 </context>
 <context>
@@ -1585,33 +1581,6 @@
     </message>
     <message>
         <source>Always append message preview to notifications</source>
-<<<<<<< HEAD
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>In addition to showing the number of unread messages, the latest message will also be appended to notifications.</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Highlight unread messages</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Highlight Conversations with unread messages</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Hide content in notifications</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Go to quoted message</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>When tapping a quoted message, open it in chat instead of showing it in an overlay.</source>
-        <translation type="unfinished"></translation>
-=======
         <translation>Visa alltid förhandsgranskning av meddelanden i aviseringar</translation>
     </message>
     <message>
@@ -1637,7 +1606,6 @@
     <message>
         <source>When tapping a quoted message, open it in chat instead of showing it in an overlay.</source>
         <translation>Vid tryck på ett citerat meddelande öppnas det i chatten istället för att visas i ett överlägg.</translation>
->>>>>>> fix_ballons/master
     </message>
 </context>
 <context>
@@ -1750,46 +1718,13 @@
     </message>
     <message numerus="yes">
         <source>%1 day(s)</source>
-<<<<<<< HEAD
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-=======
         <translation>
             <numerusform>%1 dag</numerusform>
             <numerusform>%1 dagar</numerusform>
->>>>>>> fix_ballons/master
         </translation>
     </message>
     <message>
         <source>1 week</source>
-<<<<<<< HEAD
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>1 month</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>3 months</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>6 months</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>1 year</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Session Timeout</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Inactive sessions will be terminated after this timeframe</source>
-        <translation type="unfinished"></translation>
-=======
         <translation>1 vecka</translation>
     </message>
     <message>
@@ -1815,7 +1750,6 @@
     <message>
         <source>Inactive sessions will be terminated after this timeframe</source>
         <translation>Inaktiva sessioner avslutas efter den här tidsramen</translation>
->>>>>>> fix_ballons/master
     </message>
 </context>
 <context>

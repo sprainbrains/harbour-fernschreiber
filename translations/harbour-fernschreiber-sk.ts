@@ -495,11 +495,7 @@
     </message>
     <message>
         <source>Double-tap on a message to choose a reaction</source>
-<<<<<<< HEAD
-        <translation type="unfinished"></translation>
-=======
         <translation>Dvojitým klepnutím na správu vybrať reakciu</translation>
->>>>>>> fix_ballons/master
     </message>
 </context>
 <context>
@@ -1777,48 +1773,14 @@
     </message>
     <message numerus="yes">
         <source>%1 day(s)</source>
-<<<<<<< HEAD
-        <translation type="unfinished">
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-            <numerusform></numerusform>
-=======
         <translation>
             <numerusform>%1 deň</numerusform>
             <numerusform>%1 dni</numerusform>
             <numerusform>%1 dní</numerusform>
->>>>>>> fix_ballons/master
         </translation>
     </message>
     <message>
         <source>1 week</source>
-<<<<<<< HEAD
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>1 month</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>3 months</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>6 months</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>1 year</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Session Timeout</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Inactive sessions will be terminated after this timeframe</source>
-        <translation type="unfinished"></translation>
-=======
         <translation>1 týždeň</translation>
     </message>
     <message>
@@ -1844,7 +1806,6 @@
     <message>
         <source>Inactive sessions will be terminated after this timeframe</source>
         <translation>Neaktívne relácie budú po tomto časovom rámci ukončené</translation>
->>>>>>> fix_ballons/master
     </message>
 </context>
 <context>
