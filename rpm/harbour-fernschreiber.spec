@@ -17,7 +17,6 @@ Group:      Qt/Qt
 License:    LICENSE
 URL:        http://werkwolf.eu/
 Source0:    %{name}-%{version}.tar.bz2
-Source100:  harbour-fernschreiber.yaml
 Requires:   sailfishsilica-qt5 >= 0.10.9
 #Requires:   nemo-qml-plugin-contacts-qt5
 BuildRequires:  pkgconfig(sailfishapp) >= 1.0.2
