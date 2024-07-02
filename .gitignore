@@ -56,3 +56,6 @@ tdlibsecrets.h
 
 #Convinience scripts
 *.sh
+
+#vscode 
+.vscode
