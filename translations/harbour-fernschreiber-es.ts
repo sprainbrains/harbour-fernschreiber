@@ -500,6 +500,13 @@
     </message>
 </context>
 <context>
+    <name>ContactSync</name>
+    <message>
+        <source>Could not synchronize your contacts with Telegram.</source>
+        <translation>No se puede sincronizar los contactos con Telegrama.</translation>
+    </message>
+</context>
+<context>
     <name>CoverPage</name>
     <message>
         <source>in</source>
@@ -880,11 +887,11 @@
     <message>
         <source>sent a game</source>
         <comment>myself</comment>
-        <translation>envió juego</translation>
+        <translation>envió un juego</translation>
     </message>
     <message>
         <source>sent a game</source>
-        <translation>envió juego</translation>
+        <translation>envió un juego</translation>
     </message>
     <message>
         <source>sent a video note</source>
@@ -901,7 +908,7 @@
     <message numerus="yes">
         <source>Forward %Ln messages</source>
         <comment>dialog header</comment>
-        <translation type="unfinished">
+        <translation>
             <numerusform>Reenviar %Ln mensaje</numerusform>
             <numerusform>Reenviar %Ln mensajes</numerusform>
         </translation>
@@ -1617,26 +1624,6 @@
     <message>
         <source>When tapping a quoted message, open it in chat instead of showing it in an overlay.</source>
         <translation>Al Pulsar mensaje citado, abrirá en Charla en lugar de mostrarlo en una superposición.</translation>
-    </message>
-    <message>
-        <source>Always append message preview to notifications</source>
-        <translation>Agregar vista previa mensaje a notificaciones</translation>
-    </message>
-    <message>
-        <source>In addition to showing the number of unread messages, the latest message will also be appended to notifications.</source>
-        <translation>Mostrará cantidad mensajes no leídos, el último mensaje se agregará a notificaciones.</translation>
-    </message>
-    <message>
-        <source>Highlight unread messages</source>
-        <translation>Resaltar mensajes no leídos</translation>
-    </message>
-    <message>
-        <source>Highlight Conversations with unread messages</source>
-        <translation>Resaltar conversaciones a mensajes no leídos</translation>
-    </message>
-    <message>
-        <source>Hide content in notifications</source>
-        <translation>Ocultar contenido a notificaciones</translation>
     </message>
 </context>
 <context>

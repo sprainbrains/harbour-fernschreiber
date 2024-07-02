@@ -39,7 +39,7 @@ ListItem {
     readonly property var userInformation: tdLibWrapper.getUserInformation(myMessage.sender_id.user_id)
     property QtObject precalculatedValues: ListView.view.precalculatedValues
     readonly property color textColor: isOwnMessage ? Theme.highlightColor : Theme.primaryColor
-    readonly property int textAlign: Text.AlignLeft
+    readonly property int textAlign: isOwnMessage ? Text.AlignRight : Text.AlignLeft
     readonly property Page page: precalculatedValues.page
     readonly property bool isSelected: messageListItem.precalculatedValues.pageIsSelecting && page.selectedMessages.some(function(existingMessage) {
         return existingMessage.id === messageId
@@ -127,7 +127,7 @@ ListItem {
             Debug.log("Obtaining message reactions")
             tdLibWrapper.getMessageAvailableReactions(messageListItem.chatId, messageListItem.messageId);
         }
-        selectReactionBubble.enabled = false;
+        selectReactionBubble.visible = false;
     }
 
     function getContentWidthMultiplier() {
@@ -151,13 +151,9 @@ ListItem {
 
             if (messageListItem.messageReactions) {
                 messageListItem.messageReactions = null;
-                selectReactionBubble.enabled = false;
+                selectReactionBubble.visible = false;
             } else {
-                if (selectReactionBubble.enabled) {
-                    selectReactionBubble.enabled = false
-                } else if (appSettings.showReactionButton) {
-                    selectReactionBubble.enabled = true
-                }
+                selectReactionBubble.visible = !selectReactionBubble.visible;
                 elementSelected(index);
             }
         }
@@ -194,11 +190,11 @@ ListItem {
         target: chatPage
         onResetElements: {
             messageListItem.messageReactions = null;
-            selectReactionBubble.enabled = false;
+            selectReactionBubble.visible = false;
         }
         onElementSelected: {
             if (elementIndex !== index) {
-                selectReactionBubble.enabled = false;
+                selectReactionBubble.visible = false;
             }
         }
         onNavigatedTo: {
@@ -450,15 +446,13 @@ ListItem {
 
                 anchors {
                     left: parent.left
-                    leftMargin: page.isPrivateChat ? (messageListItem.isOwnMessage ? precalculatedValues.pageMarginDouble : 0) : 0 //левый марджин для собственных сообщений в приватных чатах. В остальных на полную ширину
+                    leftMargin: messageListItem.isOwnMessage ? precalculatedValues.pageMarginDouble : 0
                     verticalCenter: parent.verticalCenter
                 }
                 height: messageTextColumn.height + precalculatedValues.paddingMediumDouble
                 width: precalculatedValues.backgroundWidth
-
                 property bool isUnread: messageIndex > chatModel.getLastReadMessageIndex() && myMessage['@type'] !== "sponsoredMessage"
-                color: Theme.colorScheme === Theme.LightOnDark ? (isOwnMessage ? Theme.highlightBackgroundColor : (isUnread ? Theme.secondaryHighlightColor : Theme.secondaryColor)) : (isOwnMessage ? Theme.highlightBackgroundColor : (isUnread ? Theme.backgroundGlowColor : Theme.overlayBackgroundColor))
-
+                color: Theme.colorScheme === Theme.LightOnDark ? (isUnread ? Theme.secondaryHighlightColor : Theme.secondaryColor) : (isUnread ? Theme.backgroundGlowColor : Theme.overlayBackgroundColor)
                 radius: parent.width / 50
                 opacity: isUnread ? 0.5 : 0.2
                 visible: appSettings.showStickersAsImages || (myMessage.content['@type'] !== "messageSticker" && myMessage.content['@type'] !== "messageAnimatedEmoji")
@@ -493,7 +487,7 @@ ListItem {
                     truncationMode: TruncationMode.Fade
                     textFormat: Text.StyledText
                     horizontalAlignment: messageListItem.textAlign
-                    visible: messageListItem.isOwnMessage ? false : (precalculatedValues.showUserInfo || myMessage['@type'] === "sponsoredMessage")
+                    visible: precalculatedValues.showUserInfo || myMessage['@type'] === "sponsoredMessage"
                     MouseArea {
                         anchors.fill: parent
                         enabled: !(messageListItem.precalculatedValues.pageIsSelecting || messageListItem.isAnonymous)
@@ -739,7 +733,7 @@ ListItem {
                                 onClicked: {
                                     if (messageListItem.messageReactions) {
                                         messageListItem.messageReactions = null;
-                                        selectReactionBubble.enabled = false;
+                                        selectReactionBubble.visible = false;
                                     } else {
                                         openReactions();
                                     }
@@ -751,23 +745,35 @@ ListItem {
 
             }
 
-            Loader {
+            Rectangle {
                 id: selectReactionBubble
+                visible: false
+                opacity: visible ? 0.5 : 0.0
+                Behavior on opacity { NumberAnimation {} }
                 anchors {
                     horizontalCenter: messageListItem.isOwnMessage ? messageBackground.left : messageBackground.right
                     verticalCenter: messageBackground.verticalCenter
                 }
-                enabled: false
-                opacity: enabled ? 1 : 0
-                active: opacity > 0
-                Behavior on opacity { FadeAnimation {} }
-                sourceComponent: Component {
-                    ReactionButton {
-                        onClicked: openReactions()
-                    }
+                height: Theme.itemSizeExtraSmall
+                width: Theme.itemSizeExtraSmall
+                color: Theme.primaryColor
+                radius: parent.width / 2
+            }
+
+            IconButton {
+                id: selectReactionButton
+                visible: selectReactionBubble.visible
+                opacity: visible ? 1.0 : 0.0
+                Behavior on opacity { NumberAnimation {} }
+                icon.source: "image://theme/icon-s-favorite"
+                anchors.centerIn: selectReactionBubble
+                onClicked: {
+                    openReactions();
                 }
             }
+
         }
+
     }
 
     Column {
@@ -829,7 +835,7 @@ ListItem {
                                 // Reaction is not yet selected
                                 tdLibWrapper.addMessageReaction(chatId, messageId, modelData)
                                 messageReactions = null
-                                selectReactionBubble.enabled = false
+                                selectReactionBubble.visible = false
                             }
                         }
                     }

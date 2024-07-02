@@ -510,6 +510,13 @@
     </message>
 </context>
 <context>
+    <name>ContactSync</name>
+    <message>
+        <source>Could not synchronize your contacts with Telegram.</source>
+        <translation>Невозможно синхронизировать ваши контакты с Телеграм.</translation>
+    </message>
+</context>
+<context>
     <name>CoverPage</name>
     <message>
         <source>in</source>
@@ -918,7 +925,7 @@
     <message numerus="yes">
         <source>Forward %Ln messages</source>
         <comment>dialog header</comment>
-        <translation type="unfinished">
+        <translation>
             <numerusform>Перенаправить %Ln сообщение</numerusform>
             <numerusform>Перенаправить %Ln сообщения</numerusform>
             <numerusform>Перенаправить %Ln сообщений</numerusform>
@@ -1648,18 +1655,6 @@
     <message>
         <source>When tapping a quoted message, open it in chat instead of showing it in an overlay.</source>
         <translation>По нажатию на цитируемое сообщение, переходить к нему в чате вместо отображения во всплывающем окне.</translation>
-    </message>
-    <message>
-        <source>Highlight unread messages</source>
-        <translation>Выделять непрочитанные сообщения</translation>
-    </message>
-    <message>
-        <source>Highlight Conversations with unread messages</source>
-        <translation>Помечать чаты и каналы с непрочитанными сообщениями другим шрифтом и цветом.</translation>
-    </message>
-    <message>
-        <source>Hide content in notifications</source>
-        <translation>Не показывать содержимое сообщений в уведомлениях</translation>
     </message>
 </context>
 <context>

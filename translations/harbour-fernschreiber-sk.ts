@@ -510,6 +510,13 @@
     </message>
 </context>
 <context>
+    <name>ContactSync</name>
+    <message>
+        <source>Could not synchronize your contacts with Telegram.</source>
+        <translation>Nemožno synchonizovať kontakty s Telegramom.</translation>
+    </message>
+</context>
+<context>
     <name>CoverPage</name>
     <message>
         <source>in</source>
@@ -915,7 +922,7 @@
     <message numerus="yes">
         <source>Forward %Ln messages</source>
         <comment>dialog header</comment>
-        <translation type="unfinished">
+        <translation>
             <numerusform>Postúpená %Ln správa</numerusform>
             <numerusform>Postúpené %Ln správy</numerusform>
             <numerusform>Postúpených %Ln správ</numerusform>
