@@ -500,6 +500,13 @@
     </message>
 </context>
 <context>
+    <name>ContactSync</name>
+    <message>
+        <source>Could not synchronize your contacts with Telegram.</source>
+        <translation type="unfinished">Could not synchronize your contacts with Telegram.</translation>
+    </message>
+</context>
+<context>
     <name>CoverPage</name>
     <message>
         <source>in</source>
@@ -903,7 +910,7 @@ messages</numerusform>
     <message numerus="yes">
         <source>Forward %Ln messages</source>
         <comment>dialog header</comment>
-        <translation type="unfinished">
+        <translation>
             <numerusform>Forward %Ln message</numerusform>
             <numerusform>Forward %Ln messages</numerusform>
         </translation>

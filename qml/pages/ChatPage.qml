@@ -417,7 +417,7 @@ Page {
             chatPage.messageIdToScrollTo = messageId
         }
         if (chatPage.messageIdToScrollTo && chatPage.messageIdToScrollTo != "") {
-            var index = chatModel.getMessageIndex(chatPage.messageIdToScrollTo);
+            var index = chatModel.getDisplayedMessageIndex(chatPage.messageIdToScrollTo);
             if(index !== -1) {
                 chatPage.messageIdToScrollTo = "";
                 chatView.scrollToIndex(index);
@@ -796,7 +796,7 @@ Page {
             NamedAction {
                 visible: messageOptionsDrawer.showCopyMessageToClipboardMenuItem
                 name: qsTr("Copy Message to Clipboard")
-                action: messageOptionsDrawer.myMessage.copyMessageToClipboard
+                action: messageOptionsDrawer.sourceItem.copyMessageToClipboard
             },
             NamedAction {
                 visible: messageOptionsDrawer.showForwardMessageMenuItem && messageOptionsDrawer.myMessage.can_be_forwarded
@@ -1922,7 +1922,7 @@ Page {
 
                                             Image {
                                                 id: emojiPicture
-                                                source: "../js/emoji/" + modelData.file_name
+                                                source: "../js/emoji/" + modelData.file_name +".svg"
                                                 width: Theme.fontSizeLarge
                                                 height: Theme.fontSizeLarge
                                             }

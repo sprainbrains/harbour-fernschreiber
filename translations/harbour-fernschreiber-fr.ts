@@ -500,6 +500,13 @@
     </message>
 </context>
 <context>
+    <name>ContactSync</name>
+    <message>
+        <source>Could not synchronize your contacts with Telegram.</source>
+        <translation>Impossible de synchroniser vos contacts avec Telegram.</translation>
+    </message>
+</context>
+<context>
     <name>CoverPage</name>
     <message>
         <source>in</source>
@@ -901,7 +908,7 @@
     <message numerus="yes">
         <source>Forward %Ln messages</source>
         <comment>dialog header</comment>
-        <translation type="unfinished">
+        <translation>
             <numerusform>Transférer %Ln message</numerusform>
             <numerusform>Transférer %Ln messages</numerusform>
         </translation>
@@ -1617,18 +1624,6 @@
     <message>
         <source>When tapping a quoted message, open it in chat instead of showing it in an overlay.</source>
         <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Highlight unread messages</source>
-        <translation>Mettre en valeur les messages non-lus</translation>
-    </message>
-    <message>
-        <source>Highlight Conversations with unread messages</source>
-        <translation>Mettre en valeur les conversations avec des messages non-lus</translation>
-    </message>
-    <message>
-        <source>Hide content in notifications</source>
-        <translation>Masquer le contenu dans les notifications</translation>
     </message>
 </context>
 <context>
