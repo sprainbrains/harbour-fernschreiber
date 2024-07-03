@@ -10,9 +10,9 @@
 #   - translation filenames have to be changed
 
 # The name of your application
-TARGET = harbour-fernschreiber
+TARGET = org.ygriega.Fernschreiber
 
-CONFIG += sailfishapp sailfishapp_i18n
+CONFIG += auroraapp sailfishapp_i18n
 
 PKGCONFIG += nemonotifications-qt5 zlib
 
@@ -65,7 +65,6 @@ DISTFILES += qml/harbour-fernschreiber.qml \
     qml/components/PollPreview.qml \
     qml/components/PressEffect.qml \
     qml/components/ProfilePictureList.qml \
-    qml/components/ReactionButton.qml \
     qml/components/ReplyMarkupButtons.qml \
     qml/components/StickerPicker.qml \
     qml/components/PhotoTextsListItem.qml \
@@ -148,25 +147,25 @@ DISTFILES += qml/harbour-fernschreiber.qml \
     qml/pages/SearchChatsPage.qml \
     qml/pages/SettingsPage.qml \
     qml/pages/VideoPage.qml \
-    rpm/harbour-fernschreiber.changes \
-    rpm/harbour-fernschreiber.spec \
+    rpm/org.ygriega.Fernschreiber.changes \
+    rpm/org.ygriega.Fernschreiber.spec \
     translations/*.ts \
-    harbour-fernschreiber.desktop
+    org.ygriega.Fernschreiber.desktop
 
-SAILFISHAPP_ICONS = 86x86 108x108 128x128 172x172 256x256
+AURORAAPP_ICONS = 86x86 108x108 128x128 172x172 256x256
 
-TRANSLATIONS += translations/harbour-fernschreiber-de.ts \
-                translations/harbour-fernschreiber-es.ts \
-                translations/harbour-fernschreiber-fi.ts \
-                translations/harbour-fernschreiber-fr.ts \
-                translations/harbour-fernschreiber-hu.ts \
-                translations/harbour-fernschreiber-it.ts \
-                translations/harbour-fernschreiber-pl.ts \
-                translations/harbour-fernschreiber-ru.ts \
-                translations/harbour-fernschreiber-sv.ts \
-                translations/harbour-fernschreiber-sk.ts \
-                translations/harbour-fernschreiber-en.ts \
-                translations/harbour-fernschreiber-zh_CN.ts
+TRANSLATIONS += translations/org.ygriega.Fernschreiber-de.ts \
+                translations/org.ygriega.Fernschreiber-es.ts \
+                translations/org.ygriega.Fernschreiber-fi.ts \
+                translations/org.ygriega.Fernschreiber-fr.ts \
+                translations/org.ygriega.Fernschreiber-hu.ts \
+                translations/org.ygriega.Fernschreiber-it.ts \
+                translations/org.ygriega.Fernschreiber-pl.ts \
+                translations/org.ygriega.Fernschreiber-ru.ts \
+                translations/org.ygriega.Fernschreiber-sv.ts \
+                translations/org.ygriega.Fernschreiber-sk.ts \
+                translations/org.ygriega.Fernschreiber-en.ts \
+                translations/org.ygriega.Fernschreiber-zh_CN.ts
 
 equals(QT_ARCH, arm) {
     message(Building ARM)
@@ -196,22 +195,22 @@ images.path = /usr/share/$${TARGET}
 ICONPATH = /usr/share/icons/hicolor
 
 86.png.path = $${ICONPATH}/86x86/apps/
-86.png.files += icons/86x86/harbour-fernschreiber.png
+86.png.files += icons/86x86/$${TARGET}.png
 
 108.png.path = $${ICONPATH}/108x108/apps/
-108.png.files += icons/108x108/harbour-fernschreiber.png
+108.png.files += icons/108x108/$${TARGET}.png
 
 128.png.path = $${ICONPATH}/128x128/apps/
-128.png.files += icons/128x128/harbour-fernschreiber.png
+128.png.files += icons/128x128/$${TARGET}.png
 
 172.png.path = $${ICONPATH}/172x172/apps/
-172.png.files += icons/172x172/harbour-fernschreiber.png
+172.png.files += icons/172x172/$${TARGET}.png
 
 256.png.path = $${ICONPATH}/256x256/apps/
-256.png.files += icons/256x256/harbour-fernschreiber.png
+256.png.files += icons/256x256/$${TARGET}.png
 
 fernschreiber.desktop.path = /usr/share/applications/
-fernschreiber.desktop.files = harbour-fernschreiber.desktop
+fernschreiber.desktop.files = $${TARGET}.desktop
 
 database.files = db
 database.path = /usr/share/$${TARGET}

@@ -335,7 +335,7 @@ void NotificationManager::publishNotification(const NotificationGroup *notificat
         remoteActionArguments.append(QString::number(notificationGroup->chatId));
         remoteActionArguments.append(messageMap.value(ID).toString());
         nemoNotification->setRemoteAction(Notification::remoteAction("default", "openMessage",
-            "org.ygriega.fernschreiber", "/org/ygriega/fernschreiber", "org.ygriega.fernschreiber",
+            "org.ygriega.Fernschreiber", "/org/ygriega/Fernschreiber", "org.ygriega.Fernschreiber",
             "openMessage", remoteActionArguments));
     }
 

@@ -1,87 +1,87 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="hu_HU">
+<TS version="2.1" language="es">
 <context>
     <name>AboutPage</name>
     <message>
         <source>About Fernschreiber</source>
-        <translation>A Fernschreiber névjegye</translation>
+        <translation>Acerca de</translation>
     </message>
     <message>
         <source>A Telegram client for Sailfish OS</source>
-        <translation>Sailfish OS Telegram kliens</translation>
+        <translation>Cliente de Telegrama para Sailfish SO</translation>
     </message>
     <message>
         <source>Send E-Mail</source>
-        <translation>E-mail küldés</translation>
+        <translation>Correo electrónico</translation>
     </message>
     <message>
         <source>Licensed under GNU GPLv3</source>
-        <translation>A GNU GPLv3 licensz által engedélyezve</translation>
+        <translation>Licencia GNU GPLv3</translation>
     </message>
     <message>
         <source>Sources on GitHub</source>
-        <translation>Forráskód a GitHub-on</translation>
+        <translation>Código fuente</translation>
     </message>
     <message>
         <source>Terms of Service</source>
-        <translation>A szolgáltatás feltételei</translation>
+        <translation>Condiciones de servicio</translation>
     </message>
     <message>
         <source>Privacy Policy</source>
-        <translation>Adatvédelmi irányelvek</translation>
+        <translation>Política de privacidad</translation>
     </message>
     <message>
         <source>Credits</source>
-        <translation>Készítők</translation>
+        <translation>Créditos</translation>
     </message>
     <message>
         <source>This project uses the Telegram Database Library (TDLib). Thanks for making it available under the conditions of the Boost Software License 1.0!</source>
-        <translation>Ez a projekt a Telegram Adatkönyvtárat (TDLib) használja. Köszönet amiért elérhetővé tették a Boost Software Licensz 1.0 feltételei alatt!</translation>
+        <translation>Este proyecto usa librería TDLib de Telegrama. ¡Gracias por estar disponible bajo la licencia software-boost 1.0!</translation>
     </message>
     <message>
         <source>Open Telegram Database Library on GitHub</source>
-        <translation>Telegram Adatkönyvtár megnyitása a GitHub-on</translation>
+        <translation>Librería TDLib</translation>
     </message>
     <message>
         <source>About Telegram</source>
-        <translation>A Telegramról</translation>
+        <translation>Telegrama</translation>
     </message>
     <message>
         <source>This product uses the Telegram API but is not endorsed or certified by Telegram.</source>
-        <translation>Ez a projekt, bár a Telegram API-kat használja, de sem jóváhagyva sem tanúsítva nincs a Telegram által.</translation>
+        <translation>Este programa usa API de Telegrama, pero no está respaldado ni certificado por Telegrama.</translation>
     </message>
     <message>
         <source>TDLib version %1</source>
-        <translation>TDLib verzió %1</translation>
+        <translation>Versión TDLib: %1</translation>
     </message>
     <message>
         <source>This project uses twemoji. Copyright 2018 Twitter, Inc. and other contributors. Thanks for making it available under the conditions of the MIT License (coding) and CC-BY 4.0 (graphics)!</source>
-        <translation>Ez a projekt a twemoji-kat használja. Szerzői jog 2018 Twitter, Inc. és egyéb együttműködők. Köszönet amiért elérhetővé tették az MIT Licensz (programozás) és a CC-BY 4.0 (grafika) feltételei alatt!</translation>
+        <translation>Este proyecto usa librería Twemoji de Tweeter. Derechos de autor 2018 Twitter Inc, y otros colaboradores. ¡Gracias por estar disponible bajo la licencia MIT y CC-BY 4.0</translation>
     </message>
     <message>
         <source>Open twemoji on GitHub</source>
-        <translation>twemoji megnyitása a GitHub-on</translation>
+        <translation>Librería Twemoji</translation>
     </message>
     <message>
         <source>By Sebastian J. Wolf and &lt;a href=&quot;https://github.com/Wunderfitz/harbour-fernschreiber#contributions&quot;&gt;other contributors&lt;/a&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>Por Sebastian J. Wolf y &lt;a href=&quot;https://github.com/Wunderfitz/harbour-fernschreiber#contributions&quot;&gt;otros contribuyentes&lt;/a&gt;</translation>
     </message>
     <message>
         <source>This project uses rlottie. Copyright 2020 Samsung Electronics Co., Ltd. and other contributors. Thanks for making it available under the conditions of the MIT License!</source>
-        <translation type="unfinished"></translation>
+        <translation>Este proyecto usa librería Rlottie de Samsung Electronics Co, y otros colaboradores. ¡Gracias por estar disponible bajo la licencia MIT</translation>
     </message>
     <message>
         <source>Open rlottie on GitHub</source>
-        <translation type="unfinished"></translation>
+        <translation>Librería Rlottie</translation>
     </message>
     <message>
         <source>This project uses OpenStreetMap Nominatim for reverse geocoding of location attachments. Thanks for making it available as web service!</source>
-        <translation type="unfinished"></translation>
+        <translation>Este proyecto usa librería OpenStreetMap Nominatim para la codificación geográfica inversa de archivos adjuntos de ubicación. ¡Gracias por estar disponible como servicio web!</translation>
     </message>
     <message>
         <source>Open OSM Nominatim Wiki</source>
-        <translation type="unfinished"></translation>
+        <translation>Librería Nominatim</translation>
     </message>
 </context>
 <context>
@@ -99,90 +99,93 @@
     <name>ChatInformationPageContent</name>
     <message numerus="yes">
         <source>%1 subscribers</source>
-        <translation type="unfinished">
-            <numerusform>%1 feliratkozott</numerusform>
+        <translation>
+            <numerusform>%1 suscriptor</numerusform>
+            <numerusform>%1 suscriptores</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>%1 members</source>
-        <translation type="unfinished">
-            <numerusform>%1 tag</numerusform>
+        <translation>
+            <numerusform>%1 miembro</numerusform>
+            <numerusform>%1 miembros</numerusform>
         </translation>
     </message>
     <message>
         <source>Leave Chat</source>
-        <translation type="unfinished"></translation>
+        <translation>Salir del grupo</translation>
     </message>
     <message>
         <source>Join Chat</source>
-        <translation type="unfinished"></translation>
+        <translation>Unirse al grupo</translation>
     </message>
     <message>
         <source>Leaving chat</source>
-        <translation type="unfinished"></translation>
+        <translation>Saliendo del grupo</translation>
     </message>
     <message>
         <source>Unknown</source>
-        <translation type="unfinished">Ismeretlen</translation>
+        <translation>Desconocido</translation>
     </message>
     <message>
         <source>Chat Title</source>
         <comment>group title header</comment>
-        <translation type="unfinished"></translation>
+        <translation>Título del grupo</translation>
     </message>
     <message>
         <source>Enter 1-128 characters</source>
-        <translation type="unfinished"></translation>
+        <translation>Marcar caracteres 1-128</translation>
     </message>
     <message>
         <source>There is no information text available, yet.</source>
-        <translation type="unfinished"></translation>
+        <translation>Aún no hay texto de información disponible.</translation>
     </message>
     <message>
         <source>Info</source>
         <comment>group or user infotext header</comment>
-        <translation type="unfinished"></translation>
+        <translation>Biografía</translation>
     </message>
     <message>
         <source>Phone Number</source>
         <comment>user phone number header</comment>
-        <translation type="unfinished"></translation>
+        <translation>Número telefónico</translation>
     </message>
     <message>
         <source>Invite Link</source>
         <comment>header</comment>
-        <translation type="unfinished"></translation>
+        <translation>Enlace de invitación</translation>
     </message>
     <message>
         <source>The Invite Link has been copied to the clipboard.</source>
-        <translation type="unfinished"></translation>
+        <translation>Enlace invitación se ha copiado a portapapeles.</translation>
     </message>
     <message>
         <source>%1, %2</source>
         <comment>combination of &apos;[x members], [y online]&apos;, which are separate translations</comment>
-        <translation type="unfinished"></translation>
+        <translation>%1, %2</translation>
     </message>
     <message numerus="yes">
         <source>%1 online</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%1 en línea</numerusform>
+            <numerusform>%1 en líneas</numerusform>
         </translation>
     </message>
     <message>
         <source>New Secret Chat</source>
-        <translation type="unfinished"></translation>
+        <translation>Crear Charla Secreta</translation>
     </message>
     <message>
         <source>Unmute Chat</source>
-        <translation>Csevegés némítás feloldása</translation>
+        <translation>Notificar</translation>
     </message>
     <message>
         <source>Mute Chat</source>
-        <translation>Csevegés némítása</translation>
+        <translation>No notificar</translation>
     </message>
     <message>
         <source>ID has been copied to the clipboard.</source>
-        <translation type="unfinished"></translation>
+        <translation>ID copiado a portapapeles.</translation>
     </message>
 </context>
 <context>
@@ -190,27 +193,27 @@
     <message>
         <source>Loading common chats…</source>
         <comment>chats you have in common with a user</comment>
-        <translation type="unfinished"></translation>
+        <translation>Cargando charlas comunes…</translation>
     </message>
     <message>
         <source>Loading group members…</source>
-        <translation type="unfinished"></translation>
+        <translation>Cargando miembros del grupo…</translation>
     </message>
     <message>
         <source>You</source>
-        <translation type="unfinished">Te</translation>
+        <translation>Usted</translation>
     </message>
     <message>
         <source>You don&apos;t have any groups in common with this user.</source>
-        <translation type="unfinished"></translation>
+        <translation>No hay ningún grupo en común con este usuario.</translation>
     </message>
     <message>
         <source>This group is empty.</source>
-        <translation type="unfinished"></translation>
+        <translation>Este grupo está vacío.</translation>
     </message>
     <message>
         <source>Channel members are anonymous.</source>
-        <translation type="unfinished"></translation>
+        <translation>Los miembros del grupo son anónimos.</translation>
     </message>
 </context>
 <context>
@@ -218,313 +221,322 @@
     <message>
         <source>Groups</source>
         <comment>Button: groups in common (short)</comment>
-        <translation type="unfinished"></translation>
+        <translation>Grupos</translation>
     </message>
     <message>
         <source>Members</source>
         <comment>Button: Group Members</comment>
-        <translation type="unfinished"></translation>
+        <translation>Miembros</translation>
     </message>
     <message>
         <source>Settings</source>
         <comment>Button: Chat Settings</comment>
-        <translation type="unfinished">Beállítások</translation>
+        <translation>Ajustes</translation>
     </message>
 </context>
 <context>
     <name>ChatListViewItem</name>
     <message>
         <source>Unknown</source>
-        <translation type="unfinished">Ismeretlen</translation>
+        <translation>Desconocido</translation>
     </message>
     <message>
         <source>You</source>
-        <translation type="unfinished">Te</translation>
+        <translation>Usted</translation>
     </message>
     <message>
         <source>User Info</source>
-        <translation type="unfinished"></translation>
+        <translation>Usuario</translation>
     </message>
     <message>
         <source>Group Info</source>
-        <translation type="unfinished"></translation>
+        <translation>Información</translation>
     </message>
     <message>
         <source>Mark all messages as read</source>
-        <translation type="unfinished"></translation>
+        <translation>Marcar todos como leídos</translation>
     </message>
     <message>
         <source>No message in this chat.</source>
-        <translation type="unfinished"></translation>
+        <translation>No hay mensaje.</translation>
     </message>
     <message>
         <source>Mark chat as unread</source>
-        <translation type="unfinished"></translation>
+        <translation>Marcar como no leído</translation>
     </message>
     <message>
         <source>Draft</source>
-        <translation type="unfinished"></translation>
+        <translation>Borrador</translation>
     </message>
     <message>
         <source>Mark chat as read</source>
-        <translation type="unfinished"></translation>
+        <translation>Marcar como leído</translation>
     </message>
     <message>
         <source>Unpin chat</source>
-        <translation type="unfinished"></translation>
+        <translation>Desanclar charla</translation>
     </message>
     <message>
         <source>Pin chat</source>
-        <translation type="unfinished"></translation>
+        <translation>Anclar charla</translation>
     </message>
     <message>
         <source>Unmute chat</source>
-        <translation>Csevegés némítás feloldása</translation>
+        <translation>Notificar</translation>
     </message>
     <message>
         <source>Mute chat</source>
-        <translation>Csevegés némítása</translation>
+        <translation>No notificar</translation>
     </message>
 </context>
 <context>
     <name>ChatPage</name>
     <message>
         <source>Unknown</source>
-        <translation>Ismeretlen</translation>
+        <translation>Desconocido</translation>
     </message>
     <message>
         <source>Your message</source>
-        <translation>Üzeneted</translation>
+        <translation>A b c</translation>
     </message>
     <message numerus="yes">
         <source>%1 members</source>
-        <translation type="unfinished">
-            <numerusform>%1 tag</numerusform>
+        <translation>
+            <numerusform>%1 miembro</numerusform>
+            <numerusform>%1 miembros</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>%1 subscribers</source>
-        <translation type="unfinished">
-            <numerusform>%1 feliratkozott</numerusform>
+        <translation>
+            <numerusform>%1 suscriptor</numerusform>
+            <numerusform>%1 suscriptores</numerusform>
         </translation>
     </message>
     <message>
         <source>Loading messages...</source>
-        <translation>Üzenetek betöltése...</translation>
+        <translation>Cargando mensajes...</translation>
     </message>
     <message>
         <source>Unmute Chat</source>
-        <translation>Csevegés némítás feloldása</translation>
+        <translation>Notificar</translation>
     </message>
     <message>
         <source>Mute Chat</source>
-        <translation>Csevegés némítása</translation>
+        <translation>No notificar</translation>
     </message>
     <message>
         <source>Edit Message</source>
-        <translation>Üzenet szerkesztése</translation>
+        <translation>Editar</translation>
     </message>
     <message>
         <source>edited</source>
-        <translation>Szerkesztett</translation>
+        <translation>editado</translation>
     </message>
     <message>
         <source>Uploading...</source>
-        <translation type="unfinished"></translation>
+        <translation>Subiendo...</translation>
     </message>
     <message>
         <source>This chat is empty.</source>
-        <translation type="unfinished"></translation>
+        <translation>Esta charla está vacía.</translation>
     </message>
     <message>
         <source>Leave Chat</source>
-        <translation type="unfinished"></translation>
+        <translation>Salir del grupo</translation>
     </message>
     <message>
         <source>Join Chat</source>
-        <translation type="unfinished"></translation>
+        <translation>Unirse al grupo</translation>
     </message>
     <message>
         <source>Leaving chat</source>
-        <translation type="unfinished"></translation>
+        <translation>Saliendo de charla</translation>
     </message>
     <message>
         <source>You joined the chat %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Unido al grupo</translation>
     </message>
     <message>
         <source>Select Messages</source>
-        <translation type="unfinished"></translation>
+        <translation>Seleccionar mensajes</translation>
     </message>
     <message numerus="yes">
         <source>%Ln Messages deleted</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%Ln Mensajes borrado</numerusform>
+            <numerusform>%Ln Mensajes borrados</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>%Ln messages have been copied</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%Ln se han copiado los mensaje</numerusform>
+            <numerusform>%Ln se han copiado los mensajes</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>Forward %Ln messages</source>
         <comment>dialog header</comment>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>Reenviar %Ln mensaje</numerusform>
+            <numerusform>Reenviar %Ln mensajes</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>%Ln messages selected</source>
         <comment>number of messages selected</comment>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%Ln mensaje seleccionado</numerusform>
+            <numerusform>%Ln mensajes seleccionados</numerusform>
         </translation>
     </message>
     <message>
         <source>%1, %2</source>
         <comment>combination of &apos;[x members], [y online]&apos;, which are separate translations</comment>
-        <translation type="unfinished"></translation>
+        <translation>%1, %2</translation>
     </message>
     <message numerus="yes">
         <source>%1 online</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%1 en línea</numerusform>
+            <numerusform>%1 en líneas</numerusform>
         </translation>
     </message>
     <message>
         <source>This secret chat is not yet ready. Your chat partner needs to go online first.</source>
-        <translation type="unfinished"></translation>
+        <translation>Esta charla secreta no está lista. El contacto no está conectado.</translation>
     </message>
     <message>
         <source>Closing chat</source>
-        <translation type="unfinished"></translation>
+        <translation>Cerrando charla</translation>
     </message>
     <message>
         <source>Close Chat</source>
-        <translation type="unfinished"></translation>
+        <translation>Cerrar charla</translation>
     </message>
     <message>
         <source>Search in Chat</source>
-        <translation type="unfinished"></translation>
+        <translation>Buscar palabras</translation>
     </message>
     <message>
         <source>Search in chat...</source>
-        <translation type="unfinished"></translation>
+        <translation>A b c</translation>
     </message>
     <message>
         <source>Location: Obtaining position...</source>
-        <translation type="unfinished"></translation>
+        <translation>Ubicación: Recibiendo posición...</translation>
     </message>
     <message>
         <source>Location (%1/%2)</source>
-        <translation type="unfinished"></translation>
+        <translation>Ubicación: (%1/%2)</translation>
     </message>
     <message>
         <source>Copy Message to Clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>Copiar</translation>
     </message>
     <message>
         <source>Message unpinned</source>
-        <translation type="unfinished"></translation>
+        <translation>Mensaje desanclado</translation>
     </message>
     <message>
         <source>Unpin Message</source>
-        <translation type="unfinished"></translation>
+        <translation>Desanclar mensaje</translation>
     </message>
     <message>
         <source>Pin Message</source>
-        <translation type="unfinished"></translation>
+        <translation>Anclar mensaje</translation>
     </message>
     <message>
         <source>Additional Options</source>
-        <translation type="unfinished"></translation>
+        <translation>Opciones adicionales </translation>
     </message>
     <message>
         <source>Delete Message</source>
-        <translation type="unfinished">Üzenet törlése</translation>
+        <translation>Borrar</translation>
     </message>
     <message>
         <source>Forward Message</source>
-        <translation type="unfinished"></translation>
+        <translation>Reenviar mensaje</translation>
     </message>
     <message>
         <source>Unknown address</source>
-        <translation type="unfinished"></translation>
+        <translation>Dirección desconocida</translation>
     </message>
     <message>
         <source>Accuracy: %1m</source>
-        <translation type="unfinished"></translation>
+        <translation>Exactitud: %1m</translation>
     </message>
     <message>
         <source>Sponsored Message</source>
-        <translation type="unfinished"></translation>
+        <translation>Mensaje patrocinado</translation>
     </message>
     <message>
         <source>Deleting chat</source>
-        <translation type="unfinished"></translation>
+        <translation>Borrando charla</translation>
     </message>
     <message>
         <source>Delete Chat</source>
-        <translation type="unfinished"></translation>
+        <translation>Borrar Charla</translation>
     </message>
     <message>
         <source>Deleted User</source>
-        <translation type="unfinished"></translation>
+        <translation>Usuario borrado</translation>
     </message>
     <message>
         <source>Double-tap on a message to choose a reaction</source>
-        <translation type="unfinished"></translation>
+        <translation>Pulsar doble a mensaje y elegir reacción</translation>
     </message>
 </context>
 <context>
     <name>ChatSelectionPage</name>
     <message>
         <source>Select Chat</source>
-        <translation type="unfinished"></translation>
+        <translation>Seleccionar Charla</translation>
     </message>
     <message>
         <source>You don&apos;t have any chats yet.</source>
-        <translation type="unfinished"></translation>
+        <translation>No hay charlas.</translation>
     </message>
 </context>
 <context>
     <name>CoverPage</name>
     <message>
         <source>in</source>
-        <translation>ban</translation>
+        <translation>en</translation>
     </message>
     <message>
         <source>Waiting for network...</source>
-        <translation>Hálózatra várakozás...</translation>
+        <translation>Esperando red...</translation>
     </message>
     <message>
         <source>Connecting to network...</source>
-        <translation>Csatlakozás a hálózathoz...</translation>
+        <translation>Conectando a servidor...</translation>
     </message>
     <message>
         <source>Connecting to proxy...</source>
-        <translation>Csatlakozás a proxy-hoz...</translation>
+        <translation>Conectando a proxy...</translation>
     </message>
     <message>
         <source>Connected</source>
-        <translation>Csatlakozva</translation>
+        <translation>Conectado</translation>
     </message>
     <message>
         <source>Updating content...</source>
-        <translation>Tartalom frissítése...</translation>
+        <translation>Actualizando contenido...</translation>
     </message>
     <message numerus="yes">
         <source>chats</source>
-        <translation type="unfinished">
-            <numerusform>csevegések</numerusform>
+        <translation>
+            <numerusform>conversación</numerusform>
+            <numerusform>charlas</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>unread messages</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>mensaje no leído</numerusform>
+            <numerusform>mensajes no leídos</numerusform>
         </translation>
     </message>
 </context>
@@ -533,67 +545,67 @@
     <message>
         <source>Group Member Permissions</source>
         <comment>what can normal group members do</comment>
-        <translation type="unfinished"></translation>
+        <translation>Permisos de miembros del grupo</translation>
     </message>
     <message>
         <source>Send Messages</source>
         <comment>member permission</comment>
-        <translation type="unfinished"></translation>
+        <translation>Enviar mensage</translation>
     </message>
     <message>
         <source>Send Media Messages</source>
         <comment>member permission</comment>
-        <translation type="unfinished"></translation>
+        <translation>Enviar mensajes multimedia</translation>
     </message>
     <message>
         <source>Send Other Messages</source>
         <comment>member permission</comment>
-        <translation type="unfinished"></translation>
+        <translation>Enviar otros mensajes</translation>
     </message>
     <message>
         <source>Add Web Page Previews</source>
         <comment>member permission</comment>
-        <translation type="unfinished"></translation>
+        <translation>Agregar vistas previas de páginas web</translation>
     </message>
     <message>
         <source>Change Chat Info</source>
         <comment>member permission</comment>
-        <translation type="unfinished"></translation>
+        <translation>Cambiar detalles de Charla</translation>
     </message>
     <message>
         <source>Invite Users</source>
         <comment>member permission</comment>
-        <translation type="unfinished"></translation>
+        <translation>Invitar usuarios</translation>
     </message>
     <message>
         <source>Pin Messages</source>
         <comment>member permission</comment>
-        <translation type="unfinished"></translation>
+        <translation>Mensajes Pin</translation>
     </message>
     <message>
         <source>New Members</source>
         <comment>what can new group members do</comment>
-        <translation type="unfinished"></translation>
+        <translation>Nuevos miembros</translation>
     </message>
     <message>
         <source>New members can see older messages</source>
         <comment>member permission</comment>
-        <translation type="unfinished"></translation>
+        <translation>Miembros nuevos pueden ver mensajes antiguos</translation>
     </message>
 </context>
 <context>
     <name>EditSuperGroupSlowModeColumn</name>
     <message>
         <source>Slow Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Modo lento</translation>
     </message>
     <message>
         <source>Off</source>
-        <translation type="unfinished"></translation>
+        <translation>apagado</translation>
     </message>
     <message>
         <source>Set how long every chat member has to wait between Messages</source>
-        <translation type="unfinished"></translation>
+        <translation>Establecer cuánto tiempo debe esperar cada miembro de charla entre Mensajes</translation>
     </message>
 </context>
 <context>
@@ -601,285 +613,287 @@
     <message>
         <source>sent a picture</source>
         <comment>myself</comment>
-        <translation type="unfinished">képet küldött</translation>
+        <translation>envió una imagen</translation>
     </message>
     <message>
         <source>sent a picture</source>
-        <translation type="unfinished">képet küldött</translation>
+        <translation>envió una imagen</translation>
     </message>
     <message>
         <source>sent a video</source>
         <comment>myself</comment>
-        <translation type="unfinished">videót küldött</translation>
+        <translation>envió un video</translation>
     </message>
     <message>
         <source>sent a video</source>
-        <translation type="unfinished">videót küldött</translation>
+        <translation>envió un video</translation>
     </message>
     <message>
         <source>sent an animation</source>
         <comment>myself</comment>
-        <translation type="unfinished">animációt küldött</translation>
+        <translation>envió una animación</translation>
     </message>
     <message>
         <source>sent an animation</source>
-        <translation type="unfinished">animációt küldött</translation>
+        <translation>envió una animación</translation>
     </message>
     <message>
         <source>sent a voice note</source>
-        <translation type="unfinished">hangüzenetet küldött</translation>
+        <translation>envió una nota de voz</translation>
     </message>
     <message>
         <source>sent a document</source>
         <comment>myself</comment>
-        <translation type="unfinished">dokumentumot küldött</translation>
+        <translation>envió un documento</translation>
     </message>
     <message>
         <source>sent a document</source>
-        <translation type="unfinished">dokumentumot küldött</translation>
+        <translation>envió un documento</translation>
     </message>
     <message>
         <source>sent a location</source>
         <comment>myself</comment>
-        <translation type="unfinished">helyzetmeghatározó információt küldött</translation>
+        <translation>envió una ubicación</translation>
     </message>
     <message>
         <source>sent a location</source>
-        <translation type="unfinished">helyzetmeghatározó információt küldött</translation>
+        <translation>envió una ubicación</translation>
     </message>
     <message>
         <source>have registered with Telegram</source>
         <comment>myself</comment>
-        <translation type="unfinished"></translation>
+        <translation>registrado a Telegrama</translation>
     </message>
     <message>
         <source>has registered with Telegram</source>
-        <translation type="unfinished">regisztrált a Telegram-al</translation>
+        <translation>registrado a Telegrama</translation>
     </message>
     <message>
         <source>joined this chat</source>
         <comment>myself</comment>
-        <translation type="unfinished">csatlakozott a csevegéshez</translation>
+        <translation>unido a grupo</translation>
     </message>
     <message>
         <source>joined this chat</source>
-        <translation type="unfinished">csatlakozott a csevegéshez</translation>
+        <translation>unido a grupo</translation>
     </message>
     <message>
         <source>were added to this chat</source>
         <comment>myself</comment>
-        <translation type="unfinished"></translation>
+        <translation>unido a grupo</translation>
     </message>
     <message>
         <source>was added to this chat</source>
-        <translation type="unfinished">hozzáadva a csevegéshez</translation>
+        <translation>unido a grupo</translation>
     </message>
     <message>
         <source>left this chat</source>
         <comment>myself</comment>
-        <translation type="unfinished">kilépett a csevegésből</translation>
+        <translation>dejó esta charla</translation>
     </message>
     <message>
         <source>left this chat</source>
-        <translation type="unfinished">kilépett a csevegésből</translation>
+        <translation>dejó esta charla</translation>
     </message>
     <message>
         <source>sent a voice note</source>
         <comment>myself</comment>
-        <translation type="unfinished">hangüzenetet küldött</translation>
+        <translation>envié una nota de voz</translation>
     </message>
     <message>
         <source>sent a venue</source>
         <comment>myself</comment>
-        <translation type="unfinished"></translation>
+        <translation>envié un lugar</translation>
     </message>
     <message>
         <source>sent a venue</source>
-        <translation type="unfinished"></translation>
+        <translation>envió un lugar</translation>
     </message>
     <message>
         <source>changed the chat title</source>
         <comment>myself</comment>
-        <translation type="unfinished"></translation>
+        <translation>título del grupo se cambió</translation>
     </message>
     <message>
         <source>changed the chat title</source>
-        <translation type="unfinished"></translation>
+        <translation>título del grupo se cambió</translation>
     </message>
     <message>
         <source>sent a poll</source>
         <comment>myself</comment>
-        <translation type="unfinished"></translation>
+        <translation>envió una encuesta</translation>
     </message>
     <message>
         <source>sent a poll</source>
-        <translation type="unfinished"></translation>
+        <translation>envió una encuesta</translation>
     </message>
     <message>
         <source>sent a quiz</source>
         <comment>myself</comment>
-        <translation type="unfinished"></translation>
+        <translation>envió un cuestionario</translation>
     </message>
     <message>
         <source>sent a quiz</source>
-        <translation type="unfinished"></translation>
+        <translation>envió un cuestionario</translation>
     </message>
     <message>
         <source>created this group</source>
         <comment>myself</comment>
-        <translation type="unfinished"></translation>
+        <translation>creó este grupo</translation>
     </message>
     <message>
         <source>created this group</source>
-        <translation type="unfinished"></translation>
+        <translation>creó este grupo</translation>
     </message>
     <message>
         <source>changed the chat photo</source>
         <comment>myself</comment>
-        <translation type="unfinished"></translation>
+        <translation>cambió foto de charla</translation>
     </message>
     <message>
         <source>changed the chat photo</source>
-        <translation type="unfinished"></translation>
+        <translation>cambió la foto del grupo</translation>
     </message>
     <message>
         <source>deleted the chat photo</source>
         <comment>myself</comment>
-        <translation type="unfinished"></translation>
+        <translation>borró foto de charla</translation>
     </message>
     <message>
         <source>deleted the chat photo</source>
-        <translation type="unfinished"></translation>
+        <translation>borró foto de grupo</translation>
     </message>
     <message>
         <source>changed the secret chat TTL setting</source>
         <comment>myself</comment>
-        <translation type="unfinished"></translation>
+        <translation>cambió ajustes TTL en charla secreta</translation>
     </message>
     <message>
         <source>changed the secret chat TTL setting</source>
-        <translation type="unfinished"></translation>
+        <translation>cambió ajustes TTL en charla secreta</translation>
     </message>
     <message>
         <source>upgraded this group to a supergroup</source>
         <comment>myself</comment>
-        <translation type="unfinished"></translation>
+        <translation>actualizó este grupo a supergrupo</translation>
     </message>
     <message>
         <source>changed the pinned message</source>
         <comment>myself</comment>
-        <translation type="unfinished"></translation>
+        <translation>actualizó este grupo a supergrupo</translation>
     </message>
     <message>
         <source>changed the pinned message</source>
-        <translation type="unfinished"></translation>
+        <translation>cambió mensaje fijado</translation>
     </message>
     <message>
         <source>created a screenshot in this chat</source>
         <comment>myself</comment>
-        <translation type="unfinished"></translation>
+        <translation>creó pantallazo a esta charla</translation>
     </message>
     <message>
         <source>created a screenshot in this chat</source>
-        <translation type="unfinished"></translation>
+        <translation>creó pantallazo a esta charla</translation>
     </message>
     <message>
         <source>sent an unsupported message</source>
         <comment>myself</comment>
-        <translation type="unfinished"></translation>
+        <translation>envió mensaje no admitido</translation>
     </message>
     <message>
         <source>sent an unsupported message</source>
-        <translation type="unfinished"></translation>
+        <translation>envió mensaje no admitido</translation>
     </message>
     <message>
         <source>sent an unsupported message: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>envió mensaje no admitido: %1</translation>
     </message>
     <message>
         <source>upgraded this group to a supergroup</source>
-        <translation type="unfinished"></translation>
+        <translation>actualizó grupo a supergrupo</translation>
     </message>
     <message>
         <source>sent a self-destructing photo that is expired</source>
         <comment>myself</comment>
-        <translation type="unfinished"></translation>
+        <translation>envió foto autodestructiva que está caducada</translation>
     </message>
     <message>
         <source>sent a self-destructing video that is expired</source>
         <comment>myself</comment>
-        <translation type="unfinished"></translation>
+        <translation>envió foto autodestructiva que está caducada</translation>
     </message>
     <message>
         <source>sent a self-destructing video that is expired</source>
-        <translation type="unfinished"></translation>
+        <translation>envió vídeo autodestructivo que está caducado</translation>
     </message>
     <message>
         <source>sent an unsupported message: %1</source>
         <comment>myself</comment>
-        <translation type="unfinished"></translation>
+        <translation>envió mensaje no admitido: %1</translation>
     </message>
     <message>
         <source>sent a self-destructing photo that is expired</source>
-        <translation type="unfinished"></translation>
+        <translation>envió foto autodestructivo que está caducado</translation>
     </message>
     <message>
         <source>sent an audio</source>
         <comment>myself</comment>
-        <translation type="unfinished">audiót küldött</translation>
+        <translation>envió audio</translation>
     </message>
     <message>
         <source>sent an audio</source>
-        <translation type="unfinished">audiót küldött</translation>
+        <translation>envió audio</translation>
     </message>
     <message>
         <source>has added %1 to the chat</source>
-        <translation type="unfinished"></translation>
+        <translation>ha añadido %1 a charla</translation>
     </message>
     <message>
         <source>has removed %1 from the chat</source>
-        <translation type="unfinished"></translation>
+        <translation>ha quitado %1 de charla</translation>
     </message>
     <message>
         <source>have added %1 to the chat</source>
         <comment>myself</comment>
-        <translation type="unfinished"></translation>
+        <translation>ha añadido %1 a charla</translation>
     </message>
     <message>
         <source>have removed %1 from the chat</source>
         <comment>myself</comment>
-        <translation type="unfinished"></translation>
+        <translation>ha quitado %1 de charla</translation>
     </message>
     <message numerus="yes">
         <source>scored %Ln points</source>
         <comment>myself</comment>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>punto %Ln anotado</numerusform>
+            <numerusform>puntos %Ln anotados</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>scored %Ln points</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>punto %Ln anotado</numerusform>
+            <numerusform>puntos %Ln anotados</numerusform>
         </translation>
     </message>
     <message>
         <source>sent a game</source>
         <comment>myself</comment>
-        <translation type="unfinished"></translation>
+        <translation>envió juego</translation>
     </message>
     <message>
         <source>sent a game</source>
-        <translation type="unfinished"></translation>
+        <translation>envió juego</translation>
     </message>
     <message>
         <source>sent a video note</source>
         <comment>myself</comment>
-        <translation type="unfinished"></translation>
+        <translation>envió nota de video</translation>
     </message>
     <message>
         <source>sent a video note</source>
-        <translation type="unfinished"></translation>
+        <translation>envió nota de video</translation>
     </message>
 </context>
 <context>
@@ -888,7 +902,8 @@
         <source>Forward %Ln messages</source>
         <comment>dialog header</comment>
         <translation type="unfinished">
-            <numerusform></numerusform>
+            <numerusform>Reenviar %Ln mensaje</numerusform>
+            <numerusform>Reenviar %Ln mensajes</numerusform>
         </translation>
     </message>
 </context>
@@ -896,159 +911,161 @@
     <name>ImagePage</name>
     <message>
         <source>Download Picture</source>
-        <translation>Kép letöltése</translation>
+        <translation>Bajar imagen</translation>
     </message>
     <message>
         <source>Download of %1 successful.</source>
-        <translation>A %1 letöltése sikerült.</translation>
+        <translation>Bajada de %1 exitosa.</translation>
     </message>
     <message>
         <source>Download failed.</source>
-        <translation>A letöltés nem sikerült.</translation>
+        <translation>Error al bajar</translation>
     </message>
 </context>
 <context>
     <name>InReplyToRow</name>
     <message>
         <source>You</source>
-        <translation>Te</translation>
+        <translation>Usted</translation>
     </message>
     <message>
         <source>Unknown</source>
-        <translation type="unfinished">Ismeretlen</translation>
+        <translation>Desconocido</translation>
     </message>
     <message>
         <source>This message was deleted</source>
-        <translation type="unfinished"></translation>
+        <translation>Este mensaje fue borrado</translation>
     </message>
 </context>
 <context>
     <name>InitializationPage</name>
     <message>
         <source>OK</source>
-        <translation>Rendben</translation>
+        <translation>Aceptar</translation>
     </message>
     <message>
         <source>Welcome to Fernschreiber!</source>
-        <translation>Üdvözöl a Fernschreiber!</translation>
+        <translation>Bienvenidos a Ferni!</translation>
     </message>
     <message>
         <source>Please enter your phone number to continue.</source>
-        <translation>Kérlek add meg a telefonszámodat a folytatáshoz.</translation>
+        <translation>Marcar número telefónico.</translation>
     </message>
     <message>
         <source>Continue</source>
-        <translation>Folytatás</translation>
+        <translation>Continuar</translation>
     </message>
     <message>
         <source>Please enter the code that you received:</source>
-        <translation>Kérlek add meg a kapott kódot:</translation>
+        <translation>Marcar código recibido.</translation>
     </message>
     <message>
         <source>Loading...</source>
-        <translation>Betöltés...</translation>
+        <translation>cargando...</translation>
     </message>
     <message>
         <source>Unable to authenticate you with the entered code.</source>
-        <translation>A megadott kód azonosítása sikertelen.</translation>
+        <translation>No se pudo autenticar con código marcado.</translation>
     </message>
     <message>
         <source>Enter code again</source>
-        <translation>Kód ismételt megadása</translation>
+        <translation>Remarcar código</translation>
     </message>
     <message>
         <source>Restart authentication</source>
-        <translation>Azonosítás újrakezédse</translation>
+        <translation>Reiniciar autenticación</translation>
     </message>
     <message>
         <source>Please enter your password:</source>
-        <translation>Kérlek add meg a jelszavad:</translation>
+        <translation>Por favor, marcar código:</translation>
     </message>
     <message>
         <source>Register User</source>
-        <translation type="unfinished"></translation>
+        <translation>Registrar usuario</translation>
     </message>
     <message>
         <source>Enter your First Name</source>
-        <translation type="unfinished"></translation>
+        <translation>Marcar nombre</translation>
     </message>
     <message>
         <source>Enter your Last Name</source>
-        <translation type="unfinished"></translation>
+        <translation>Marcar apellido</translation>
     </message>
     <message>
         <source>User Registration</source>
-        <translation type="unfinished"></translation>
+        <translation>Registrar usuario</translation>
     </message>
     <message>
         <source>Use the international format, e.g. %1</source>
-        <translation type="unfinished"></translation>
+        <translation>%1</translation>
     </message>
     <message>
         <source>About Fernschreiber</source>
-        <translation>A Fernschreiber névjegye</translation>
+        <translation>Acerca de</translation>
     </message>
 </context>
 <context>
     <name>MessageListViewItem</name>
     <message>
         <source>Reply to Message</source>
-        <translation type="unfinished">Válasz az üzenetre</translation>
+        <translation>Responder</translation>
     </message>
     <message>
         <source>Edit Message</source>
-        <translation type="unfinished">Üzenet szerkesztése</translation>
+        <translation>Editar</translation>
     </message>
     <message>
         <source>You</source>
-        <translation type="unfinished">Te</translation>
+        <translation>Usted</translation>
     </message>
     <message>
         <source>Forwarded Message</source>
-        <translation type="unfinished"></translation>
+        <translation>Mensaje reenviado</translation>
     </message>
     <message>
         <source>Select Message</source>
-        <translation type="unfinished"></translation>
+        <translation>Seleccionar</translation>
     </message>
     <message>
         <source>More Options...</source>
-        <translation type="unfinished"></translation>
+        <translation>Más opciones</translation>
     </message>
     <message>
         <source>Message deleted</source>
-        <translation type="unfinished"></translation>
+        <translation>Mensaje borrado</translation>
     </message>
     <message>
         <source>Copy Message to Clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>Copiar</translation>
     </message>
     <message>
         <source>Forward Message</source>
-        <translation type="unfinished"></translation>
+        <translation>Reenviar mensaje</translation>
     </message>
     <message>
         <source>Delete Message</source>
-        <translation type="unfinished">Üzenet törlése</translation>
+        <translation>Borrar</translation>
     </message>
 </context>
 <context>
     <name>MessageListViewItemSimple</name>
     <message>
         <source>You</source>
-        <translation type="unfinished">Te</translation>
+        <translation>Usted</translation>
     </message>
     <message numerus="yes">
         <source>scored %Ln points in %2</source>
         <comment>myself</comment>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>punto %Ln anotado en %2</numerusform>
+            <numerusform>puntos %Ln anotados en %2</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>scored %Ln points in %2</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>punto %Ln anotado en %2</numerusform>
+            <numerusform>puntos %Ln anotados en %2</numerusform>
         </translation>
     </message>
 </context>
@@ -1056,43 +1073,45 @@
     <name>MessageOverlayFlickable</name>
     <message>
         <source>You</source>
-        <translation type="unfinished">Te</translation>
+        <translation>Usted</translation>
     </message>
     <message>
         <source>This message was forwarded. Original author: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Este mensaje fue reenviado. Autor original: %1</translation>
     </message>
 </context>
 <context>
     <name>MessagePoll</name>
     <message>
         <source>Close Poll</source>
-        <translation type="unfinished"></translation>
+        <translation>Cerrar encuesta</translation>
     </message>
     <message>
         <source>Reset Answer</source>
-        <translation type="unfinished"></translation>
+        <translation>Restablecer respuesta</translation>
     </message>
     <message>
         <source>Final Result:</source>
-        <translation type="unfinished"></translation>
+        <translation>Resultado final:</translation>
     </message>
     <message>
         <source>Multiple Answers are allowed.</source>
-        <translation type="unfinished"></translation>
+        <translation>Se permiten múltiples respuestas.</translation>
     </message>
     <message numerus="yes">
         <source>%Ln%</source>
         <comment>% of votes for option</comment>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%Ln%</numerusform>
+            <numerusform>%Ln%</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>%Ln vote(s) total</source>
         <comment>number of total votes</comment>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%Ln total de voto</numerusform>
+            <numerusform>%Ln total de votos</numerusform>
         </translation>
     </message>
 </context>
@@ -1101,69 +1120,70 @@
     <message>
         <source>via %1</source>
         <comment>message posted via bot user</comment>
-        <translation type="unfinished"></translation>
+        <translation>via %1</translation>
     </message>
 </context>
 <context>
     <name>MessageVoiceNote</name>
     <message>
         <source>Voice Note</source>
-        <translation type="unfinished"></translation>
+        <translation>Nota de voz</translation>
     </message>
 </context>
 <context>
     <name>NewChatPage</name>
     <message>
         <source>Your Contacts</source>
-        <translation type="unfinished"></translation>
+        <translation>Contactos</translation>
     </message>
     <message>
         <source>You don&apos;t have any contacts.</source>
-        <translation type="unfinished"></translation>
+        <translation>No hay contactos.</translation>
     </message>
     <message>
         <source>Private Chat</source>
-        <translation type="unfinished"></translation>
+        <translation>Privado</translation>
     </message>
     <message>
         <source>Secret Chat</source>
-        <translation type="unfinished"></translation>
+        <translation>Secreto</translation>
     </message>
     <message>
         <source>End-to-end-encrypted, accessible on this device only</source>
-        <translation type="unfinished"></translation>
+        <translation>Encriptado fin-a-fin, accesible solo a este dispositivo</translation>
     </message>
     <message>
         <source>Loading contacts...</source>
-        <translation type="unfinished"></translation>
+        <translation>Cargando contactos...</translation>
     </message>
     <message>
         <source>Transport-encrypted, uses Telegram Cloud, sharable across devices</source>
-        <translation type="unfinished"></translation>
+        <translation>Transporte-encriptado, usa nube de Telegrama, compartible entre dispositivos</translation>
     </message>
     <message>
         <source>Search a contact...</source>
-        <translation type="unfinished"></translation>
+        <translation>A b c</translation>
     </message>
     <message>
         <source>Synchronize Contacts with Telegram</source>
-        <translation type="unfinished"></translation>
+        <translation>Sincronizar con Telegrama</translation>
     </message>
     <message>
         <source>Contacts successfully synchronized with Telegram.</source>
-        <translation type="unfinished"></translation>
+        <translation>Contactos sincronizados con éxito con Telegrama.</translation>
     </message>
     <message>
         <source>No contacts found.</source>
-        <translation type="unfinished"></translation>
+        <translation>No contactos encontrados.</translation>
     </message>
 </context>
 <context>
     <name>NotificationManager</name>
     <message numerus="yes">
         <source>%Ln unread messages</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%Ln mensaje no leído</numerusform>
+            <numerusform>%Ln mensajes no leídos</numerusform>
         </translation>
     </message>
 </context>
@@ -1171,242 +1191,248 @@
     <name>OverviewPage</name>
     <message>
         <source>About Fernschreiber</source>
-        <translation>A Fernschreiber névjegye</translation>
+        <translation>Acerca de</translation>
     </message>
     <message>
         <source>Fernschreiber</source>
-        <translation>Fernschreiber</translation>
+        <translation>Ferni</translation>
     </message>
     <message>
         <source>Waiting for network...</source>
-        <translation>Hálózatra várakozás...</translation>
+        <translation>Esperando red...</translation>
     </message>
     <message>
         <source>Connecting to network...</source>
-        <translation>Csatlakozás a hálózathoz...</translation>
+        <translation>Conectando a servidor...</translation>
     </message>
     <message>
         <source>Connecting to proxy...</source>
-        <translation>Csatlakozás a proxy-hoz...</translation>
+        <translation>Conectando a proxy...</translation>
     </message>
     <message>
         <source>Updating content...</source>
-        <translation>Tartalom frissítése...</translation>
+        <translation>Actualizando contenido...</translation>
     </message>
     <message>
         <source>Loading chat list...</source>
-        <translation>Csevegés lista betöltése...</translation>
+        <translation>cargando lista de charla...</translation>
     </message>
     <message>
         <source>Settings</source>
-        <translation>Beállítások</translation>
+        <translation>Ajustes</translation>
     </message>
     <message>
         <source>You don&apos;t have any chats yet.</source>
-        <translation type="unfinished"></translation>
+        <translation>No hay charlas.</translation>
     </message>
     <message>
         <source>New Chat</source>
-        <translation type="unfinished"></translation>
+        <translation>Crear Charla</translation>
     </message>
     <message>
         <source>Filter your chats...</source>
-        <translation type="unfinished"></translation>
+        <translation>A b c</translation>
     </message>
     <message>
         <source>Search Chats</source>
-        <translation type="unfinished"></translation>
+        <translation>Buscar grupos</translation>
     </message>
     <message>
         <source>Download of %1 successful.</source>
-        <translation type="unfinished">A %1 letöltése sikerült.</translation>
+        <translation>Bajada %1 exitosa.</translation>
     </message>
     <message>
         <source>Download failed.</source>
-        <translation type="unfinished">A letöltés nem sikerült.</translation>
+        <translation>Error a bajar</translation>
     </message>
     <message>
         <source>Tap on the title bar to filter your chats</source>
-        <translation type="unfinished"></translation>
+        <translation>Deslizar hacia abajo para polea de opciones</translation>
     </message>
     <message>
         <source>No matching chats found.</source>
-        <translation type="unfinished"></translation>
+        <translation>No hay coincidencias.</translation>
     </message>
     <message>
         <source>You can search public chats or create a new chat via the pull-down menu.</source>
-        <translation type="unfinished"></translation>
+        <translation>Puede buscar grupos públicos o crear un grupo a través de polea de opciones.</translation>
     </message>
     <message>
         <source>Logging out</source>
-        <translation type="unfinished"></translation>
+        <translation>Saliendo de cuenta</translation>
     </message>
     <message>
         <source>Unable to open link.</source>
-        <translation type="unfinished"></translation>
+        <translation>No se pudo abrir enlace.</translation>
     </message>
 </context>
 <context>
     <name>PinnedMessageItem</name>
     <message>
         <source>You</source>
-        <translation type="unfinished">Te</translation>
+        <translation>Usted</translation>
     </message>
     <message>
         <source>Pinned Message</source>
-        <translation type="unfinished"></translation>
+        <translation>Mensaje anclado</translation>
     </message>
     <message>
         <source>Message unpinned</source>
-        <translation type="unfinished"></translation>
+        <translation>Mensaje desanclado</translation>
     </message>
 </context>
 <context>
     <name>PollCreationPage</name>
     <message>
         <source>All answers have to contain 1-100 characters.</source>
-        <translation type="unfinished"></translation>
+        <translation>Todas respuestas deben contener de 1 a 100 caracteres.</translation>
     </message>
     <message>
         <source>To send a quiz, you have to specify the right answer.</source>
-        <translation type="unfinished"></translation>
+        <translation>Para enviar una cuestión, debe especificar respuesta correcta.</translation>
     </message>
     <message>
         <source>You have to enter a question.</source>
-        <translation type="unfinished"></translation>
+        <translation>Una pregunta.</translation>
     </message>
     <message>
         <source>The question has to be shorter than 256 characters.</source>
-        <translation type="unfinished"></translation>
+        <translation>La pregunta debe tener menos de 256 caracteres.</translation>
     </message>
     <message>
         <source>A poll requires 2-10 answers.</source>
-        <translation type="unfinished"></translation>
+        <translation>Encuesta requiere 2 a 10 respuestas.</translation>
     </message>
     <message>
         <source>Create a Poll</source>
         <comment>Dialog Header</comment>
-        <translation type="unfinished"></translation>
+        <translation>Encuesta</translation>
     </message>
     <message>
         <source>in %1</source>
         <comment>After dialog header… Create a Poll in [group name]</comment>
-        <translation type="unfinished"></translation>
+        <translation>en %1</translation>
     </message>
     <message>
         <source>Enter your question here</source>
-        <translation type="unfinished"></translation>
+        <translation>Hacer pregunta</translation>
     </message>
     <message numerus="yes">
         <source>Question (%Ln characters left)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>Pregunta (quedan %Ln caracter)</numerusform>
+            <numerusform>Pregunta (quedan %Ln caracteres)</numerusform>
         </translation>
     </message>
     <message>
         <source>Answers</source>
         <comment>Section header</comment>
-        <translation type="unfinished"></translation>
+        <translation>Respuestas</translation>
     </message>
     <message>
         <source>Enter an answer here</source>
-        <translation type="unfinished"></translation>
+        <translation>Hacer respuesta</translation>
     </message>
     <message numerus="yes">
         <source>Answer (%Ln characters left)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>Respuesta (quedan %Ln caracter)</numerusform>
+            <numerusform>Respuesta (quedan %Ln caracteres)</numerusform>
         </translation>
     </message>
     <message>
         <source>Add an answer</source>
-        <translation type="unfinished"></translation>
+        <translation>Agregar respuesta</translation>
     </message>
     <message>
         <source>Poll Options</source>
         <comment>Section header</comment>
-        <translation type="unfinished"></translation>
+        <translation>Opciones</translation>
     </message>
     <message>
         <source>Anonymous answers</source>
-        <translation type="unfinished"></translation>
+        <translation>Respuestas anónimas</translation>
     </message>
     <message>
         <source>Multiple answers allowed</source>
-        <translation type="unfinished"></translation>
+        <translation>Múltiples respuestas</translation>
     </message>
     <message>
         <source>Quiz Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Modo interrogar</translation>
     </message>
     <message>
         <source>Quizzes have one correct answer. Participants can&apos;t revoke their responses.</source>
-        <translation type="unfinished"></translation>
+        <translation>Cuestionarios tienen respuesta correcta. Participantes no pueden revocar las respuestas.</translation>
     </message>
     <message>
         <source>Enter an optional explanation</source>
-        <translation type="unfinished"></translation>
+        <translation>Introducir explicación opcional</translation>
     </message>
     <message>
         <source>Shown when the user selects a wrong answer.</source>
-        <translation type="unfinished"></translation>
+        <translation>Muestra cuando usuario selecciona respuesta incorrecta.</translation>
     </message>
     <message>
         <source>An explanation can be up to 200 characters long.</source>
-        <translation type="unfinished"></translation>
+        <translation>Explicación debe hasta 200 caracteres.</translation>
     </message>
 </context>
 <context>
     <name>PollResultsPage</name>
     <message>
         <source>Quiz Results</source>
-        <translation type="unfinished"></translation>
+        <translation>Resultados cuestionario</translation>
     </message>
     <message>
         <source>Poll Results</source>
-        <translation type="unfinished"></translation>
+        <translation>Resultados encuesta</translation>
     </message>
     <message numerus="yes">
         <source>%Ln vote(s) total</source>
         <comment>number of total votes</comment>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%Ln total de voto</numerusform>
+            <numerusform>%Ln total de votos</numerusform>
         </translation>
     </message>
     <message>
         <source>Question</source>
         <comment>section header</comment>
-        <translation type="unfinished"></translation>
+        <translation>Pregunta</translation>
     </message>
     <message>
         <source>Results</source>
         <comment>section header</comment>
-        <translation type="unfinished"></translation>
+        <translation>Resultados</translation>
     </message>
     <message numerus="yes">
         <source>%Ln vote(s)</source>
         <comment>number of votes for option</comment>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%Ln voto</numerusform>
+            <numerusform>%Ln votos</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>%Ln%</source>
         <comment>% of votes for option</comment>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%Ln%</numerusform>
+            <numerusform>%Ln%</numerusform>
         </translation>
     </message>
     <message>
         <source>Chosen by:</source>
         <comment>This answer has been chosen by the following users</comment>
-        <translation type="unfinished"></translation>
+        <translation>Elegido por:</translation>
     </message>
     <message numerus="yes">
         <source>%Ln vote(s) including yours</source>
         <comment>number of votes for option</comment>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%Ln voto incluyendo el suyo</numerusform>
+            <numerusform>%Ln votos incluyendo el suyo</numerusform>
         </translation>
     </message>
 </context>
@@ -1414,180 +1440,190 @@
     <name>SearchChatsPage</name>
     <message>
         <source>No chats found.</source>
-        <translation type="unfinished"></translation>
+        <translation>No se encontrado grupos.</translation>
     </message>
     <message>
         <source>Searching chats...</source>
-        <translation type="unfinished"></translation>
+        <translation>Buscando grupos...</translation>
     </message>
     <message>
         <source>Private Chat</source>
-        <translation type="unfinished"></translation>
+        <translation>Privado</translation>
     </message>
     <message>
         <source>Group</source>
-        <translation type="unfinished"></translation>
+        <translation>Grupo</translation>
     </message>
     <message>
         <source>Channel</source>
-        <translation type="unfinished"></translation>
+        <translation>Canal</translation>
     </message>
     <message numerus="yes">
         <source>%1 members</source>
-        <translation type="unfinished">
-            <numerusform>%1 tag</numerusform>
+        <translation>
+            <numerusform>%1 miembro</numerusform>
+            <numerusform>%1 miembros</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>%1 subscribers</source>
-        <translation type="unfinished">
-            <numerusform>%1 feliratkozott</numerusform>
+        <translation>
+            <numerusform>%1 suscriptore</numerusform>
+            <numerusform>%1 suscriptores</numerusform>
         </translation>
     </message>
     <message>
         <source>Search Chats</source>
-        <translation type="unfinished"></translation>
+        <translation>Buscar grupos</translation>
     </message>
     <message>
         <source>Search a chat...</source>
-        <translation type="unfinished"></translation>
+        <translation>A b c</translation>
     </message>
     <message>
         <source>Enter your query to start searching (at least 5 characters needed)</source>
-        <translation type="unfinished"></translation>
+        <translation>Iniciar búsqueda con al menos 5 caracteres</translation>
     </message>
 </context>
 <context>
     <name>SettingsAppearance</name>
     <message>
         <source>Appearance</source>
-        <translation type="unfinished"></translation>
+        <translation>Apariencia</translation>
     </message>
     <message>
         <source>Show stickers as emojis</source>
-        <translation type="unfinished"></translation>
+        <translation>Mostrar pegatinas como Emoticonos</translation>
     </message>
     <message>
         <source>Only display emojis instead of the actual stickers</source>
-        <translation type="unfinished"></translation>
+        <translation>Muestra emoticonos en lugar de pegatinas reales</translation>
     </message>
     <message>
         <source>Show stickers as images</source>
-        <translation type="unfinished"></translation>
+        <translation>Mostrar pegatinas como Imágenes</translation>
     </message>
     <message>
         <source>Show background for stickers and align them centrally like images</source>
-        <translation type="unfinished"></translation>
+        <translation>Muestra un fondo para pegatinas y alinea como imágenes</translation>
     </message>
     <message>
         <source>Animate stickers</source>
-        <translation type="unfinished"></translation>
+        <translation>Mostrar pegatinas Animadas</translation>
     </message>
 </context>
 <context>
     <name>SettingsBehavior</name>
     <message>
         <source>Behavior</source>
-        <translation>Működés</translation>
+        <translation>Comportamiento</translation>
     </message>
     <message>
         <source>Send message by enter</source>
-        <translation>Üzenet küldése Enter-rel</translation>
+        <translation>Enviar mensaje tecla Entrar</translation>
     </message>
     <message>
         <source>Send your message by pressing the enter key</source>
-        <translation>Üzenet küldése az enter gomb lenyomásával</translation>
+        <translation>Envía mensajes pulsando tecla Entrar</translation>
     </message>
     <message>
         <source>Focus text input on chat open</source>
-        <translation type="unfinished"></translation>
+        <translation>Enfocar entrada de texto de Charla</translation>
     </message>
     <message>
         <source>Focus the text input area when entering a chat</source>
-        <translation type="unfinished"></translation>
+        <translation>Enfoca área de entrada de texto al ingresar a charla</translation>
     </message>
     <message>
         <source>Focus text input area after send</source>
-        <translation type="unfinished"></translation>
+        <translation>Enfocar área de entrada de Texto</translation>
     </message>
     <message>
         <source>Focus the text input area after sending a message</source>
-        <translation type="unfinished"></translation>
+        <translation>Enfoca área de entrada de texto después de enviar mensaje</translation>
     </message>
     <message>
         <source>Delay before marking messages as read</source>
-        <translation type="unfinished"></translation>
+        <translation>Marcar mensajes como Leídos</translation>
     </message>
     <message>
         <source>Fernschreiber will wait a bit before messages are marked as read</source>
-        <translation type="unfinished"></translation>
+        <translation>Si esta habilitado, Apl espera un segundo hasta que mensaje que está en monitor se marque como leído. Si deshabilita esta función,  mensajes se marcarán inmediatamente como leído una vez que esté en monitor sin desplazarse a mensaje</translation>
     </message>
     <message>
         <source>Open-with menu integration</source>
-        <translation type="unfinished"></translation>
+        <translation>Integrar opción Abrir-Con</translation>
     </message>
     <message>
         <source>Integrate Fernschreiber into open-with menu of Sailfish OS</source>
-        <translation type="unfinished"></translation>
+        <translation>Ferni usa opción Abrir-Con de Sailfish SO</translation>
     </message>
     <message>
         <source>Notification feedback</source>
-        <translation type="unfinished"></translation>
+        <translation>Notificar en</translation>
     </message>
     <message>
         <source>Use non-graphical feedback (sound, vibration) for notifications</source>
-        <translation type="unfinished"></translation>
+        <translation>Usa comentarios no gráficos (sonido, vibración) para notificaciones</translation>
     </message>
     <message>
         <source>All events</source>
-        <translation type="unfinished"></translation>
+        <translation>Eventos</translation>
     </message>
     <message>
         <source>Only new events</source>
-        <translation type="unfinished"></translation>
+        <translation>Nuevos eventos</translation>
     </message>
     <message>
         <source>None</source>
-        <translation type="unfinished"></translation>
+        <translation>Ninguno</translation>
     </message>
     <message>
         <source>Notification turns on the display</source>
-        <translation type="unfinished"></translation>
+        <translation>Mostrar notificación por Monitor</translation>
     </message>
     <message>
         <source>Enable notification sounds</source>
-        <translation type="unfinished"></translation>
+        <translation>Habilitar sonidos de Notificación</translation>
     </message>
     <message>
         <source>When sounds are enabled, Fernschreiber will use the current Sailfish OS notification sound for chats, which can be configured in the system settings.</source>
-        <translation type="unfinished"></translation>
+        <translation>Cuando los sonidos están habilitados, Ferni utilizará sonido de notificación actual de Sailfish OS para los grupos, que se puede ajustar a configuración del sistema.</translation>
     </message>
     <message>
         <source>Always append message preview to notifications</source>
-        <translation type="unfinished"></translation>
+        <translation>Vista previa de mensaje en Notificaciones</translation>
     </message>
     <message>
         <source>In addition to showing the number of unread messages, the latest message will also be appended to notifications.</source>
-        <translation type="unfinished"></translation>
+        <translation>Mostrará cantidad mensajes no leídos, el último mensaje se agregará a notificaciones.</translation>
     </message>
     <message>
         <source>Highlight unread messages</source>
-        <translation type="unfinished"></translation>
+        <translation>Resaltar mensajes no Leídos</translation>
     </message>
     <message>
         <source>Highlight Conversations with unread messages</source>
-        <translation type="unfinished"></translation>
+        <translation>Resalta la charla en mensajes no leídos</translation>
     </message>
     <message>
         <source>Hide content in notifications</source>
-        <translation type="unfinished"></translation>
+        <translation>Ocultar contenido de notificaciones</translation>
     </message>
     <message>
         <source>Go to quoted message</source>
-        <translation type="unfinished"></translation>
+        <translation>Ir a mensaje citado</translation>
     </message>
     <message>
         <source>When tapping a quoted message, open it in chat instead of showing it in an overlay.</source>
+        <translation>Al Pulsar mensaje citado, abrirá en Charla en lugar de mostrarlo en una superposición.</translation>
+    </message>
+    <message>
+        <source>Show reaction button on tap</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The reaction button may appear when you tap the message bubble, to make access to the reactions even easier.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1595,405 +1631,406 @@
     <name>SettingsPage</name>
     <message>
         <source>Settings</source>
-        <translation>Beállítások</translation>
+        <translation>Ajustes</translation>
     </message>
 </context>
 <context>
     <name>SettingsPrivacy</name>
     <message>
         <source>Privacy</source>
-        <translation type="unfinished"></translation>
+        <translation>Privacidad</translation>
     </message>
     <message>
         <source>Allow chat invites</source>
-        <translation type="unfinished"></translation>
+        <translation>Permitir invitaciones de Grupo</translation>
     </message>
     <message>
         <source>Privacy setting for managing whether you can be invited to chats.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ajustes de privacidad administrar si puede ser invitado a grupos.</translation>
     </message>
     <message>
         <source>Yes</source>
-        <translation type="unfinished"></translation>
+        <translation>Si</translation>
     </message>
     <message>
         <source>Your contacts only</source>
-        <translation type="unfinished"></translation>
+        <translation>Solo contactos</translation>
     </message>
     <message>
         <source>No</source>
-        <translation type="unfinished"></translation>
+        <translation>No</translation>
     </message>
     <message>
         <source>Allow finding by phone number</source>
-        <translation type="unfinished"></translation>
+        <translation>Permitir buscarme por Número</translation>
     </message>
     <message>
         <source>Privacy setting for managing whether you can be found by your phone number.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ajustes de privacidad  administrar si puede ser encontrado por su número de teléfono.</translation>
     </message>
     <message>
         <source>Show link in forwarded messages</source>
-        <translation type="unfinished"></translation>
+        <translation>Mostrar enlace a mensajes Reenviados</translation>
     </message>
     <message>
         <source>Privacy setting for managing whether a link to your account is included in forwarded messages.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ajustes de privacidad administrar si un enlace de cuenta está incluido en mensajes reenviados.</translation>
     </message>
     <message>
         <source>Show phone number</source>
-        <translation type="unfinished"></translation>
+        <translation>Mostrar número Telefónico</translation>
     </message>
     <message>
         <source>Privacy setting for managing whether your phone number is visible.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ajustes de privacidad administrar si su número de teléfono es visible.</translation>
     </message>
     <message>
         <source>Show profile photo</source>
-        <translation type="unfinished"></translation>
+        <translation>Mostrar foto de Perfil</translation>
     </message>
     <message>
         <source>Privacy setting for managing whether your profile photo is visible.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ajustes de privacidad administrar si la foto de perfil es visible.</translation>
     </message>
     <message>
         <source>Show status</source>
-        <translation type="unfinished"></translation>
+        <translation>Mostrar Estado</translation>
     </message>
     <message>
         <source>Privacy setting for managing whether your online status is visible.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ajustes de privacidad administrar si el estado en línea es visible.</translation>
     </message>
     <message>
         <source>Allow sending Location to inline bots</source>
-        <translation type="unfinished"></translation>
+        <translation>Enviar ubicación de Robot Enlínea</translation>
     </message>
     <message>
         <source>Some inline bots request location data when using them</source>
-        <translation type="unfinished"></translation>
+        <translation>Algunos Robot en línea solicitan datos de ubicación al usarlos</translation>
     </message>
 </context>
 <context>
     <name>SettingsSession</name>
     <message>
         <source>Sessions</source>
-        <translation type="unfinished"></translation>
+        <translation>Sesiones</translation>
     </message>
     <message>
         <source>Session was terminated</source>
-        <translation type="unfinished"></translation>
+        <translation>Se terminó sesión </translation>
     </message>
     <message>
         <source>Terminating session</source>
-        <translation type="unfinished"></translation>
+        <translation>Terminando sesión</translation>
     </message>
     <message>
         <source>Terminate Session</source>
-        <translation type="unfinished"></translation>
+        <translation>Terminar sesión </translation>
     </message>
     <message>
         <source>This app</source>
-        <translation type="unfinished"></translation>
+        <translation>Esta apl</translation>
     </message>
     <message>
         <source>Active since: %1, last online: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>Activo desde: %1, último en línea: %2</translation>
     </message>
     <message numerus="yes">
         <source>%1 day(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%1 dia</numerusform>
+            <numerusform>%1 dias</numerusform>
         </translation>
     </message>
     <message>
         <source>1 week</source>
-        <translation type="unfinished"></translation>
+        <translation> 1 semana</translation>
     </message>
     <message>
         <source>1 month</source>
-        <translation type="unfinished"></translation>
+        <translation>1 mes</translation>
     </message>
     <message>
         <source>3 months</source>
-        <translation type="unfinished"></translation>
+        <translation>3 meses</translation>
     </message>
     <message>
         <source>6 months</source>
-        <translation type="unfinished"></translation>
+        <translation>6 meses</translation>
     </message>
     <message>
         <source>1 year</source>
-        <translation type="unfinished"></translation>
+        <translation>1 año</translation>
     </message>
     <message>
         <source>Session Timeout</source>
-        <translation type="unfinished"></translation>
+        <translation>Sesión caducada</translation>
     </message>
     <message>
         <source>Inactive sessions will be terminated after this timeframe</source>
-        <translation type="unfinished"></translation>
+        <translation>Sesiones inactivas finalizarán después de período de tiempo.</translation>
     </message>
 </context>
 <context>
     <name>SettingsStorage</name>
     <message>
         <source>Storage</source>
-        <translation type="unfinished"></translation>
+        <translation>Almacenamiento</translation>
     </message>
     <message>
         <source>Enable online-only mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Modo solo Enlínea</translation>
     </message>
     <message>
         <source>Disables offline caching. Certain features may be limited or missing in this mode. Changes require a restart of Fernschreiber to take effect.</source>
-        <translation type="unfinished"></translation>
+        <translation>Deshabilita el almacenamiento en caché sin conexión. Algunas funciones pueden estar limitadas o ausentes en este modo. Se requiere reiniciar Ferni para efecto.</translation>
     </message>
     <message>
         <source>Enable storage optimizer</source>
-        <translation type="unfinished"></translation>
+        <translation>Optimizar Almacenamiento</translation>
     </message>
 </context>
 <context>
     <name>SettingsUserProfile</name>
     <message>
         <source>User Profile</source>
-        <translation type="unfinished"></translation>
+        <translation>Perfil usuario</translation>
     </message>
     <message>
         <source>First Name</source>
         <comment>first name of the logged-in profile - header</comment>
-        <translation type="unfinished"></translation>
+        <translation>Nombre</translation>
     </message>
     <message>
         <source>Enter 1-64 characters</source>
-        <translation type="unfinished"></translation>
+        <translation>Marcar caracteres 1-128 {1-64 ?}</translation>
     </message>
     <message>
         <source>Last Name</source>
         <comment>last name of the logged-in profile - header</comment>
-        <translation type="unfinished"></translation>
+        <translation>Apellido</translation>
     </message>
     <message>
         <source>Enter 0-64 characters</source>
-        <translation type="unfinished"></translation>
+        <translation>Marcar caracteres 1-128 {0-64 ?}</translation>
     </message>
     <message>
         <source>Username</source>
         <comment>user name of the logged-in profile - header</comment>
-        <translation type="unfinished"></translation>
+        <translation>Usuario</translation>
     </message>
     <message>
         <source>Profile Pictures</source>
-        <translation type="unfinished"></translation>
+        <translation>Imagen perfil</translation>
     </message>
     <message>
         <source>Add Picture</source>
-        <translation type="unfinished"></translation>
+        <translation>Agregar imagen</translation>
     </message>
     <message>
         <source>Delete Picture</source>
-        <translation type="unfinished"></translation>
+        <translation>Borrar imagen</translation>
     </message>
     <message>
         <source>Deleting profile picture</source>
-        <translation type="unfinished"></translation>
+        <translation>Borrando imagen perfil</translation>
     </message>
     <message>
         <source>Uploading...</source>
-        <translation type="unfinished"></translation>
+        <translation>Subiendo...</translation>
     </message>
     <message>
         <source>Log Out</source>
-        <translation type="unfinished"></translation>
+        <translation>Cerrar sesión</translation>
     </message>
     <message>
         <source>Logged out</source>
-        <translation type="unfinished"></translation>
+        <translation>Desconectado</translation>
     </message>
     <message>
         <source>Phone number: +%1</source>
-        <translation type="unfinished"></translation>
+        <translation>Número telefónico: +%1</translation>
     </message>
     <message>
         <source>Contacts successfully synchronized with Telegram.</source>
-        <translation type="unfinished"></translation>
+        <translation>Contactos sincronizados con éxito Telegrama.</translation>
     </message>
     <message>
         <source>Synchronize Contacts with Telegram</source>
-        <translation type="unfinished"></translation>
+        <translation>Sincronizar Telegrama</translation>
     </message>
 </context>
 <context>
     <name>SponsoredMessage</name>
     <message>
         <source>Go to Channel</source>
-        <translation type="unfinished"></translation>
+        <translation>Ir a canal</translation>
     </message>
     <message>
         <source>Go to Message</source>
-        <translation type="unfinished"></translation>
+        <translation>Ir a mensaje</translation>
     </message>
     <message>
         <source>Start Bot</source>
-        <translation type="unfinished"></translation>
+        <translation>Iniciar Robot</translation>
     </message>
 </context>
 <context>
     <name>StickerPicker</name>
     <message>
         <source>Recently used</source>
-        <translation type="unfinished"></translation>
+        <translation>Usado recientemente</translation>
     </message>
     <message>
         <source>Removing sticker set</source>
-        <translation type="unfinished"></translation>
+        <translation>Quitando álbum pegatinas</translation>
     </message>
     <message>
         <source>Sticker set successfully removed!</source>
-        <translation type="unfinished"></translation>
+        <translation>¡Album pegatinas quitado correctamente!</translation>
     </message>
 </context>
 <context>
     <name>StickerSetOverlay</name>
     <message>
         <source>Sticker set successfully installed!</source>
-        <translation type="unfinished"></translation>
+        <translation>¡Album pegatinas instalado correctamente!</translation>
     </message>
     <message>
         <source>Sticker set successfully removed!</source>
-        <translation type="unfinished"></translation>
+        <translation>¡Album pegatinas quitado correctamente!</translation>
     </message>
 </context>
 <context>
     <name>VideoPage</name>
     <message>
         <source>Download of %1 successful.</source>
-        <translation>A %1 letöltése sikerült.</translation>
+        <translation>Bajada %1 exitosa.</translation>
     </message>
     <message>
         <source>Download failed.</source>
-        <translation>A letöltés nem sikerült.</translation>
+        <translation>Error a bajar</translation>
     </message>
     <message>
         <source>Copy video to gallery</source>
-        <translation type="unfinished"></translation>
+        <translation>Copiar video a galería</translation>
     </message>
 </context>
 <context>
     <name>VoiceNoteOverlay</name>
     <message>
         <source>Record a Voice Note</source>
-        <translation type="unfinished"></translation>
+        <translation>Nota de voz</translation>
     </message>
     <message>
         <source>Press the button to start recording</source>
-        <translation type="unfinished"></translation>
+        <translation>Presionar botón para grabar</translation>
     </message>
     <message>
         <source>Unavailable</source>
-        <translation type="unfinished"></translation>
+        <translation>No diponible</translation>
     </message>
     <message>
         <source>Starting</source>
-        <translation type="unfinished"></translation>
+        <translation>Iniciando</translation>
     </message>
     <message>
         <source>Recording</source>
-        <translation type="unfinished"></translation>
+        <translation>Grabando</translation>
     </message>
     <message>
         <source>Stopping</source>
-        <translation type="unfinished"></translation>
+        <translation>Deteniendo</translation>
     </message>
     <message>
         <source>Use recording</source>
-        <translation type="unfinished"></translation>
+        <translation>Usar grabación</translation>
     </message>
     <message>
         <source>Voice Note (%1)</source>
-        <translation type="unfinished"></translation>
+        <translation>Nota de voz (%1)</translation>
     </message>
     <message>
         <source>Ready</source>
-        <translation type="unfinished"></translation>
+        <translation>Listo</translation>
     </message>
 </context>
 <context>
     <name>WebPagePreview</name>
     <message>
         <source>Preview not supported for this link...</source>
-        <translation type="unfinished"></translation>
+        <translation>Vista previa compatible con enlace ...</translation>
     </message>
 </context>
 <context>
     <name>functions</name>
     <message>
         <source>Video: %1</source>
-        <translation>Videó %1</translation>
+        <translation>Video: %1</translation>
     </message>
     <message>
         <source>has registered with Telegram</source>
-        <translation>regisztrált a Telegram-al</translation>
+        <translation>Registrado a Telegrama</translation>
     </message>
     <message>
         <source>Picture: %1</source>
-        <translation>Kép: %1</translation>
+        <translation>Imagen: %1</translation>
     </message>
     <message>
         <source>Audio: %1</source>
-        <translation>Audió: %1</translation>
+        <translation>Audio: %1</translation>
     </message>
     <message>
         <source>Voice Note: %1</source>
-        <translation>Hangüzenet: %1</translation>
+        <translation>Nota de voz: %1</translation>
     </message>
     <message>
         <source>Animation: %1</source>
-        <translation>Animáció: %1</translation>
+        <translation>Animación: %1</translation>
     </message>
     <message>
         <source>Document: %1</source>
-        <translation>Dokument: %1</translation>
+        <translation>Documento: %1</translation>
     </message>
     <message>
         <source>sent a picture</source>
-        <translation>képet küldött</translation>
+        <translation>envió imagen</translation>
     </message>
     <message>
         <source>sent a video</source>
-        <translation>videót küldött</translation>
+        <translation>envió video</translation>
     </message>
     <message>
         <source>sent an animation</source>
-        <translation>animációt küldött</translation>
+        <translation>envió animación</translation>
     </message>
     <message>
         <source>sent an audio</source>
-        <translation>audiót küldött</translation>
+        <translation>envió audio</translation>
     </message>
     <message>
         <source>sent a voice note</source>
-        <translation>hangüzenetet küldött</translation>
+        <translation>envió nota de voz</translation>
     </message>
     <message>
         <source>sent a document</source>
-        <translation>dokumentumot küldött</translation>
+        <translation>envió documento</translation>
     </message>
     <message>
         <source>sent a location</source>
-        <translation>helyzetmeghatározó információt küldött</translation>
+        <translation>envió ubicación</translation>
     </message>
     <message>
         <source>joined this chat</source>
-        <translation>csatlakozott a csevegéshez</translation>
+        <translation>Unido a grupo</translation>
     </message>
     <message>
         <source>was added to this chat</source>
-        <translation>hozzáadva a csevegéshez</translation>
+        <translation>Unido a grupo</translation>
     </message>
     <message>
         <source>left this chat</source>
-        <translation>kilépett a csevegésből</translation>
+        <translation>dejó  grupo</translation>
     </message>
     <message>
         <source>%1M</source>
@@ -2005,331 +2042,332 @@
     </message>
     <message>
         <source>sent a venue</source>
-        <translation type="unfinished"></translation>
+        <translation>envió lugar</translation>
     </message>
     <message>
         <source>sent a picture</source>
         <comment>myself</comment>
-        <translation type="unfinished">képet küldött</translation>
+        <translation>envió imagen</translation>
     </message>
     <message>
         <source>sent a video</source>
         <comment>myself</comment>
-        <translation type="unfinished">videót küldött</translation>
+        <translation>envié video</translation>
     </message>
     <message>
         <source>sent an animation</source>
         <comment>myself</comment>
-        <translation type="unfinished">animációt küldött</translation>
+        <translation>envió animación</translation>
     </message>
     <message>
         <source>sent an audio</source>
         <comment>myself</comment>
-        <translation type="unfinished">audiót küldött</translation>
+        <translation>envió audio</translation>
     </message>
     <message>
         <source>sent a voice note</source>
         <comment>myself</comment>
-        <translation type="unfinished">hangüzenetet küldött</translation>
+        <translation>envió nota de voz</translation>
     </message>
     <message>
         <source>sent a document</source>
         <comment>myself</comment>
-        <translation type="unfinished">dokumentumot küldött</translation>
+        <translation>envió documento</translation>
     </message>
     <message>
         <source>sent a location</source>
         <comment>myself</comment>
-        <translation type="unfinished">helyzetmeghatározó információt küldött</translation>
+        <translation>envió ubicación</translation>
     </message>
     <message>
         <source>sent a venue</source>
         <comment>myself</comment>
-        <translation type="unfinished"></translation>
+        <translation>envió lugar</translation>
     </message>
     <message>
         <source>have registered with Telegram</source>
-        <translation type="unfinished"></translation>
+        <translation>registrado a Telegrama</translation>
     </message>
     <message>
         <source>joined this chat</source>
         <comment>myself</comment>
-        <translation type="unfinished">csatlakozott a csevegéshez</translation>
+        <translation>unido a grupo</translation>
     </message>
     <message>
         <source>were added to this chat</source>
         <comment>myself</comment>
-        <translation type="unfinished"></translation>
+        <translation>unido a grupo</translation>
     </message>
     <message>
         <source>left this chat</source>
         <comment>myself</comment>
-        <translation type="unfinished">kilépett a csevegésből</translation>
+        <translation>dejé este grupo</translation>
     </message>
     <message>
         <source>was never online</source>
-        <translation type="unfinished">soha nem volt online</translation>
+        <translation>nunca en línea</translation>
     </message>
     <message>
         <source>last online: last month</source>
-        <translation type="unfinished">utoljára online: múlt hónapban</translation>
+        <translation>hace 1 mes</translation>
     </message>
     <message>
         <source>last online: last week</source>
-        <translation type="unfinished">utoljára online: múlt héten</translation>
+        <translation>hace 1 semana</translation>
     </message>
     <message>
         <source>last online: %1</source>
-        <translation type="unfinished">utoljára online: %1</translation>
+        <translation>%1</translation>
     </message>
     <message>
         <source>online</source>
-        <translation type="unfinished">online</translation>
+        <translation>enlínea</translation>
     </message>
     <message>
         <source>was recently online</source>
-        <translation type="unfinished">nemrégen volt online</translation>
+        <translation>hace instantes</translation>
     </message>
     <message>
         <source>Admin</source>
         <comment>channel user role</comment>
-        <translation type="unfinished"></translation>
+        <translation>Administrador</translation>
     </message>
     <message>
         <source>Banned</source>
         <comment>channel user role</comment>
-        <translation type="unfinished"></translation>
+        <translation>Prohibido</translation>
     </message>
     <message>
         <source>Creator</source>
         <comment>channel user role</comment>
-        <translation type="unfinished"></translation>
+        <translation>Creador</translation>
     </message>
     <message>
         <source>Restricted</source>
         <comment>channel user role</comment>
-        <translation type="unfinished"></translation>
+        <translation>Restringido</translation>
     </message>
     <message>
         <source>changed the chat title to %1</source>
         <comment>myself</comment>
-        <translation type="unfinished"></translation>
+        <translation>cambió título de grupo a %1</translation>
     </message>
     <message>
         <source>changed the chat title to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>cambió título de grupo a %1</translation>
     </message>
     <message>
         <source>sent a poll</source>
         <comment>myself</comment>
-        <translation type="unfinished"></translation>
+        <translation>envió encuesta</translation>
     </message>
     <message>
         <source>sent a poll</source>
-        <translation type="unfinished"></translation>
+        <translation>envió encuesta</translation>
     </message>
     <message>
         <source>sent an anonymous quiz</source>
         <comment>myself</comment>
-        <translation type="unfinished"></translation>
+        <translation>envió cuestionario anónimo</translation>
     </message>
     <message>
         <source>sent an anonymous quiz</source>
-        <translation type="unfinished"></translation>
+        <translation>envió cuestionario anónimo</translation>
     </message>
     <message>
         <source>sent a quiz</source>
         <comment>myself</comment>
-        <translation type="unfinished"></translation>
+        <translation>envió cuestionario</translation>
     </message>
     <message>
         <source>sent a quiz</source>
-        <translation type="unfinished"></translation>
+        <translation>envió cuestionario</translation>
     </message>
     <message>
         <source>sent an anonymous poll</source>
         <comment>myself</comment>
-        <translation type="unfinished"></translation>
+        <translation>envió encuesta anónima</translation>
     </message>
     <message>
         <source>sent an anonymous poll</source>
-        <translation type="unfinished"></translation>
+        <translation>envió encuesta anónima</translation>
     </message>
     <message>
         <source>Anonymous Quiz</source>
-        <translation type="unfinished"></translation>
+        <translation>Cuestionar anónimo</translation>
     </message>
     <message>
         <source>Quiz</source>
-        <translation type="unfinished"></translation>
+        <translation>Cuestionar</translation>
     </message>
     <message>
         <source>Anonymous Poll</source>
-        <translation type="unfinished"></translation>
+        <translation>Encuestar anónimo</translation>
     </message>
     <message>
         <source>Poll</source>
-        <translation type="unfinished"></translation>
+        <translation>Encuesta</translation>
     </message>
     <message>
         <source>created this group</source>
         <comment>myself</comment>
-        <translation type="unfinished"></translation>
+        <translation>creó grupo</translation>
     </message>
     <message>
         <source>created this group</source>
-        <translation type="unfinished"></translation>
+        <translation>creó grupo</translation>
     </message>
     <message>
         <source>changed the chat photo</source>
         <comment>myself</comment>
-        <translation type="unfinished"></translation>
+        <translation>cambió foto de grupo</translation>
     </message>
     <message>
         <source>changed the chat photo</source>
-        <translation type="unfinished"></translation>
+        <translation>cambió foto de grupo</translation>
     </message>
     <message>
         <source>deleted the chat photo</source>
         <comment>myself</comment>
-        <translation type="unfinished"></translation>
+        <translation>borró foto de grupo</translation>
     </message>
     <message>
         <source>deleted the chat photo</source>
-        <translation type="unfinished"></translation>
+        <translation>borró foto de grupo</translation>
     </message>
     <message>
         <source>changed the secret chat TTL setting</source>
         <comment>myself; TTL = Time To Live</comment>
-        <translation type="unfinished"></translation>
+        <translation>cambió ajustes de TTL de charla secreta</translation>
     </message>
     <message>
         <source>changed the secret chat TTL setting</source>
         <comment>TTL = Time To Live</comment>
-        <translation type="unfinished"></translation>
+        <translation>cambió ajustes de TTL de charla secreta</translation>
     </message>
     <message>
         <source>upgraded this group to a supergroup</source>
         <comment>myself</comment>
-        <translation type="unfinished"></translation>
+        <translation>actualizó grupo a supergrupo</translation>
     </message>
     <message>
         <source>changed the pinned message</source>
         <comment>myself</comment>
-        <translation type="unfinished"></translation>
+        <translation>cambió mensaje fijado</translation>
     </message>
     <message>
         <source>changed the pinned message</source>
-        <translation type="unfinished"></translation>
+        <translation>cambió mensaje fijado</translation>
     </message>
     <message>
         <source>created a screenshot in this chat</source>
         <comment>myself</comment>
-        <translation type="unfinished"></translation>
+        <translation>creó pantallazo de charla</translation>
     </message>
     <message>
         <source>created a screenshot in this chat</source>
-        <translation type="unfinished"></translation>
+        <translation>creó pantallazo a charla</translation>
     </message>
     <message>
         <source>sent an unsupported message</source>
         <comment>myself</comment>
-        <translation type="unfinished"></translation>
+        <translation>envió mensaje no admitido</translation>
     </message>
     <message>
         <source>sent an unsupported message</source>
-        <translation type="unfinished"></translation>
+        <translation>envió mensaje no admitido</translation>
     </message>
     <message>
         <source>sent an unsupported message: %1</source>
         <comment>myself; %1 is message type</comment>
-        <translation type="unfinished"></translation>
+        <translation>envió mensaje no admitido: %1</translation>
     </message>
     <message>
         <source>sent an unsupported message: %1</source>
         <comment>%1 is message type</comment>
-        <translation type="unfinished"></translation>
+        <translation>envió mensaje no admitido: %1</translation>
     </message>
     <message>
         <source>upgraded this group to a supergroup</source>
-        <translation type="unfinished"></translation>
+        <translation>actualizó grupo a supergrupo</translation>
     </message>
     <message>
         <source>sent a self-destructing photo that is expired</source>
         <comment>myself</comment>
-        <translation type="unfinished"></translation>
+        <translation>envió foto autodestructiva que está caducada</translation>
     </message>
     <message>
         <source>sent a self-destructing photo that is expired</source>
-        <translation type="unfinished"></translation>
+        <translation>envió foto autodestructiva que está caducada</translation>
     </message>
     <message>
         <source>sent a self-destructing video that is expired</source>
         <comment>myself</comment>
-        <translation type="unfinished"></translation>
+        <translation>envió vídeo autodestructivo que está caducado</translation>
     </message>
     <message>
         <source>sent a self-destructing video that is expired</source>
-        <translation type="unfinished"></translation>
+        <translation>envió vídeo autodestructivo que está caducado</translation>
     </message>
     <message>
         <source>Unable to find user %1</source>
-        <translation type="unfinished"></translation>
+        <translation>Error buscar %1</translation>
     </message>
     <message>
         <source>sent a video note</source>
         <comment>myself</comment>
-        <translation type="unfinished"></translation>
+        <translation>envió nota de video</translation>
     </message>
     <message>
         <source>sent a video note</source>
-        <translation type="unfinished"></translation>
+        <translation>envió nota de video</translation>
     </message>
     <message>
         <source>You are already a member of this chat.</source>
-        <translation type="unfinished"></translation>
+        <translation>Ya miembro de grupo.</translation>
     </message>
     <message>
         <source>Closed!</source>
-        <translation type="unfinished"></translation>
+        <translation>Cerrado!</translation>
     </message>
     <message>
         <source>Pending acknowledgement</source>
-        <translation type="unfinished"></translation>
+        <translation>Pendiente de reconocimiento</translation>
     </message>
     <message>
         <source>has added %1 to the chat</source>
-        <translation type="unfinished"></translation>
+        <translation>ha añadido %1 a grupo</translation>
     </message>
     <message>
         <source>has removed %1 from the chat</source>
-        <translation type="unfinished"></translation>
+        <translation>quitado %1 de grupo</translation>
     </message>
     <message>
         <source>have added %1 to the chat</source>
         <comment>myself</comment>
-        <translation type="unfinished"></translation>
+        <translation>agregado %1 a grupo</translation>
     </message>
     <message>
         <source>have removed %1 from the chat</source>
         <comment>myself</comment>
-        <translation type="unfinished"></translation>
+        <translation>agregado %1  de grupo</translation>
     </message>
     <message numerus="yes">
         <source>scored %Ln points</source>
         <comment>myself</comment>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>punto %Ln anotado</numerusform>
+            <numerusform>puntos %Ln anotados</numerusform>
         </translation>
     </message>
     <message>
         <source>sent a game</source>
         <comment>myself</comment>
-        <translation type="unfinished"></translation>
+        <translation>envió un juego</translation>
     </message>
     <message>
         <source>sent a game</source>
-        <translation type="unfinished"></translation>
+        <translation>envió un juego</translation>
     </message>
 </context>
 </TS>

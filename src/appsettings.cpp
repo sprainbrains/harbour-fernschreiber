@@ -45,7 +45,7 @@ namespace {
     const QString KEY_SHOW_REACTION_BUTTON("showReactionButton");
 }
 
-AppSettings::AppSettings(QObject *parent) : QObject(parent), settings(QStandardPaths::writableLocation(QStandardPaths::ConfigLocation) + "/org.ygriega/fernschreiber/settings.conf", QSettings::NativeFormat)
+AppSettings::AppSettings(QObject *parent) : QObject(parent), settings(QStandardPaths::writableLocation(QStandardPaths::ConfigLocation) + "/org.ygriega/Fernschreiber/settings.conf", QSettings::NativeFormat)
 {
 }
 

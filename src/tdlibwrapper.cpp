@@ -2348,9 +2348,9 @@ void TDLibWrapper::initializeOpenWith()
         } else {
             fileOut << QString("MimeType=x-url-handler/t.me;x-scheme-handler/tg;").toUtf8() << "\n";
         }
-        fileOut << QString("X-Maemo-Service=org.ygriega.fernschreiber").toUtf8() << "\n";
-        fileOut << QString("X-Maemo-Object-Path=/org/ygriega/fernschreiber").toUtf8() << "\n";
-        fileOut << QString("X-Maemo-Method=org.ygriega.fernschreiber.openUrl").toUtf8() << "\n";
+        fileOut << QString("X-Maemo-Service=org.ygriega.Fernschreiber").toUtf8() << "\n";
+        fileOut << QString("X-Maemo-Object-Path=/org/ygriega/Fernschreiber").toUtf8() << "\n";
+        fileOut << QString("X-Maemo-Method=org.ygriega.Fernschreiber.openUrl").toUtf8() << "\n";
         fileOut << QString("Hidden=true;").toUtf8() << "\n";
         fileOut.flush();
         desktopFile.close();
@@ -2363,7 +2363,7 @@ void TDLibWrapper::initializeOpenWith()
         LOG("Creating D-Bus directory" << dbusPathName);
         dbusPath.mkpath(dbusPathName);
     }
-    QString dbusServiceFileName = dbusPathName + "/org.ygriega.fernschreiber.service";
+    QString dbusServiceFileName = dbusPathName + "/org.ygriega.Fernschreiber.service";
     QFile dbusServiceFile(dbusServiceFileName);
     if (dbusServiceFile.exists()) {
         LOG("D-BUS service file existing, removing to ensure proper re-creation...");
@@ -2374,7 +2374,7 @@ void TDLibWrapper::initializeOpenWith()
         QTextStream fileOut(&dbusServiceFile);
         fileOut.setCodec("UTF-8");
         fileOut << QString("[D-BUS Service]").toUtf8() << "\n";
-        fileOut << QString("Name=org.ygriega.fernschreiber").toUtf8() << "\n";
+        fileOut << QString("Name=org.ygriega.Fernschreiber").toUtf8() << "\n";
         fileOut << QString("Exec=sailjail -- /usr/bin/org.ygriega.Fernschreiberr").toUtf8() << "\n";
         fileOut.flush();
         dbusServiceFile.close();
