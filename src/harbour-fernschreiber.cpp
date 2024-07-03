@@ -21,7 +21,7 @@
 #include <QtQuick>
 #endif
 
-#include <sailfishapp.h>
+#include <auroraapp.h>
 #include <QScopedPointer>
 #include <QQuickView>
 #include <QtQml>
@@ -73,7 +73,7 @@ void migrateSettings() {
     int sailfishOSMinorVersion = sailfishOSVersion.value(1).toInt();
     if ((sailfishOSMajorVersion == 4 && sailfishOSMinorVersion >= 4) || sailfishOSMajorVersion > 4) {
         LOG("Checking if we need to migrate settings...");
-        QSettings settings(QStandardPaths::writableLocation(QStandardPaths::ConfigLocation) + "/de.ygriega/fernschreiber/settings.conf", QSettings::NativeFormat);
+        QSettings settings(QStandardPaths::writableLocation(QStandardPaths::ConfigLocation) + "/org.ygriega/Fernschreiber/settings.conf", QSettings::NativeFormat);
         if (settings.contains("migrated")) {
             return;
         }
@@ -120,8 +120,8 @@ int main(int argc, char *argv[])
 {
     QLoggingCategory::setFilterRules(DEFAULT_LOG_FILTER);
 
-    QScopedPointer<QGuiApplication> app(SailfishApp::application(argc, argv));
-    QScopedPointer<QQuickView> view(SailfishApp::createView());
+    QScopedPointer<QGuiApplication> app(Aurora::Application::application(argc, argv));
+    QScopedPointer<QQuickView> view(Aurora::Application::createView());
 
     QQmlContext *context = view.data()->rootContext();
 
@@ -182,7 +182,7 @@ int main(int argc, char *argv[])
     contactsProxyModel.setFilterCaseSensitivity(Qt::CaseInsensitive);
     context->setContextProperty("contactsProxyModel", &contactsProxyModel);
 
-    view->setSource(SailfishApp::pathTo("qml/harbour-fernschreiber.qml"));
+    view->setSource(Aurora::Application::pathTo("qml/harbour-fernschreiber.qml"));
     view->show();
     return app->exec();
 }
