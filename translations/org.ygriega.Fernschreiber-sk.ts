@@ -1210,80 +1210,96 @@
 <context>
     <name>OverviewPage</name>
     <message>
-        <source>About Fernschreiber</source>
-        <translation>O aplikácii Fernschreiber</translation>
-    </message>
-    <message>
-        <source>Fernschreiber</source>
-        <translation>Fernschreiber</translation>
-    </message>
-    <message>
         <source>Waiting for network...</source>
-        <translation>Čakanie na sieť...</translation>
+        <translation type="unfinished">Čakanie na sieť...</translation>
     </message>
     <message>
         <source>Connecting to network...</source>
-        <translation>Pripájanie k sieti...</translation>
+        <translation type="unfinished">Pripájanie k sieti...</translation>
     </message>
     <message>
         <source>Connecting to proxy...</source>
-        <translation>Pripájanie k proxy...</translation>
+        <translation type="unfinished">Pripájanie k proxy...</translation>
+    </message>
+    <message>
+        <source>Fernschreiber</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Updating content...</source>
-        <translation>Aktualizácia obsahu...</translation>
+        <translation type="unfinished">Aktualizácia obsahu...</translation>
     </message>
     <message>
         <source>Loading chat list...</source>
-        <translation>Načítanie zoznamu četov...</translation>
-    </message>
-    <message>
-        <source>Settings</source>
-        <translation>Nastavenia</translation>
-    </message>
-    <message>
-        <source>You don&apos;t have any chats yet.</source>
-        <translation>Nemáte žiadne čety.</translation>
-    </message>
-    <message>
-        <source>New Chat</source>
-        <translation>Nový čet</translation>
-    </message>
-    <message>
-        <source>Filter your chats...</source>
-        <translation>Filtrovanie četov...</translation>
-    </message>
-    <message>
-        <source>Search Chats</source>
-        <translation>Hľadanie četov</translation>
-    </message>
-    <message>
-        <source>Download of %1 successful.</source>
-        <translation>Sťahovanie %1 bolo úspešné.</translation>
-    </message>
-    <message>
-        <source>Download failed.</source>
-        <translation>Sťahovanie zlyhalo.</translation>
-    </message>
-    <message>
-        <source>Tap on the title bar to filter your chats</source>
-        <translation>Klepnutím na záhlavie filtrovať svoje čety</translation>
-    </message>
-    <message>
-        <source>No matching chats found.</source>
-        <translation>Nenašli sa žiadne zodpovedajúce čety.</translation>
-    </message>
-    <message>
-        <source>You can search public chats or create a new chat via the pull-down menu.</source>
-        <translation>Môžete vyhľadávať verejné čety alebo vytvoriť nový pomocou rozbaľovacej ponuky.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Logging out</source>
-        <translation>Odhlasovanie</translation>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Download of %1 successful.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Download failed.</source>
+        <translation type="unfinished">Sťahovanie zlyhalo.</translation>
     </message>
     <message>
         <source>Unable to open link.</source>
-        <translation>Nemožno otvoriť odkaz.</translation>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Filter your chats...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>About Fernschreiber</source>
+        <translation type="unfinished">O aplikácii Fernschreiber</translation>
+    </message>
+    <message>
+        <source>Open About app page</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation type="unfinished">Nastavenia</translation>
+    </message>
+    <message>
+        <source>Open setting page</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Search Chats</source>
+        <translation type="unfinished">Prehľadávať čety</translation>
+    </message>
+    <message>
+        <source>Open searching page</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>New Chat</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Create a new chat</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You don&apos;t have any chats yet.</source>
+        <translation type="unfinished">Nemáte žiadne čety.</translation>
+    </message>
+    <message>
+        <source>No matching chats found.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You can search public chats or create a new chat via the pull-down menu.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Tap on the title bar to filter your chats</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

@@ -1171,79 +1171,95 @@
 <context>
     <name>OverviewPage</name>
     <message>
-        <source>About Fernschreiber</source>
-        <translation>关于 Fernschreiber</translation>
-    </message>
-    <message>
-        <source>Fernschreiber</source>
-        <translation>Fernschreiber</translation>
-    </message>
-    <message>
         <source>Waiting for network...</source>
-        <translation>等候网络连接…</translation>
+        <translation type="unfinished">等候网络连接…</translation>
     </message>
     <message>
         <source>Connecting to network...</source>
-        <translation>正在连接到网络…</translation>
+        <translation type="unfinished">正在连接到网络…</translation>
     </message>
     <message>
         <source>Connecting to proxy...</source>
-        <translation>正在连接到代理…</translation>
+        <translation type="unfinished">正在连接到代理…</translation>
+    </message>
+    <message>
+        <source>Fernschreiber</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Updating content...</source>
-        <translation>正在更新内容…</translation>
+        <translation type="unfinished">正在更新内容…</translation>
     </message>
     <message>
         <source>Loading chat list...</source>
-        <translation>正在加载对话列表…</translation>
-    </message>
-    <message>
-        <source>Settings</source>
-        <translation>设置</translation>
-    </message>
-    <message>
-        <source>You don&apos;t have any chats yet.</source>
-        <translation>你还没有任何对话。</translation>
-    </message>
-    <message>
-        <source>New Chat</source>
-        <translation>新对话</translation>
-    </message>
-    <message>
-        <source>Filter your chats...</source>
-        <translation>筛选你的对话…</translation>
-    </message>
-    <message>
-        <source>Search Chats</source>
-        <translation>搜索对话</translation>
-    </message>
-    <message>
-        <source>Download of %1 successful.</source>
-        <translation>已成功下载 %1 。</translation>
-    </message>
-    <message>
-        <source>Download failed.</source>
-        <translation>下载失败。</translation>
-    </message>
-    <message>
-        <source>Tap on the title bar to filter your chats</source>
-        <translation>点击顶部状态栏即可筛选你的对话</translation>
-    </message>
-    <message>
-        <source>No matching chats found.</source>
-        <translation>没有找到匹配的对话。</translation>
-    </message>
-    <message>
-        <source>You can search public chats or create a new chat via the pull-down menu.</source>
-        <translation>你可以搜索公共对话或通过下拉菜单创建新对话。</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Logging out</source>
-        <translation>正在登出</translation>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Download of %1 successful.</source>
+        <translation type="unfinished">已成功下载 %1 。</translation>
+    </message>
+    <message>
+        <source>Download failed.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unable to open link.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Filter your chats...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>About Fernschreiber</source>
+        <translation type="unfinished">关于 Fernschreiber</translation>
+    </message>
+    <message>
+        <source>Open About app page</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation type="unfinished">设置</translation>
+    </message>
+    <message>
+        <source>Open setting page</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Search Chats</source>
+        <translation type="unfinished">搜索对话</translation>
+    </message>
+    <message>
+        <source>Open searching page</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>New Chat</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Create a new chat</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You don&apos;t have any chats yet.</source>
+        <translation type="unfinished">你还没有任何对话。</translation>
+    </message>
+    <message>
+        <source>No matching chats found.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You can search public chats or create a new chat via the pull-down menu.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Tap on the title bar to filter your chats</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

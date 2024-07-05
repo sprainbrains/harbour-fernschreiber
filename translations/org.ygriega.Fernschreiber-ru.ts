@@ -1213,14 +1213,6 @@
 <context>
     <name>OverviewPage</name>
     <message>
-        <source>About Fernschreiber</source>
-        <translation>О программе</translation>
-    </message>
-    <message>
-        <source>Fernschreiber</source>
-        <translation>Fernschreiber</translation>
-    </message>
-    <message>
         <source>Waiting for network...</source>
         <translation>Ожидание сети...</translation>
     </message>
@@ -1233,6 +1225,10 @@
         <translation>Подключение к прокси...</translation>
     </message>
     <message>
+        <source>Fernschreiber</source>
+        <translation>Fernschreiber</translation>
+    </message>
+    <message>
         <source>Updating content...</source>
         <translation>Обновление контента...</translation>
     </message>
@@ -1241,24 +1237,8 @@
         <translation>Загрузка чатов...</translation>
     </message>
     <message>
-        <source>Settings</source>
-        <translation>Настройки</translation>
-    </message>
-    <message>
-        <source>You don&apos;t have any chats yet.</source>
-        <translation>Тут пока ничего нет</translation>
-    </message>
-    <message>
-        <source>New Chat</source>
-        <translation>Новый чат</translation>
-    </message>
-    <message>
-        <source>Filter your chats...</source>
-        <translation>Выбрать чат...</translation>
-    </message>
-    <message>
-        <source>Search Chats</source>
-        <translation>Поиск чатов</translation>
+        <source>Logging out</source>
+        <translation>Завершение сеанса</translation>
     </message>
     <message>
         <source>Download of %1 successful.</source>
@@ -1269,8 +1249,48 @@
         <translation>Ошибка скачивания.</translation>
     </message>
     <message>
-        <source>Tap on the title bar to filter your chats</source>
-        <translation>Коснитесь строки заголовка, чтобы отфильтровать ваши чаты</translation>
+        <source>Unable to open link.</source>
+        <translation>Не удаётся открыть ссылку</translation>
+    </message>
+    <message>
+        <source>Filter your chats...</source>
+        <translation>Выбрать чат..</translation>
+    </message>
+    <message>
+        <source>About Fernschreiber</source>
+        <translation>О программе</translation>
+    </message>
+    <message>
+        <source>Open About app page</source>
+        <translation>Открыть страницу о программе</translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation>Настройки</translation>
+    </message>
+    <message>
+        <source>Open setting page</source>
+        <translation>Открыть страницу настроек</translation>
+    </message>
+    <message>
+        <source>Search Chats</source>
+        <translation>Поиск чатов</translation>
+    </message>
+    <message>
+        <source>Open searching page</source>
+        <translation>Открыть страницу поиска</translation>
+    </message>
+    <message>
+        <source>New Chat</source>
+        <translation>Новый чат</translation>
+    </message>
+    <message>
+        <source>Create a new chat</source>
+        <translation>Создать новый чат</translation>
+    </message>
+    <message>
+        <source>You don&apos;t have any chats yet.</source>
+        <translation>Тут пока ничего нет</translation>
     </message>
     <message>
         <source>No matching chats found.</source>
@@ -1281,12 +1301,8 @@
         <translation>Вы можете искать публичные чаты или создать новый чат с помощью выпадающего меню</translation>
     </message>
     <message>
-        <source>Logging out</source>
-        <translation>Завершение сеанса</translation>
-    </message>
-    <message>
-        <source>Unable to open link.</source>
-        <translation>Не удаётся открыть ссылку</translation>
+        <source>Tap on the title bar to filter your chats</source>
+        <translation>Коснитесь строки заголовка, чтобы отфильтровать ваши чаты</translation>
     </message>
 </context>
 <context>

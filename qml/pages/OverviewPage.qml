@@ -20,6 +20,8 @@ import QtQuick 2.6
 import Sailfish.Silica 1.0
 import Nemo.Notifications 1.0
 import WerkWolf.Fernschreiber 1.0
+import Aurora.Controls 1.0
+
 import "../components"
 import "../js/twemoji.js" as Emoji
 import "../js/functions.js" as Functions
@@ -35,6 +37,7 @@ Page {
     property int connectionState: TelegramAPI.WaitingForNetwork
     property int ownUserId;
     property bool chatListCreated: false;
+    property string appName: qsTr("Fernschreiber");
 
     // link handler:
     property string urlToOpen;
@@ -157,24 +160,29 @@ Page {
     function setPageStatus() {
         switch (overviewPage.connectionState) {
         case TelegramAPI.WaitingForNetwork:
-            pageStatus.color = "red";
-            pageHeader.title = qsTr("Waiting for network...");
+            // pageStatus.color = "red";
+            //pageHeader.title = qsTr("Waiting for network...");
+            topAppBar.headerText = qsTr("Waiting for network...");
             break;
         case TelegramAPI.Connecting:
-            pageStatus.color = "gold";
-            pageHeader.title = qsTr("Connecting to network...");
+            // pageStatus.color = "gold";
+            //pageHeader.title = qsTr("Connecting to network...");
+            topAppBar.headerText =qsTr("Connecting to network...");
             break;
         case TelegramAPI.ConnectingToProxy:
-            pageStatus.color = "gold";
-            pageHeader.title = qsTr("Connecting to proxy...");
+            // pageStatus.color = "gold";
+            //pageHeader.title = qsTr("Connecting to proxy...");
+            topAppBar.headerText = qsTr("Connecting to proxy...");
             break;
         case TelegramAPI.ConnectionReady:
-            pageStatus.color = "green";
-            pageHeader.title = qsTr("Fernschreiber");
+            // pageStatus.color = "green";
+            //pageHeader.title = qsTr("Fernschreiber");
+            topAppBar.headerText = qsTr("Fernschreiber");
             break;
         case TelegramAPI.Updating:
-            pageStatus.color = "lightblue";
-            pageHeader.title = qsTr("Updating content...");
+            // pageStatus.color = "lightblue";
+            //pageHeader.title = qsTr("Updating content...");
+            topAppBar.headerText = qsTr("Updating content...");
             break;
         }
     }
@@ -232,7 +240,9 @@ Page {
     function resetFocus() {
         if (chatSearchField.text === "") {
             chatSearchField.opacity = 0.0;
-            pageHeader.opacity = 1.0;
+            //pageHeader.opacity = 1.0;
+            topAppBar.headerText = appName;
+
         }
         chatSearchField.focus = false;
         overviewPage.focus = true;
@@ -315,82 +325,118 @@ Page {
         anchors.fill: parent
         visible: !overviewPage.loading
 
-        PullDownMenu {
-            MenuItem {
-                text: "Debug"
-                visible: Debug.enabled
-                onClicked: pageStack.push(Qt.resolvedUrl("../pages/DebugPage.qml"))
-            }
-            MenuItem {
-                text: qsTr("About Fernschreiber")
-                onClicked: pageStack.push(Qt.resolvedUrl("../pages/AboutPage.qml"))
-            }
-            MenuItem {
-                text: qsTr("Settings")
-                onClicked: pageStack.push(Qt.resolvedUrl("../pages/SettingsPage.qml"))
-            }
-            MenuItem {
-                text: qsTr("Search Chats")
-                onClicked: pageStack.push(Qt.resolvedUrl("../pages/SearchChatsPage.qml"))
-            }
-            MenuItem {
-                text: qsTr("New Chat")
-                onClicked: pageStack.push(Qt.resolvedUrl("../pages/NewChatPage.qml"))
-            }
-        }
+        // PageHeader {
+        //     id: pageHeader
+        //     title: qsTr("Fernschreiber")
+        //     leftMargin: Theme.itemSizeMedium
+        //     visible: opacity > 0
+        //     Behavior on opacity { FadeAnimation {} }
 
-        PageHeader {
-            id: pageHeader
-            title: qsTr("Fernschreiber")
-            leftMargin: Theme.itemSizeMedium
-            visible: opacity > 0
-            Behavior on opacity { FadeAnimation {} }
+        //     GlassItem {
+        //         id: pageStatus
+        //         width: Theme.itemSizeMedium
+        //         height: Theme.itemSizeMedium
+        //         color: "red"
+        //         falloffRadius: 0.1
+        //         radius: 0.2
+        //         cache: false
+        //     }
 
-            GlassItem {
-                id: pageStatus
-                width: Theme.itemSizeMedium
-                height: Theme.itemSizeMedium
-                color: "red"
-                falloffRadius: 0.1
-                radius: 0.2
-                cache: false
+        //     MouseArea {
+        //         anchors.fill: parent
+        //         onClicked: {
+        //             chatSearchField.focus = true;
+        //             chatSearchField.opacity = 1.0;
+        //             pageHeader.opacity = 0.0;
+        //         }
+        //     }
+
+        // }
+
+
+
+        AppBar {
+            id: topAppBar
+
+            headerText: appName
+            minimumHeaderWidth: width / 2
+            headerClickable: true
+
+            Behavior on headerText { FadeAnimation {} }
+
+            onHeaderClicked: {
+                chatSearchField.focus = true;
+                chatSearchField.opacity = 1.0;
+                topAppBar.headerText =  "";
             }
 
-            MouseArea {
-                anchors.fill: parent
-                onClicked: {
-                    chatSearchField.focus = true;
-                    chatSearchField.opacity = 1.0;
-                    pageHeader.opacity = 0.0;
+            AppBarSpacer {}
+
+            SearchField {
+                id: chatSearchField
+                height: parent.height
+                width: parent.width - appBarMenuButton.width
+                visible: opcaity > 0
+                opacity: 0
+                Behavior on opacity { FadeAnimation {} }
+                placeholderText: qsTr("Filter your chats...")
+                canHide: text === ""
+
+                EnterKey.onClicked: {resetFocus();}
+                onHideClicked: {resetFocus();}
+
+            }
+
+            
+            AppBarSpacer {}
+
+            AppBarButton {
+                id: appBarMenuButton
+                icon.source: "image://theme/icon-m-menu"
+                onClicked: mainPopup.open()
+
+                PopupMenu {
+                    id: mainPopup
+
+                    PopupMenuItem {
+                        text: "Debug"
+                        visible: Debug.enabled
+                        onClicked: pageStack.push(Qt.resolvedUrl("../pages/DebugPage.qml"))
+                    }
+
+                    PopupMenuItem {
+                        text: qsTr("About Fernschreiber")
+                        hint: qsTr("Open About app page")
+                        onClicked: pageStack.push(Qt.resolvedUrl("../pages/AboutPage.qml"))
+                    }
+
+                    PopupMenuItem {
+                        text: qsTr("Settings")
+                        hint: qsTr("Open setting page")
+                        onClicked: pageStack.push(Qt.resolvedUrl("../pages/SettingsPage.qml"))
+                    }
+
+                    PopupMenuItem {
+                        text: qsTr("Search Chats")
+                        hint: qsTr("Open searching page")
+                        onClicked: pageStack.push(Qt.resolvedUrl("../pages/SearchChatsPage.qml"))
+                    }
+
+                    PopupMenuItem {
+                        text: qsTr("New Chat")
+                        hint: qsTr("Create a new chat")
+                        onClicked: pageStack.push(Qt.resolvedUrl("../pages/NewChatPage.qml"))
+                    }
                 }
-            }
 
-        }
-
-        SearchField {
-            id: chatSearchField
-            visible: opacity > 0
-            opacity: 0
-            Behavior on opacity { FadeAnimation {} }
-            width: parent.width
-            height: pageHeader.height
-            placeholderText: qsTr("Filter your chats...")
-            canHide: text === ""
-
-            onHideClicked: {
-                resetFocus();
-            }
-
-            EnterKey.iconSource: "image://theme/icon-m-enter-close"
-            EnterKey.onClicked: {
-                resetFocus();
             }
         }
 
         SilicaListView {
             id: chatListView
             anchors {
-                top: pageHeader.bottom
+                //top: pageHeader.bottom
+                top: topAppBar.bottom
                 bottom: parent.bottom
                 left: parent.left
                 right: parent.right

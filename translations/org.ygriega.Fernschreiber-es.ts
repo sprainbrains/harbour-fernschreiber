@@ -1190,80 +1190,96 @@
 <context>
     <name>OverviewPage</name>
     <message>
-        <source>About Fernschreiber</source>
-        <translation>Acerca de</translation>
-    </message>
-    <message>
-        <source>Fernschreiber</source>
-        <translation>Ferni</translation>
-    </message>
-    <message>
         <source>Waiting for network...</source>
-        <translation>Esperando red...</translation>
+        <translation type="unfinished">Esperando red...</translation>
     </message>
     <message>
         <source>Connecting to network...</source>
-        <translation>Conectando a servidor...</translation>
+        <translation type="unfinished">Conectando a servidor...</translation>
     </message>
     <message>
         <source>Connecting to proxy...</source>
-        <translation>Conectando a proxy...</translation>
+        <translation type="unfinished">Conectando a proxy...</translation>
+    </message>
+    <message>
+        <source>Fernschreiber</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Updating content...</source>
-        <translation>Actualizando contenido...</translation>
+        <translation type="unfinished">Actualizando contenido...</translation>
     </message>
     <message>
         <source>Loading chat list...</source>
-        <translation>cargando lista de charla...</translation>
-    </message>
-    <message>
-        <source>Settings</source>
-        <translation>Ajustes</translation>
-    </message>
-    <message>
-        <source>You don&apos;t have any chats yet.</source>
-        <translation>No hay charlas.</translation>
-    </message>
-    <message>
-        <source>New Chat</source>
-        <translation>Crear Charla</translation>
-    </message>
-    <message>
-        <source>Filter your chats...</source>
-        <translation>A b c</translation>
-    </message>
-    <message>
-        <source>Search Chats</source>
-        <translation>Buscar grupos</translation>
-    </message>
-    <message>
-        <source>Download of %1 successful.</source>
-        <translation>Bajada %1 exitosa.</translation>
-    </message>
-    <message>
-        <source>Download failed.</source>
-        <translation>Error a bajar</translation>
-    </message>
-    <message>
-        <source>Tap on the title bar to filter your chats</source>
-        <translation>Deslizar hacia abajo para polea de opciones</translation>
-    </message>
-    <message>
-        <source>No matching chats found.</source>
-        <translation>No hay coincidencias.</translation>
-    </message>
-    <message>
-        <source>You can search public chats or create a new chat via the pull-down menu.</source>
-        <translation>Puede buscar grupos públicos o crear un grupo a través de polea de opciones.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Logging out</source>
-        <translation>Saliendo de cuenta</translation>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Download of %1 successful.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Download failed.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unable to open link.</source>
-        <translation>No se pudo abrir enlace.</translation>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Filter your chats...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>About Fernschreiber</source>
+        <translation type="unfinished">Acerca de</translation>
+    </message>
+    <message>
+        <source>Open About app page</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation type="unfinished">Ajustes</translation>
+    </message>
+    <message>
+        <source>Open setting page</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Search Chats</source>
+        <translation type="unfinished">Buscar grupos</translation>
+    </message>
+    <message>
+        <source>Open searching page</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>New Chat</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Create a new chat</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You don&apos;t have any chats yet.</source>
+        <translation type="unfinished">No hay charlas.</translation>
+    </message>
+    <message>
+        <source>No matching chats found.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You can search public chats or create a new chat via the pull-down menu.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Tap on the title bar to filter your chats</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

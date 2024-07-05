@@ -20,6 +20,7 @@ URL:        http://werkwolf.eu/
 Source0:    %{name}-%{version}.tar.bz2
 Source100:  de.ygriega.Fernschreiber.yaml
 Requires:   sailfishsilica-qt5 >= 0.10.9
+Requires:   aurora-controls >= 0.12.1
 #Requires:   nemo-qml-plugin-contacts-qt5
 BuildRequires:  pkgconfig(auroraapp) >= 1.0.2
 BuildRequires:  pkgconfig(Qt5Core)

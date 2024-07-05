@@ -1190,51 +1190,31 @@
 <context>
     <name>OverviewPage</name>
     <message>
-        <source>About Fernschreiber</source>
-        <translation>About Fernschreiber</translation>
-    </message>
-    <message>
-        <source>Fernschreiber</source>
-        <translation>Fernschreiber</translation>
-    </message>
-    <message>
         <source>Waiting for network...</source>
-        <translation>Waiting for network...</translation>
+        <translation type="unfinished">Waiting for network...</translation>
     </message>
     <message>
         <source>Connecting to network...</source>
-        <translation>Connecting to network...</translation>
+        <translation type="unfinished">Connecting to network...</translation>
     </message>
     <message>
         <source>Connecting to proxy...</source>
-        <translation>Connecting to proxy...</translation>
+        <translation type="unfinished">Connecting to proxy...</translation>
+    </message>
+    <message>
+        <source>Fernschreiber</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Updating content...</source>
-        <translation>Updating content...</translation>
+        <translation type="unfinished">Updating content...</translation>
     </message>
     <message>
         <source>Loading chat list...</source>
-        <translation>Loading chat list...</translation>
-    </message>
-    <message>
-        <source>Settings</source>
-        <translation>Settings</translation>
-    </message>
-    <message>
-        <source>You don&apos;t have any chats yet.</source>
-        <translation>You don&apos;t have any chats yet.</translation>
-    </message>
-    <message>
-        <source>New Chat</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Filter your chats...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Search Chats</source>
+        <source>Logging out</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1246,8 +1226,48 @@
         <translation type="unfinished">Download failed.</translation>
     </message>
     <message>
-        <source>Tap on the title bar to filter your chats</source>
+        <source>Unable to open link.</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Filter your chats...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>About Fernschreiber</source>
+        <translation type="unfinished">About Fernschreiber</translation>
+    </message>
+    <message>
+        <source>Open About app page</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation type="unfinished">Settings</translation>
+    </message>
+    <message>
+        <source>Open setting page</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Search Chats</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Open searching page</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>New Chat</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Create a new chat</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You don&apos;t have any chats yet.</source>
+        <translation type="unfinished">You don&apos;t have any chats yet.</translation>
     </message>
     <message>
         <source>No matching chats found.</source>
@@ -1258,11 +1278,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Logging out</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Unable to open link.</source>
+        <source>Tap on the title bar to filter your chats</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

@@ -1210,80 +1210,96 @@
 <context>
     <name>OverviewPage</name>
     <message>
-        <source>About Fernschreiber</source>
-        <translation>O Fernschreiber</translation>
-    </message>
-    <message>
-        <source>Fernschreiber</source>
-        <translation>Fernschreiber</translation>
-    </message>
-    <message>
         <source>Waiting for network...</source>
-        <translation>Czekanie na sieć</translation>
+        <translation type="unfinished">Oczekiwanie na sieć...</translation>
     </message>
     <message>
         <source>Connecting to network...</source>
-        <translation>Łączenie z siecią...</translation>
+        <translation type="unfinished">Łączenie z siecią...</translation>
     </message>
     <message>
         <source>Connecting to proxy...</source>
-        <translation>Łączenie z proxy</translation>
+        <translation type="unfinished">Łączenie z proxy</translation>
+    </message>
+    <message>
+        <source>Fernschreiber</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Updating content...</source>
-        <translation>Aktualizacja treści...</translation>
+        <translation type="unfinished">Aktualizacja treści...</translation>
     </message>
     <message>
         <source>Loading chat list...</source>
-        <translation>Ładowanie listy czatu...</translation>
-    </message>
-    <message>
-        <source>Settings</source>
-        <translation>Ustawienia</translation>
-    </message>
-    <message>
-        <source>You don&apos;t have any chats yet.</source>
-        <translation>Nie masz jeszcze żadnych czatów.</translation>
-    </message>
-    <message>
-        <source>New Chat</source>
-        <translation>Nowy czat</translation>
-    </message>
-    <message>
-        <source>Filter your chats...</source>
-        <translation>Filtruj swoje czaty...</translation>
-    </message>
-    <message>
-        <source>Search Chats</source>
-        <translation>Wyszukaj czaty</translation>
-    </message>
-    <message>
-        <source>Download of %1 successful.</source>
-        <translation>Pobieranie %1 zakończone sukcesem</translation>
-    </message>
-    <message>
-        <source>Download failed.</source>
-        <translation>Nieudane pobranie</translation>
-    </message>
-    <message>
-        <source>Tap on the title bar to filter your chats</source>
-        <translation>Dotknij paska tytułowego, aby filtrować swoje czaty</translation>
-    </message>
-    <message>
-        <source>No matching chats found.</source>
-        <translation>Brak pasujących czatów</translation>
-    </message>
-    <message>
-        <source>You can search public chats or create a new chat via the pull-down menu.</source>
-        <translation>Możesz przeszukiwać czaty publiczne lub utworzyć nowy czat za pomocą menu rozwijanego z góry.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Logging out</source>
-        <translation>Wylogowywanie</translation>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Download of %1 successful.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Download failed.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unable to open link.</source>
-        <translation>Nie można otworzyć linku.</translation>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Filter your chats...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>About Fernschreiber</source>
+        <translation type="unfinished">O Fernschreiber</translation>
+    </message>
+    <message>
+        <source>Open About app page</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation type="unfinished">Ustawienia</translation>
+    </message>
+    <message>
+        <source>Open setting page</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Search Chats</source>
+        <translation type="unfinished">Wyszukaj czaty</translation>
+    </message>
+    <message>
+        <source>Open searching page</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>New Chat</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Create a new chat</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You don&apos;t have any chats yet.</source>
+        <translation type="unfinished">Nie masz jeszcze żadnych czatów.</translation>
+    </message>
+    <message>
+        <source>No matching chats found.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You can search public chats or create a new chat via the pull-down menu.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Tap on the title bar to filter your chats</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

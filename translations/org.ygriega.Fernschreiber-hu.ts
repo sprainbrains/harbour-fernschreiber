@@ -1170,51 +1170,31 @@
 <context>
     <name>OverviewPage</name>
     <message>
-        <source>About Fernschreiber</source>
-        <translation>A Fernschreiber névjegye</translation>
-    </message>
-    <message>
-        <source>Fernschreiber</source>
-        <translation>Fernschreiber</translation>
-    </message>
-    <message>
         <source>Waiting for network...</source>
-        <translation>Hálózatra várakozás...</translation>
+        <translation type="unfinished">Hálózatra várakozás...</translation>
     </message>
     <message>
         <source>Connecting to network...</source>
-        <translation>Csatlakozás a hálózathoz...</translation>
+        <translation type="unfinished">Csatlakozás a hálózathoz...</translation>
     </message>
     <message>
         <source>Connecting to proxy...</source>
-        <translation>Csatlakozás a proxy-hoz...</translation>
+        <translation type="unfinished">Csatlakozás a proxy-hoz...</translation>
+    </message>
+    <message>
+        <source>Fernschreiber</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Updating content...</source>
-        <translation>Tartalom frissítése...</translation>
+        <translation type="unfinished">Tartalom frissítése...</translation>
     </message>
     <message>
         <source>Loading chat list...</source>
-        <translation>Csevegés lista betöltése...</translation>
-    </message>
-    <message>
-        <source>Settings</source>
-        <translation>Beállítások</translation>
-    </message>
-    <message>
-        <source>You don&apos;t have any chats yet.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>New Chat</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Filter your chats...</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Search Chats</source>
+        <source>Logging out</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1226,7 +1206,47 @@
         <translation type="unfinished">A letöltés nem sikerült.</translation>
     </message>
     <message>
-        <source>Tap on the title bar to filter your chats</source>
+        <source>Unable to open link.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Filter your chats...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>About Fernschreiber</source>
+        <translation type="unfinished">A Fernschreiber névjegye</translation>
+    </message>
+    <message>
+        <source>Open About app page</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation type="unfinished">Beállítások</translation>
+    </message>
+    <message>
+        <source>Open setting page</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Search Chats</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Open searching page</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>New Chat</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Create a new chat</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You don&apos;t have any chats yet.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1238,11 +1258,7 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Logging out</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
-        <source>Unable to open link.</source>
+        <source>Tap on the title bar to filter your chats</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

@@ -1190,80 +1190,96 @@
 <context>
     <name>OverviewPage</name>
     <message>
-        <source>About Fernschreiber</source>
-        <translation>Om Fernschreiber</translation>
-    </message>
-    <message>
-        <source>Fernschreiber</source>
-        <translation>Fernschreiber</translation>
-    </message>
-    <message>
         <source>Waiting for network...</source>
-        <translation>Väntar på nätverk...</translation>
+        <translation type="unfinished">Väntar på nätverket...</translation>
     </message>
     <message>
         <source>Connecting to network...</source>
-        <translation>Ansluter till nätverket...</translation>
+        <translation type="unfinished">Ansluter till nätverket...</translation>
     </message>
     <message>
         <source>Connecting to proxy...</source>
-        <translation>Ansluter till proxy...</translation>
+        <translation type="unfinished">Ansluter till proxy...</translation>
+    </message>
+    <message>
+        <source>Fernschreiber</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Updating content...</source>
-        <translation>Uppdaterar innehåll...</translation>
+        <translation type="unfinished">Uppdaterar innehåll...</translation>
     </message>
     <message>
         <source>Loading chat list...</source>
-        <translation>Läser in chattlistan...</translation>
-    </message>
-    <message>
-        <source>Settings</source>
-        <translation>Inställningar</translation>
-    </message>
-    <message>
-        <source>You don&apos;t have any chats yet.</source>
-        <translation>Du har inga chattar än.</translation>
-    </message>
-    <message>
-        <source>New Chat</source>
-        <translation>Ny chatt</translation>
-    </message>
-    <message>
-        <source>Filter your chats...</source>
-        <translation>Filtrera dina chattar...</translation>
-    </message>
-    <message>
-        <source>Search Chats</source>
-        <translation>Sök chattar</translation>
-    </message>
-    <message>
-        <source>Download of %1 successful.</source>
-        <translation>Nerladdning av %1 slutförd.</translation>
-    </message>
-    <message>
-        <source>Download failed.</source>
-        <translation>Nerladdning misslyckades.</translation>
-    </message>
-    <message>
-        <source>Tap on the title bar to filter your chats</source>
-        <translation>Tryck på titelfältet för att filtrera dina chattar</translation>
-    </message>
-    <message>
-        <source>No matching chats found.</source>
-        <translation>Ingen passande chatt hittades.</translation>
-    </message>
-    <message>
-        <source>You can search public chats or create a new chat via the pull-down menu.</source>
-        <translation>Du kan söka efter allmänna chattar eller skapa en ny chatt via toppmenyn.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Logging out</source>
-        <translation>Loggar ut</translation>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Download of %1 successful.</source>
+        <translation type="unfinished">Nerladdning av %1 slutförd.</translation>
+    </message>
+    <message>
+        <source>Download failed.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unable to open link.</source>
-        <translation>Kan inte öppna länk.</translation>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Filter your chats...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>About Fernschreiber</source>
+        <translation type="unfinished">Om Fernschreiber</translation>
+    </message>
+    <message>
+        <source>Open About app page</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation type="unfinished">Inställningar</translation>
+    </message>
+    <message>
+        <source>Open setting page</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Search Chats</source>
+        <translation type="unfinished">Sök chattar</translation>
+    </message>
+    <message>
+        <source>Open searching page</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>New Chat</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Create a new chat</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You don&apos;t have any chats yet.</source>
+        <translation type="unfinished">Du har inga chattar än.</translation>
+    </message>
+    <message>
+        <source>No matching chats found.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You can search public chats or create a new chat via the pull-down menu.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Tap on the title bar to filter your chats</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

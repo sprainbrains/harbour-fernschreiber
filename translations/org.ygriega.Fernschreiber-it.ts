@@ -1190,79 +1190,95 @@
 <context>
     <name>OverviewPage</name>
     <message>
-        <source>About Fernschreiber</source>
-        <translation>Informazioni su Fernschreiber</translation>
-    </message>
-    <message>
-        <source>Fernschreiber</source>
-        <translation>Fernschreiber</translation>
-    </message>
-    <message>
-        <source>Settings</source>
-        <translation>Impostazioni</translation>
-    </message>
-    <message>
-        <source>You don&apos;t have any chats yet.</source>
-        <translation>Non hai nessuna chat</translation>
-    </message>
-    <message>
         <source>Waiting for network...</source>
-        <translation>Attendo la rete...</translation>
+        <translation type="unfinished">Attendo la rete...</translation>
     </message>
     <message>
         <source>Connecting to network...</source>
-        <translation>Connetto alla rete...</translation>
+        <translation type="unfinished">Connetto alla rete...</translation>
     </message>
     <message>
         <source>Connecting to proxy...</source>
-        <translation>Connetto al proxy...</translation>
+        <translation type="unfinished">Connetto al proxy...</translation>
+    </message>
+    <message>
+        <source>Fernschreiber</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Updating content...</source>
-        <translation>Aggiorna contenuti...</translation>
+        <translation type="unfinished">Aggiorna contenuti...</translation>
     </message>
     <message>
         <source>Loading chat list...</source>
-        <translation>Carica lista chat...</translation>
-    </message>
-    <message>
-        <source>New Chat</source>
-        <translation>Nuova chat</translation>
-    </message>
-    <message>
-        <source>Filter your chats...</source>
-        <translation>Filtra le chat...</translation>
-    </message>
-    <message>
-        <source>Search Chats</source>
-        <translation>Ricerca chat</translation>
-    </message>
-    <message>
-        <source>Download of %1 successful.</source>
-        <translation>Download di %1 completato</translation>
-    </message>
-    <message>
-        <source>Download failed.</source>
-        <translation>Download non riuscito</translation>
-    </message>
-    <message>
-        <source>Tap on the title bar to filter your chats</source>
-        <translation>Clicca sulla barra del titolo per filtrare le tue chat</translation>
-    </message>
-    <message>
-        <source>No matching chats found.</source>
-        <translation>Nessuna chat corrispondente</translation>
-    </message>
-    <message>
-        <source>You can search public chats or create a new chat via the pull-down menu.</source>
-        <translation>Puoi creare una nuova chat o cercare chat pubbliche dal menu a trascinamento</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Logging out</source>
-        <translation>Disconnetto</translation>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Download of %1 successful.</source>
+        <translation type="unfinished">Download di %1 completato</translation>
+    </message>
+    <message>
+        <source>Download failed.</source>
+        <translation type="unfinished">Download non riuscito</translation>
     </message>
     <message>
         <source>Unable to open link.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Filter your chats...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>About Fernschreiber</source>
+        <translation type="unfinished">Informazioni su Fernschreiber</translation>
+    </message>
+    <message>
+        <source>Open About app page</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation type="unfinished">Impostazioni</translation>
+    </message>
+    <message>
+        <source>Open setting page</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Search Chats</source>
+        <translation type="unfinished">Cerca chat</translation>
+    </message>
+    <message>
+        <source>Open searching page</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>New Chat</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Create a new chat</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You don&apos;t have any chats yet.</source>
+        <translation type="unfinished">Nessuna chat presente</translation>
+    </message>
+    <message>
+        <source>No matching chats found.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You can search public chats or create a new chat via the pull-down menu.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Tap on the title bar to filter your chats</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
