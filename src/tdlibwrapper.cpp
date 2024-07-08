@@ -44,6 +44,7 @@ namespace {
     const QString STATUS("status");
     const QString ID("id");
     const QString CHAT_ID("chat_id");
+    const QString CHAT_FOLDER_ID("chat_folder_id");
     const QString MESSAGE_ID("message_id");
     const QString TYPE("type");
     const QString LAST_NAME("last_name");
@@ -132,6 +133,7 @@ void TDLibWrapper::initializeTDLibReceiver() {
     connect(this->tdLibReceiver, SIGNAL(userStatusUpdated(QString, QVariantMap)), this, SLOT(handleUserStatusUpdated(QString, QVariantMap)));
     connect(this->tdLibReceiver, SIGNAL(fileUpdated(QVariantMap)), this, SLOT(handleFileUpdated(QVariantMap)));
     connect(this->tdLibReceiver, SIGNAL(newChatDiscovered(QVariantMap)), this, SLOT(handleNewChatDiscovered(QVariantMap)));
+    connect(this->tdLibReceiver, SIGNAL(chatFolders(QVariantMap, qlonglong)), this, SLOT(handleChatFolders(QVariantMap, qlonglong)));
     connect(this->tdLibReceiver, SIGNAL(unreadMessageCountUpdated(QVariantMap)), this, SLOT(handleUnreadMessageCountUpdated(QVariantMap)));
     connect(this->tdLibReceiver, SIGNAL(unreadChatCountUpdated(QVariantMap)), this, SLOT(handleUnreadChatCountUpdated(QVariantMap)));
     connect(this->tdLibReceiver, SIGNAL(chatLastMessageUpdated(QString, QString, QVariantMap)), this, SIGNAL(chatLastMessageUpdated(QString, QString, QVariantMap)));
@@ -347,6 +349,15 @@ void TDLibWrapper::deleteChat(qlonglong chatId)
     QVariantMap requestObject;
     requestObject.insert(_TYPE, "deleteChat");
     requestObject.insert(CHAT_ID, chatId);
+    this->sendRequest(requestObject);
+}
+
+void TDLibWrapper::getChatFolder(int folderID)
+{
+    LOG("Getting chats for folder  " << folderID);
+    QVariantMap requestObject;
+    requestObject.insert(_TYPE, "getChatFolder");
+    requestObject.insert(CHAT_FOLDER_ID, folderID);
     this->sendRequest(requestObject);
 }
 
@@ -1911,6 +1922,13 @@ void TDLibWrapper::handleNewChatDiscovered(const QVariantMap &chatInformation)
     this->chats.insert(chatId, chatInformation);
     emit newChatDiscovered(chatId, chatInformation);
 }
+
+void TDLibWrapper::handelChatFolders(const QVariantMap &foldersInformation, qlonglong mainChatlistPosition)
+{
+    this->folders = foldersInformation;
+    emit chatFolders(foldersInformation, mainChatlistPosition);
+}
+
 
 void TDLibWrapper::handleChatReceived(const QVariantMap &chatInformation)
 {

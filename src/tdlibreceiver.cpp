@@ -66,6 +66,8 @@ namespace {
     const QString REPLY_IN_CHAT_ID("reply_in_chat_id");
     const QString REPLY_TO_MESSAGE_ID("reply_to_message_id");
     const QString DRAFT_MESSAGE("draft_message");
+    const QString CHAT_FOLDERS("chat_folders");
+    const QString MAIN_CHAT_LIST_POSITION_IN_FOLDERS("main_chat_list_position");
 
     const QString _TYPE("@type");
     const QString _EXTRA("@extra");
@@ -121,6 +123,7 @@ TDLibReceiver::TDLibReceiver(void *tdLibClient, QObject *parent) : QThread(paren
     handlers.insert("updateNewChat", &TDLibReceiver::processUpdateNewChat);
     handlers.insert("updateUnreadMessageCount", &TDLibReceiver::processUpdateUnreadMessageCount);
     handlers.insert("updateUnreadChatCount", &TDLibReceiver::processUpdateUnreadChatCount);
+    handlers.insert("updateChatFolders", &TDLibReceiver::processUpdateChatFolders);
     handlers.insert("updateChatLastMessage", &TDLibReceiver::processUpdateChatLastMessage);
     handlers.insert("updateChatOrder", &TDLibReceiver::processUpdateChatOrder);
     handlers.insert("updateChatPosition", &TDLibReceiver::processUpdateChatPosition);
@@ -317,6 +320,14 @@ void TDLibReceiver::processUpdateUnreadChatCount(const QVariantMap &receivedInfo
     chatCountInformation.insert("unread_unmuted_count", receivedInformation.value("unread_unmuted_count"));
     LOG("Unread chat count updated: " << chatCountInformation.value("chat_list_type").toString() << chatCountInformation.value(UNREAD_COUNT).toString());
     emit unreadChatCountUpdated(chatCountInformation);
+}
+
+void TDLibReceiver::processUpdateChatFolders(const QVariantMap &receivedInformation)
+{
+    const qlonglong mainChatPosition = receivedInformation.value(MAIN_CHAT_LIST_POSITION_IN_FOLDERS).toLongLong();
+    const QVariantMap folders(receivedInformation.value(CHAT_FOLDERS).toMap());
+    LOG("Received folder count:" << folders.count() << ", main chat list position: " << mainChatPosition);
+    emit chatFolders(folders, mainChatPosition);
 }
 
 void TDLibReceiver::processUpdateChatLastMessage(const QVariantMap &receivedInformation)

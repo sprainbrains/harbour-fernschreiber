@@ -108,7 +108,7 @@ Page {
 
     TextFilterModel {
         id: chatListProxyModel
-        sourceModel: (chatSearchField.opacity > 0) ? chatListModel : null
+        sourceModel: (chatSearchField.activeFocus) ? chatListModel : null
         filterRoleName: "filter"
         filterText: chatSearchField.text
     }
@@ -162,27 +162,27 @@ Page {
         case TelegramAPI.WaitingForNetwork:
             // pageStatus.color = "red";
             //pageHeader.title = qsTr("Waiting for network...");
-            topAppBar.headerText = qsTr("Waiting for network...");
+            topAppBar.subHeaderText = qsTr("Waiting for network...");
             break;
         case TelegramAPI.Connecting:
             // pageStatus.color = "gold";
             //pageHeader.title = qsTr("Connecting to network...");
-            topAppBar.headerText =qsTr("Connecting to network...");
+            topAppBar.subHeaderText =qsTr("Connecting to network...");
             break;
         case TelegramAPI.ConnectingToProxy:
             // pageStatus.color = "gold";
             //pageHeader.title = qsTr("Connecting to proxy...");
-            topAppBar.headerText = qsTr("Connecting to proxy...");
+            topAppBar.subHeaderText = qsTr("Connecting to proxy...");
             break;
         case TelegramAPI.ConnectionReady:
             // pageStatus.color = "green";
             //pageHeader.title = qsTr("Fernschreiber");
-            topAppBar.headerText = qsTr("Fernschreiber");
+            topAppBar.subHeaderText = qsTr("Fernschreiber");
             break;
         case TelegramAPI.Updating:
             // pageStatus.color = "lightblue";
             //pageHeader.title = qsTr("Updating content...");
-            topAppBar.headerText = qsTr("Updating content...");
+            topAppBar.subHeaderText = qsTr("Updating content...");
             break;
         }
     }
@@ -237,16 +237,16 @@ Page {
         }
     }
 
-    function resetFocus() {
-        if (chatSearchField.text === "") {
-            chatSearchField.opacity = 0.0;
-            //pageHeader.opacity = 1.0;
-            topAppBar.headerText = appName;
+//    function resetFocus() {
+//        if (chatSearchField.text === "") {
+//            chatSearchField.opacity = 0.0;
+//            //pageHeader.opacity = 1.0;
+//            topAppBar.subHeaderText = appName;
 
-        }
-        chatSearchField.focus = false;
-        overviewPage.focus = true;
-    }
+//        }
+//        chatSearchField.focus = false;
+//        overviewPage.focus = true;
+//    }
 
     Connections {
         target: tdLibWrapper
@@ -325,78 +325,48 @@ Page {
         anchors.fill: parent
         visible: !overviewPage.loading
 
-        // PageHeader {
-        //     id: pageHeader
-        //     title: qsTr("Fernschreiber")
-        //     leftMargin: Theme.itemSizeMedium
-        //     visible: opacity > 0
-        //     Behavior on opacity { FadeAnimation {} }
-
-        //     GlassItem {
-        //         id: pageStatus
-        //         width: Theme.itemSizeMedium
-        //         height: Theme.itemSizeMedium
-        //         color: "red"
-        //         falloffRadius: 0.1
-        //         radius: 0.2
-        //         cache: false
-        //     }
-
-        //     MouseArea {
-        //         anchors.fill: parent
-        //         onClicked: {
-        //             chatSearchField.focus = true;
-        //             chatSearchField.opacity = 1.0;
-        //             pageHeader.opacity = 0.0;
-        //         }
-        //     }
-
-        // }
-
-
-
         AppBar {
             id: topAppBar
-
             headerText: appName
-            minimumHeaderWidth: width / 2
+            subHeaderText: appName
             headerClickable: true
 
-            Behavior on headerText { FadeAnimation {} }
 
             onHeaderClicked: {
-                chatSearchField.focus = true;
-                chatSearchField.opacity = 1.0;
-                topAppBar.headerText =  "";
+                folderPopupMenu.open()
             }
 
-            AppBarSpacer {}
+            PopupMenu {
+                id: folderPopupMenu
 
-            SearchField {
+                PopupMenuItem {
+                    text: "All Chats"
+                }
+
+                PopupMenuItem {
+                    text: "Local"
+                }
+            }
+
+            AppBarSearchField {
                 id: chatSearchField
-                height: parent.height
-                width: parent.width - appBarMenuButton.width
-                visible: opcaity > 0
-                opacity: 0
-                Behavior on opacity { FadeAnimation {} }
+                width: parent.width / 2  - appBarMenuButton.width
                 placeholderText: qsTr("Filter your chats...")
-                canHide: text === ""
-
-                EnterKey.onClicked: {resetFocus();}
-                onHideClicked: {resetFocus();}
-
+                EnterKey.onClicked: {
+                    focus = false;
+                    overviewPage.focus = true;
+                }
             }
-
             
             AppBarSpacer {}
 
             AppBarButton {
                 id: appBarMenuButton
                 icon.source: "image://theme/icon-m-menu"
-                onClicked: mainPopup.open()
+                onClicked: mainPopupMenu.open()
 
                 PopupMenu {
-                    id: mainPopup
+                    id: mainPopupMenu
 
                     PopupMenuItem {
                         text: "Debug"
@@ -435,7 +405,6 @@ Page {
         SilicaListView {
             id: chatListView
             anchors {
-                //top: pageHeader.bottom
                 top: topAppBar.bottom
                 bottom: parent.bottom
                 left: parent.left
