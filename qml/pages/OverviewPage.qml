@@ -350,7 +350,6 @@ Page {
 
             AppBarSearchField {
                 id: chatSearchField
-                width: parent.width / 2  - appBarMenuButton.width
                 placeholderText: qsTr("Filter your chats...")
                 EnterKey.onClicked: {
                     focus = false;
