@@ -1304,6 +1304,10 @@
         <source>Tap on the title bar to filter your chats</source>
         <translation>Коснитесь строки заголовка, чтобы отфильтровать ваши чаты</translation>
     </message>
+    <message>
+        <source>All Chats</source>
+        <translation>Все чаты</translation>
+    </message>
 </context>
 <context>
     <name>PinnedMessageItem</name>

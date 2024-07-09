@@ -354,7 +354,7 @@ public slots:
     void handleUserStatusUpdated(const QString &userId, const QVariantMap &userStatusInformation);
     void handleFileUpdated(const QVariantMap &fileInformation);
     void handleNewChatDiscovered(const QVariantMap &chatInformation);
-    void handelChatFolders(const QVariantMap &foldersInformation, qlonglong mainChatlistPosition);
+    void handleChatFolders(const QVariantMap &foldersInformation, qlonglong mainChatlistPosition);
     void handleChatReceived(const QVariantMap &chatInformation);
     void handleUnreadMessageCountUpdated(const QVariantMap &messageCountInformation);
     void handleUnreadChatCountUpdated(const QVariantMap &chatCountInformation);

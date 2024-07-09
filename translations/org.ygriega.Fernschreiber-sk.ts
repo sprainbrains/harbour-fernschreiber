@@ -1301,6 +1301,10 @@
         <source>Tap on the title bar to filter your chats</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>All Chats</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>PinnedMessageItem</name>

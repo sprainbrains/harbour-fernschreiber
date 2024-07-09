@@ -1923,7 +1923,7 @@ void TDLibWrapper::handleNewChatDiscovered(const QVariantMap &chatInformation)
     emit newChatDiscovered(chatId, chatInformation);
 }
 
-void TDLibWrapper::handelChatFolders(const QVariantMap &foldersInformation, qlonglong mainChatlistPosition)
+void TDLibWrapper::handleChatFolders(const QVariantMap &foldersInformation, qlonglong mainChatlistPosition)
 {
     this->folders = foldersInformation;
     emit chatFolders(foldersInformation, mainChatlistPosition);

@@ -326,7 +326,7 @@ void TDLibReceiver::processUpdateChatFolders(const QVariantMap &receivedInformat
 {
     const qlonglong mainChatPosition = receivedInformation.value(MAIN_CHAT_LIST_POSITION_IN_FOLDERS).toLongLong();
     const QVariantMap folders(receivedInformation.value(CHAT_FOLDERS).toMap());
-    LOG("Received folder count:" << folders.count() << ", main chat list position: " << mainChatPosition);
+    LOG("Received folder:" << folders.keys() << ", main chat list position: " << mainChatPosition);
     emit chatFolders(folders, mainChatPosition);
 }
 

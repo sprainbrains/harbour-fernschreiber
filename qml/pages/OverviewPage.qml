@@ -38,6 +38,7 @@ Page {
     property int ownUserId;
     property bool chatListCreated: false;
     property string appName: qsTr("Fernschreiber");
+    property string allChat: qsTr("All Chats");
 
     // link handler:
     property string urlToOpen;
@@ -237,16 +238,17 @@ Page {
         }
     }
 
-//    function resetFocus() {
-//        if (chatSearchField.text === "") {
-//            chatSearchField.opacity = 0.0;
-//            //pageHeader.opacity = 1.0;
-//            topAppBar.subHeaderText = appName;
+    PopupMenu {
+        id: folderPopupMenu
 
-//        }
-//        chatSearchField.focus = false;
-//        overviewPage.focus = true;
-//    }
+        PopupMenuItem {
+            text: "All Chats"
+        }
+
+        PopupMenuItem {
+            text: "Local"
+        }
+    }
 
     Connections {
         target: tdLibWrapper
@@ -327,30 +329,17 @@ Page {
 
         AppBar {
             id: topAppBar
-            headerText: appName
+            headerText: allChat
             subHeaderText: appName
             headerClickable: true
 
-
             onHeaderClicked: {
-                folderPopupMenu.open()
+                folderPopupMenu.open(topAppBar)
             }
 
-            PopupMenu {
-                id: folderPopupMenu
-
-                PopupMenuItem {
-                    text: "All Chats"
-                }
-
-                PopupMenuItem {
-                    text: "Local"
-                }
-            }
 
             AppBarSearchField {
                 id: chatSearchField
-                width: parent.width / 2  - appBarMenuButton.width
                 placeholderText: qsTr("Filter your chats...")
                 EnterKey.onClicked: {
                     focus = false;

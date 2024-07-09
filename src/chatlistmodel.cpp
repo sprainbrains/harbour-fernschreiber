@@ -56,6 +56,8 @@ namespace {
     const QString PINNED_MESSAGE_ID("pinned_message_id");
     const QString _TYPE("@type");
     const QString SECRET_CHAT_ID("secret_chat_id");
+    const QString CHAT_FOLDERS("chat_folders");
+    const QString MAIN_CHAT_LIST_POSITION_IN_FOLDERS("main_chat_list_position");
 }
 
 class ChatListModel::ChatData
@@ -427,7 +429,7 @@ ChatListModel::ChatListModel(TDLibWrapper *tdLibWrapper, AppSettings *appSetting
     connect(tdLibWrapper, SIGNAL(chatUnreadMentionCountUpdated(qlonglong, int)), this, SLOT(handleChatUnreadMentionCountUpdated(qlonglong, int)));
     connect(tdLibWrapper, SIGNAL(chatUnreadReactionCountUpdated(qlonglong, int)), this, SLOT(handleChatUnreadReactionCountUpdated(qlonglong, int)));
     connect(tdLibWrapper, SIGNAL(chatAvailableReactionsUpdated(qlonglong,QVariantMap)), this, SLOT(handleChatAvailableReactionsUpdated(qlonglong,QVariantMap)));
-
+    connect(tdLibWrapper, SIGNAL(chatFolders(QVariantMap, qlonglong)), this, SLOT(handleChatFolders(QVariantMap, qlonglong)));
     // Don't start the timer until we have at least one chat
     relativeTimeRefreshTimer = new QTimer(this);
     relativeTimeRefreshTimer->setSingleShot(false);
@@ -487,6 +489,8 @@ QHash<int,QByteArray> ChatListModel::roleNames() const
     roles.insert(ChatListModel::RoleFilter, "filter");
     roles.insert(ChatListModel::RoleDraftMessageDate, "draft_message_date");
     roles.insert(ChatListModel::RoleDraftMessageText, "draft_message_text");
+    roles.insert(ChatListModel::RoleChatFoldersList, "chat_folders");
+    roles.insert(ChatListModel::RoleMainChatPositionId, "main_chats_folder_position");
     return roles;
 }
 
@@ -1101,4 +1105,10 @@ void ChatListModel::handleRelativeTimeRefreshTimer()
     roles.append(ChatListModel::RoleLastMessageDate);
     roles.append(ChatListModel::RoleLastMessageStatus);
     emit dataChanged(index(0), index(chatList.size() - 1), roles);
+}
+
+void ChatListModel::handleChatFolders(const QVariantMap &foldersInformation, qlonglong mainChatlistPosition)
+{
+    LOG("Updating available chat Folders" << foldersInformation << "with main Chatlist position" << mainChatlistPosition);
+
 }

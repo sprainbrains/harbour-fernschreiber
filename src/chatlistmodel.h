@@ -56,7 +56,9 @@ public:
         RoleIsPinned,
         RoleFilter,
         RoleDraftMessageText,
-        RoleDraftMessageDate
+        RoleDraftMessageDate,
+        RoleChatFoldersList,
+        RoleMainChatPositionId
     };
 
     ChatListModel(TDLibWrapper *tdLibWrapper, AppSettings *appSettings);
@@ -97,6 +99,7 @@ private slots:
     void handleChatUnreadReactionCountUpdated(qlonglong chatId, int unreadReactionCount);
     void handleChatAvailableReactionsUpdated(qlonglong chatId, const QVariantMap availableReactions);
     void handleRelativeTimeRefreshTimer();
+    void handleChatFolders(const QVariantMap &foldersInformation, qlonglong mainChatlistPosition);
 
 signals:
     void countChanged();
@@ -118,6 +121,7 @@ private:
     AppSettings *appSettings;
     QTimer *relativeTimeRefreshTimer;
     QList<ChatData*> chatList;
+    QHash<qlonglong, QString> chatFolders;
     QHash<qlonglong,int> chatIndexMap;
     QHash<qlonglong,ChatData*> hiddenChats;
     bool showHiddenChats;
