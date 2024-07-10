@@ -238,18 +238,6 @@ Page {
         }
     }
 
-    PopupMenu {
-        id: folderPopupMenu
-
-        PopupMenuItem {
-            text: "All Chats"
-        }
-
-        PopupMenuItem {
-            text: "Local"
-        }
-    }
-
     Connections {
         target: tdLibWrapper
         onAuthorizationStateChanged: {
@@ -327,6 +315,17 @@ Page {
         anchors.fill: parent
         visible: !overviewPage.loading
 
+        PopupMenu {
+            id: folderPopupMenu
+
+            model: chatListModel.getChatFolders()
+
+            delegate:
+                PopupMenuItem {
+                    text: modelData
+                }
+        }
+
         AppBar {
             id: topAppBar
             headerText: allChat
@@ -346,7 +345,7 @@ Page {
                     overviewPage.focus = true;
                 }
             }
-            
+
             AppBarSpacer {}
 
             AppBarButton {

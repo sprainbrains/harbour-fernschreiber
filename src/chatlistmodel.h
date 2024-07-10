@@ -75,6 +75,8 @@ public:
 
     Q_INVOKABLE void calculateUnreadState();
 
+    Q_INVOKABLE QStringList getChatFolders();
+
     bool showAllChats() const;
     void setShowAllChats(bool showAll);
     ChatListModel* clone();
@@ -99,7 +101,7 @@ private slots:
     void handleChatUnreadReactionCountUpdated(qlonglong chatId, int unreadReactionCount);
     void handleChatAvailableReactionsUpdated(qlonglong chatId, const QVariantMap availableReactions);
     void handleRelativeTimeRefreshTimer();
-    void handleChatFolders(const QVariantMap &foldersInformation, qlonglong mainChatlistPosition);
+    void handleChatFolders(const QVariantList &foldersInformation, qlonglong mainChatlistPosition);
 
 signals:
     void countChanged();
@@ -115,6 +117,8 @@ private:
     void updateSecretChatVisibility(const QVariantMap secretChatDetails);
     int updateChatOrder(int chatIndex);
     void enableRefreshTimer();
+    QStringList chatFolderList() const;
+    qlonglong mainAllChatFolderPosition;
 
 private:
     TDLibWrapper *tdLibWrapper;
