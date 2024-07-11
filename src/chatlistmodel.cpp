@@ -489,7 +489,7 @@ QHash<int,QByteArray> ChatListModel::roleNames() const
     roles.insert(ChatListModel::RoleFilter, "filter");
     roles.insert(ChatListModel::RoleDraftMessageDate, "draft_message_date");
     roles.insert(ChatListModel::RoleDraftMessageText, "draft_message_text");
-    roles.insert(ChatListModel::RoleChatFoldersList, "chat_folders");
+    roles.insert(ChatListModel::RoleChatFoldersList, "chat_folder");
     roles.insert(ChatListModel::RoleMainChatPositionId, "main_chats_folder_position");
     return roles;
 }
@@ -643,7 +643,7 @@ void ChatListModel::calculateUnreadState()
 
 QStringList ChatListModel::getChatFolders()
 {
-    return chatFolders.values();
+    return chatFolderList();
 }
 
 void ChatListModel::addVisibleChat(ChatData *chat)

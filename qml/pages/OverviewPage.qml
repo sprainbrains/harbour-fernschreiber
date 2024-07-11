@@ -320,10 +320,11 @@ Page {
 
             model: chatListModel.getChatFolders()
 
-            delegate:
+            Repeater {
                 PopupMenuItem {
                     text: modelData
                 }
+            }
         }
 
         AppBar {
