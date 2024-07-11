@@ -239,6 +239,14 @@ Page {
     }
 
     Connections {
+        target: chatListModel
+        onChatFoldersChanged: {
+            //chatFolders
+            repeaterFolderPopupMenu.push();
+        }
+    }
+
+    Connections {
         target: tdLibWrapper
         onAuthorizationStateChanged: {
             handleAuthorizationState(false);
@@ -308,24 +316,26 @@ Page {
         initializePage();
     }
 
+    PopupMenu {
+        id: folderPopupMenu
+
+        Repeater {
+            id: repeaterFolderPopupMenu
+
+            model: chatListModel.chatFolder
+
+            PopupMenuItem {
+                text: modelData
+            }
+        }
+    }
+
     SilicaFlickable {
         id: overviewContainer
         contentHeight: parent.height
         contentWidth: parent.width
         anchors.fill: parent
         visible: !overviewPage.loading
-
-        PopupMenu {
-            id: folderPopupMenu
-
-            model: chatListModel.getChatFolders()
-
-            Repeater {
-                PopupMenuItem {
-                    text: modelData
-                }
-            }
-        }
 
         AppBar {
             id: topAppBar

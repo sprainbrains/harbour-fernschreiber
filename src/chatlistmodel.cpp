@@ -641,11 +641,6 @@ void ChatListModel::calculateUnreadState()
     }
 }
 
-QStringList ChatListModel::getChatFolders()
-{
-    return chatFolderList();
-}
-
 void ChatListModel::addVisibleChat(ChatData *chat)
 {
     const int n = chatList.size();
@@ -1129,19 +1124,20 @@ void ChatListModel::handleChatFolders(const QVariantList &foldersInformation, ql
     mainAllChatFolderPosition = mainChatlistPosition;
     for (const auto&folder: foldersInformation) {
         auto map = folder.toMap();
-        qlonglong id = map.value("id").toLongLong();
+        QString id = map.value("id").toString();
         QString title = map.value("title").toString();
         LOG("id: " << id << ", title: " << title);
         if (positionIndex == mainChatlistPosition) {
-            id = -1;
+            id = QString("-1");
             title = QString("All chats");
         }
         this->chatFolders.insert(id, title);
         ++positionIndex;
     }
+    emit chatFoldersChanged(this->chatFolders);
 }
 
-QStringList ChatListModel::chatFolderList() const
+QVariantList ChatListModel::chatFolderList() const
 {
     return chatFolders.values();
 }
