@@ -43,6 +43,7 @@ Page {
     // link handler:
     property string urlToOpen;
     property var chatToOpen: null; //null or [chatId, messageId]
+    property var chatFolderList: chatListModel.chatFolders
 
     onStatusChanged: {
         if (status === PageStatus.Active && initializationCompleted && !chatListCreated && !logoutLoading) {
@@ -238,6 +239,15 @@ Page {
         }
     }
 
+    Connections {
+        target: chatListModel
+        onChatFoldersChanged: {
+            //Debug
+            console.log("onChatFolderChanged: ");
+            console.log(chatFolders);
+
+        }
+    }
 
     Connections {
         target: tdLibWrapper
@@ -309,20 +319,6 @@ Page {
         initializePage();
     }
 
-    PopupMenu {
-        id: folderPopupMenu
-
-        Repeater {
-            id: repeaterFolderPopupMenu
-
-            model: chatListModel.chatFolder
-
-            PopupMenuItem {
-                text: modelData
-            }
-        }
-    }
-
     SilicaFlickable {
         id: overviewContainer
         contentHeight: parent.height
@@ -338,6 +334,21 @@ Page {
 
             onHeaderClicked: {
                 folderPopupMenu.open(topAppBar)
+            }
+
+
+            PopupMenu {
+                id: folderPopupMenu
+
+                Repeater {
+                    id: repeaterFolderPopupMenu
+                    model: chatFolderList
+
+                    PopupMenuItem {
+                        text: modelData
+                        onClicked: topAppBar.headerText = text
+                    }
+                }
             }
 
 
