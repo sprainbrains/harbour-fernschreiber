@@ -29,7 +29,7 @@ class ChatListModel : public QAbstractListModel
     Q_OBJECT
     Q_PROPERTY(bool showAllChats READ showAllChats WRITE setShowAllChats NOTIFY showAllChatsChanged)
     Q_PROPERTY(int count READ rowCount NOTIFY countChanged)
-    Q_PROPERTY(QVariantList chatFolders READ chatFolderList)
+    Q_PROPERTY(QVariantList chatFolders READ chatFolderList NOTIFY chatFoldersChanged)
 
 public:
 

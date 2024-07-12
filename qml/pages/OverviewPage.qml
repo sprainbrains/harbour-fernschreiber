@@ -238,13 +238,6 @@ Page {
         }
     }
 
-    Connections {
-        target: chatListModel
-        onChatFoldersChanged: {
-            //chatFolders
-            repeaterFolderPopupMenu.push();
-        }
-    }
 
     Connections {
         target: tdLibWrapper
