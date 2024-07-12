@@ -502,13 +502,6 @@ int ChatListModel::rowCount(const QModelIndex &) const
 QVariant ChatListModel::data(const QModelIndex &index, int role) const
 {
     const int row = index.row();
-//    if ((ChatListModel::Role)role == ChatListModel::RoleChatFoldersList) {
-//        if (row >= 0 && row < chatFolderList().size())
-//            return this->chatFolderList().at(row);
-//        else
-//            return QVariant();
-//    }
-
     if (row >= 0 && row < chatList.size()) {
         const ChatData *data = chatList.at(row);
         switch ((ChatListModel::Role)role) {
@@ -536,7 +529,7 @@ QVariant ChatListModel::data(const QModelIndex &index, int role) const
         case ChatListModel::RoleFilter: return data->title() + " " + data->senderMessageText();
         case ChatListModel::RoleDraftMessageText: return data->draftMessageText();
         case ChatListModel::RoleDraftMessageDate: return data->draftMessageDate();
-        case ChatListModel::RoleChatFoldersList: if (row < chatFolderList().size()) return this->chatFolderList().at(row); break;
+        case ChatListModel::RoleChatFoldersList: return this->chatFolderList().at(row);
         case ChatListModel::RoleMainChatPositionId: return mainAllChatFolderPosition;
         }
     }
@@ -1131,13 +1124,14 @@ void ChatListModel::handleChatFolders(const QVariantList &foldersInformation, ql
             id = QString("-1");
             title = QString("All chats");
         }
-        this->chatFolders.insert(id, title);
+        chatFolders.insert(id, title);
+        chatFolderTitles.push_back(title);
         ++positionIndex;
     }
-    emit chatFoldersChanged(this->chatFolders);
+    emit chatFoldersChanged(chatFolders);
 }
 
 QVariantList ChatListModel::chatFolderList() const
 {
-    return chatFolders.values();
+    return chatFolderTitles;
 }

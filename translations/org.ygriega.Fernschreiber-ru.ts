@@ -1308,6 +1308,10 @@
         <source>All Chats</source>
         <translation>Все чаты</translation>
     </message>
+    <message>
+        <source>Unread chats count</source>
+        <translation>Кол-во непрочитанных чатов</translation>
+    </message>
 </context>
 <context>
     <name>PinnedMessageItem</name>

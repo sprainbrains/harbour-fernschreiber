@@ -126,6 +126,7 @@ private:
     QTimer *relativeTimeRefreshTimer;
     QList<ChatData*> chatList;
     QVariantMap chatFolders;
+    QVariantList chatFolderTitles;
     QHash<qlonglong,int> chatIndexMap;
     QHash<qlonglong,ChatData*> hiddenChats;
     bool showHiddenChats;

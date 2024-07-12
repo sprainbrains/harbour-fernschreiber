@@ -39,6 +39,7 @@ Page {
     property bool chatListCreated: false;
     property string appName: qsTr("Fernschreiber");
     property string allChat: qsTr("All Chats");
+    property string unreadChatsInFolder: qsTr("Unread chats count")
 
     // link handler:
     property string urlToOpen;
@@ -243,9 +244,8 @@ Page {
         target: chatListModel
         onChatFoldersChanged: {
             //Debug
-            console.log("onChatFolderChanged: ");
-            console.log(chatFolders);
-
+            //console.log("onChatFolderChanged: ");
+            //console.log(chatFolders);
         }
     }
 
@@ -328,7 +328,9 @@ Page {
 
         AppBar {
             id: topAppBar
-            headerText: allChat
+            property string appBarHeaderText: folderPopupMenu.items[0].text
+            headerText: appBarHeaderText === ""? allChat : appBarHeaderText
+
             subHeaderText: appName
             headerClickable: true
 
@@ -346,11 +348,11 @@ Page {
 
                     PopupMenuItem {
                         text: modelData
+                        hint: unreadChatsInFolder + ":"
                         onClicked: topAppBar.headerText = text
                     }
                 }
             }
-
 
             AppBarSearchField {
                 id: chatSearchField

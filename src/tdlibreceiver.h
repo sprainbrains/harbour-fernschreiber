@@ -47,6 +47,7 @@ signals:
     void fileUpdated(const QVariantMap &fileInformation);
     void newChatDiscovered(const QVariantMap &chatInformation);
     void chatFolders(const QVariantList &foldersInformation, qlonglong mainChatlistPosition);
+    void chatFolder(const QVariantMap &chatFolderInformation);
     void unreadMessageCountUpdated(const QVariantMap &messageCountInformation);
     void unreadChatCountUpdated(const QVariantMap &chatCountInformation);
     void chatLastMessageUpdated(const QString &chatId, const QString &order, const QVariantMap &lastMessage);
@@ -136,6 +137,7 @@ private:
     void processUpdateUnreadMessageCount(const QVariantMap &receivedInformation);
     void processUpdateUnreadChatCount(const QVariantMap &receivedInformation);
     void processUpdateChatFolders(const QVariantMap &receivedInformation);
+    void processChatFolder(const QVariantMap &chatFolderInformation);
     void processUpdateChatLastMessage(const QVariantMap &receivedInformation);
     void processUpdateChatOrder(const QVariantMap &receivedInformation);
     void processUpdateChatPosition(const QVariantMap &receivedInformation);

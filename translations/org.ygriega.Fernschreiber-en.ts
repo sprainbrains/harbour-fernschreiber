@@ -1287,6 +1287,10 @@ messages</numerusform>
         <source>All Chats</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Unread chats count</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>PinnedMessageItem</name>

@@ -166,7 +166,7 @@ public:
     Q_INVOKABLE void registerUser(const QString &firstName, const QString &lastName);
     Q_INVOKABLE void logout();
     Q_INVOKABLE void getChats();
-    Q_INVOKABLE void getChatFolder(int folderID);
+    Q_INVOKABLE void getChatFolder(qlonglong folderID);
     Q_INVOKABLE void downloadFile(int fileId);
     Q_INVOKABLE void openChat(const QString &chatId);
     Q_INVOKABLE void closeChat(const QString &chatId);

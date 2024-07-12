@@ -154,6 +154,7 @@ TDLibReceiver::TDLibReceiver(void *tdLibClient, QObject *parent) : QThread(paren
     handlers.insert("stickerSets", &TDLibReceiver::processStickerSets);
     handlers.insert("stickerSet", &TDLibReceiver::processStickerSet);
     handlers.insert("chatMembers", &TDLibReceiver::processChatMembers);
+    handlers.insert("chatFolder", &TDLibReceiver::processChatFolder);
     handlers.insert("userFullInfo", &TDLibReceiver::processUserFullInfo);
     handlers.insert("updateUserFullInfo", &TDLibReceiver::processUpdateUserFullInfo);
     handlers.insert("basicGroupFullInfo", &TDLibReceiver::processBasicGroupFullInfo);
@@ -328,6 +329,12 @@ void TDLibReceiver::processUpdateChatFolders(const QVariantMap &receivedInformat
     const QVariantList folders(receivedInformation.value(CHAT_FOLDERS).toList());
     LOG("Received folder:" << folders.count() << ", main chat list position: " << mainChatPosition);
     emit chatFolders(folders, mainChatPosition);
+}
+
+void TDLibReceiver::processChatFolder(const QVariantMap &chatFolderInformation)
+{
+    LOG("Received chatFolder information");
+    emit chatFolder(chatFolderInformation);
 }
 
 void TDLibReceiver::processUpdateChatLastMessage(const QVariantMap &receivedInformation)

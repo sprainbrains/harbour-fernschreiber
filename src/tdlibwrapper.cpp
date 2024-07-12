@@ -352,7 +352,7 @@ void TDLibWrapper::deleteChat(qlonglong chatId)
     this->sendRequest(requestObject);
 }
 
-void TDLibWrapper::getChatFolder(int folderID)
+void TDLibWrapper::getChatFolder(qlonglong folderID)
 {
     LOG("Getting chats for folder  " << folderID);
     QVariantMap requestObject;
@@ -1926,6 +1926,14 @@ void TDLibWrapper::handleNewChatDiscovered(const QVariantMap &chatInformation)
 void TDLibWrapper::handleChatFolders(const QVariantList &foldersInformation, qlonglong mainChatlistPosition)
 {
     this->folders = foldersInformation;
+    QString list;
+    for(const auto &folder: foldersInformation) {
+        list.append(" ");
+        list.append(folder.toMap().value("title").toString());
+        //getChatFolder(folder.toMap().value("id").toLongLong());
+    }
+    LOG("Got chatlist information" << list);
+
     emit chatFolders(foldersInformation, mainChatlistPosition);
 }
 
