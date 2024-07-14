@@ -275,6 +275,7 @@ signals:
     void fileUpdated(int fileId, const QVariantMap &fileInformation);
     void newChatDiscovered(const QString &chatId, const QVariantMap &chatInformation);
     void chatFolders(const QVariantList &folders, qlonglong mainChatlistPosition);
+    void chatFolder(const QVariantMap &chatFolderInformation);
     void unreadMessageCountUpdated(const QVariantMap &messageCountInformation);
     void unreadChatCountUpdated(const QVariantMap &chatCountInformation);
     void chatLastMessageUpdated(const QString &chatId, const QString &order, const QVariantMap &lastMessage);
@@ -355,6 +356,7 @@ public slots:
     void handleFileUpdated(const QVariantMap &fileInformation);
     void handleNewChatDiscovered(const QVariantMap &chatInformation);
     void handleChatFolders(const QVariantList &foldersInformation, qlonglong mainChatlistPosition);
+    void handleChatFolder(const QVariantMap &chatFolderInforamtion);
     void handleChatReceived(const QVariantMap &chatInformation);
     void handleUnreadMessageCountUpdated(const QVariantMap &messageCountInformation);
     void handleUnreadChatCountUpdated(const QVariantMap &chatCountInformation);
@@ -407,7 +409,6 @@ private:
     QVariantMap usersById;
     QVariantMap usersByName;
     QVariantMap chats;
-    QVariantList folders;
     QMap<qlonglong, QVariantMap> secretChats;
     QVariantMap unreadMessageInformation;
     QVariantMap unreadChatInformation;

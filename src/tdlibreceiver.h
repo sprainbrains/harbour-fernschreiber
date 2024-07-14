@@ -46,8 +46,8 @@ signals:
     void userStatusUpdated(const QString &userId, const QVariantMap &userStatusInformation);
     void fileUpdated(const QVariantMap &fileInformation);
     void newChatDiscovered(const QVariantMap &chatInformation);
-    void chatFolders(const QVariantList &foldersInformation, qlonglong mainChatlistPosition);
-    void chatFolder(const QVariantMap &chatFolderInformation);
+    void updateChatFolders(const QVariantList &foldersInformation, qlonglong mainChatlistPosition);
+    void gotChatFolder(const QVariantMap &chatFolderInformation);
     void unreadMessageCountUpdated(const QVariantMap &messageCountInformation);
     void unreadChatCountUpdated(const QVariantMap &chatCountInformation);
     void chatLastMessageUpdated(const QString &chatId, const QString &order, const QVariantMap &lastMessage);

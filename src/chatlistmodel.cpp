@@ -405,7 +405,9 @@ ChatListModel::ChatData* ChatListModel::ChatData::clone() {
     return res;
 }
 
-ChatListModel::ChatListModel(TDLibWrapper *tdLibWrapper, AppSettings *appSettings) : showHiddenChats(false)
+ChatListModel::ChatListModel(TDLibWrapper *tdLibWrapper, AppSettings *appSettings) :
+    showHiddenChats(false),
+    selectedFolder("All Chats")
 {
     this->tdLibWrapper = tdLibWrapper;
     this->appSettings = appSettings;
@@ -430,6 +432,8 @@ ChatListModel::ChatListModel(TDLibWrapper *tdLibWrapper, AppSettings *appSetting
     connect(tdLibWrapper, SIGNAL(chatUnreadReactionCountUpdated(qlonglong, int)), this, SLOT(handleChatUnreadReactionCountUpdated(qlonglong, int)));
     connect(tdLibWrapper, SIGNAL(chatAvailableReactionsUpdated(qlonglong,QVariantMap)), this, SLOT(handleChatAvailableReactionsUpdated(qlonglong,QVariantMap)));
     connect(tdLibWrapper, SIGNAL(chatFolders(QVariantList, qlonglong)), this, SLOT(handleChatFolders(QVariantList, qlonglong)));
+    connect(tdLibWrapper, SIGNAL(chatFolder(QVariantMap)), this, SLOT(handleChatFolderInformation(QVariantMap)));
+
     // Don't start the timer until we have at least one chat
     relativeTimeRefreshTimer = new QTimer(this);
     relativeTimeRefreshTimer->setSingleShot(false);
@@ -529,7 +533,7 @@ QVariant ChatListModel::data(const QModelIndex &index, int role) const
         case ChatListModel::RoleFilter: return data->title() + " " + data->senderMessageText();
         case ChatListModel::RoleDraftMessageText: return data->draftMessageText();
         case ChatListModel::RoleDraftMessageDate: return data->draftMessageDate();
-        case ChatListModel::RoleChatFoldersList: return this->chatFolderList().at(row);
+        case ChatListModel::RoleChatFoldersList: return this->getChatFolderList().at(row);
         case ChatListModel::RoleMainChatPositionId: return mainAllChatFolderPosition;
         }
     }
@@ -632,6 +636,13 @@ void ChatListModel::calculateUnreadState()
         LOG("Online-only mode: New unread state:" << unreadMessages << unreadChats);
         emit unreadStateChanged(unreadMessages, unreadChats);
     }
+}
+
+void ChatListModel::setSelectedFolderName(QString title)
+{
+    selectedFolder = title;
+    LOG("Select chat folder: " << selectedFolder);
+    //set choosen chats
 }
 
 void ChatListModel::addVisibleChat(ChatData *chat)
@@ -1122,16 +1133,34 @@ void ChatListModel::handleChatFolders(const QVariantList &foldersInformation, ql
         LOG("id: " << id << ", title: " << title);
         if (positionIndex == mainChatlistPosition) {
             id = QString("-1");
-            title = QString("All chats");
+            title = QString("All Chats");
         }
         chatFolders.insert(id, title);
         chatFolderTitles.push_back(title);
         ++positionIndex;
     }
+
+    if (mainChatlistPosition >= foldersInformation.count()) {
+        chatFolders.insert("-1", "All Chats");
+        chatFolderTitles.push_back("All Chats");
+    }
+
     emit chatFoldersChanged(chatFolders);
 }
 
-QVariantList ChatListModel::chatFolderList() const
+void ChatListModel::handleChatFolderInformation(const QVariantMap &chatFolderInformation)
+{
+    QString title = chatFolderInformation.value("title").toString();
+    if (chatFolderList.keys().contains(title)) {
+        auto it = chatFolderList.find(title);
+        if (it != chatFolderList.end())
+            chatFolderList.erase(it);
+    }
+    chatFolderList.insert(title, chatFolderInformation);
+    emit chatFolderInforamtionChanged(chatFolderList);
+}
+
+QVariantList ChatListModel::getChatFolderList() const
 {
     return chatFolderTitles;
 }

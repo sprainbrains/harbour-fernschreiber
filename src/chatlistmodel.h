@@ -29,7 +29,7 @@ class ChatListModel : public QAbstractListModel
     Q_OBJECT
     Q_PROPERTY(bool showAllChats READ showAllChats WRITE setShowAllChats NOTIFY showAllChatsChanged)
     Q_PROPERTY(int count READ rowCount NOTIFY countChanged)
-    Q_PROPERTY(QVariantList chatFolders READ chatFolderList NOTIFY chatFoldersChanged)
+    Q_PROPERTY(QVariantList chatFolders READ getChatFolderList NOTIFY chatFoldersChanged)
 
 public:
 
@@ -75,6 +75,7 @@ public:
     Q_INVOKABLE void reset();
 
     Q_INVOKABLE void calculateUnreadState();
+    Q_INVOKABLE void setSelectedFolderName(QString title);
 
     bool showAllChats() const;
     void setShowAllChats(bool showAll);
@@ -101,6 +102,7 @@ private slots:
     void handleChatAvailableReactionsUpdated(qlonglong chatId, const QVariantMap availableReactions);
     void handleRelativeTimeRefreshTimer();
     void handleChatFolders(const QVariantList &foldersInformation, qlonglong mainChatlistPosition);
+    void handleChatFolderInformation(const QVariantMap &chatFolderInformation);
 
 signals:
     void countChanged();
@@ -109,6 +111,7 @@ signals:
     void chatJoined(const qlonglong &chatId, const QString &chatTitle);
     void unreadStateChanged(int unreadMessagesCount, int unreadChatsCount);
     void chatFoldersChanged(const QVariantMap &chatFolders);
+    void chatFolderInforamtionChanged(const QVariantMap &chatFolderInforamtion);
 
 private:
     class ChatData;
@@ -117,7 +120,7 @@ private:
     void updateSecretChatVisibility(const QVariantMap secretChatDetails);
     int updateChatOrder(int chatIndex);
     void enableRefreshTimer();
-    QVariantList chatFolderList() const;
+    QVariantList getChatFolderList() const;
     qlonglong mainAllChatFolderPosition;
 
 private:
@@ -127,9 +130,11 @@ private:
     QList<ChatData*> chatList;
     QVariantMap chatFolders;
     QVariantList chatFolderTitles;
+    QVariantMap chatFolderList;
     QHash<qlonglong,int> chatIndexMap;
     QHash<qlonglong,ChatData*> hiddenChats;
     bool showHiddenChats;
+    QString selectedFolder;
 };
 
 #endif // CHATLISTMODEL_H

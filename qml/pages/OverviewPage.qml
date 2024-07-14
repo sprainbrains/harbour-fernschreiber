@@ -247,6 +247,9 @@ Page {
             //console.log("onChatFolderChanged: ");
             //console.log(chatFolders);
         }
+        onUnreadStateChanged: {
+            //debug
+        }
     }
 
     Connections {
@@ -334,10 +337,8 @@ Page {
             subHeaderText: appName
             headerClickable: true
 
-            onHeaderClicked: {
-                folderPopupMenu.open(topAppBar)
-            }
-
+            onHeaderClicked: folderPopupMenu.open(topAppBar)
+            onHeaderTextChanged: chatListModel.setSelectedFolderName(text)
 
             PopupMenu {
                 id: folderPopupMenu
@@ -347,9 +348,11 @@ Page {
                     model: chatFolderList
 
                     PopupMenuItem {
-                        text: modelData
+                        text: modelData === "All Chats"? allChat : modelData
                         hint: unreadChatsInFolder + ":"
-                        onClicked: topAppBar.headerText = text
+                        onClicked: {
+                            topAppBar.headerText = text;
+                        }
                     }
                 }
             }

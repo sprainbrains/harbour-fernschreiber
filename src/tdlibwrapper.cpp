@@ -133,7 +133,7 @@ void TDLibWrapper::initializeTDLibReceiver() {
     connect(this->tdLibReceiver, SIGNAL(userStatusUpdated(QString, QVariantMap)), this, SLOT(handleUserStatusUpdated(QString, QVariantMap)));
     connect(this->tdLibReceiver, SIGNAL(fileUpdated(QVariantMap)), this, SLOT(handleFileUpdated(QVariantMap)));
     connect(this->tdLibReceiver, SIGNAL(newChatDiscovered(QVariantMap)), this, SLOT(handleNewChatDiscovered(QVariantMap)));
-    connect(this->tdLibReceiver, SIGNAL(chatFolders(QVariantList, qlonglong)), this, SLOT(handleChatFolders(QVariantList, qlonglong)));
+    connect(this->tdLibReceiver, SIGNAL(updateChatFolders(QVariantList, qlonglong)), this, SLOT(handleChatFolders(QVariantList, qlonglong)));
     connect(this->tdLibReceiver, SIGNAL(unreadMessageCountUpdated(QVariantMap)), this, SLOT(handleUnreadMessageCountUpdated(QVariantMap)));
     connect(this->tdLibReceiver, SIGNAL(unreadChatCountUpdated(QVariantMap)), this, SLOT(handleUnreadChatCountUpdated(QVariantMap)));
     connect(this->tdLibReceiver, SIGNAL(chatLastMessageUpdated(QString, QString, QVariantMap)), this, SIGNAL(chatLastMessageUpdated(QString, QString, QVariantMap)));
@@ -197,6 +197,7 @@ void TDLibWrapper::initializeTDLibReceiver() {
     connect(this->tdLibReceiver, SIGNAL(chatUnreadMentionCountUpdated(qlonglong, int)), this, SIGNAL(chatUnreadMentionCountUpdated(qlonglong, int)));
     connect(this->tdLibReceiver, SIGNAL(chatUnreadReactionCountUpdated(qlonglong, int)), this, SIGNAL(chatUnreadReactionCountUpdated(qlonglong, int)));
     connect(this->tdLibReceiver, SIGNAL(activeEmojiReactionsUpdated(QStringList)), this, SLOT(handleActiveEmojiReactionsUpdated(QStringList)));
+    connect(this->tdLibReceiver, SIGNAL(gotChatFolder(QVarianMap)), this, SLOT(handleChatFolder(QVariantMap)));
 
     this->tdLibReceiver->start();
 }
@@ -1925,16 +1926,21 @@ void TDLibWrapper::handleNewChatDiscovered(const QVariantMap &chatInformation)
 
 void TDLibWrapper::handleChatFolders(const QVariantList &foldersInformation, qlonglong mainChatlistPosition)
 {
-    this->folders = foldersInformation;
     QString list;
     for(const auto &folder: foldersInformation) {
         list.append(" ");
         list.append(folder.toMap().value("title").toString());
-        //getChatFolder(folder.toMap().value("id").toLongLong());
+        getChatFolder(folder.toMap().value("id").toLongLong());
     }
     LOG("Got chatlist information" << list);
 
     emit chatFolders(foldersInformation, mainChatlistPosition);
+}
+
+void TDLibWrapper::handleChatFolder(const QVariantMap &chatFolderInforamtion)
+{
+    LOG("Got ChatFolder information");
+    emit chatFolder(chatFolderInforamtion);
 }
 
 
