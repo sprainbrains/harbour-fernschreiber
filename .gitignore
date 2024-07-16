@@ -60,3 +60,6 @@ tdlibsecrets.h
 
 #vscode 
 .vscode
+
+#Mac OS tmp folders file
+*.DS_Store
