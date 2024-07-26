@@ -1123,7 +1123,8 @@ void ChatListModel::handleRelativeTimeRefreshTimer()
 void ChatListModel::handleChatFolders(const QVariantList &foldersInformation, qlonglong mainChatlistPosition)
 {
     LOG("Updating available chat Folders" << foldersInformation << "with main Chatlist position" << mainChatlistPosition);
-    this->chatFolders.clear();
+    chatFolders.clear();
+    chatFolderTitles.clear();
     int positionIndex = 0;
     mainAllChatFolderPosition = mainChatlistPosition;
     for (const auto&folder: foldersInformation) {
@@ -1163,4 +1164,21 @@ void ChatListModel::handleChatFolderInformation(const QVariantMap &chatFolderInf
 QVariantList ChatListModel::getChatFolderList() const
 {
     return chatFolderTitles;
+}
+
+ChatsFolderFilterProxy::ChatsFolderFilterProxy(QObject *parent)
+    :QSortFilterProxyModel(parent)
+{
+
+}
+
+bool ChatsFolderFilterProxy::filterAcceptsRow(int source_row, const QModelIndex &source_parent) const
+{
+    QModelIndex index = sourceModel()->index(source_row, 0, source_parent);
+    return true;
+}
+
+void ChatsFolderFilterProxy::sourceModelChanged()
+{
+    m_model = qobject_cast<ChatListModel*>(sourceModel());
 }
