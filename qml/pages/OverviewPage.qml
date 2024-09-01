@@ -75,13 +75,13 @@ Page {
             overviewPage.chatListCreated = true;
             chatListView.scrollToTop();
             updateSecondaryContentTimer.start();
-            var remainingInteractionHints = appSettings.remainingInteractionHints;
+            /*var remainingInteractionHints = appSettings.remainingInteractionHints;
             Debug.log("Remaining interaction hints: " + remainingInteractionHints);
             if (remainingInteractionHints > 0) {
                 interactionHintTimer.start();
                 titleInteractionHint.opacity = 1.0;
                 appSettings.remainingInteractionHints = remainingInteractionHints - 1;
-            }
+            }*/
         }
     }
 
@@ -349,7 +349,7 @@ Page {
 
                     PopupMenuItem {
                         text: modelData === "All Chats"? allChat : modelData
-                        hint: unreadChatsInFolder + ":"
+                        // hint: unreadChatsInFolder + ":"
                         onClicked: {
                             topAppBar.headerText = text;
                         }
