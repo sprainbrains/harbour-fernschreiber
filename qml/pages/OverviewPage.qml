@@ -457,24 +457,4 @@ Page {
             }
         }
     }
-
-    Timer {
-        id: interactionHintTimer
-        running: false
-        interval: 4000
-        onTriggered: {
-            titleInteractionHint.opacity = 0.0;
-        }
-    }
-
-    InteractionHintLabel {
-        id: titleInteractionHint
-        text: qsTr("Tap on the title bar to filter your chats")
-        visible: opacity > 0
-        invert: true
-        anchors.fill: parent
-        Behavior on opacity { FadeAnimation {} }
-        opacity: 0
-    }
-
 }
