@@ -94,7 +94,7 @@ Page {
     }
     Timer {
         id: updateSecondaryContentTimer
-        interval: 600
+        interval: 1500
         onTriggered: {
             chatListModel.calculateUnreadState();
             tdLibWrapper.getRecentStickers();
