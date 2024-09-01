@@ -21,12 +21,15 @@
 #define CHATLISTMODEL_H
 
 #include <QAbstractListModel>
+#include <QSortFilterProxyModel>
 #include "tdlibwrapper.h"
 #include "appsettings.h"
 
 class ChatListModel : public QAbstractListModel
 {
     Q_OBJECT
+    friend class ChatsFolderFilterProxy;
+
     Q_PROPERTY(bool showAllChats READ showAllChats WRITE setShowAllChats NOTIFY showAllChatsChanged)
     Q_PROPERTY(int count READ rowCount NOTIFY countChanged)
     Q_PROPERTY(QVariantList chatFolders READ getChatFolderList NOTIFY chatFoldersChanged)
@@ -135,6 +138,24 @@ private:
     QHash<qlonglong,ChatData*> hiddenChats;
     bool showHiddenChats;
     QString selectedFolder;
+};
+
+
+class ChatsFolderFilterProxy : public QSortFilterProxyModel
+{
+    Q_OBJECT
+public:
+    ChatsFolderFilterProxy(QObject *parent = Q_NULLPTR);
+
+    // QSortFilterProxyModel interface
+protected:
+    bool filterAcceptsRow(int source_row, const QModelIndex &source_parent) const;
+
+private:
+
+    void sourceModelChanged();
+
+    ChatListModel *m_model = nullptr;
 };
 
 #endif // CHATLISTMODEL_H
