@@ -86,8 +86,7 @@ TDLibWrapper::TDLibWrapper(AppSettings *settings, MceInterface *mce, QObject *pa
     LOG("Initializing TD Lib...");
 
     initializeTDLibReceiver();
-
-    QString tdLibDatabaseDirectoryPath = QStandardPaths::writableLocation(QStandardPaths::AppDataLocation) + "/tdlib";
+    QString tdLibDatabaseDirectoryPath = getApplicationDataPath() + "/tdlib";
     QDir tdLibDatabaseDirectory(tdLibDatabaseDirectoryPath);
     if (!tdLibDatabaseDirectory.exists()) {
         tdLibDatabaseDirectory.mkpath(tdLibDatabaseDirectoryPath);
@@ -1833,7 +1832,7 @@ void TDLibWrapper::handleAuthorizationStateChanged(const QString &authorizationS
         }
         td_json_client_destroy(this->tdLibClient);
         this->tdLibReceiver->terminate();
-        QDir appPath(QStandardPaths::writableLocation(QStandardPaths::AppDataLocation));
+        QDir appPath(getApplicationDataPath());
         appPath.removeRecursively();
         this->tdLibClient = td_json_client_create();
         initializeTDLibReceiver();
@@ -2252,7 +2251,7 @@ QVariantMap& TDLibWrapper::fillTdlibParameters(QVariantMap& parameters)
 {
     parameters.insert("api_id", TDLIB_API_ID);
     parameters.insert("api_hash", TDLIB_API_HASH);
-    parameters.insert("database_directory", QStandardPaths::writableLocation(QStandardPaths::AppDataLocation) + "/tdlib");
+    parameters.insert("database_directory", getApplicationDataPath() + "/tdlib");
     bool onlineOnlyMode = this->appSettings->onlineOnlyMode();
     parameters.insert("use_file_database", !onlineOnlyMode);
     parameters.insert("use_chat_info_database", !onlineOnlyMode);
@@ -2473,4 +2472,12 @@ TDLibWrapper::ChatMemberStatus TDLibWrapper::Group::chatMemberStatus() const
 {
     const QString statusType(groupInfo.value(STATUS).toMap().value(_TYPE).toString());
     return statusType.isEmpty() ? ChatMemberStatusUnknown : chatMemberStatusFromString(statusType);
+}
+
+QString TDLibWrapper::getApplicationDataPath() const {
+#ifdef QT_DEBUG
+    return QStandardPaths::writableLocation(QStandardPaths::DocumentsLocation);
+#else
+    return QStandardPaths::writableLocation(QStandardPaths::AppDataLocation);
+#endif
 }

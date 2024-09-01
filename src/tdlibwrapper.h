@@ -390,6 +390,7 @@ private:
     QVariantMap newSendMessageRequest(qlonglong chatId, qlonglong replyToMessageId);
     void initializeTDLibReceiver();
     void updateUserInformation(const QString &userId, const QVariantMap &userInformation);
+    QString getApplicationDataPath() const;
 
 private:
     void *tdLibClient;
