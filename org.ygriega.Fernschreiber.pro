@@ -171,11 +171,12 @@ equals(QT_ARCH, arm) {
     message(Building ARM)
     TARGET_ARCHITECTURE = armv7hl
 }
-equals(QT_ARCH, i386) {
-    message(Building i486)
-    TARGET_ARCHITECTURE = i486
+equals(QT_ARCH, x86_64) {
+message(x86_64)
+    TARGET_ARCHITECTURE = x86_64
 }
 equals(QT_ARCH, arm64){
+message(arm64)
     message(Building aarch64)
     TARGET_ARCHITECTURE = aarch64
 }
