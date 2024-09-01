@@ -172,7 +172,7 @@ equals(QT_ARCH, arm) {
     TARGET_ARCHITECTURE = armv7hl
 }
 equals(QT_ARCH, x86_64) {
-message(x86_64)
+    message(Building x86_64)
     TARGET_ARCHITECTURE = x86_64
 }
 equals(QT_ARCH, arm64){
@@ -302,8 +302,10 @@ SSE2 = $$system(g++ -dM -E -x c++ - < /dev/null | grep __SSE2__)
     SOURCES += rlottie/src/vector/pixman/pixman-arm-neon-asm.S
 } else {
     !isEmpty(SSE2) {
-        message(Using SSE2 render functions)
-        SOURCES += rlottie/src/vector/vdrawhelper_sse2.cpp
+        !equals(QT_ARCH, x86_64) {
+            message(Using SSE2 render functions)
+            SOURCES += rlottie/src/vector/vdrawhelper_sse2.cpp
+        }
     } else {
         message(Using default render functions)
     }
