@@ -1125,25 +1125,25 @@ void ChatListModel::handleChatFolders(const QVariantList &foldersInformation, ql
     LOG("Updating available chat Folders" << foldersInformation << "with main Chatlist position" << mainChatlistPosition);
     chatFolders.clear();
     chatFolderTitles.clear();
+
+    chatFolders.insert("-1", tr("All Chats"));
+    chatFolderTitles.push_back(tr("All Chats"));
+
+    chatFolders.insert("-2", tr("Chats only"));
+    chatFolderTitles.push_back(tr("Chats only"));
+
+    chatFolders.insert("-3", tr("Channels only"));
+    chatFolderTitles.push_back(tr("Channels only"));
+
     int positionIndex = 0;
     mainAllChatFolderPosition = mainChatlistPosition;
     for (const auto&folder: foldersInformation) {
         auto map = folder.toMap();
         QString id = map.value("id").toString();
         QString title = map.value("title").toString();
-        LOG("id: " << id << ", title: " << title);
-        if (positionIndex == mainChatlistPosition) {
-            id = QString("-1");
-            title = QString("All Chats");
-        }
         chatFolders.insert(id, title);
         chatFolderTitles.push_back(title);
         ++positionIndex;
-    }
-
-    if (mainChatlistPosition >= foldersInformation.count()) {
-        chatFolders.insert("-1", "All Chats");
-        chatFolderTitles.push_back("All Chats");
     }
 
     emit chatFoldersChanged(chatFolders);
