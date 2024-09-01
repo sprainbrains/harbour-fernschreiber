@@ -235,6 +235,21 @@
     </message>
 </context>
 <context>
+    <name>ChatListModel</name>
+    <message>
+        <source>All Chats</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Chats only</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Channels only</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>ChatListViewItem</name>
     <message>
         <source>Unknown</source>

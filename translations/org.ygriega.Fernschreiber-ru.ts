@@ -238,6 +238,21 @@
     </message>
 </context>
 <context>
+    <name>ChatListModel</name>
+    <message>
+        <source>All Chats</source>
+        <translation>Все чаты</translation>
+    </message>
+    <message>
+        <source>Chats only</source>
+        <translation>Только чаты</translation>
+    </message>
+    <message>
+        <source>Channels only</source>
+        <translation>Только каналы</translation>
+    </message>
+</context>
+<context>
     <name>ChatListViewItem</name>
     <message>
         <source>Unknown</source>
