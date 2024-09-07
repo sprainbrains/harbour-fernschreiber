@@ -66,6 +66,8 @@ namespace {
     const QString REPLY_IN_CHAT_ID("reply_in_chat_id");
     const QString REPLY_TO_MESSAGE_ID("reply_to_message_id");
     const QString DRAFT_MESSAGE("draft_message");
+    const QString CHAT_FOLDERS("chat_folders");
+    const QString MAIN_CHAT_LIST_POSITION_IN_FOLDERS("main_chat_list_position");
 
     const QString _TYPE("@type");
     const QString _EXTRA("@extra");
@@ -81,6 +83,8 @@ namespace {
     const QString TYPE_ANIMATED_EMOJI("animatedEmoji");
     const QString TYPE_INPUT_MESSAGE_REPLY_TO_MESSAGE("inputMessageReplyToMessage");
     const QString TYPE_DRAFT_MESSAGE("draftMessage");
+
+    const double POWERSAVING_TDLIB_REQUEST_INTERVAL = 100;
 }
 
 static QString getChatPositionOrder(const QVariantMap &position)
@@ -119,6 +123,7 @@ TDLibReceiver::TDLibReceiver(void *tdLibClient, QObject *parent) : QThread(paren
     handlers.insert("updateNewChat", &TDLibReceiver::processUpdateNewChat);
     handlers.insert("updateUnreadMessageCount", &TDLibReceiver::processUpdateUnreadMessageCount);
     handlers.insert("updateUnreadChatCount", &TDLibReceiver::processUpdateUnreadChatCount);
+    handlers.insert("updateChatFolders", &TDLibReceiver::processUpdateChatFolders);
     handlers.insert("updateChatLastMessage", &TDLibReceiver::processUpdateChatLastMessage);
     handlers.insert("updateChatOrder", &TDLibReceiver::processUpdateChatOrder);
     handlers.insert("updateChatPosition", &TDLibReceiver::processUpdateChatPosition);
@@ -149,6 +154,7 @@ TDLibReceiver::TDLibReceiver(void *tdLibClient, QObject *parent) : QThread(paren
     handlers.insert("stickerSets", &TDLibReceiver::processStickerSets);
     handlers.insert("stickerSet", &TDLibReceiver::processStickerSet);
     handlers.insert("chatMembers", &TDLibReceiver::processChatMembers);
+    handlers.insert("chatFolder", &TDLibReceiver::processChatFolder);
     handlers.insert("userFullInfo", &TDLibReceiver::processUserFullInfo);
     handlers.insert("updateUserFullInfo", &TDLibReceiver::processUpdateUserFullInfo);
     handlers.insert("basicGroupFullInfo", &TDLibReceiver::processBasicGroupFullInfo);
@@ -191,7 +197,13 @@ void TDLibReceiver::setActive(bool active)
     } else {
         LOG("Deactivating receiver loop, this may take a while...");
     }
+    this->powerSavingMode = false;
     this->isActive = active;
+}
+
+void TDLibReceiver::setPowerSavingMode(bool powerSavingMode)
+{
+    this->powerSavingMode = powerSavingMode;
 }
 
 void TDLibReceiver::receiverLoop()
@@ -204,6 +216,9 @@ void TDLibReceiver::receiverLoop()
           QJsonDocument receivedJsonDocument = QJsonDocument::fromJson(QByteArray(result));
           VERBOSE("Raw result:" << receivedJsonDocument.toJson(QJsonDocument::Indented).constData());
           processReceivedDocument(receivedJsonDocument);
+      }
+      if(this->powerSavingMode) {
+          msleep(POWERSAVING_TDLIB_REQUEST_INTERVAL);
       }
     }
     LOG("Stopping receiver loop");
@@ -298,7 +313,7 @@ void TDLibReceiver::processUpdateUnreadMessageCount(const QVariantMap &receivedI
 void TDLibReceiver::processUpdateUnreadChatCount(const QVariantMap &receivedInformation)
 {
     QVariantMap chatCountInformation;
-    chatCountInformation.insert("chat_list_type", receivedInformation.value("chat_list").toMap().value(_TYPE));
+    chatCountInformation.insert("chat_list_type", receivedInformation.value("chat_list").toMap().value(_TYPE));     
     chatCountInformation.insert("marked_as_unread_count", receivedInformation.value("marked_as_unread_count"));
     chatCountInformation.insert("marked_as_unread_unmuted_count", receivedInformation.value("marked_as_unread_unmuted_count"));
     chatCountInformation.insert(TOTAL_COUNT, receivedInformation.value(TOTAL_COUNT));
@@ -306,6 +321,20 @@ void TDLibReceiver::processUpdateUnreadChatCount(const QVariantMap &receivedInfo
     chatCountInformation.insert("unread_unmuted_count", receivedInformation.value("unread_unmuted_count"));
     LOG("Unread chat count updated: " << chatCountInformation.value("chat_list_type").toString() << chatCountInformation.value(UNREAD_COUNT).toString());
     emit unreadChatCountUpdated(chatCountInformation);
+}
+
+void TDLibReceiver::processUpdateChatFolders(const QVariantMap &receivedInformation)
+{
+    const qlonglong mainChatPosition = receivedInformation.value(MAIN_CHAT_LIST_POSITION_IN_FOLDERS).toLongLong();
+    const QVariantList folders(receivedInformation.value(CHAT_FOLDERS).toList());
+    LOG("Received folder:" << folders.count() << ", main chat list position: " << mainChatPosition);
+    emit updateChatFolders(folders, mainChatPosition);
+}
+
+void TDLibReceiver::processChatFolder(const QVariantMap &chatFolderInformation)
+{
+    LOG("Received chatFolder information");
+    emit gotChatFolder(chatFolderInformation);
 }
 
 void TDLibReceiver::processUpdateChatLastMessage(const QVariantMap &receivedInformation)

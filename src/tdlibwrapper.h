@@ -166,6 +166,7 @@ public:
     Q_INVOKABLE void registerUser(const QString &firstName, const QString &lastName);
     Q_INVOKABLE void logout();
     Q_INVOKABLE void getChats();
+    Q_INVOKABLE void getChatFolder(qlonglong folderID);
     Q_INVOKABLE void downloadFile(int fileId);
     Q_INVOKABLE void openChat(const QString &chatId);
     Q_INVOKABLE void closeChat(const QString &chatId);
@@ -273,6 +274,8 @@ signals:
     void connectionStateChanged(const TDLibWrapper::ConnectionState &connectionState);
     void fileUpdated(int fileId, const QVariantMap &fileInformation);
     void newChatDiscovered(const QString &chatId, const QVariantMap &chatInformation);
+    void chatFolders(const QVariantList &folders, qlonglong mainChatlistPosition);
+    void chatFolder(const QVariantMap &chatFolderInformation);
     void unreadMessageCountUpdated(const QVariantMap &messageCountInformation);
     void unreadChatCountUpdated(const QVariantMap &chatCountInformation);
     void chatLastMessageUpdated(const QString &chatId, const QString &order, const QVariantMap &lastMessage);
@@ -352,6 +355,8 @@ public slots:
     void handleUserStatusUpdated(const QString &userId, const QVariantMap &userStatusInformation);
     void handleFileUpdated(const QVariantMap &fileInformation);
     void handleNewChatDiscovered(const QVariantMap &chatInformation);
+    void handleChatFolders(const QVariantList &foldersInformation, qlonglong mainChatlistPosition);
+    void handleChatFolder(const QVariantMap &chatFolderInforamtion);
     void handleChatReceived(const QVariantMap &chatInformation);
     void handleUnreadMessageCountUpdated(const QVariantMap &messageCountInformation);
     void handleUnreadChatCountUpdated(const QVariantMap &chatCountInformation);
@@ -373,6 +378,7 @@ public slots:
     void handleNetworkConfigurationChanged(const QNetworkConfiguration &config);
     void handleActiveEmojiReactionsUpdated(const QStringList& emojis);
     void handleGetPageSourceFinished();
+    void handleApplicationStateChanged(Qt::ApplicationState state);
 
 private:
     void setOption(const QString &name, const QString &type, const QVariant &value);
@@ -384,6 +390,7 @@ private:
     QVariantMap newSendMessageRequest(qlonglong chatId, qlonglong replyToMessageId);
     void initializeTDLibReceiver();
     void updateUserInformation(const QString &userId, const QVariantMap &userInformation);
+    QString getApplicationDataPath() const;
 
 private:
     void *tdLibClient;

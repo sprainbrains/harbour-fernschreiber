@@ -20,7 +20,7 @@
 #include "notificationmanager.h"
 #include "fernschreiberutils.h"
 #include "chatmodel.h"
-#include <sailfishapp.h>
+#include <auroraapp.h>
 #include <QListIterator>
 #include <QUrl>
 #include <QDateTime>
@@ -126,7 +126,7 @@ NotificationManager::NotificationGroup::~NotificationGroup()
 }
 
 NotificationManager::NotificationManager(TDLibWrapper *tdLibWrapper, AppSettings *appSettings, MceInterface *mceInterface, ChatModel *chatModel) :
-    appIconFile(SailfishApp::pathTo("images/fernschreiber-notification.png").toLocalFile())
+    appIconFile(Aurora::Application::pathTo("images/fernschreiber-notification.png").toLocalFile())
 {
     LOG("Initializing...");
     this->tdLibWrapper = tdLibWrapper;
@@ -335,7 +335,7 @@ void NotificationManager::publishNotification(const NotificationGroup *notificat
         remoteActionArguments.append(QString::number(notificationGroup->chatId));
         remoteActionArguments.append(messageMap.value(ID).toString());
         nemoNotification->setRemoteAction(Notification::remoteAction("default", "openMessage",
-            "de.ygriega.fernschreiber", "/de/ygriega/fernschreiber", "de.ygriega.fernschreiber",
+            "org.ygriega.Fernschreiber", "/org/ygriega/Fernschreiber", "org.ygriega.Fernschreiber",
             "openMessage", remoteActionArguments));
     }
 

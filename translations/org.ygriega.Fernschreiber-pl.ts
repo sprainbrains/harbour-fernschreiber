@@ -1,87 +1,87 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="de_DE">
+<TS version="2.1" language="pl_PL">
 <context>
     <name>AboutPage</name>
     <message>
         <source>About Fernschreiber</source>
-        <translation>Über Fernschreiber</translation>
+        <translation>O Fernschreiber</translation>
     </message>
     <message>
         <source>A Telegram client for Sailfish OS</source>
-        <translation>Ein Telegram-Client für Sailfish OS</translation>
+        <translation>Klient Telegram dla Sailfish OS</translation>
     </message>
     <message>
         <source>Send E-Mail</source>
-        <translation>E-Mail verschicken</translation>
+        <translation>Wyślij e-mail</translation>
     </message>
     <message>
         <source>Licensed under GNU GPLv3</source>
-        <translation>Lizenziert unter der GNU GPLv3</translation>
+        <translation>Na licencji GNU GPLv3</translation>
     </message>
     <message>
         <source>Sources on GitHub</source>
-        <translation>Quelltexte auf GitHub</translation>
+        <translation>Źródła na GitHub</translation>
     </message>
     <message>
         <source>Terms of Service</source>
-        <translation>Nutzungsbedingungen</translation>
+        <translation>Warunki usługi</translation>
     </message>
     <message>
         <source>Privacy Policy</source>
-        <translation>Datenschutzerklärung</translation>
+        <translation>Polityka prywatności</translation>
     </message>
     <message>
         <source>Credits</source>
-        <translation>Danksagungen</translation>
+        <translation>Podziękowania:</translation>
     </message>
     <message>
         <source>This project uses the Telegram Database Library (TDLib). Thanks for making it available under the conditions of the Boost Software License 1.0!</source>
-        <translation>Dieses Projekt nutzt die Telegram Database Library (TDLib). Vielen Dank dafür, dass sie unter den Bedingungen der Boost Software License 1.0 verfügbar gemacht wurde!</translation>
+        <translation>Ten projekt wykorzystuje bibliotekę bazy danych telegramu (TDLib). Dziękujemy za udostępnienie go na warunkach licencji Boost Software License 1.0!</translation>
     </message>
     <message>
         <source>Open Telegram Database Library on GitHub</source>
-        <translation>Telegram Database Library auf GitHub öffnen</translation>
+        <translation>Otwórz bibliotekę bazy danych Telegram na GitHub</translation>
     </message>
     <message>
         <source>About Telegram</source>
-        <translation>Über Telegram</translation>
+        <translation>O Telegram</translation>
     </message>
     <message>
         <source>This product uses the Telegram API but is not endorsed or certified by Telegram.</source>
-        <translation>Dieses Produkt nutzt die Telegram-API, ist aber von Telegram weder unterstützt noch zertifiziert.</translation>
+        <translation>Ten produkt korzysta z Telegram API, ale nie jest zatwierdzony ani certyfikowany przez Telegram.</translation>
     </message>
     <message>
         <source>TDLib version %1</source>
-        <translation>TDLib-Version %1</translation>
+        <translation>Wersja TDLib %1</translation>
     </message>
     <message>
         <source>This project uses twemoji. Copyright 2018 Twitter, Inc. and other contributors. Thanks for making it available under the conditions of the MIT License (coding) and CC-BY 4.0 (graphics)!</source>
-        <translation>Dieses Projekt nutzt twemoji. Copyright 2018 Twitter, Inc. und andere Beitragende. Vielen Dank dafür, dass es unter den Bedingungen der MIT License (Coding) und CC-BY 4.0 (Grafiken) verfügbar gemacht wurde!</translation>
+        <translation>Ten projekt wykorzystuje twemoji. Copyright 2018 Twitter, Inc. i inni współpracownicy. Dziękujemy za udostępnienie na warunkach Licencji MIT (kodowanie) i CC-BY 4.0 (grafika)!</translation>
     </message>
     <message>
         <source>Open twemoji on GitHub</source>
-        <translation>Twemoji auf GitHub öffnen</translation>
+        <translation>Otwórz twemoji na GitHub</translation>
     </message>
     <message>
         <source>By Sebastian J. Wolf and &lt;a href=&quot;https://github.com/Wunderfitz/harbour-fernschreiber#contributions&quot;&gt;other contributors&lt;/a&gt;</source>
-        <translation>Von Sebastian J. Wolf und &lt;a href=&quot;https://github.com/Wunderfitz/harbour-fernschreiber#contributions&quot;&gt;anderen Beitragenden&lt;/a&gt;</translation>
+        <translation>Stworzony przez Sebastian J. Wolf oraz &lt;a href=&quot;https://github.com/Wunderfitz/harbour-fernschreiber#contributions&quot;&gt;innych współtwórców&lt;/a&gt;</translation>
     </message>
     <message>
         <source>This project uses rlottie. Copyright 2020 Samsung Electronics Co., Ltd. and other contributors. Thanks for making it available under the conditions of the MIT License!</source>
-        <translation>Dieses Projekt nutzt rlottie. Copyright 2020 Samsung Electronics Co., Ltd. und andere Beitragende. Vielen Dank dafür, dass es unter den Bedingungen der MIT License verfügbar gemacht wurde!</translation>
+        <translation>Ten projekt używa rlottie. Copyright 2020 Samsung Electronics Co., Ltd. i inni współtwórcy. Dziękujemy za udostępnienie na warunkach licencji MIT!</translation>
     </message>
     <message>
         <source>Open rlottie on GitHub</source>
-        <translation>rlottie auf GitHub öffnen</translation>
+        <translation>Otwórz rlottie na GitHub</translation>
     </message>
     <message>
         <source>This project uses OpenStreetMap Nominatim for reverse geocoding of location attachments. Thanks for making it available as web service!</source>
-        <translation>Dieses Projekt nutzt OpenStreetMap Nominatim für das reverse Geokodieren von Standort-Anhängen. Vielen Dank dafür, dass es als Web-Service zur Verfügung gestellt wird!</translation>
+        <translation>Ten projekt wykorzystuje OpenStreetMap Nominatim do odwrotnego geokodowania załączników lokalizacji. Dziękujemy za udostępnienie go jako usługi internetowej! </translation>
     </message>
     <message>
         <source>Open OSM Nominatim Wiki</source>
-        <translation>OSM Nominatim-Wiki öffnen</translation>
+        <translation>Otwórz OSM Nominatim Wiki</translation>
     </message>
 </context>
 <context>
@@ -97,67 +97,69 @@
 </context>
 <context>
     <name>ChatInformationPageContent</name>
+    <message>
+        <source>Unknown</source>
+        <translation>Nieznany</translation>
+    </message>
+    <message>
+        <source>The Invite Link has been copied to the clipboard.</source>
+        <translation>Link do zaproszenia został skopiowany do schowka.</translation>
+    </message>
     <message numerus="yes">
         <source>%1 subscribers</source>
         <translation>
-            <numerusform>%1 Abonnent</numerusform>
-            <numerusform>%1 Abonnenten</numerusform>
+            <numerusform>%1 subskrybent</numerusform>
+            <numerusform>%1 subskrybentów</numerusform>
+            <numerusform>%1 subskrybentów</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>%1 members</source>
         <translation>
-            <numerusform>%1 Mitglied</numerusform>
-            <numerusform>%1 Mitglieder</numerusform>
+            <numerusform>%1 członek</numerusform>
+            <numerusform>%1 członków</numerusform>
+            <numerusform>%1 członków</numerusform>
         </translation>
     </message>
     <message>
-        <source>Leave Chat</source>
-        <translation>Chat verlassen</translation>
-    </message>
-    <message>
-        <source>Join Chat</source>
-        <translation>Chat beitreten</translation>
-    </message>
-    <message>
         <source>Leaving chat</source>
-        <translation>Verlasse Chat</translation>
-    </message>
-    <message>
-        <source>Unknown</source>
-        <translation>Unbekannt</translation>
-    </message>
-    <message>
-        <source>Chat Title</source>
-        <comment>group title header</comment>
-        <translation>Chattitel</translation>
-    </message>
-    <message>
-        <source>Enter 1-128 characters</source>
-        <translation>Geben Sie 1-128 Zeichen ein</translation>
-    </message>
-    <message>
-        <source>There is no information text available, yet.</source>
-        <translation>Es gibt noch keinen Informationstext.</translation>
+        <translation>Opuszcza czat</translation>
     </message>
     <message>
         <source>Info</source>
         <comment>group or user infotext header</comment>
-        <translation>Info</translation>
+        <translation>Informacja</translation>
     </message>
     <message>
         <source>Phone Number</source>
         <comment>user phone number header</comment>
-        <translation>Telefonnummer</translation>
+        <translation>Numer telefonu</translation>
     </message>
     <message>
         <source>Invite Link</source>
         <comment>header</comment>
-        <translation>Einladungslink</translation>
+        <translation>Link z zaproszeniem</translation>
     </message>
     <message>
-        <source>The Invite Link has been copied to the clipboard.</source>
-        <translation>Der Einladungslink wurde in die Zwischenablage kopiert.</translation>
+        <source>There is no information text available, yet.</source>
+        <translation>Nie ma jeszcze dostępnego tekstu informacyjnego.</translation>
+    </message>
+    <message>
+        <source>Chat Title</source>
+        <comment>group title header</comment>
+        <translation>Tytuł czatu</translation>
+    </message>
+    <message>
+        <source>Enter 1-128 characters</source>
+        <translation>Wprowadź znaki 1-128</translation>
+    </message>
+    <message>
+        <source>Leave Chat</source>
+        <translation>Opuść czat</translation>
+    </message>
+    <message>
+        <source>Join Chat</source>
+        <translation>Dołącz do czatu</translation>
     </message>
     <message>
         <source>%1, %2</source>
@@ -169,51 +171,52 @@
         <translation>
             <numerusform>%1 online</numerusform>
             <numerusform>%1 online</numerusform>
+            <numerusform>%1 online</numerusform>
         </translation>
     </message>
     <message>
         <source>New Secret Chat</source>
-        <translation>Neuer geheimer Chat</translation>
+        <translation>Nowy tajny czat</translation>
     </message>
     <message>
         <source>Unmute Chat</source>
-        <translation>Stummschaltung des Chats aufheben</translation>
+        <translation>Wyłącz wyciszenie czatu</translation>
     </message>
     <message>
         <source>Mute Chat</source>
-        <translation>Chat stummschalten</translation>
+        <translation>Wycisz czat</translation>
     </message>
     <message>
         <source>ID has been copied to the clipboard.</source>
-        <translation>ID wurde in die Zwischenablage kopiert</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>ChatInformationTabItemMembersGroups</name>
     <message>
-        <source>You</source>
-        <translation>Sie</translation>
-    </message>
-    <message>
         <source>Loading common chats…</source>
         <comment>chats you have in common with a user</comment>
-        <translation>Lade gemeinsame Chats…</translation>
+        <translation>Ładowanie wspólnych czatów...</translation>
     </message>
     <message>
         <source>Loading group members…</source>
-        <translation>Lade Gruppenmitglieder…</translation>
+        <translation>Ładowanie członków grupy</translation>
+    </message>
+    <message>
+        <source>You</source>
+        <translation>Ty</translation>
     </message>
     <message>
         <source>You don&apos;t have any groups in common with this user.</source>
-        <translation>Sie haben mit diesem Benutzer keine gemeinsamen Gruppen.</translation>
+        <translation>Nie masz żadnych wspólnych grup z tym użytkownikiem.</translation>
     </message>
     <message>
         <source>This group is empty.</source>
-        <translation>Diese Gruppe ist leer.</translation>
+        <translation>Ta grupa jest pusta</translation>
     </message>
     <message>
         <source>Channel members are anonymous.</source>
-        <translation>Mitglieder von Kanälen sind anonym.</translation>
+        <translation>Członkowie kanału są anonimowi</translation>
     </message>
 </context>
 <context>
@@ -221,174 +224,195 @@
     <message>
         <source>Groups</source>
         <comment>Button: groups in common (short)</comment>
-        <translation>Gruppen</translation>
+        <translation>Grupy</translation>
     </message>
     <message>
         <source>Members</source>
         <comment>Button: Group Members</comment>
-        <translation>Mitglieder</translation>
+        <translation>Członkowie</translation>
     </message>
     <message>
         <source>Settings</source>
         <comment>Button: Chat Settings</comment>
-        <translation>Einstellungen</translation>
+        <translation>Ustawienia</translation>
+    </message>
+</context>
+<context>
+    <name>ChatListModel</name>
+    <message>
+        <source>All Chats</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Chats only</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Channels only</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>ChatListViewItem</name>
     <message>
         <source>Unknown</source>
-        <translation>Unbekannt</translation>
+        <translation>Nieznany</translation>
     </message>
     <message>
         <source>You</source>
-        <translation>Sie</translation>
+        <translation>Ty</translation>
     </message>
     <message>
         <source>User Info</source>
-        <translation>Benutzerinfos</translation>
+        <translation>Informacje o użytkowniku</translation>
     </message>
     <message>
         <source>Group Info</source>
-        <translation>Gruppeninfos</translation>
+        <translation>Informacje o grupie</translation>
     </message>
     <message>
         <source>Mark all messages as read</source>
-        <translation>Nachrichten als gelesen markieren</translation>
+        <translation>Zaznacz wszystkie wiadomości jako przeczytane</translation>
     </message>
     <message>
         <source>No message in this chat.</source>
-        <translation>Keine Nachricht in diesem Chat.</translation>
+        <translation>Brak wiadomości na tym czacie.</translation>
     </message>
     <message>
         <source>Mark chat as unread</source>
-        <translation>Chat als ungelesen markieren</translation>
-    </message>
-    <message>
-        <source>Mark chat as read</source>
-        <translation>Chat als gelesen markieren</translation>
+        <translation>Oznacz czat jako nieprzeczytany</translation>
     </message>
     <message>
         <source>Draft</source>
-        <translation>Entwurf</translation>
+        <translation>Kopia robocza</translation>
+    </message>
+    <message>
+        <source>Mark chat as read</source>
+        <translation>Oznacz czat jako przeczytany</translation>
     </message>
     <message>
         <source>Unpin chat</source>
-        <translation>Chat losheften</translation>
+        <translation>Odepnij czat</translation>
     </message>
     <message>
         <source>Pin chat</source>
-        <translation>Chat anheften</translation>
+        <translation>Przypnij czat</translation>
     </message>
     <message>
         <source>Unmute chat</source>
-        <translation>Stummschaltung des Chats aufheben</translation>
+        <translation>Wyłącz wyciszenie czatu</translation>
     </message>
     <message>
         <source>Mute chat</source>
-        <translation>Chat stummschalten</translation>
+        <translation>Wycisz czat</translation>
     </message>
 </context>
 <context>
     <name>ChatPage</name>
     <message>
         <source>Unknown</source>
-        <translation>Unbekannt</translation>
+        <translation>Nieznany</translation>
     </message>
     <message>
         <source>Your message</source>
-        <translation>Ihre Nachricht</translation>
+        <translation>Twoja wiadomość</translation>
     </message>
     <message numerus="yes">
         <source>%1 members</source>
         <translation>
-            <numerusform>%1 Mitglied</numerusform>
-            <numerusform>%1 Mitglieder</numerusform>
+            <numerusform>%1 członek</numerusform>
+            <numerusform>%1 członków</numerusform>
+            <numerusform>%1 członków</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>%1 subscribers</source>
         <translation>
-            <numerusform>%1 Abonnent</numerusform>
-            <numerusform>%1 Abonnenten</numerusform>
+            <numerusform>%1 subskrybent</numerusform>
+            <numerusform>%1 subskrybentów</numerusform>
+            <numerusform>%1 subskrybentów</numerusform>
         </translation>
     </message>
     <message>
         <source>Loading messages...</source>
-        <translation>Lade Nachrichten...</translation>
+        <translation>Ładowanie wiadomości...</translation>
     </message>
     <message>
         <source>Unmute Chat</source>
-        <translation>Stummschaltung des Chats aufheben</translation>
+        <translation>Wyłącz wyciszenie czatu</translation>
     </message>
     <message>
         <source>Mute Chat</source>
-        <translation>Chat stummschalten</translation>
+        <translation>Wycisz czat</translation>
     </message>
     <message>
         <source>Edit Message</source>
-        <translation>Nachricht bearbeiten</translation>
+        <translation>Edytuj widomość</translation>
     </message>
     <message>
         <source>edited</source>
-        <translation>bearbeitet</translation>
+        <translation>edytowana</translation>
     </message>
     <message>
         <source>Uploading...</source>
-        <translation>Lade hoch...</translation>
+        <translation>Przesyłanie...</translation>
     </message>
     <message>
         <source>This chat is empty.</source>
-        <translation>Dieser Chat ist leer.</translation>
+        <translation>Ten czat jest pusty</translation>
     </message>
     <message>
         <source>Leave Chat</source>
-        <translation>Chat verlassen</translation>
+        <translation>Opuść czat</translation>
     </message>
     <message>
         <source>Join Chat</source>
-        <translation>Chat beitreten</translation>
+        <translation>Dołącz do czatu</translation>
     </message>
     <message>
         <source>Leaving chat</source>
-        <translation>Verlasse Chat</translation>
+        <translation>Opuszczanie czatu</translation>
     </message>
     <message>
         <source>You joined the chat %1</source>
-        <translation>Sie sind dem Chat %1 beigetreten.</translation>
+        <translation>Dołączyłeś do czatu %1</translation>
     </message>
     <message>
         <source>Select Messages</source>
-        <translation>Nachrichtenauswahl</translation>
+        <translation>Wybierz wiadomości</translation>
     </message>
     <message numerus="yes">
         <source>%Ln Messages deleted</source>
         <translation>
-            <numerusform>%Ln Nachrichten gelöscht</numerusform>
-            <numerusform></numerusform>
+            <numerusform>%Ln wiadomość została usunięta</numerusform>
+            <numerusform>%Ln wiadomości zostały usunięte</numerusform>
+            <numerusform>%Ln wiadomości zostało usunięte</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>%Ln messages have been copied</source>
         <translation>
-            <numerusform>%Ln Nachrichten wurden kopiert</numerusform>
-            <numerusform></numerusform>
+            <numerusform>%Ln wiadomość została skopiowana</numerusform>
+            <numerusform>%Ln wiadomości zostały skopiowane</numerusform>
+            <numerusform>%Ln wiadomość zostało skopiowane</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>Forward %Ln messages</source>
         <comment>dialog header</comment>
         <translation>
-            <numerusform>%Ln Nachricht weiterleiten</numerusform>
-            <numerusform>%Ln Nachrichten weiterleiten</numerusform>
+            <numerusform>Przekaż %Ln wiadomość</numerusform>
+            <numerusform>Przekaż %Ln wiadomości</numerusform>
+            <numerusform>Przekaż %Ln wiadomości</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>%Ln messages selected</source>
         <comment>number of messages selected</comment>
         <translation>
-            <numerusform>%Ln Nachricht ausgewählt</numerusform>
-            <numerusform>%Ln Nachrichten ausgewählt</numerusform>
+            <numerusform>%Ln wiadomość zaznaczona</numerusform>
+            <numerusform>%Ln wiadomości zaznaczone</numerusform>
+            <numerusform>%Ln wiadomości zaznaczonych</numerusform>
         </translation>
     </message>
     <message>
@@ -401,149 +425,145 @@
         <translation>
             <numerusform>%1 online</numerusform>
             <numerusform>%1 online</numerusform>
+            <numerusform>%1 online</numerusform>
         </translation>
     </message>
     <message>
         <source>This secret chat is not yet ready. Your chat partner needs to go online first.</source>
-        <translation>Dieser geheime Chat ist noch nicht bereit. Ihr Chatpartner muss erst noch online gehen.</translation>
+        <translation>Ten tajny czat nie jest jeszcze gotowy. Twój rozmówca musi być online.</translation>
     </message>
     <message>
         <source>Closing chat</source>
-        <translation>Schließe Chat</translation>
+        <translation>Zamykanie czatu</translation>
     </message>
     <message>
         <source>Close Chat</source>
-        <translation>Chat schließen</translation>
+        <translation>Zamknij czat</translation>
     </message>
     <message>
         <source>Search in Chat</source>
-        <translation>Im Chat suchen</translation>
+        <translation>Wyszukaj w czacie</translation>
     </message>
     <message>
         <source>Search in chat...</source>
-        <translation>Im Chat suchen...</translation>
+        <translation>Wyszukaj w czacie</translation>
     </message>
     <message>
         <source>Location: Obtaining position...</source>
-        <translation>Standort: Erlange Position...</translation>
+        <translation>Lokalizacja: Uzyskanie pozycji ...</translation>
     </message>
     <message>
         <source>Location (%1/%2)</source>
-        <translation>Standort (%1/%2)</translation>
+        <translation>Lokalizacja (%1/%2)</translation>
     </message>
     <message>
         <source>Copy Message to Clipboard</source>
-        <translation>Nachricht in die Zwischenablage kopieren</translation>
+        <translation>Skopiuj wiadomość do schowka</translation>
     </message>
     <message>
         <source>Message unpinned</source>
-        <translation>Nachricht losgeheftet</translation>
+        <translation>Wiadomość opięta</translation>
     </message>
     <message>
         <source>Unpin Message</source>
-        <translation>Nachricht losheften</translation>
+        <translation>Odepnij wiadomość</translation>
     </message>
     <message>
         <source>Pin Message</source>
-        <translation>Nachricht anheften</translation>
+        <translation>Przypnij wiadomość</translation>
     </message>
     <message>
         <source>Additional Options</source>
-        <translation>Zusätzliche Optionen</translation>
+        <translation>Dodatkowe opcje</translation>
     </message>
     <message>
         <source>Delete Message</source>
-        <translation>Nachricht löschen</translation>
+        <translation>Usuń wiadomość</translation>
     </message>
     <message>
         <source>Forward Message</source>
-        <translation>Nachricht weiterleiten</translation>
+        <translation>Przekaż widomość</translation>
     </message>
     <message>
         <source>Unknown address</source>
-        <translation>Unbekannte Adresse</translation>
+        <translation>Nieznany adres</translation>
     </message>
     <message>
         <source>Accuracy: %1m</source>
-        <translation>Genauigkeit: %1m</translation>
+        <translation>Dokładność: %1m</translation>
     </message>
     <message>
         <source>Sponsored Message</source>
-        <translation>Gesponsorte Nachricht</translation>
+        <translation>Wiadomość sponsorowana</translation>
     </message>
     <message>
         <source>Deleting chat</source>
-        <translation>Lösche Chat</translation>
+        <translation>Usuwanie czatu</translation>
     </message>
     <message>
         <source>Delete Chat</source>
-        <translation>Chat löschen</translation>
+        <translation>Usuń czat</translation>
     </message>
     <message>
         <source>Deleted User</source>
-        <translation>Gelöschtes Konto</translation>
+        <translation>Usunięty użytkownik</translation>
     </message>
     <message>
         <source>Double-tap on a message to choose a reaction</source>
-        <translation>Drücke zweimal auf eine Nachricht, um eine Reaktion auszuwählen</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>ChatSelectionPage</name>
     <message>
         <source>Select Chat</source>
-        <translation>Chat auswählen</translation>
+        <translation>Wybierz czat</translation>
     </message>
     <message>
         <source>You don&apos;t have any chats yet.</source>
-        <translation>Sie haben noch keine Chats.</translation>
-    </message>
-</context>
-<context>
-    <name>ContactSync</name>
-    <message>
-        <source>Could not synchronize your contacts with Telegram.</source>
-        <translation>Konnte Ihre Kontakte nicht mit Telegram synchronisieren.</translation>
+        <translation>Nie masz jeszcze żadnych czatów.</translation>
     </message>
 </context>
 <context>
     <name>CoverPage</name>
     <message>
         <source>in</source>
-        <translation>in</translation>
+        <translation>w</translation>
     </message>
     <message>
         <source>Waiting for network...</source>
-        <translation>Warte auf Netzwerk...</translation>
+        <translation>Oczekiwanie na sieć...</translation>
     </message>
     <message>
         <source>Connecting to network...</source>
-        <translation>Verbinde zum Netzwerk...</translation>
+        <translation>Łączenie z siecią...</translation>
     </message>
     <message>
         <source>Connecting to proxy...</source>
-        <translation>Verbinde zum Proxy...</translation>
+        <translation>Łączenie z proxy</translation>
     </message>
     <message>
         <source>Connected</source>
-        <translation>Verbunden</translation>
+        <translation>Połaczony</translation>
     </message>
     <message>
         <source>Updating content...</source>
-        <translation>Aktualisiere Inhalte...</translation>
+        <translation>Aktualizacja treści...</translation>
     </message>
     <message numerus="yes">
         <source>chats</source>
         <translation>
-            <numerusform>Chat</numerusform>
-            <numerusform>Chats</numerusform>
+            <numerusform>czat</numerusform>
+            <numerusform>czaty</numerusform>
+            <numerusform>czatów</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>unread messages</source>
         <translation>
-            <numerusform>ungelesene Nachricht</numerusform>
-            <numerusform>ungelesene Nachrichten</numerusform>
+            <numerusform>nieprzeczytana wiadomość</numerusform>
+            <numerusform>nieprzeczytane wiadomości</numerusform>
+            <numerusform>nieprzeczytanych wiadomości</numerusform>
         </translation>
     </message>
 </context>
@@ -552,67 +572,67 @@
     <message>
         <source>Group Member Permissions</source>
         <comment>what can normal group members do</comment>
-        <translation>Berechtigungen der Gruppenmitglieder</translation>
+        <translation>Uprawnienia członka grupy</translation>
     </message>
     <message>
         <source>Send Messages</source>
         <comment>member permission</comment>
-        <translation>Nachrichten senden</translation>
+        <translation>Wyślij wiadomości</translation>
     </message>
     <message>
         <source>Send Media Messages</source>
         <comment>member permission</comment>
-        <translation>Medien senden</translation>
+        <translation>Wyślij wiadomość multimedialną</translation>
     </message>
     <message>
         <source>Send Other Messages</source>
         <comment>member permission</comment>
-        <translation>Andere Nachrichten senden</translation>
+        <translation>Wyślij inne wiadomości</translation>
     </message>
     <message>
         <source>Add Web Page Previews</source>
         <comment>member permission</comment>
-        <translation>Webseiten-Vorschau hinzufügen</translation>
+        <translation>Dodaj podglad stron internetowych</translation>
     </message>
     <message>
         <source>Change Chat Info</source>
         <comment>member permission</comment>
-        <translation>Chatinformation ändern</translation>
+        <translation>Zmień informacje o czacie</translation>
     </message>
     <message>
         <source>Invite Users</source>
         <comment>member permission</comment>
-        <translation>Benutzer einladen</translation>
+        <translation>Zaproś użytkowników</translation>
     </message>
     <message>
         <source>Pin Messages</source>
         <comment>member permission</comment>
-        <translation>Nachrichten anpinnen</translation>
+        <translation>Przypnij wiadomość</translation>
     </message>
     <message>
         <source>New Members</source>
         <comment>what can new group members do</comment>
-        <translation>Neue Mitglieder</translation>
+        <translation>Nowi członkowie</translation>
     </message>
     <message>
         <source>New members can see older messages</source>
         <comment>member permission</comment>
-        <translation>Neue Mitglieder können ältere Nachrichten sehen</translation>
+        <translation>Nowi członkowie mogą zobaczyć starsze wiadomości</translation>
     </message>
 </context>
 <context>
     <name>EditSuperGroupSlowModeColumn</name>
     <message>
         <source>Slow Mode</source>
-        <translation>Langsamer Modus</translation>
+        <translation>Tryb powolny</translation>
     </message>
     <message>
         <source>Off</source>
-        <translation>Aus</translation>
+        <translation>Wyłączony</translation>
     </message>
     <message>
         <source>Set how long every chat member has to wait between Messages</source>
-        <translation>Legen Sie fest, wie lange jedes Mitglied zwischen zwei Nachrichten warten muss</translation>
+        <translation>Ustaw, jak długo każdy członek czatu ma czekać pomiędzy wiadomościami</translation>
     </message>
 </context>
 <context>
@@ -620,287 +640,289 @@
     <message>
         <source>sent a picture</source>
         <comment>myself</comment>
-        <translation>haben ein Bild geschickt</translation>
+        <translation>wysłałem obraz</translation>
     </message>
     <message>
         <source>sent a picture</source>
-        <translation>hat ein Bild geschickt</translation>
+        <translation>wysłał obraz</translation>
     </message>
     <message>
         <source>sent a video</source>
         <comment>myself</comment>
-        <translation>haben ein Video geschickt</translation>
+        <translation>wysłałem film</translation>
     </message>
     <message>
         <source>sent a video</source>
-        <translation>hat ein Video geschickt</translation>
+        <translation>wysłał film</translation>
     </message>
     <message>
         <source>sent an animation</source>
         <comment>myself</comment>
-        <translation>haben eine Animation geschickt</translation>
+        <translation>wysłałem animację</translation>
     </message>
     <message>
         <source>sent an animation</source>
-        <translation>hat eine Animation geschickt</translation>
+        <translation>wysłał animację</translation>
     </message>
     <message>
         <source>sent a voice note</source>
-        <translation>hat eine Sprachnachricht geschickt</translation>
+        <translation>wysłał notatke głosową</translation>
     </message>
     <message>
         <source>sent a document</source>
         <comment>myself</comment>
-        <translation>haben ein Dokument geschickt</translation>
+        <translation>wysłałem dokument</translation>
     </message>
     <message>
         <source>sent a document</source>
-        <translation>hat ein Dokument geschickt</translation>
+        <translation>wysłał dokument</translation>
     </message>
     <message>
         <source>sent a location</source>
         <comment>myself</comment>
-        <translation>haben einen Standort geschickt</translation>
+        <translation>wysłałem lokalizację</translation>
     </message>
     <message>
         <source>sent a location</source>
-        <translation>hat einen Standort geschickt</translation>
+        <translation>wysłał lokalizację</translation>
     </message>
     <message>
         <source>have registered with Telegram</source>
         <comment>myself</comment>
-        <translation>haben sich bei Telegram angemeldet</translation>
+        <translation>zostałem zarejestrowany w Telegram</translation>
     </message>
     <message>
         <source>has registered with Telegram</source>
-        <translation>hat sich bei Telegram angemeldet</translation>
+        <translation>zarejestrował się w Telegramie</translation>
     </message>
     <message>
         <source>joined this chat</source>
         <comment>myself</comment>
-        <translation>sind diesem Chat beigetreten</translation>
+        <translation>dołaczyłem do tego czatu</translation>
     </message>
     <message>
         <source>joined this chat</source>
-        <translation>ist diesem Chat beigetreten</translation>
+        <translation>dołaczył do tego czatu</translation>
     </message>
     <message>
         <source>were added to this chat</source>
         <comment>myself</comment>
-        <translation>wurden diesem Chat hinzugefügt</translation>
+        <translation>zostałem dodany do tego czatu</translation>
     </message>
     <message>
         <source>was added to this chat</source>
-        <translation>wurde diesem Chat hinzugefügt</translation>
+        <translation>został dodany do tego czatu</translation>
     </message>
     <message>
         <source>left this chat</source>
         <comment>myself</comment>
-        <translation>haben diesen Chat verlassen</translation>
+        <translation>opuściłem ten czat</translation>
     </message>
     <message>
         <source>left this chat</source>
-        <translation>hat diesen Chat verlassen</translation>
+        <translation>opuścił ten czat</translation>
     </message>
     <message>
         <source>sent a voice note</source>
         <comment>myself</comment>
-        <translation>haben eine Sprachnachricht geschickt</translation>
+        <translation>wysłałem notatke głosową</translation>
     </message>
     <message>
         <source>sent a venue</source>
         <comment>myself</comment>
-        <translation>haben einen Ort geschickt</translation>
+        <translation>wysłałem miejsce wydarzenia</translation>
     </message>
     <message>
         <source>sent a venue</source>
-        <translation>hat einen Ort geschickt</translation>
+        <translation>wysłał miejsce wydarzenia</translation>
     </message>
     <message>
         <source>changed the chat title</source>
         <comment>myself</comment>
-        <translation>haben den Chattitel geändert</translation>
+        <translation>zmieniłem tytuł czatu</translation>
     </message>
     <message>
         <source>changed the chat title</source>
-        <translation>hat den Chattitel geändert</translation>
+        <translation>tytuł czatu został zmieniony</translation>
     </message>
     <message>
         <source>sent a poll</source>
         <comment>myself</comment>
-        <translation>haben eine Umfrage geschickt</translation>
+        <translation>wysłałem ankietę</translation>
     </message>
     <message>
         <source>sent a poll</source>
-        <translation>hat eine Umfrage geschickt</translation>
+        <translation>wysłano ankietę</translation>
     </message>
     <message>
         <source>sent a quiz</source>
         <comment>myself</comment>
-        <translation>haben ein Quiz geschickt</translation>
+        <translation>wysłąłem quiz</translation>
     </message>
     <message>
         <source>sent a quiz</source>
-        <translation>hat ein Quiz geschickt</translation>
+        <translation>wysłał quiz</translation>
     </message>
     <message>
         <source>created this group</source>
         <comment>myself</comment>
-        <translation>haben diese Gruppe erstellt</translation>
+        <translation>utworzył tą grupę</translation>
     </message>
     <message>
         <source>created this group</source>
-        <translation>hat diese Gruppe erstellt</translation>
+        <translation>utworzył tą grupę</translation>
     </message>
     <message>
         <source>changed the chat photo</source>
         <comment>myself</comment>
-        <translation>haben das Chatbild geändert</translation>
+        <translation>zmieniłem zdjęcie czatu</translation>
     </message>
     <message>
         <source>changed the chat photo</source>
-        <translation>hat das Chatbild geändert</translation>
+        <translation>zmienił zdjęcie czatu</translation>
     </message>
     <message>
         <source>deleted the chat photo</source>
         <comment>myself</comment>
-        <translation>haben das Chatbild gelöscht</translation>
+        <translation>skasowałem zdjęcie czatu</translation>
     </message>
     <message>
         <source>deleted the chat photo</source>
-        <translation>hat das Chatbild gelöscht</translation>
+        <translation>skoasował zdjęcie czatu</translation>
     </message>
     <message>
         <source>changed the secret chat TTL setting</source>
         <comment>myself</comment>
-        <translation>haben die TTL-Einstellung des geheimen Chats geändert</translation>
+        <translation>zmieniłem ustawienia TTL tajnego czatu</translation>
     </message>
     <message>
         <source>changed the secret chat TTL setting</source>
-        <translation>hat die TTL-Einstellung des geheimen Chats geändert</translation>
+        <translation>zmienił usatwienia TTL tajnego czatu</translation>
     </message>
     <message>
         <source>upgraded this group to a supergroup</source>
         <comment>myself</comment>
-        <translation>haben die Gruppe zu einer Supergruppe erweitert</translation>
+        <translation>zaktualizawałem tą grupę do supergrupy</translation>
     </message>
     <message>
         <source>changed the pinned message</source>
         <comment>myself</comment>
-        <translation>haben die angeheftete Nachricht geändert</translation>
+        <translation>zmieniłem przypiętą wiadomość</translation>
     </message>
     <message>
         <source>changed the pinned message</source>
-        <translation>hat die angeheftete Nachricht geändert</translation>
+        <translation>zmienił przypiętą wiadomość</translation>
     </message>
     <message>
         <source>created a screenshot in this chat</source>
         <comment>myself</comment>
-        <translation>haben ein Bildschirmfoto dieses Chats erstellt</translation>
+        <translation>zrobiłem zrzut ekranu w tym czacie</translation>
     </message>
     <message>
         <source>created a screenshot in this chat</source>
-        <translation>hat ein Bildschirmfoto dieses Chats erstellt</translation>
+        <translation>zrobił zrzut ekranu w tym czacie</translation>
     </message>
     <message>
         <source>sent an unsupported message</source>
         <comment>myself</comment>
-        <translation>haben eine nicht unterstützte Nachricht gesendet</translation>
+        <translation>wysłałem nieobsługiwaną wiadomość</translation>
     </message>
     <message>
         <source>sent an unsupported message</source>
-        <translation>hat eine nicht unterstützte Nachricht gesendet</translation>
+        <translation>wysłał nieobsługiwaną wiadomość</translation>
     </message>
     <message>
         <source>sent an unsupported message: %1</source>
-        <translation>hat eine nicht unterstützte Nachricht geschickt: %1</translation>
+        <translation>wysłał nieobsługiwaną wiadomość: %1</translation>
     </message>
     <message>
         <source>upgraded this group to a supergroup</source>
-        <translation>hat die Gruppe zu einer Supergruppe erweitert</translation>
+        <translation>zaktualizował tą grupę do supergrupy</translation>
     </message>
     <message>
         <source>sent a self-destructing photo that is expired</source>
         <comment>myself</comment>
-        <translation>haben ein selbstzerstörendes Bild gesendet, das abgelaufen ist</translation>
+        <translation>wysłałem samoniszczące się zdjęcie, które straciło ważność</translation>
     </message>
     <message>
         <source>sent a self-destructing video that is expired</source>
         <comment>myself</comment>
-        <translation>haben ein selbstzerstörendes Video gesendet, das abgelaufen ist</translation>
+        <translation>wysłał samoniszczące się zdjęcie, które straciło ważność</translation>
     </message>
     <message>
         <source>sent a self-destructing video that is expired</source>
-        <translation>haben ein selbstzerstörendes Video gesendet, das abgelaufen ist</translation>
+        <translation>wysłałem samoniszczący się film, które straciło ważność</translation>
     </message>
     <message>
         <source>sent an unsupported message: %1</source>
         <comment>myself</comment>
-        <translation>haben eine nicht unterstützte Nachricht geschickt: %1</translation>
+        <translation>wysłąłem nieobługiwaną wiadomość: %1</translation>
     </message>
     <message>
         <source>sent a self-destructing photo that is expired</source>
-        <translation>hat ein selbstzerstörendes Bild gesendet, das abgelaufen ist</translation>
+        <translation>wysłał samoniszczące się zdjęcie, które straciło ważność</translation>
     </message>
     <message>
         <source>sent an audio</source>
         <comment>myself</comment>
-        <translation>haben eine Audiodatei gesendet</translation>
+        <translation>wysłałem plik dźwiękowy</translation>
     </message>
     <message>
         <source>sent an audio</source>
-        <translation>hat eine Audiodatei gesendet</translation>
+        <translation>wysłał plik dźwiękowy</translation>
     </message>
     <message>
         <source>has added %1 to the chat</source>
-        <translation>hat %1 zum Chat hinzugefügt</translation>
+        <translation>dodał %1 do czatu</translation>
     </message>
     <message>
         <source>has removed %1 from the chat</source>
-        <translation>hat %1 vom Chat entfernt</translation>
+        <translation>usunął %1 z czatu</translation>
     </message>
     <message>
         <source>have added %1 to the chat</source>
         <comment>myself</comment>
-        <translation>haben %1 zum Chat hinzugefügt</translation>
+        <translation>dodsałem %1 do czatu</translation>
     </message>
     <message>
         <source>have removed %1 from the chat</source>
         <comment>myself</comment>
-        <translation>haben %1 vom Chat entfernt</translation>
+        <translation>usunąłem %1 z czatu</translation>
     </message>
     <message numerus="yes">
         <source>scored %Ln points</source>
         <comment>myself</comment>
         <translation>
-            <numerusform>haben %Ln Punkt erziehlt</numerusform>
-            <numerusform>haben %Ln Punkte erziehlt</numerusform>
+            <numerusform>zdobyłem %Ln punkt</numerusform>
+            <numerusform>zdobyłem %Ln punkty</numerusform>
+            <numerusform>zdobyłem %Ln punktów</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>scored %Ln points</source>
         <translation>
-            <numerusform>hat %Ln Punkt erziehlt</numerusform>
-            <numerusform>hat %Ln Punkte erziehlt</numerusform>
+            <numerusform>zdobył %Ln punkt</numerusform>
+            <numerusform>zdobył %Ln punkty</numerusform>
+            <numerusform>zdobył %Ln punktów</numerusform>
         </translation>
     </message>
     <message>
         <source>sent a game</source>
         <comment>myself</comment>
-        <translation>haben ein Spiel gesendet</translation>
+        <translation>wysłałem grę</translation>
     </message>
     <message>
         <source>sent a game</source>
-        <translation>hat ein Spiel gesendet</translation>
+        <translation>wysłał grę</translation>
     </message>
     <message>
         <source>sent a video note</source>
         <comment>myself</comment>
-        <translation>haben eine Videonachricht geschickt</translation>
+        <translation>wysłałem notatkę video</translation>
     </message>
     <message>
         <source>sent a video note</source>
-        <translation>hat eine Videonachricht geschickt</translation>
+        <translation>wysłał notatkę video</translation>
     </message>
 </context>
 <context>
@@ -908,9 +930,10 @@
     <message numerus="yes">
         <source>Forward %Ln messages</source>
         <comment>dialog header</comment>
-        <translation>
-            <numerusform>%Ln Nachricht weiterleiten</numerusform>
-            <numerusform>%Ln Nachrichten weiterleiten</numerusform>
+        <translation type="unfinished">
+            <numerusform>Przekaż %Ln wiadomość</numerusform>
+            <numerusform>Przekaż %Ln wiadomości</numerusform>
+            <numerusform>Przekaż %Ln wiadomości</numerusform>
         </translation>
     </message>
 </context>
@@ -918,30 +941,30 @@
     <name>ImagePage</name>
     <message>
         <source>Download Picture</source>
-        <translation>Bild herunterladen</translation>
+        <translation>Pobierz obraz</translation>
     </message>
     <message>
         <source>Download of %1 successful.</source>
-        <translation>Download von %1 erfolgreich.</translation>
+        <translation>Probrano %1 plików</translation>
     </message>
     <message>
         <source>Download failed.</source>
-        <translation>Download fehlgeschlagen.</translation>
+        <translation>Nieudane pobranie</translation>
     </message>
 </context>
 <context>
     <name>InReplyToRow</name>
     <message>
         <source>You</source>
-        <translation>Sie</translation>
+        <translation>Ty</translation>
     </message>
     <message>
         <source>Unknown</source>
-        <translation>Unbekannt</translation>
+        <translation>Nieznany</translation>
     </message>
     <message>
         <source>This message was deleted</source>
-        <translation>Diese Nachricht wurde gelöscht</translation>
+        <translation>Ta wiadomość została skasowana</translation>
     </message>
 </context>
 <context>
@@ -952,127 +975,129 @@
     </message>
     <message>
         <source>Welcome to Fernschreiber!</source>
-        <translation>Willkommen bei Fernschreiber!</translation>
+        <translation>Witamy w Fernschreiber!</translation>
     </message>
     <message>
         <source>Please enter your phone number to continue.</source>
-        <translation>Bitte geben Sie zum Fortfahren Ihre Telefonnummer ein.</translation>
+        <translation>Podaj swój numer telefonu, aby kontynuować.</translation>
     </message>
     <message>
         <source>Continue</source>
-        <translation>Weiter</translation>
+        <translation>Kontynuuj</translation>
     </message>
     <message>
         <source>Please enter the code that you received:</source>
-        <translation>Bitte geben Sie den Code ein, den Sie erhalten haben:</translation>
+        <translation>Wpisz otrzymany kod:</translation>
     </message>
     <message>
         <source>Loading...</source>
-        <translation>Laden...</translation>
+        <translation>Ładowanie...</translation>
     </message>
     <message>
         <source>Unable to authenticate you with the entered code.</source>
-        <translation>Es war nicht möglich, Sie mit dem eingegebenen Code zu authentifizieren.</translation>
+        <translation>Nie można uwierzytelnić Ciebie wprowadzonym kodem.</translation>
     </message>
     <message>
         <source>Enter code again</source>
-        <translation>Code erneut eingeben</translation>
+        <translation>Wprowadź ponownie kod</translation>
     </message>
     <message>
         <source>Restart authentication</source>
-        <translation>Authentifizierung neu starten</translation>
+        <translation>Uruchom ponownie uwierzytelnianie</translation>
     </message>
     <message>
         <source>Please enter your password:</source>
-        <translation>Bitte geben Sie Ihr Passwort ein:</translation>
+        <translation>Wprowadź hasło:</translation>
     </message>
     <message>
         <source>Register User</source>
-        <translation>Registriere Benutzer</translation>
+        <translation>Zarejestruj użytkownika</translation>
     </message>
     <message>
         <source>Enter your First Name</source>
-        <translation>Bitte geben Sie ihren Vornamen ein</translation>
+        <translation>Wprowadź swoje imię</translation>
     </message>
     <message>
         <source>Enter your Last Name</source>
-        <translation>Bitte geben Sie ihren Nachnamen ein</translation>
+        <translation>wprowadź swoje nazwisko</translation>
     </message>
     <message>
         <source>User Registration</source>
-        <translation>Benutzerregistrierung</translation>
+        <translation>Rejestracja użytkownika</translation>
     </message>
     <message>
         <source>Use the international format, e.g. %1</source>
-        <translation>Nutzen Sie das internationale Format, z.B. %1</translation>
+        <translation>Użyj międzynarodowego formatu, %1</translation>
     </message>
     <message>
         <source>About Fernschreiber</source>
-        <translation>Über Fernschreiber</translation>
+        <translation>O Fernschreiber</translation>
     </message>
 </context>
 <context>
     <name>MessageListViewItem</name>
     <message>
         <source>Reply to Message</source>
-        <translation>Auf Nachricht antworten</translation>
+        <translation>Odpowiedz na wiadomość</translation>
     </message>
     <message>
         <source>Edit Message</source>
-        <translation>Nachricht bearbeiten</translation>
+        <translation>Edytuj widomość</translation>
     </message>
     <message>
         <source>You</source>
-        <translation>Sie</translation>
+        <translation>Ty</translation>
     </message>
     <message>
         <source>Forwarded Message</source>
-        <translation>Weitergeleitete Nachricht</translation>
+        <translation>Wiadomość przekazana</translation>
     </message>
     <message>
         <source>Select Message</source>
-        <translation>Nachricht auswählen</translation>
+        <translation>Wybierz wiadomość</translation>
     </message>
     <message>
         <source>More Options...</source>
-        <translation>Mehr Optionen...</translation>
+        <translation>Więcej opcji...</translation>
     </message>
     <message>
         <source>Message deleted</source>
-        <translation>Nachricht gelöscht</translation>
+        <translation>Wiadomość usunięta</translation>
     </message>
     <message>
         <source>Copy Message to Clipboard</source>
-        <translation>Nachricht in die Zwischenablage kopieren</translation>
+        <translation>Skopiuj wiadomość do schowka</translation>
     </message>
     <message>
         <source>Forward Message</source>
-        <translation>Nachricht weiterleiten</translation>
+        <translation>Przekaż widomość</translation>
     </message>
     <message>
         <source>Delete Message</source>
-        <translation>Nachricht löschen</translation>
+        <translation>Usuń wiadomość</translation>
     </message>
 </context>
 <context>
     <name>MessageListViewItemSimple</name>
     <message>
         <source>You</source>
-        <translation>Sie</translation>
+        <translation>Ty</translation>
     </message>
     <message numerus="yes">
         <source>scored %Ln points in %2</source>
         <comment>myself</comment>
         <translation>
-            <numerusform>haben %Ln Punkt bei %2 erziehlt</numerusform>
-            <numerusform>haben %Ln Punkte bei %2 erziehlt</numerusform>
+            <numerusform>zdobyłem %Ln punkt w %2</numerusform>
+            <numerusform>zdobyłem %Ln punkty w %2</numerusform>
+            <numerusform>zdobyłem %Ln punktów w %2</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>scored %Ln points in %2</source>
         <translation>
-            <numerusform>hat %Ln Punkt bei %2 erziehlt</numerusform>
-            <numerusform>hat %Ln Punkte bei %2 erziehlt</numerusform>
+            <numerusform>zdobył %Ln punkt w %2</numerusform>
+            <numerusform>zdobył %Ln punkty w %2</numerusform>
+            <numerusform>zdobył %Ln punktów w %2</numerusform>
         </translation>
     </message>
 </context>
@@ -1080,35 +1105,36 @@
     <name>MessageOverlayFlickable</name>
     <message>
         <source>You</source>
-        <translation>Sie</translation>
+        <translation>Ty</translation>
     </message>
     <message>
         <source>This message was forwarded. Original author: %1</source>
-        <translation>Diese Nachricht wurde weitergeleitet. Ursprünglicher Autor: %1</translation>
+        <translation>Ta wiadomość została przekazana. Oryginalny autor: %1</translation>
     </message>
 </context>
 <context>
     <name>MessagePoll</name>
     <message>
         <source>Close Poll</source>
-        <translation>Umfrage beenden</translation>
+        <translation>Zamknij ankietę</translation>
     </message>
     <message>
         <source>Reset Answer</source>
-        <translation>Antwort zurückziehen</translation>
+        <translation>Resetuj odpowiedź</translation>
     </message>
     <message>
         <source>Final Result:</source>
-        <translation>Endergebnis:</translation>
+        <translation>Ostateczny wynik:</translation>
     </message>
     <message>
         <source>Multiple Answers are allowed.</source>
-        <translation>Mehrfachauswahl ist erlaubt.</translation>
+        <translation>Dozwolonych jest wiele odpowiedzi.</translation>
     </message>
     <message numerus="yes">
         <source>%Ln%</source>
         <comment>% of votes for option</comment>
         <translation>
+            <numerusform>%Ln%</numerusform>
             <numerusform>%Ln%</numerusform>
             <numerusform>%Ln%</numerusform>
         </translation>
@@ -1117,8 +1143,9 @@
         <source>%Ln vote(s) total</source>
         <comment>number of total votes</comment>
         <translation>
-            <numerusform>%Ln Stimme insgesamt</numerusform>
-            <numerusform>%Ln Stimmen insgesamt</numerusform>
+            <numerusform>%Ln odpowiedź</numerusform>
+            <numerusform>%Ln odpowiedzi</numerusform>
+            <numerusform>%Ln odpowiedzi</numerusform>
         </translation>
     </message>
 </context>
@@ -1127,61 +1154,61 @@
     <message>
         <source>via %1</source>
         <comment>message posted via bot user</comment>
-        <translation>via %1</translation>
+        <translation>przez %1</translation>
     </message>
 </context>
 <context>
     <name>MessageVoiceNote</name>
     <message>
         <source>Voice Note</source>
-        <translation>Sprachnotiz</translation>
+        <translation>Notatka głosowa</translation>
     </message>
 </context>
 <context>
     <name>NewChatPage</name>
     <message>
         <source>Your Contacts</source>
-        <translation>Ihre Kontakte</translation>
+        <translation>Twoje kontakty</translation>
     </message>
     <message>
         <source>You don&apos;t have any contacts.</source>
-        <translation>Sie haben keine Kontakte</translation>
+        <translation>Nie masz żadnych kontaktów</translation>
     </message>
     <message>
         <source>Private Chat</source>
-        <translation>Privater Chat</translation>
-    </message>
-    <message>
-        <source>Transport-encrypted, uses Telegram Cloud, sharable across devices</source>
-        <translation>Transportverschlüsselt, nutzt Telegram-Cloud, teilbar zwischen Geräten</translation>
+        <translation>Prywatny czat</translation>
     </message>
     <message>
         <source>Secret Chat</source>
-        <translation>Geheimer Chat</translation>
+        <translation>Tajny czat</translation>
     </message>
     <message>
         <source>End-to-end-encrypted, accessible on this device only</source>
-        <translation>Ende-zu-Ende-verschlüsselt, nur auf diesem Gerät zugreifbar</translation>
-    </message>
-    <message>
-        <source>Search a contact...</source>
-        <translation>Einen Kontakt suchen...</translation>
+        <translation>Zaszyfrowane od końca do końca, dostępne tylko na tym urządzeniu</translation>
     </message>
     <message>
         <source>Loading contacts...</source>
-        <translation>Lade Kontakte...</translation>
+        <translation>Ładowanie kontaktów...</translation>
+    </message>
+    <message>
+        <source>Transport-encrypted, uses Telegram Cloud, sharable across devices</source>
+        <translation>Zaszyfrowane w transporcie, wykorzystuje usługę Telegram Cloud, którą można współdzielić między urządzeniami</translation>
+    </message>
+    <message>
+        <source>Search a contact...</source>
+        <translation>Wyszukaj kontakt...</translation>
     </message>
     <message>
         <source>Synchronize Contacts with Telegram</source>
-        <translation>Kontakte mit Telegram synchronisieren</translation>
+        <translation>Synchronizuj kontakty z Telegramem</translation>
     </message>
     <message>
         <source>Contacts successfully synchronized with Telegram.</source>
-        <translation>Die Kontakte wurden erfolgreich mit Telegram synchronisiert.</translation>
+        <translation>Synchronizacja kontaktów z Telegramem zakończona sukcesem.</translation>
     </message>
     <message>
         <source>No contacts found.</source>
-        <translation>Keine Kontakte gefunden</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1189,236 +1216,261 @@
     <message numerus="yes">
         <source>%Ln unread messages</source>
         <translation>
-            <numerusform>%Ln ungelesene Nachricht</numerusform>
-            <numerusform>%Ln ungelesene Nachrichten</numerusform>
+            <numerusform>%Ln nieprzeczytana wiadomość</numerusform>
+            <numerusform>%Ln nieprzeczytane wiadomości</numerusform>
+            <numerusform>%Ln nieprzeczytanych wiadomośći</numerusform>
         </translation>
     </message>
 </context>
 <context>
     <name>OverviewPage</name>
     <message>
-        <source>About Fernschreiber</source>
-        <translation>Über Fernschreiber</translation>
-    </message>
-    <message>
-        <source>Fernschreiber</source>
-        <translation>Fernschreiber</translation>
-    </message>
-    <message>
         <source>Waiting for network...</source>
-        <translation>Warte auf Netzwerk...</translation>
+        <translation type="unfinished">Oczekiwanie na sieć...</translation>
     </message>
     <message>
         <source>Connecting to network...</source>
-        <translation>Verbinde zum Netzwerk...</translation>
+        <translation type="unfinished">Łączenie z siecią...</translation>
     </message>
     <message>
         <source>Connecting to proxy...</source>
-        <translation>Verbinde zum Proxy...</translation>
+        <translation type="unfinished">Łączenie z proxy</translation>
+    </message>
+    <message>
+        <source>Fernschreiber</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Updating content...</source>
-        <translation>Aktualisiere Inhalte...</translation>
+        <translation type="unfinished">Aktualizacja treści...</translation>
     </message>
     <message>
         <source>Loading chat list...</source>
-        <translation>Lade Chatliste...</translation>
-    </message>
-    <message>
-        <source>Settings</source>
-        <translation>Einstellungen</translation>
-    </message>
-    <message>
-        <source>You don&apos;t have any chats yet.</source>
-        <translation>Sie haben noch keine Chats.</translation>
-    </message>
-    <message>
-        <source>New Chat</source>
-        <translation>Neuer Chat</translation>
-    </message>
-    <message>
-        <source>Filter your chats...</source>
-        <translation>Ihre Chats filtern...</translation>
-    </message>
-    <message>
-        <source>Search Chats</source>
-        <translation>Chats suchen</translation>
-    </message>
-    <message>
-        <source>Download of %1 successful.</source>
-        <translation>Download von %1 erfolgreich.</translation>
-    </message>
-    <message>
-        <source>Download failed.</source>
-        <translation>Download fehlgeschlagen.</translation>
-    </message>
-    <message>
-        <source>Tap on the title bar to filter your chats</source>
-        <translation>Tippen Sie auf die Titelleiste, um Ihre Chats zu filtern</translation>
-    </message>
-    <message>
-        <source>No matching chats found.</source>
-        <translation>Keine passenden Chats gefunden.</translation>
-    </message>
-    <message>
-        <source>You can search public chats or create a new chat via the pull-down menu.</source>
-        <translation>Sie können über das Pull-Down-Menü öffentliche Chats finden oder einen Neuen erstellen.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Logging out</source>
-        <translation>Abmelden</translation>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Download of %1 successful.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Download failed.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unable to open link.</source>
-        <translation>Kann Link nicht öffnen.</translation>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Filter your chats...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>About Fernschreiber</source>
+        <translation type="unfinished">O Fernschreiber</translation>
+    </message>
+    <message>
+        <source>Open About app page</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation type="unfinished">Ustawienia</translation>
+    </message>
+    <message>
+        <source>Open setting page</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Search Chats</source>
+        <translation type="unfinished">Wyszukaj czaty</translation>
+    </message>
+    <message>
+        <source>Open searching page</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>New Chat</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Create a new chat</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You don&apos;t have any chats yet.</source>
+        <translation type="unfinished">Nie masz jeszcze żadnych czatów.</translation>
+    </message>
+    <message>
+        <source>No matching chats found.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You can search public chats or create a new chat via the pull-down menu.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>All Chats</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Unread chats count</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>PinnedMessageItem</name>
     <message>
         <source>You</source>
-        <translation>Sie</translation>
+        <translation>Ty</translation>
     </message>
     <message>
         <source>Pinned Message</source>
-        <translation>Angeheftete Nachricht</translation>
+        <translation>Przypieta wiadomość</translation>
     </message>
     <message>
         <source>Message unpinned</source>
-        <translation>Nachricht losgeheftet</translation>
+        <translation>Wiadomość opięta</translation>
     </message>
 </context>
 <context>
     <name>PollCreationPage</name>
     <message>
         <source>All answers have to contain 1-100 characters.</source>
-        <translation>Alle Antworten müssen 1-100 Zeichen beinhalten.</translation>
+        <translation>Wszystkie odpowiedzi musza zawierać od 1 do 100 znaków.</translation>
     </message>
     <message>
         <source>To send a quiz, you have to specify the right answer.</source>
-        <translation>Um ein Quiz zu senden, müssen Sie die richtige Antwort auswählen.</translation>
+        <translation>Aby wysłać quiz musisz wskazać prawidłową odpowiedź.</translation>
     </message>
     <message>
         <source>You have to enter a question.</source>
-        <translation>Sie müssen eine Frage eingeben.</translation>
+        <translation>Musisz wprowadzić pytanie.</translation>
     </message>
     <message>
         <source>The question has to be shorter than 256 characters.</source>
-        <translation>Die Frage muss kürzer als 256 Zeichen sein.</translation>
+        <translation>Pytanie musi byś krótsze niż 256 znaków.</translation>
     </message>
     <message>
         <source>A poll requires 2-10 answers.</source>
-        <translation>Eine Umfrage benötigt 2-10 Antworten.</translation>
+        <translation>Ankieta wymaga od 2 do 10 odpowiedzi.</translation>
     </message>
     <message>
         <source>Create a Poll</source>
         <comment>Dialog Header</comment>
-        <translation>Erstellen Sie eine Umfrage</translation>
+        <translation>Utórz ankietę</translation>
     </message>
     <message>
         <source>in %1</source>
         <comment>After dialog header… Create a Poll in [group name]</comment>
-        <translation>in %1</translation>
+        <translation>w %1</translation>
     </message>
     <message>
         <source>Enter your question here</source>
-        <translation>Geben Sie Ihre Frage ein</translation>
+        <translation>Wprowadź tutaj swoje pytanie</translation>
     </message>
     <message numerus="yes">
         <source>Question (%Ln characters left)</source>
         <translation>
-            <numerusform>Frage (%Ln Zeichen übrig)</numerusform>
-            <numerusform>Frage (%Ln Zeichen übrig)</numerusform>
+            <numerusform>Pytanie (pozostał %Ln znak)</numerusform>
+            <numerusform>Pytanie (pozostały %Ln znaki)</numerusform>
+            <numerusform>Pytanie (pozostało %Ln znaków)</numerusform>
         </translation>
     </message>
     <message>
         <source>Answers</source>
         <comment>Section header</comment>
-        <translation>Antworten</translation>
+        <translation>Odpowiedzi</translation>
     </message>
     <message>
         <source>Enter an answer here</source>
-        <translation>Geben Sie eine Antwort ein</translation>
+        <translation>Wprowadź tutaj swoją odpowiedź</translation>
     </message>
     <message numerus="yes">
         <source>Answer (%Ln characters left)</source>
         <translation>
-            <numerusform>Antwort (%Ln Zeichen übrig)</numerusform>
-            <numerusform>Antwort (%Ln Zeichen übrig)</numerusform>
+            <numerusform>Odpowiedź (pozostał %Ln znak)</numerusform>
+            <numerusform>Odpowiedź (pozostały %Ln znaki)</numerusform>
+            <numerusform>Odpowiedź (pozostało %Ln znaków)</numerusform>
         </translation>
     </message>
     <message>
         <source>Add an answer</source>
-        <translation>Antwort hinzufügen</translation>
+        <translation>Dodaj odpowiedź</translation>
     </message>
     <message>
         <source>Poll Options</source>
         <comment>Section header</comment>
-        <translation>Umfrageoptionen</translation>
+        <translation>Opcje ankiety</translation>
     </message>
     <message>
         <source>Anonymous answers</source>
-        <translation>Anonyme Antworten</translation>
+        <translation>Anonimowa odpowiedź</translation>
     </message>
     <message>
         <source>Multiple answers allowed</source>
-        <translation>Mehrere Antworten erlaubt</translation>
+        <translation>Wielokrotna odpowiedź dozwolona</translation>
     </message>
     <message>
         <source>Quiz Mode</source>
-        <translation>Quizmodus</translation>
+        <translation>Tryb quizu</translation>
     </message>
     <message>
         <source>Quizzes have one correct answer. Participants can&apos;t revoke their responses.</source>
-        <translation>Quizze haben eine korrekte Antwort. Teilnehmer können ihre Antwort nicht zurückziehen.</translation>
+        <translation>Quizy mają jedną poprawną odpowiedź. Uczestnicy nie mogą odwołać swoich odpowiedzi.</translation>
     </message>
     <message>
         <source>Enter an optional explanation</source>
-        <translation>Geben Sie eine optionale Erklärung ein</translation>
+        <translation>Wprowadź opcjonalne wyjaśnienie</translation>
     </message>
     <message>
         <source>Shown when the user selects a wrong answer.</source>
-        <translation>Wird bei Auswahl einer falschen Antwort gezeigt.</translation>
+        <translation>Wyświetlane, gdy użytkownik wybierze złą odpowiedź. </translation>
     </message>
     <message>
         <source>An explanation can be up to 200 characters long.</source>
-        <translation>Eine Erklärung kann bis zu 200 Zeichen lang sein.</translation>
+        <translation>Objaśnienie może mieć do 200 znaków. </translation>
     </message>
 </context>
 <context>
     <name>PollResultsPage</name>
     <message>
         <source>Quiz Results</source>
-        <translation>Quizergebnis</translation>
+        <translation>Wyniki quizu</translation>
     </message>
     <message>
         <source>Poll Results</source>
-        <translation>Umfrageergebnis</translation>
+        <translation>Wyniki ankiety</translation>
     </message>
     <message numerus="yes">
         <source>%Ln vote(s) total</source>
         <comment>number of total votes</comment>
         <translation>
-            <numerusform>%Ln Stimme insgesamt</numerusform>
-            <numerusform>%Ln Stimmen insgesamt</numerusform>
+            <numerusform>%Ln odpowiedź</numerusform>
+            <numerusform>%Ln odpowiedzi</numerusform>
+            <numerusform>%Ln odpowiedzi</numerusform>
         </translation>
     </message>
     <message>
         <source>Question</source>
         <comment>section header</comment>
-        <translation>Frage</translation>
+        <translation>Pytanie</translation>
     </message>
     <message>
         <source>Results</source>
         <comment>section header</comment>
-        <translation>Ergebnis</translation>
+        <translation>Wyniki</translation>
     </message>
     <message numerus="yes">
         <source>%Ln vote(s)</source>
         <comment>number of votes for option</comment>
         <translation>
-            <numerusform>%Ln Antwort</numerusform>
-            <numerusform>%Ln Antworten</numerusform>
+            <numerusform>%Ln glos</numerusform>
+            <numerusform>%Ln głosy</numerusform>
+            <numerusform>%Ln głosów</numerusform>
         </translation>
     </message>
     <message numerus="yes">
@@ -1427,19 +1479,21 @@
         <translation>
             <numerusform>%Ln%</numerusform>
             <numerusform>%Ln%</numerusform>
+            <numerusform>%Ln%</numerusform>
         </translation>
     </message>
     <message>
         <source>Chosen by:</source>
         <comment>This answer has been chosen by the following users</comment>
-        <translation>Gewählt von:</translation>
+        <translation>Wybrany przez:</translation>
     </message>
     <message numerus="yes">
         <source>%Ln vote(s) including yours</source>
         <comment>number of votes for option</comment>
         <translation>
-            <numerusform>%Ln Antwort inklusive Ihrer</numerusform>
-            <numerusform>%Ln Antworten inklusive Ihrer</numerusform>
+            <numerusform>%Ln głos, w tym twój</numerusform>
+            <numerusform>%Ln głosy, w tym twój</numerusform>
+            <numerusform>%Ln głosów, w tym twój</numerusform>
         </translation>
     </message>
 </context>
@@ -1447,545 +1501,556 @@
     <name>SearchChatsPage</name>
     <message>
         <source>No chats found.</source>
-        <translation>Keine Chats gefunden.</translation>
+        <translation>Brak pasujących czatów</translation>
     </message>
     <message>
         <source>Searching chats...</source>
-        <translation>Suche Chats...</translation>
+        <translation>Wyszukiwanie czatów...</translation>
     </message>
     <message>
         <source>Private Chat</source>
-        <translation>Privater Chat</translation>
+        <translation>Prywatny czat</translation>
     </message>
     <message>
         <source>Group</source>
-        <translation>Gruppe</translation>
+        <translation>Grupa</translation>
     </message>
     <message>
         <source>Channel</source>
-        <translation>Kanal</translation>
+        <translation>Kanał</translation>
     </message>
     <message numerus="yes">
         <source>%1 members</source>
         <translation>
-            <numerusform>%1 Mitglied</numerusform>
-            <numerusform>%1 Mitglieder</numerusform>
+            <numerusform>%1 członek</numerusform>
+            <numerusform>%1 członków</numerusform>
+            <numerusform>%1 członków</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>%1 subscribers</source>
         <translation>
-            <numerusform>%1 Abonnent</numerusform>
-            <numerusform>%1 Abonnenten</numerusform>
+            <numerusform>%1 subskrybent</numerusform>
+            <numerusform>%1 subskrybentów</numerusform>
+            <numerusform>%1 subskrybentów</numerusform>
         </translation>
     </message>
     <message>
         <source>Search Chats</source>
-        <translation>Chats suchen</translation>
+        <translation>Wyszukaj czaty</translation>
     </message>
     <message>
         <source>Search a chat...</source>
-        <translation>Einen Chat suchen...</translation>
+        <translation>Wyszukaj czat...</translation>
     </message>
     <message>
         <source>Enter your query to start searching (at least 5 characters needed)</source>
-        <translation>Geben Sie Ihre Anfrage ein, um die Suche zu starten (mindestens 5 Zeichen benötigt)</translation>
+        <translation>Wprowadź zapytanie aby zacząć wyszukiwanie (minimum 5 znaków)</translation>
     </message>
 </context>
 <context>
     <name>SettingsAppearance</name>
     <message>
         <source>Appearance</source>
-        <translation>Erscheinungsbild</translation>
+        <translation>Wygląd</translation>
     </message>
     <message>
         <source>Show stickers as emojis</source>
-        <translation>Sticker als Emojis anzeigen</translation>
+        <translation>Pokaż naklejki jako emoji</translation>
     </message>
     <message>
         <source>Only display emojis instead of the actual stickers</source>
-        <translation>Nur Emojis anstelle der eigentlichen Sticker anzeigen</translation>
+        <translation>Pokaż tylko emoji zamiast najklejek</translation>
     </message>
     <message>
         <source>Show stickers as images</source>
-        <translation>Sticker als Bilder anzeigen</translation>
+        <translation>Pokaż naklejki jako obrazy</translation>
     </message>
     <message>
         <source>Show background for stickers and align them centrally like images</source>
-        <translation>Hintergrund für Sticker anzeigen und sie wie Bilder mittig platzieren</translation>
+        <translation>Pokaż tło naklejek i wyrównaj je centralnie, jak obrazy</translation>
     </message>
     <message>
         <source>Animate stickers</source>
-        <translation>Sticker animieren</translation>
+        <translation>Animowane naklejki</translation>
     </message>
 </context>
 <context>
     <name>SettingsBehavior</name>
     <message>
         <source>Behavior</source>
-        <translation>Verhalten</translation>
+        <translation>Zachowanie</translation>
     </message>
     <message>
         <source>Send message by enter</source>
-        <translation>Nachricht mit Enter senden</translation>
+        <translation>Wyślij wiadomość przez naciśniecie enter</translation>
     </message>
     <message>
         <source>Send your message by pressing the enter key</source>
-        <translation>Senden Sie Ihre Nachricht, indem Sie die Enter-Taste drücken</translation>
+        <translation>Wyślij wiadomość przez naciśniecie przycisku enter</translation>
     </message>
     <message>
         <source>Focus text input on chat open</source>
-        <translation>Texteingabe fokussieren beim Öffnen eines Chats</translation>
+        <translation>Skup się na wpisywaniu tekstu na otwartym czacie</translation>
     </message>
     <message>
         <source>Focus the text input area when entering a chat</source>
-        <translation>Texteingabe fokussieren, wenn ein Chat betreten wird</translation>
+        <translation>Skoncentruj obszar wprowadzania tekstu podczas wchodzenia na czat </translation>
     </message>
     <message>
         <source>Focus text input area after send</source>
-        <translation>Texteingabe nach Senden fokussieren</translation>
+        <translation>Po wysłaniu zaznacz pole wprowadzania tekstu</translation>
     </message>
     <message>
         <source>Focus the text input area after sending a message</source>
-        <translation>Fokussiert die Texteingabe nach Senden einer Nachricht</translation>
+        <translation>Po wysłaniu wiadomości zaznacz pole wprowadzania tekstu</translation>
     </message>
     <message>
         <source>Delay before marking messages as read</source>
-        <translation>Verzögerung bevor Nachrichten als gelesen markiert werden</translation>
+        <translation>Opóźnienie przed oznaczeniem wiadomości jako przeczytanych</translation>
     </message>
     <message>
         <source>Fernschreiber will wait a bit before messages are marked as read</source>
-        <translation>Fernschreiber wird ein bisschen warten, bevor Nachrichten als gelesen markiert werden</translation>
+        <translation>Fernschreiber odczeka chwilę, zanim wiadomości zostaną oznaczone jako przeczytane</translation>
     </message>
     <message>
         <source>Open-with menu integration</source>
-        <translation>Integration im Öffnen-Mit-Menü</translation>
+        <translation>Integracja z menu &quot;otwórz za pomocą&quot;</translation>
     </message>
     <message>
         <source>Integrate Fernschreiber into open-with menu of Sailfish OS</source>
-        <translation>Fernschreiber ins Öffnen-Mit-Menü von Sailfish OS integrieren</translation>
+        <translation>Zintegruj Fernschreiber z menu &quot;otwórz za pomocą&quot; w SailfishOS</translation>
     </message>
     <message>
         <source>Notification feedback</source>
-        <translation>Rückmeldung bei Hinweisen</translation>
+        <translation>Rodzaj powiadomienia</translation>
     </message>
     <message>
         <source>Use non-graphical feedback (sound, vibration) for notifications</source>
-        <translation>Nicht-grafische Rückmeldungen (Klänge, Vibration) bei Hinweisen nutzen</translation>
+        <translation>Użyj niewizualnych powiadomień (dźwięk, wibracja)</translation>
     </message>
     <message>
         <source>All events</source>
-        <translation>Alle Ereignisse</translation>
+        <translation>Wszystkie wydarzenia</translation>
     </message>
     <message>
         <source>Only new events</source>
-        <translation>Nur neue Ereignisse</translation>
+        <translation>Tylko nowe wydarzenia</translation>
     </message>
     <message>
         <source>None</source>
-        <translation>Keine</translation>
+        <translation>Żadne</translation>
     </message>
     <message>
         <source>Notification turns on the display</source>
-        <translation>Hinweis schaltet den Bildschirm an</translation>
+        <translation>Powiadomienie włącza wyświetlacz</translation>
     </message>
     <message>
         <source>Enable notification sounds</source>
-        <translation>Hinweistöne einschalten</translation>
+        <translation>Włącz dźwięk powiadomień</translation>
     </message>
     <message>
         <source>When sounds are enabled, Fernschreiber will use the current Sailfish OS notification sound for chats, which can be configured in the system settings.</source>
-        <translation>Wenn Töne eingeschaltet sind, wird Fernschreiber den aktuellen Sailfish OS-Hinweiston für Chats verwenden, der in den Systemeinstellungen konfiguriert werden kann.</translation>
+        <translation>Gdy dźwięki są włączone, Fernschreiber użyje bieżącego dźwięku powiadomienia Sailfish OS do czatów, które można skonfigurować w ustawieniach systemu.</translation>
     </message>
     <message>
         <source>Always append message preview to notifications</source>
-        <translation>Immer bei Hinweisen die Nachricht ausgeben</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>In addition to showing the number of unread messages, the latest message will also be appended to notifications.</source>
-        <translation>Zusätzlich zur Anzahl der ungelesenen Nachrichten wird immer die neuste Nachricht an Hinweise angefügt.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Highlight unread messages</source>
-        <translation>Ungelesene Nachrichten hervorheben</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Highlight Conversations with unread messages</source>
-        <translation>Unterhaltungen mit ungelesenen Nachrichten hervorheben</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Hide content in notifications</source>
-        <translation>Inhalte in Hinweisen verbergen</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Go to quoted message</source>
-        <translation>Zu zitierter Nachricht springen</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>When tapping a quoted message, open it in chat instead of showing it in an overlay.</source>
-        <translation>Beim Tippen auf eine zitierte Nachricht zu dieser springen anstatt es in einem Overlay anzuzeigen.</translation>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Show reaction button on tap</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The reaction button may appear when you tap the message bubble, to make access to the reactions even easier.</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>SettingsPage</name>
     <message>
         <source>Settings</source>
-        <translation>Einstellungen</translation>
+        <translation>Ustawienia</translation>
     </message>
 </context>
 <context>
     <name>SettingsPrivacy</name>
     <message>
         <source>Privacy</source>
-        <translation>Privatsphäre</translation>
+        <translation>Prywatność</translation>
     </message>
     <message>
         <source>Allow chat invites</source>
-        <translation>Chateinladungen erlauben</translation>
+        <translation>Zezwól na zaproszenia do czatu</translation>
     </message>
     <message>
         <source>Privacy setting for managing whether you can be invited to chats.</source>
-        <translation>Privatsphären-Einstellung zur Regelung, ob Sie zu Chats eingeladen werden können.</translation>
+        <translation>Ustawienia prywatności umożliwiające zarządzanie zaproszeniami do czatów.</translation>
     </message>
     <message>
         <source>Yes</source>
-        <translation>Ja</translation>
+        <translation>Tak</translation>
     </message>
     <message>
         <source>Your contacts only</source>
-        <translation>Nur Ihre Kontakte</translation>
+        <translation>Tylko twoje kontakty</translation>
     </message>
     <message>
         <source>No</source>
-        <translation>Nein</translation>
+        <translation>Nie</translation>
     </message>
     <message>
         <source>Allow finding by phone number</source>
-        <translation>Auffinden per Telefonnummer erlauben</translation>
+        <translation>Pozwól na wyszukiwanie po numerze telefonu</translation>
     </message>
     <message>
         <source>Privacy setting for managing whether you can be found by your phone number.</source>
-        <translation>Privatsphären-Einstellung zur Regelung, ob Sie per Telefonnummer gefunden werden können.</translation>
+        <translation>Ustawienie prywatności umożliwiające określenie, czy można Cię znaleźć według numeru telefonu.</translation>
     </message>
     <message>
         <source>Show link in forwarded messages</source>
-        <translation>Link in weitergeleiteten Nachrichten anzeigen</translation>
+        <translation>Pokaż odnośnik w przekazanych wiadomościach</translation>
     </message>
     <message>
         <source>Privacy setting for managing whether a link to your account is included in forwarded messages.</source>
-        <translation>Privatsphären-Einstellung zur Regelung, ob ein Link zu Ihrem Profil in weitergeleiteten Nachrichten eingebettet wird.</translation>
+        <translation>Ustawienie prywatności umożliwiające okreslenie, czy odnośnik do twojego konta jest dodawany do przekazanych wiadomości.</translation>
     </message>
     <message>
         <source>Show phone number</source>
-        <translation>Telefonnummer anzeigen</translation>
+        <translation>Pokaż numer telefonu</translation>
     </message>
     <message>
         <source>Privacy setting for managing whether your phone number is visible.</source>
-        <translation>Privatsphären-Einstellung zur Regelung, ob Ihre Telefonnummer sichtbar ist.</translation>
+        <translation>Ustawienie prywatności umożliwiające określenie, czy Twój numer telefonu jest widoczny.</translation>
     </message>
     <message>
         <source>Show profile photo</source>
-        <translation>Profilfoto anzeigen</translation>
+        <translation>Pokaż zdjęcie profilowe</translation>
     </message>
     <message>
         <source>Privacy setting for managing whether your profile photo is visible.</source>
-        <translation>Privatsphären-Einstellung zur Regelung, ob Ihr Profilfoto sichtbar ist.</translation>
+        <translation>Ustawienie prywatności umożliwiające określenie, czy Twoje zdjęcie profilowe jest widoczne.</translation>
     </message>
     <message>
         <source>Show status</source>
-        <translation>Status anzeigen</translation>
+        <translation>Pokaż status</translation>
     </message>
     <message>
         <source>Privacy setting for managing whether your online status is visible.</source>
-        <translation>Privatsphären-Einstellung zur Regelung, ob Ihr Onlinestatus sichtbar ist.</translation>
+        <translation>Ustawienie prywatności umożliwiające zarządzanie widocznością statusu online.</translation>
     </message>
     <message>
         <source>Allow sending Location to inline bots</source>
-        <translation>Erlaubt Standortsendung an Inline-Bots</translation>
+        <translation>Zezwalaj na wysyłanie lokalizacji do wbudowanych botów</translation>
     </message>
     <message>
         <source>Some inline bots request location data when using them</source>
-        <translation>Einige Inline-Bots fragen bei Nutzung Standortdaten an</translation>
+        <translation>Niektóre roboty wbudowane żądają danych o lokalizacji podczas ich używania</translation>
     </message>
 </context>
 <context>
     <name>SettingsSession</name>
     <message>
+        <source>Sessions</source>
+        <translation>Sesje</translation>
+    </message>
+    <message>
         <source>Session was terminated</source>
-        <translation>Sitzung wurde beendet</translation>
-    </message>
-    <message>
-        <source>Terminate Session</source>
-        <translation>Sitzung beenden</translation>
-    </message>
-    <message>
-        <source>This app</source>
-        <translation>Diese App</translation>
-    </message>
-    <message>
-        <source>Active since: %1, last online: %2</source>
-        <translation>Aktiv seit: %1, zuletzt online: %2</translation>
+        <translation>Sesja została zakończona</translation>
     </message>
     <message>
         <source>Terminating session</source>
-        <translation>Beende Sitzung</translation>
+        <translation>Kończenie sesji</translation>
     </message>
     <message>
-        <source>Sessions</source>
-        <translation>Sitzungen</translation>
+        <source>Terminate Session</source>
+        <translation>Zakończ sesję</translation>
+    </message>
+    <message>
+        <source>This app</source>
+        <translation>Ta aplikacja</translation>
+    </message>
+    <message>
+        <source>Active since: %1, last online: %2</source>
+        <translation>Aktywny od: %1, ostatnio aktywny: %2</translation>
     </message>
     <message numerus="yes">
         <source>%1 day(s)</source>
-        <translation>
-            <numerusform>%1 Tag</numerusform>
-            <numerusform>%1 Tage</numerusform>
+        <translation type="unfinished">
+            <numerusform></numerusform>
+            <numerusform></numerusform>
+            <numerusform></numerusform>
         </translation>
     </message>
     <message>
         <source>1 week</source>
-        <translation>1 Woche</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>1 month</source>
-        <translation>1 Monat</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>3 months</source>
-        <translation>3 Monate</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>6 months</source>
-        <translation>6 Monate</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>1 year</source>
-        <translation>1 Jahr</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Session Timeout</source>
-        <translation>Timeout von Sitzungen</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Inactive sessions will be terminated after this timeframe</source>
-        <translation>Inaktive Sitzungen werden nach dieser Zeitdauer abgeschaltet</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>SettingsStorage</name>
     <message>
         <source>Storage</source>
-        <translation>Speicher</translation>
+        <translation>Pamięć</translation>
     </message>
     <message>
         <source>Enable online-only mode</source>
-        <translation>Nur-Online-Modus einschalten</translation>
+        <translation>Włącz tryb tylko online</translation>
     </message>
     <message>
         <source>Disables offline caching. Certain features may be limited or missing in this mode. Changes require a restart of Fernschreiber to take effect.</source>
-        <translation>Schaltet das Offline-Caching aus. Bestimmte Features können in diesem Modus eingeschränkt sein oder fehlen. Änderungen erfordern einen Neustart von Fernschreiber, um in Kraft zu treten.</translation>
+        <translation>Wyłącza buforowanie offline. W tym trybie niektóre funkcje mogą być ograniczone lub może ich brakować. Zmiany wymagają ponownego uruchomienia Fernschreibera, aby odniosły skutek.</translation>
     </message>
     <message>
         <source>Enable storage optimizer</source>
-        <translation>Speicheroptimierer einschalten</translation>
+        <translation>Włącz optymalizację pamięci</translation>
     </message>
 </context>
 <context>
     <name>SettingsUserProfile</name>
     <message>
         <source>User Profile</source>
-        <translation>Nutzungsprofil</translation>
+        <translation>Profil użytkownika</translation>
     </message>
     <message>
         <source>First Name</source>
         <comment>first name of the logged-in profile - header</comment>
-        <translation>Vorname</translation>
+        <translation>Imię</translation>
     </message>
     <message>
         <source>Enter 1-64 characters</source>
-        <translation>Geben Sie 1-64 Zeichen ein</translation>
+        <translation>Wprowadź znaki 1-64</translation>
     </message>
     <message>
         <source>Last Name</source>
         <comment>last name of the logged-in profile - header</comment>
-        <translation>Nachname</translation>
+        <translation>Nazwisko</translation>
     </message>
     <message>
         <source>Enter 0-64 characters</source>
-        <translation>Geben Sie 0-64 Zeichen ein</translation>
+        <translation>Wprowadź znaki 0-64</translation>
     </message>
     <message>
         <source>Username</source>
         <comment>user name of the logged-in profile - header</comment>
-        <translation>Benutzername</translation>
+        <translation>Nazwa użytkownika</translation>
     </message>
     <message>
         <source>Profile Pictures</source>
-        <translation>Profilbilder</translation>
+        <translation>Zdjęcia profilowe</translation>
     </message>
     <message>
         <source>Add Picture</source>
-        <translation>Bild hinzufügen</translation>
+        <translation>Dodaj zdjęcie</translation>
     </message>
     <message>
         <source>Delete Picture</source>
-        <translation>Bild löschen</translation>
+        <translation>usuń zdjęcie</translation>
     </message>
     <message>
         <source>Deleting profile picture</source>
-        <translation>Lösche Profilbild</translation>
+        <translation>Usuwanie zjęcia profilowego</translation>
     </message>
     <message>
         <source>Uploading...</source>
-        <translation>Lade hoch...</translation>
+        <translation>Przesyłanie...</translation>
     </message>
     <message>
         <source>Log Out</source>
-        <translation>Abmelden</translation>
+        <translation>Wyloguj</translation>
     </message>
     <message>
         <source>Logged out</source>
-        <translation>Abgemeldet</translation>
+        <translation>Wylogowałeś się</translation>
     </message>
     <message>
         <source>Phone number: +%1</source>
-        <translation>Telefonnummer: +%1</translation>
+        <translation>Numer telefonu: +%1</translation>
     </message>
     <message>
         <source>Contacts successfully synchronized with Telegram.</source>
-        <translation>Die Kontakte wurden erfolgreich mit Telegram synchronisiert.</translation>
+        <translation>Synchronizacja kontaktów z Telegramem zakończona sukcesem.</translation>
     </message>
     <message>
         <source>Synchronize Contacts with Telegram</source>
-        <translation>Kontakte mit Telegram synchronisieren</translation>
+        <translation>Synchronizuj kontakty z Telegramem</translation>
     </message>
 </context>
 <context>
     <name>SponsoredMessage</name>
     <message>
         <source>Go to Channel</source>
-        <translation>Zum Kanal gehen</translation>
+        <translation>Przejdź do Kanału</translation>
     </message>
     <message>
         <source>Go to Message</source>
-        <translation>Zur Nachricht gehen</translation>
+        <translation>Przejdź do Wiadomości</translation>
     </message>
     <message>
         <source>Start Bot</source>
-        <translation>Bot starten</translation>
+        <translation>Uruchom Bota</translation>
     </message>
 </context>
 <context>
     <name>StickerPicker</name>
     <message>
         <source>Recently used</source>
-        <translation>Kürzlich verwendet</translation>
+        <translation>Ostatnio użyty</translation>
     </message>
     <message>
         <source>Removing sticker set</source>
-        <translation>Entferne Sticker-Set</translation>
+        <translation>Usuwanie zestawu naklejek</translation>
     </message>
     <message>
         <source>Sticker set successfully removed!</source>
-        <translation>Sticker-Set erfolgreich entfernt!</translation>
+        <translation>Zestaw naklejek został usuniety!</translation>
     </message>
 </context>
 <context>
     <name>StickerSetOverlay</name>
     <message>
         <source>Sticker set successfully installed!</source>
-        <translation>Sticker-Set erfolgreich installiert!</translation>
+        <translation>Zestaw naklejek został zainstalowany!</translation>
     </message>
     <message>
         <source>Sticker set successfully removed!</source>
-        <translation>Sticker-Set erfolgreich entfernt!</translation>
+        <translation>Zestaw naklejek został usunięty!</translation>
     </message>
 </context>
 <context>
     <name>VideoPage</name>
     <message>
         <source>Download of %1 successful.</source>
-        <translation>Download von %1 erfolgreich.</translation>
+        <translation>Pobieranie %1 zakończone sukcesem</translation>
     </message>
     <message>
         <source>Download failed.</source>
-        <translation>Download fehlgeschlagen.</translation>
+        <translation>Nieudane pobieranie</translation>
     </message>
     <message>
         <source>Copy video to gallery</source>
-        <translation>Video in die Galerie kopieren</translation>
+        <translation>Kopiuj wideo do galerii</translation>
     </message>
 </context>
 <context>
     <name>VoiceNoteOverlay</name>
     <message>
         <source>Record a Voice Note</source>
-        <translation>Eine Sprachnachricht aufzeichnen</translation>
+        <translation>Nagraj notatkę głosową</translation>
     </message>
     <message>
         <source>Press the button to start recording</source>
-        <translation>Drücken Sie den Knopf, um die Aufzeichnung zu starten</translation>
+        <translation>Naciśnij przycisk, aby zacząć nagrywać</translation>
     </message>
     <message>
         <source>Unavailable</source>
-        <translation>Nicht verfügbar</translation>
-    </message>
-    <message>
-        <source>Ready</source>
-        <translation>Bereit</translation>
+        <translation>Niedostepne</translation>
     </message>
     <message>
         <source>Starting</source>
-        <translation>Startet</translation>
+        <translation>Uruchamianie</translation>
     </message>
     <message>
         <source>Recording</source>
-        <translation>Zeichnet auf</translation>
+        <translation>Nagrywanie</translation>
     </message>
     <message>
         <source>Stopping</source>
-        <translation>Stoppt</translation>
+        <translation>Zatrzymywanie</translation>
     </message>
     <message>
         <source>Use recording</source>
-        <translation>Aufzeichnung verwenden</translation>
+        <translation>Użyj nagrywania</translation>
     </message>
     <message>
         <source>Voice Note (%1)</source>
-        <translation>Sprachnachricht (%1)</translation>
+        <translation>Notatka głosowa (%1)</translation>
+    </message>
+    <message>
+        <source>Ready</source>
+        <translation>Gotowy</translation>
     </message>
 </context>
 <context>
     <name>WebPagePreview</name>
     <message>
         <source>Preview not supported for this link...</source>
-        <translation>Vorschau wird für diesen Link nicht unterstützt...</translation>
+        <translation>Podgląd jest niewspierany dla tego odnośnika</translation>
     </message>
 </context>
 <context>
     <name>functions</name>
     <message>
         <source>Video: %1</source>
-        <translation>Video: %1</translation>
+        <translation>Film: %1</translation>
     </message>
     <message>
         <source>has registered with Telegram</source>
-        <translation>hat sich bei Telegram angemeldet</translation>
+        <translation>zarejestrował się w Telegramie</translation>
     </message>
     <message>
         <source>Picture: %1</source>
-        <translation>Bild: %1</translation>
+        <translation>Obraz: %1</translation>
     </message>
     <message>
         <source>Audio: %1</source>
-        <translation>Audio: %1</translation>
+        <translation>Dźwięk: %1</translation>
     </message>
     <message>
         <source>Voice Note: %1</source>
-        <translation>Sprachnachricht: %1</translation>
+        <translation>Notatka głosowa: %1</translation>
     </message>
     <message>
         <source>Animation: %1</source>
-        <translation>Animation: %1</translation>
+        <translation>Animacja: %1</translation>
     </message>
     <message>
         <source>Document: %1</source>
@@ -1993,43 +2058,43 @@
     </message>
     <message>
         <source>sent a picture</source>
-        <translation>hat ein Bild geschickt</translation>
+        <translation>wyślij obraz</translation>
     </message>
     <message>
         <source>sent a video</source>
-        <translation>hat ein Video geschickt</translation>
+        <translation>wyślij film</translation>
     </message>
     <message>
         <source>sent an animation</source>
-        <translation>hat eine Animation geschickt</translation>
+        <translation>wyślij animację</translation>
     </message>
     <message>
         <source>sent an audio</source>
-        <translation>hat eine Audiodatei geschickt</translation>
+        <translation>wyślij dźwięk</translation>
     </message>
     <message>
         <source>sent a voice note</source>
-        <translation>hat eine Sprachnachricht geschickt</translation>
+        <translation>wyślij notatke głosową</translation>
     </message>
     <message>
         <source>sent a document</source>
-        <translation>hat ein Dokument geschickt</translation>
+        <translation>wyślij dokument</translation>
     </message>
     <message>
         <source>sent a location</source>
-        <translation>hat einen Standort geschickt</translation>
+        <translation>wyślij lokalizację</translation>
     </message>
     <message>
         <source>joined this chat</source>
-        <translation>ist diesem Chat beigetreten</translation>
+        <translation>dołaczył do tego czatu</translation>
     </message>
     <message>
         <source>was added to this chat</source>
-        <translation>wurde diesem Chat hinzugefügt</translation>
+        <translation>został dodany do tego czatu</translation>
     </message>
     <message>
         <source>left this chat</source>
-        <translation>hat diesen Chat verlassen</translation>
+        <translation>opuścił ten czat</translation>
     </message>
     <message>
         <source>%1M</source>
@@ -2037,86 +2102,86 @@
     </message>
     <message>
         <source>%1K</source>
-        <translation>%1T</translation>
+        <translation>%1K</translation>
     </message>
     <message>
         <source>sent a venue</source>
-        <translation>hat einen Ort geschickt</translation>
+        <translation>wysłał miejsce wydarzenia</translation>
     </message>
     <message>
         <source>sent a picture</source>
         <comment>myself</comment>
-        <translation>haben ein Bild geschickt</translation>
+        <translation>wysłałem obraz</translation>
     </message>
     <message>
         <source>sent a video</source>
         <comment>myself</comment>
-        <translation>haben ein Video geschickt</translation>
+        <translation>wysłałem film</translation>
     </message>
     <message>
         <source>sent an animation</source>
         <comment>myself</comment>
-        <translation>haben eine Animation geschickt</translation>
+        <translation>wysłałem animację</translation>
     </message>
     <message>
         <source>sent an audio</source>
         <comment>myself</comment>
-        <translation>haben eine Audiodatei geschickt</translation>
+        <translation>wysłałem dźwięk</translation>
     </message>
     <message>
         <source>sent a voice note</source>
         <comment>myself</comment>
-        <translation>haben eine Sprachnachricht geschickt</translation>
+        <translation>wysłałem notatke głosową</translation>
     </message>
     <message>
         <source>sent a document</source>
         <comment>myself</comment>
-        <translation>haben ein Dokument geschickt</translation>
+        <translation>wysłałem dokument</translation>
     </message>
     <message>
         <source>sent a location</source>
         <comment>myself</comment>
-        <translation>haben einen Standort geschickt</translation>
+        <translation>wysłałem lokalizację</translation>
     </message>
     <message>
         <source>sent a venue</source>
         <comment>myself</comment>
-        <translation>haben einen Ort geschickt</translation>
+        <translation>wysłałem miejsce wydarzenia</translation>
     </message>
     <message>
         <source>have registered with Telegram</source>
-        <translation>haben sich bei Telegram angemeldet</translation>
+        <translation>został zarejestowany w Telegram</translation>
     </message>
     <message>
         <source>joined this chat</source>
         <comment>myself</comment>
-        <translation>sind diesem Chat beigetreten</translation>
+        <translation>dołaczyłem do tego czatu</translation>
     </message>
     <message>
         <source>were added to this chat</source>
         <comment>myself</comment>
-        <translation>wurde diesem Chat hinzugefügt</translation>
+        <translation>zostałem dodany do czatu</translation>
     </message>
     <message>
         <source>left this chat</source>
         <comment>myself</comment>
-        <translation>haben diesen Chat verlassen</translation>
+        <translation>opuściłem ten czat</translation>
     </message>
     <message>
         <source>was never online</source>
-        <translation>war niemals online</translation>
+        <translation>nigdy nie był online</translation>
     </message>
     <message>
         <source>last online: last month</source>
-        <translation>zuletzt online im letzten Monat</translation>
+        <translation>ostatnio online: w zeszłym miesiącu</translation>
     </message>
     <message>
         <source>last online: last week</source>
-        <translation>zuletzt online in der letzten Woche</translation>
+        <translation>ostatnio online: w zeszłym tygodniu</translation>
     </message>
     <message>
         <source>last online: %1</source>
-        <translation>zuletzt online: %1</translation>
+        <translation>ostatnio online: %1</translation>
     </message>
     <message>
         <source>online</source>
@@ -2124,76 +2189,76 @@
     </message>
     <message>
         <source>was recently online</source>
-        <translation>war neulich online</translation>
+        <translation>był niedawno online</translation>
     </message>
     <message>
         <source>Admin</source>
         <comment>channel user role</comment>
-        <translation>Administrator</translation>
+        <translation>Admin</translation>
     </message>
     <message>
         <source>Banned</source>
         <comment>channel user role</comment>
-        <translation>Verbannt</translation>
+        <translation>Zbanowany</translation>
     </message>
     <message>
         <source>Creator</source>
         <comment>channel user role</comment>
-        <translation>Urheber</translation>
+        <translation>Twórca</translation>
     </message>
     <message>
         <source>Restricted</source>
         <comment>channel user role</comment>
-        <translation>Eingeschränkt</translation>
+        <translation>Ograniczone</translation>
     </message>
     <message>
         <source>changed the chat title to %1</source>
         <comment>myself</comment>
-        <translation>haben den Chattitel zu %1 geändert</translation>
+        <translation>zmieniełem tytuł czatu na %1</translation>
     </message>
     <message>
         <source>changed the chat title to %1</source>
-        <translation>hat den Chattitel zu %1 geändert</translation>
+        <translation>zmienił tytuł czatu na %1</translation>
     </message>
     <message>
         <source>sent a poll</source>
         <comment>myself</comment>
-        <translation>haben eine Umfrage gesendet</translation>
+        <translation>wysłałem ankietę</translation>
     </message>
     <message>
         <source>sent a poll</source>
-        <translation>hat eine Umfrage gesendet</translation>
+        <translation>wysłał ankietę</translation>
     </message>
     <message>
         <source>sent an anonymous quiz</source>
         <comment>myself</comment>
-        <translation>haben ein anonymes Quiz gesendet</translation>
+        <translation>wysłąłem anonimowy quiz</translation>
     </message>
     <message>
         <source>sent an anonymous quiz</source>
-        <translation>hat ein anonymes Quiz gesendet</translation>
+        <translation>wysłał anonimowy quiz</translation>
     </message>
     <message>
         <source>sent a quiz</source>
         <comment>myself</comment>
-        <translation>haben ein Quiz gesendet</translation>
+        <translation>wysłałem quiz</translation>
     </message>
     <message>
         <source>sent a quiz</source>
-        <translation>hat ein Quiz gesendet</translation>
+        <translation>wysłał quiz</translation>
     </message>
     <message>
         <source>sent an anonymous poll</source>
         <comment>myself</comment>
-        <translation>haben eine anonyme Umfrage gesendet</translation>
+        <translation>wysłałem anonimową ankietę</translation>
     </message>
     <message>
         <source>sent an anonymous poll</source>
-        <translation>hat eine anonyme Umfrage gesendet</translation>
+        <translation>wysłał anonimową ankietę</translation>
     </message>
     <message>
         <source>Anonymous Quiz</source>
-        <translation>Anonymes Quiz</translation>
+        <translation>Anonimowy quiz</translation>
     </message>
     <message>
         <source>Quiz</source>
@@ -2201,172 +2266,173 @@
     </message>
     <message>
         <source>Anonymous Poll</source>
-        <translation>Anonyme Umfrage</translation>
+        <translation>Anonimowa ankieta</translation>
     </message>
     <message>
         <source>Poll</source>
-        <translation>Umfrage</translation>
+        <translation>Ankieta</translation>
     </message>
     <message>
         <source>created this group</source>
         <comment>myself</comment>
-        <translation>haben diese Gruppe erstellt</translation>
+        <translation>utworzyłem tą grupę</translation>
     </message>
     <message>
         <source>created this group</source>
-        <translation>hat diese Gruppe erstellt</translation>
+        <translation>utworzył tą grupę</translation>
     </message>
     <message>
         <source>changed the chat photo</source>
         <comment>myself</comment>
-        <translation>haben das Chatbild geändert</translation>
+        <translation>zmieniłem zdjęcie czatu</translation>
     </message>
     <message>
         <source>changed the chat photo</source>
-        <translation>hat das Chatbild geändert</translation>
+        <translation>zmienił zdjęcie czatu</translation>
     </message>
     <message>
         <source>deleted the chat photo</source>
         <comment>myself</comment>
-        <translation>haben das Chatbild gelöscht</translation>
+        <translation>usunąłem zdjęcie czatu</translation>
     </message>
     <message>
         <source>deleted the chat photo</source>
-        <translation>hat das Chatbild gelöscht</translation>
+        <translation>usunął zdjęcie czatu</translation>
     </message>
     <message>
         <source>changed the secret chat TTL setting</source>
         <comment>myself; TTL = Time To Live</comment>
-        <translation>haben die TTL-Einstellung des geheimen Chats geändert</translation>
+        <translation>zmieniłem ustawienia TTL tajnego czatu</translation>
     </message>
     <message>
         <source>changed the secret chat TTL setting</source>
         <comment>TTL = Time To Live</comment>
-        <translation>hat die TTL-Einstellung des geheimen Chats geändert</translation>
+        <translation>zmienił ustawienia TTL tajnego czatu</translation>
     </message>
     <message>
         <source>upgraded this group to a supergroup</source>
         <comment>myself</comment>
-        <translation>haben die Gruppe zu einer Supergruppe erweitert</translation>
+        <translation>zaktualizowałem tą grupę do supergrupy</translation>
     </message>
     <message>
         <source>changed the pinned message</source>
         <comment>myself</comment>
-        <translation>haben die angeheftete Nachricht geändert</translation>
+        <translation>zmieniłem przypiętą wiadomość</translation>
     </message>
     <message>
         <source>changed the pinned message</source>
-        <translation>hat die angeheftete Nachricht geändert</translation>
+        <translation>zmienił przypiętą wiadomość</translation>
     </message>
     <message>
         <source>created a screenshot in this chat</source>
         <comment>myself</comment>
-        <translation>haben ein Bildschirmfoto dieses Chats erstellt</translation>
+        <translation>zrobiłem zrzut ekranu w tym czacie</translation>
     </message>
     <message>
         <source>created a screenshot in this chat</source>
-        <translation>hat ein Bildschirmfoto dieses Chats erstellt</translation>
+        <translation>zrobił zrzut ekranu w tym czacie</translation>
     </message>
     <message>
         <source>sent an unsupported message</source>
         <comment>myself</comment>
-        <translation>haben eine nicht unterstützte Nachricht geschickt</translation>
+        <translation>wysłałem nieobsługiwaną wiadomość</translation>
     </message>
     <message>
         <source>sent an unsupported message</source>
-        <translation>hat eine nicht unterstützte Nachricht geschickt</translation>
+        <translation>wysłał nieobsługiwaną wiadomość</translation>
     </message>
     <message>
         <source>sent an unsupported message: %1</source>
         <comment>myself; %1 is message type</comment>
-        <translation>haben eine nicht unterstützte Nachricht geschickt: %1</translation>
+        <translation>wysłałem nieobsługiwaną wiadomość: %1</translation>
     </message>
     <message>
         <source>sent an unsupported message: %1</source>
         <comment>%1 is message type</comment>
-        <translation>hat eine nicht unterstützte Nachricht geschickt: %1</translation>
+        <translation>wysłał nieobsługiwaną wiadomość: %1</translation>
     </message>
     <message>
         <source>upgraded this group to a supergroup</source>
-        <translation>hat die Gruppe zu einer Supergruppe erweitert</translation>
+        <translation>zaktualizawal ta grupę do supergrupy</translation>
     </message>
     <message>
         <source>sent a self-destructing photo that is expired</source>
         <comment>myself</comment>
-        <translation>haben ein selbstzerstörendes Bild gesendet, das abgelaufen ist</translation>
+        <translation>wysłałem samoniszczące się zdjęcie, które straciło ważność</translation>
     </message>
     <message>
         <source>sent a self-destructing photo that is expired</source>
-        <translation>hat ein selbstzerstörendes Bild gesendet, das abgelaufen ist</translation>
+        <translation>wysłał samoniszczące się zdjęcie, które straciło ważność</translation>
     </message>
     <message>
         <source>sent a self-destructing video that is expired</source>
         <comment>myself</comment>
-        <translation>haben ein selbstzerstörendes Video gesendet, das abgelaufen ist</translation>
+        <translation>wysłałem samoniszczący się film, który stracił ważność</translation>
     </message>
     <message>
         <source>sent a self-destructing video that is expired</source>
-        <translation>hat ein selbstzerstörendes Bild gesendet, das abgelaufen ist</translation>
+        <translation>wysłał samoniszczący się film, który stracił ważność</translation>
     </message>
     <message>
         <source>Unable to find user %1</source>
-        <translation>Konnte Benutzer %1 nicht finden</translation>
+        <translation>Nie można znaleźć użytkownika %1</translation>
     </message>
     <message>
         <source>sent a video note</source>
         <comment>myself</comment>
-        <translation>haben eine Videonachricht geschickt</translation>
+        <translation>wysłałem notatkę wideo</translation>
     </message>
     <message>
         <source>sent a video note</source>
-        <translation>hat eine Videonachricht geschickt</translation>
+        <translation>wysłał notatkę wideo</translation>
     </message>
     <message>
         <source>You are already a member of this chat.</source>
-        <translation>Sie sind bereits Mitglied dieses Chats.</translation>
+        <translation>Jesteś już członkiem tego czatu.</translation>
     </message>
     <message>
         <source>Closed!</source>
-        <translation>Geschlossen!</translation>
+        <translation>Zamknięte!</translation>
     </message>
     <message>
         <source>Pending acknowledgement</source>
-        <translation>Ausstehende Bestätigung</translation>
+        <translation>Oczekujące na potwierdzenie</translation>
     </message>
     <message>
         <source>has added %1 to the chat</source>
-        <translation>hat %1 zum Chat hinzugefügt</translation>
+        <translation>dodał %1 do czatu</translation>
     </message>
     <message>
         <source>has removed %1 from the chat</source>
-        <translation>hat %1 vom Chat entfernt</translation>
+        <translation>usunął %1 z czatu</translation>
     </message>
     <message>
         <source>have added %1 to the chat</source>
         <comment>myself</comment>
-        <translation>haben %1 zum Chat hinzugefügt</translation>
+        <translation>dodałem %1 do czatu</translation>
     </message>
     <message>
         <source>have removed %1 from the chat</source>
         <comment>myself</comment>
-        <translation>haben %1 vom Chat entfernt</translation>
+        <translation>usunąłem %1 z czatu</translation>
     </message>
     <message numerus="yes">
         <source>scored %Ln points</source>
         <comment>myself</comment>
         <translation>
-            <numerusform>haben %Ln Punkt erziehlt</numerusform>
-            <numerusform>haben %Ln Punkte erziehlt</numerusform>
+            <numerusform>zdobyłem %Ln punkt</numerusform>
+            <numerusform>zdobyłem %Ln punkty</numerusform>
+            <numerusform>zdobyłem %Ln punktów</numerusform>
         </translation>
     </message>
     <message>
         <source>sent a game</source>
         <comment>myself</comment>
-        <translation>haben ein Spiel gesendet</translation>
+        <translation>wysłałem grę</translation>
     </message>
     <message>
         <source>sent a game</source>
-        <translation>hat ein Spiel gesendet</translation>
+        <translation>wysłał grę</translation>
     </message>
 </context>
 </TS>

@@ -21,14 +21,18 @@
 #define CHATLISTMODEL_H
 
 #include <QAbstractListModel>
+#include <QSortFilterProxyModel>
 #include "tdlibwrapper.h"
 #include "appsettings.h"
 
 class ChatListModel : public QAbstractListModel
 {
     Q_OBJECT
+    friend class ChatsFolderFilterProxy;
+
     Q_PROPERTY(bool showAllChats READ showAllChats WRITE setShowAllChats NOTIFY showAllChatsChanged)
     Q_PROPERTY(int count READ rowCount NOTIFY countChanged)
+    Q_PROPERTY(QVariantList chatFolders READ getChatFolderList NOTIFY chatFoldersChanged)
 
 public:
 
@@ -56,7 +60,9 @@ public:
         RoleIsPinned,
         RoleFilter,
         RoleDraftMessageText,
-        RoleDraftMessageDate
+        RoleDraftMessageDate,
+        RoleChatFoldersList,
+        RoleMainChatPositionId
     };
 
     ChatListModel(TDLibWrapper *tdLibWrapper, AppSettings *appSettings);
@@ -72,9 +78,11 @@ public:
     Q_INVOKABLE void reset();
 
     Q_INVOKABLE void calculateUnreadState();
+    Q_INVOKABLE void setSelectedFolderName(QString title);
 
     bool showAllChats() const;
     void setShowAllChats(bool showAll);
+    ChatListModel* clone();
 
 private slots:
     void handleChatDiscovered(const QString &chatId, const QVariantMap &chatInformation);
@@ -96,6 +104,8 @@ private slots:
     void handleChatUnreadReactionCountUpdated(qlonglong chatId, int unreadReactionCount);
     void handleChatAvailableReactionsUpdated(qlonglong chatId, const QVariantMap availableReactions);
     void handleRelativeTimeRefreshTimer();
+    void handleChatFolders(const QVariantList &foldersInformation, qlonglong mainChatlistPosition);
+    void handleChatFolderInformation(const QVariantMap &chatFolderInformation);
 
 signals:
     void countChanged();
@@ -103,6 +113,8 @@ signals:
     void chatChanged(const qlonglong &changedChatId);
     void chatJoined(const qlonglong &chatId, const QString &chatTitle);
     void unreadStateChanged(int unreadMessagesCount, int unreadChatsCount);
+    void chatFoldersChanged(const QVariantMap &chatFolders);
+    void chatFolderInforamtionChanged(const QVariantMap &chatFolderInforamtion);
 
 private:
     class ChatData;
@@ -111,15 +123,39 @@ private:
     void updateSecretChatVisibility(const QVariantMap secretChatDetails);
     int updateChatOrder(int chatIndex);
     void enableRefreshTimer();
+    QVariantList getChatFolderList() const;
+    qlonglong mainAllChatFolderPosition;
 
 private:
     TDLibWrapper *tdLibWrapper;
     AppSettings *appSettings;
     QTimer *relativeTimeRefreshTimer;
     QList<ChatData*> chatList;
+    QVariantMap chatFolders;
+    QVariantList chatFolderTitles;
+    QVariantMap chatFolderList;
     QHash<qlonglong,int> chatIndexMap;
     QHash<qlonglong,ChatData*> hiddenChats;
     bool showHiddenChats;
+    QString selectedFolder;
+};
+
+
+class ChatsFolderFilterProxy : public QSortFilterProxyModel
+{
+    Q_OBJECT
+public:
+    ChatsFolderFilterProxy(QObject *parent = Q_NULLPTR);
+
+    // QSortFilterProxyModel interface
+protected:
+    bool filterAcceptsRow(int source_row, const QModelIndex &source_parent) const;
+
+private:
+
+    void sourceModelChanged();
+
+    ChatListModel *m_model = nullptr;
 };
 
 #endif // CHATLISTMODEL_H

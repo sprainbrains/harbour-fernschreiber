@@ -1,87 +1,87 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="hu_HU">
+<TS version="2.1" language="zh_CN">
 <context>
     <name>AboutPage</name>
     <message>
         <source>About Fernschreiber</source>
-        <translation>A Fernschreiber névjegye</translation>
+        <translation>关于 Fernschreiber</translation>
     </message>
     <message>
         <source>A Telegram client for Sailfish OS</source>
-        <translation>Sailfish OS Telegram kliens</translation>
+        <translation>一个旗鱼系统 Telegram 客户端</translation>
     </message>
     <message>
         <source>Send E-Mail</source>
-        <translation>E-mail küldés</translation>
+        <translation>发送电子邮件</translation>
     </message>
     <message>
         <source>Licensed under GNU GPLv3</source>
-        <translation>A GNU GPLv3 licensz által engedélyezve</translation>
+        <translation>采用 GNU GPLv3 许可证</translation>
     </message>
     <message>
         <source>Sources on GitHub</source>
-        <translation>Forráskód a GitHub-on</translation>
+        <translation>源代码位于 GitHub</translation>
     </message>
     <message>
         <source>Terms of Service</source>
-        <translation>A szolgáltatás feltételei</translation>
+        <translation>服务条款</translation>
     </message>
     <message>
         <source>Privacy Policy</source>
-        <translation>Adatvédelmi irányelvek</translation>
+        <translation>隐私政策</translation>
     </message>
     <message>
         <source>Credits</source>
-        <translation>Készítők</translation>
+        <translation>信誉</translation>
     </message>
     <message>
         <source>This project uses the Telegram Database Library (TDLib). Thanks for making it available under the conditions of the Boost Software License 1.0!</source>
-        <translation>Ez a projekt a Telegram Adatkönyvtárat (TDLib) használja. Köszönet amiért elérhetővé tették a Boost Software Licensz 1.0 feltételei alatt!</translation>
+        <translation>该项目使用 Telegram 数据库（TDLib）。感谢使它在 Boost 软件许可证1.0下可用！</translation>
     </message>
     <message>
         <source>Open Telegram Database Library on GitHub</source>
-        <translation>Telegram Adatkönyvtár megnyitása a GitHub-on</translation>
+        <translation>打开位于 Github 的 Telegram 数据库</translation>
     </message>
     <message>
         <source>About Telegram</source>
-        <translation>A Telegramról</translation>
+        <translation>关于 Telegram</translation>
     </message>
     <message>
         <source>This product uses the Telegram API but is not endorsed or certified by Telegram.</source>
-        <translation>Ez a projekt, bár a Telegram API-kat használja, de sem jóváhagyva sem tanúsítva nincs a Telegram által.</translation>
+        <translation>该项目采用 Telegram API ，但未获得 Telegram 批准或背书。</translation>
     </message>
     <message>
         <source>TDLib version %1</source>
-        <translation>TDLib verzió %1</translation>
+        <translation>TDLib 版本 %1</translation>
     </message>
     <message>
         <source>This project uses twemoji. Copyright 2018 Twitter, Inc. and other contributors. Thanks for making it available under the conditions of the MIT License (coding) and CC-BY 4.0 (graphics)!</source>
-        <translation>Ez a projekt a twemoji-kat használja. Szerzői jog 2018 Twitter, Inc. és egyéb együttműködők. Köszönet amiért elérhetővé tették az MIT Licensz (programozás) és a CC-BY 4.0 (grafika) feltételei alatt!</translation>
+        <translation>该项目使用 twemoji 2018 Twitter, Inc. 版权所有。感谢使它在 MIT 许可证（编码）及 CC-BY 4.0（图像）许可证下可用。</translation>
     </message>
     <message>
         <source>Open twemoji on GitHub</source>
-        <translation>twemoji megnyitása a GitHub-on</translation>
+        <translation>打开位于 Github 的 Twemoji 页面</translation>
     </message>
     <message>
         <source>By Sebastian J. Wolf and &lt;a href=&quot;https://github.com/Wunderfitz/harbour-fernschreiber#contributions&quot;&gt;other contributors&lt;/a&gt;</source>
-        <translation type="unfinished"></translation>
+        <translation>开发者 Sebastian J. Wolf 及  &lt;a href=&quot;https://github.com/Wunderfitz/harbour-fernschreiber#contributions&quot;&gt;其它贡献者&lt;/a&gt;</translation>
     </message>
     <message>
         <source>This project uses rlottie. Copyright 2020 Samsung Electronics Co., Ltd. and other contributors. Thanks for making it available under the conditions of the MIT License!</source>
-        <translation type="unfinished"></translation>
+        <translation>该项目使用 rlottie 版权所有 2020 三星电子有限责任公司。感谢使它在 MIT 许可证下可用。</translation>
     </message>
     <message>
         <source>Open rlottie on GitHub</source>
-        <translation type="unfinished"></translation>
+        <translation>在 Github 打开 rlottie</translation>
     </message>
     <message>
         <source>This project uses OpenStreetMap Nominatim for reverse geocoding of location attachments. Thanks for making it available as web service!</source>
-        <translation type="unfinished"></translation>
+        <translation>该项目使用 OpenStreetMap Nominatim 对位置附件进行反向地理编码。感谢把它作为网络服务提供给我们！</translation>
     </message>
     <message>
         <source>Open OSM Nominatim Wiki</source>
-        <translation type="unfinished"></translation>
+        <translation>打开 OSM Nominatim Wiki</translation>
     </message>
 </context>
 <context>
@@ -99,86 +99,86 @@
     <name>ChatInformationPageContent</name>
     <message numerus="yes">
         <source>%1 subscribers</source>
-        <translation type="unfinished">
-            <numerusform>%1 feliratkozott</numerusform>
+        <translation>
+            <numerusform>%1 位订阅者</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>%1 members</source>
-        <translation type="unfinished">
-            <numerusform>%1 tag</numerusform>
+        <translation>
+            <numerusform>%1 位成员</numerusform>
         </translation>
     </message>
     <message>
         <source>Leave Chat</source>
-        <translation type="unfinished"></translation>
+        <translation>离开对话</translation>
     </message>
     <message>
         <source>Join Chat</source>
-        <translation type="unfinished"></translation>
+        <translation>加入对话</translation>
     </message>
     <message>
         <source>Leaving chat</source>
-        <translation type="unfinished"></translation>
+        <translation>正在离开对话</translation>
     </message>
     <message>
         <source>Unknown</source>
-        <translation type="unfinished">Ismeretlen</translation>
+        <translation>未知</translation>
     </message>
     <message>
         <source>Chat Title</source>
         <comment>group title header</comment>
-        <translation type="unfinished"></translation>
+        <translation>对话标题</translation>
     </message>
     <message>
         <source>Enter 1-128 characters</source>
-        <translation type="unfinished"></translation>
+        <translation>输入 1-128 个字符</translation>
     </message>
     <message>
         <source>There is no information text available, yet.</source>
-        <translation type="unfinished"></translation>
+        <translation>暂无信息</translation>
     </message>
     <message>
         <source>Info</source>
         <comment>group or user infotext header</comment>
-        <translation type="unfinished"></translation>
+        <translation>信息</translation>
     </message>
     <message>
         <source>Phone Number</source>
         <comment>user phone number header</comment>
-        <translation type="unfinished"></translation>
+        <translation>电话号码</translation>
     </message>
     <message>
         <source>Invite Link</source>
         <comment>header</comment>
-        <translation type="unfinished"></translation>
+        <translation>邀请链接</translation>
     </message>
     <message>
         <source>The Invite Link has been copied to the clipboard.</source>
-        <translation type="unfinished"></translation>
+        <translation>邀请链接已复制到剪切板</translation>
     </message>
     <message>
         <source>%1, %2</source>
         <comment>combination of &apos;[x members], [y online]&apos;, which are separate translations</comment>
-        <translation type="unfinished"></translation>
+        <translation>%1, %2</translation>
     </message>
     <message numerus="yes">
         <source>%1 online</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%1 位在线</numerusform>
         </translation>
     </message>
     <message>
         <source>New Secret Chat</source>
-        <translation type="unfinished"></translation>
+        <translation>新加密对话</translation>
     </message>
     <message>
         <source>Unmute Chat</source>
-        <translation>Csevegés némítás feloldása</translation>
+        <translation>取消对话静音</translation>
     </message>
     <message>
         <source>Mute Chat</source>
-        <translation>Csevegés némítása</translation>
+        <translation>静音对话</translation>
     </message>
     <message>
         <source>ID has been copied to the clipboard.</source>
@@ -190,27 +190,27 @@
     <message>
         <source>Loading common chats…</source>
         <comment>chats you have in common with a user</comment>
-        <translation type="unfinished"></translation>
+        <translation>正在加载共有对话…</translation>
     </message>
     <message>
         <source>Loading group members…</source>
-        <translation type="unfinished"></translation>
+        <translation>正在加载群组成员…</translation>
     </message>
     <message>
         <source>You</source>
-        <translation type="unfinished">Te</translation>
+        <translation>你</translation>
     </message>
     <message>
         <source>You don&apos;t have any groups in common with this user.</source>
-        <translation type="unfinished"></translation>
+        <translation>你与此用户之间没有相同群组。</translation>
     </message>
     <message>
         <source>This group is empty.</source>
-        <translation type="unfinished"></translation>
+        <translation>此群组为空。</translation>
     </message>
     <message>
         <source>Channel members are anonymous.</source>
-        <translation type="unfinished"></translation>
+        <translation>频道成员已匿名。</translation>
     </message>
 </context>
 <context>
@@ -218,244 +218,259 @@
     <message>
         <source>Groups</source>
         <comment>Button: groups in common (short)</comment>
-        <translation type="unfinished"></translation>
+        <translation>群组</translation>
     </message>
     <message>
         <source>Members</source>
         <comment>Button: Group Members</comment>
-        <translation type="unfinished"></translation>
+        <translation>成员</translation>
     </message>
     <message>
         <source>Settings</source>
         <comment>Button: Chat Settings</comment>
-        <translation type="unfinished">Beállítások</translation>
+        <translation>设置</translation>
+    </message>
+</context>
+<context>
+    <name>ChatListModel</name>
+    <message>
+        <source>All Chats</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Chats only</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Channels only</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>ChatListViewItem</name>
     <message>
         <source>Unknown</source>
-        <translation type="unfinished">Ismeretlen</translation>
+        <translation>未知</translation>
     </message>
     <message>
         <source>You</source>
-        <translation type="unfinished">Te</translation>
+        <translation>你</translation>
     </message>
     <message>
         <source>User Info</source>
-        <translation type="unfinished"></translation>
+        <translation>用户信息</translation>
     </message>
     <message>
         <source>Group Info</source>
-        <translation type="unfinished"></translation>
+        <translation>群组信息</translation>
     </message>
     <message>
         <source>Mark all messages as read</source>
-        <translation type="unfinished"></translation>
+        <translation>标记全部消息为已读</translation>
     </message>
     <message>
         <source>No message in this chat.</source>
-        <translation type="unfinished"></translation>
+        <translation>该对话没有消息…</translation>
     </message>
     <message>
         <source>Mark chat as unread</source>
-        <translation type="unfinished"></translation>
+        <translation>标记此对话为未读</translation>
     </message>
     <message>
         <source>Draft</source>
-        <translation type="unfinished"></translation>
+        <translation>草稿</translation>
     </message>
     <message>
         <source>Mark chat as read</source>
-        <translation type="unfinished"></translation>
+        <translation>标记为已读</translation>
     </message>
     <message>
         <source>Unpin chat</source>
-        <translation type="unfinished"></translation>
+        <translation>取消置顶对话</translation>
     </message>
     <message>
         <source>Pin chat</source>
-        <translation type="unfinished"></translation>
+        <translation>置顶对话</translation>
     </message>
     <message>
         <source>Unmute chat</source>
-        <translation>Csevegés némítás feloldása</translation>
+        <translation>取消对话静音</translation>
     </message>
     <message>
         <source>Mute chat</source>
-        <translation>Csevegés némítása</translation>
+        <translation>静音对话</translation>
     </message>
 </context>
 <context>
     <name>ChatPage</name>
     <message>
         <source>Unknown</source>
-        <translation>Ismeretlen</translation>
+        <translation>未知</translation>
     </message>
     <message>
         <source>Your message</source>
-        <translation>Üzeneted</translation>
+        <translation>你的消息</translation>
     </message>
     <message numerus="yes">
         <source>%1 members</source>
-        <translation type="unfinished">
-            <numerusform>%1 tag</numerusform>
+        <translation>
+            <numerusform>%1 位成员</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>%1 subscribers</source>
-        <translation type="unfinished">
-            <numerusform>%1 feliratkozott</numerusform>
+        <translation>
+            <numerusform>%1 位订阅者</numerusform>
         </translation>
     </message>
     <message>
         <source>Loading messages...</source>
-        <translation>Üzenetek betöltése...</translation>
+        <translation>正在加载消息…</translation>
     </message>
     <message>
         <source>Unmute Chat</source>
-        <translation>Csevegés némítás feloldása</translation>
+        <translation>取消对话静音</translation>
     </message>
     <message>
         <source>Mute Chat</source>
-        <translation>Csevegés némítása</translation>
+        <translation>对话静音</translation>
     </message>
     <message>
         <source>Edit Message</source>
-        <translation>Üzenet szerkesztése</translation>
+        <translation>编辑消息</translation>
     </message>
     <message>
         <source>edited</source>
-        <translation>Szerkesztett</translation>
+        <translation>已编辑</translation>
     </message>
     <message>
         <source>Uploading...</source>
-        <translation type="unfinished"></translation>
+        <translation>正在上传…</translation>
     </message>
     <message>
         <source>This chat is empty.</source>
-        <translation type="unfinished"></translation>
+        <translation>此对话为空。</translation>
     </message>
     <message>
         <source>Leave Chat</source>
-        <translation type="unfinished"></translation>
+        <translation>离开对话</translation>
     </message>
     <message>
         <source>Join Chat</source>
-        <translation type="unfinished"></translation>
+        <translation>加入对话</translation>
     </message>
     <message>
         <source>Leaving chat</source>
-        <translation type="unfinished"></translation>
+        <translation>正在离开对话</translation>
     </message>
     <message>
         <source>You joined the chat %1</source>
-        <translation type="unfinished"></translation>
+        <translation>你已加入对话 %1</translation>
     </message>
     <message>
         <source>Select Messages</source>
-        <translation type="unfinished"></translation>
+        <translation>选择消息</translation>
     </message>
     <message numerus="yes">
         <source>%Ln Messages deleted</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>已删除 %Ln 则消息</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>%Ln messages have been copied</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>已复制 %Ln 则消息</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>Forward %Ln messages</source>
         <comment>dialog header</comment>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>转发 %Ln 则消息</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>%Ln messages selected</source>
         <comment>number of messages selected</comment>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>已选择 %Ln 则消息</numerusform>
         </translation>
     </message>
     <message>
         <source>%1, %2</source>
         <comment>combination of &apos;[x members], [y online]&apos;, which are separate translations</comment>
-        <translation type="unfinished"></translation>
+        <translation>%1, %2</translation>
     </message>
     <message numerus="yes">
         <source>%1 online</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%1 位在线</numerusform>
         </translation>
     </message>
     <message>
         <source>This secret chat is not yet ready. Your chat partner needs to go online first.</source>
-        <translation type="unfinished"></translation>
+        <translation>加密对话未就绪，你的聊天对象必须先上线。</translation>
     </message>
     <message>
         <source>Closing chat</source>
-        <translation type="unfinished"></translation>
+        <translation>正在关闭对话</translation>
     </message>
     <message>
         <source>Close Chat</source>
-        <translation type="unfinished"></translation>
+        <translation>关闭对话</translation>
     </message>
     <message>
         <source>Search in Chat</source>
-        <translation type="unfinished"></translation>
+        <translation>对话内搜索</translation>
     </message>
     <message>
         <source>Search in chat...</source>
-        <translation type="unfinished"></translation>
+        <translation>搜索对话内容…</translation>
     </message>
     <message>
         <source>Location: Obtaining position...</source>
-        <translation type="unfinished"></translation>
+        <translation>位置:正在获取位置…</translation>
     </message>
     <message>
         <source>Location (%1/%2)</source>
-        <translation type="unfinished"></translation>
+        <translation>位置 (%1/%2)</translation>
     </message>
     <message>
         <source>Copy Message to Clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>复制消息到剪切板</translation>
     </message>
     <message>
         <source>Message unpinned</source>
-        <translation type="unfinished"></translation>
+        <translation>已取消置顶消息</translation>
     </message>
     <message>
         <source>Unpin Message</source>
-        <translation type="unfinished"></translation>
+        <translation>取消置顶</translation>
     </message>
     <message>
         <source>Pin Message</source>
-        <translation type="unfinished"></translation>
+        <translation>置顶消息</translation>
     </message>
     <message>
         <source>Additional Options</source>
-        <translation type="unfinished"></translation>
+        <translation>附加选项</translation>
     </message>
     <message>
         <source>Delete Message</source>
-        <translation type="unfinished">Üzenet törlése</translation>
+        <translation>删除消息</translation>
     </message>
     <message>
         <source>Forward Message</source>
-        <translation type="unfinished"></translation>
+        <translation>转发消息</translation>
     </message>
     <message>
         <source>Unknown address</source>
-        <translation type="unfinished"></translation>
+        <translation>未知位置</translation>
     </message>
     <message>
         <source>Accuracy: %1m</source>
-        <translation type="unfinished"></translation>
+        <translation>精度: %1m</translation>
     </message>
     <message>
         <source>Sponsored Message</source>
@@ -482,56 +497,50 @@
     <name>ChatSelectionPage</name>
     <message>
         <source>Select Chat</source>
-        <translation type="unfinished"></translation>
+        <translation>选择对话</translation>
     </message>
     <message>
         <source>You don&apos;t have any chats yet.</source>
-        <translation type="unfinished"></translation>
-    </message>
-</context>
-<context>
-    <name>ContactSync</name>
-    <message>
-        <source>Could not synchronize your contacts with Telegram.</source>
-        <translation type="unfinished"></translation>
+        <translation>你还没有任何对话。</translation>
     </message>
 </context>
 <context>
     <name>CoverPage</name>
     <message>
         <source>in</source>
-        <translation>ban</translation>
+        <translation>位于</translation>
     </message>
     <message>
         <source>Waiting for network...</source>
-        <translation>Hálózatra várakozás...</translation>
+        <translation>等候网络连接…</translation>
     </message>
     <message>
         <source>Connecting to network...</source>
-        <translation>Csatlakozás a hálózathoz...</translation>
+        <translation>正在连接到网络…</translation>
     </message>
     <message>
         <source>Connecting to proxy...</source>
-        <translation>Csatlakozás a proxy-hoz...</translation>
+        <translation>正在连接到代理…</translation>
     </message>
     <message>
         <source>Connected</source>
-        <translation>Csatlakozva</translation>
+        <translation>已连接</translation>
     </message>
     <message>
         <source>Updating content...</source>
-        <translation>Tartalom frissítése...</translation>
+        <translation>正在更新内容…</translation>
     </message>
     <message numerus="yes">
         <source>chats</source>
-        <translation type="unfinished">
-            <numerusform>csevegések</numerusform>
+        <translation>
+            <numerusform>对话</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>unread messages</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>未读
+消息</numerusform>
         </translation>
     </message>
 </context>
@@ -540,67 +549,67 @@
     <message>
         <source>Group Member Permissions</source>
         <comment>what can normal group members do</comment>
-        <translation type="unfinished"></translation>
+        <translation>群组成员权限</translation>
     </message>
     <message>
         <source>Send Messages</source>
         <comment>member permission</comment>
-        <translation type="unfinished"></translation>
+        <translation>发送消息</translation>
     </message>
     <message>
         <source>Send Media Messages</source>
         <comment>member permission</comment>
-        <translation type="unfinished"></translation>
+        <translation>发送媒体消息</translation>
     </message>
     <message>
         <source>Send Other Messages</source>
         <comment>member permission</comment>
-        <translation type="unfinished"></translation>
+        <translation>发送其它消息</translation>
     </message>
     <message>
         <source>Add Web Page Previews</source>
         <comment>member permission</comment>
-        <translation type="unfinished"></translation>
+        <translation>添加网页预览</translation>
     </message>
     <message>
         <source>Change Chat Info</source>
         <comment>member permission</comment>
-        <translation type="unfinished"></translation>
+        <translation>修改群组消息</translation>
     </message>
     <message>
         <source>Invite Users</source>
         <comment>member permission</comment>
-        <translation type="unfinished"></translation>
+        <translation>邀请用户</translation>
     </message>
     <message>
         <source>Pin Messages</source>
         <comment>member permission</comment>
-        <translation type="unfinished"></translation>
+        <translation>置顶消息</translation>
     </message>
     <message>
         <source>New Members</source>
         <comment>what can new group members do</comment>
-        <translation type="unfinished"></translation>
+        <translation>新成员</translation>
     </message>
     <message>
         <source>New members can see older messages</source>
         <comment>member permission</comment>
-        <translation type="unfinished"></translation>
+        <translation>新成员可以看见旧消息</translation>
     </message>
 </context>
 <context>
     <name>EditSuperGroupSlowModeColumn</name>
     <message>
         <source>Slow Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>慢速模式</translation>
     </message>
     <message>
         <source>Off</source>
-        <translation type="unfinished"></translation>
+        <translation>关闭</translation>
     </message>
     <message>
         <source>Set how long every chat member has to wait between Messages</source>
-        <translation type="unfinished"></translation>
+        <translation>设置对话成员在发送两次消息之间需要等候的时间</translation>
     </message>
 </context>
 <context>
@@ -608,285 +617,285 @@
     <message>
         <source>sent a picture</source>
         <comment>myself</comment>
-        <translation type="unfinished">képet küldött</translation>
+        <translation>发送图片</translation>
     </message>
     <message>
         <source>sent a picture</source>
-        <translation type="unfinished">képet küldött</translation>
+        <translation>发送图片</translation>
     </message>
     <message>
         <source>sent a video</source>
         <comment>myself</comment>
-        <translation type="unfinished">videót küldött</translation>
+        <translation>发送视频</translation>
     </message>
     <message>
         <source>sent a video</source>
-        <translation type="unfinished">videót küldött</translation>
+        <translation>发送视频</translation>
     </message>
     <message>
         <source>sent an animation</source>
         <comment>myself</comment>
-        <translation type="unfinished">animációt küldött</translation>
+        <translation>发送动画</translation>
     </message>
     <message>
         <source>sent an animation</source>
-        <translation type="unfinished">animációt küldött</translation>
+        <translation>发送动画</translation>
     </message>
     <message>
         <source>sent a voice note</source>
-        <translation type="unfinished">hangüzenetet küldött</translation>
+        <translation>发送语音消息</translation>
     </message>
     <message>
         <source>sent a document</source>
         <comment>myself</comment>
-        <translation type="unfinished">dokumentumot küldött</translation>
+        <translation>发送文档</translation>
     </message>
     <message>
         <source>sent a document</source>
-        <translation type="unfinished">dokumentumot küldött</translation>
+        <translation>发送文档</translation>
     </message>
     <message>
         <source>sent a location</source>
         <comment>myself</comment>
-        <translation type="unfinished">helyzetmeghatározó információt küldött</translation>
+        <translation>发送位置</translation>
     </message>
     <message>
         <source>sent a location</source>
-        <translation type="unfinished">helyzetmeghatározó információt küldött</translation>
+        <translation>发送位置</translation>
     </message>
     <message>
         <source>have registered with Telegram</source>
         <comment>myself</comment>
-        <translation type="unfinished"></translation>
+        <translation>已注册到 Telegram</translation>
     </message>
     <message>
         <source>has registered with Telegram</source>
-        <translation type="unfinished">regisztrált a Telegram-al</translation>
+        <translation>已注册到 Telegram </translation>
     </message>
     <message>
         <source>joined this chat</source>
         <comment>myself</comment>
-        <translation type="unfinished">csatlakozott a csevegéshez</translation>
+        <translation>已加入此对话</translation>
     </message>
     <message>
         <source>joined this chat</source>
-        <translation type="unfinished">csatlakozott a csevegéshez</translation>
+        <translation>已加入此对话</translation>
     </message>
     <message>
         <source>were added to this chat</source>
         <comment>myself</comment>
-        <translation type="unfinished"></translation>
+        <translation>已经加入到此对话之中</translation>
     </message>
     <message>
         <source>was added to this chat</source>
-        <translation type="unfinished">hozzáadva a csevegéshez</translation>
+        <translation>已加入到此对话</translation>
     </message>
     <message>
         <source>left this chat</source>
         <comment>myself</comment>
-        <translation type="unfinished">kilépett a csevegésből</translation>
+        <translation>离开此对话</translation>
     </message>
     <message>
         <source>left this chat</source>
-        <translation type="unfinished">kilépett a csevegésből</translation>
+        <translation>离开此对话</translation>
     </message>
     <message>
         <source>sent a voice note</source>
         <comment>myself</comment>
-        <translation type="unfinished">hangüzenetet küldött</translation>
+        <translation>发送视频消息</translation>
     </message>
     <message>
         <source>sent a venue</source>
         <comment>myself</comment>
-        <translation type="unfinished"></translation>
+        <translation>发送地点</translation>
     </message>
     <message>
         <source>sent a venue</source>
-        <translation type="unfinished"></translation>
+        <translation>发送地点</translation>
     </message>
     <message>
         <source>changed the chat title</source>
         <comment>myself</comment>
-        <translation type="unfinished"></translation>
+        <translation>修改此对话标题</translation>
     </message>
     <message>
         <source>changed the chat title</source>
-        <translation type="unfinished"></translation>
+        <translation>修改此对话标题</translation>
     </message>
     <message>
         <source>sent a poll</source>
         <comment>myself</comment>
-        <translation type="unfinished"></translation>
+        <translation>发送投票</translation>
     </message>
     <message>
         <source>sent a poll</source>
-        <translation type="unfinished"></translation>
+        <translation>发送投票</translation>
     </message>
     <message>
         <source>sent a quiz</source>
         <comment>myself</comment>
-        <translation type="unfinished"></translation>
+        <translation>发送 quiz</translation>
     </message>
     <message>
         <source>sent a quiz</source>
-        <translation type="unfinished"></translation>
+        <translation>发送 quiz</translation>
     </message>
     <message>
         <source>created this group</source>
         <comment>myself</comment>
-        <translation type="unfinished"></translation>
+        <translation>已创建此群组</translation>
     </message>
     <message>
         <source>created this group</source>
-        <translation type="unfinished"></translation>
+        <translation>已创建此群组</translation>
     </message>
     <message>
         <source>changed the chat photo</source>
         <comment>myself</comment>
-        <translation type="unfinished"></translation>
+        <translation>修改此对话图片</translation>
     </message>
     <message>
         <source>changed the chat photo</source>
-        <translation type="unfinished"></translation>
+        <translation>修改此对话图片</translation>
     </message>
     <message>
         <source>deleted the chat photo</source>
         <comment>myself</comment>
-        <translation type="unfinished"></translation>
+        <translation>已删除此对话图片</translation>
     </message>
     <message>
         <source>deleted the chat photo</source>
-        <translation type="unfinished"></translation>
+        <translation>已删除此对话图片</translation>
     </message>
     <message>
         <source>changed the secret chat TTL setting</source>
         <comment>myself</comment>
-        <translation type="unfinished"></translation>
+        <translation>修改加密对话保留时长设置</translation>
     </message>
     <message>
         <source>changed the secret chat TTL setting</source>
-        <translation type="unfinished"></translation>
+        <translation>修改加密对话保留时长设置</translation>
     </message>
     <message>
         <source>upgraded this group to a supergroup</source>
         <comment>myself</comment>
-        <translation type="unfinished"></translation>
+        <translation>已更新此群组为超级群组</translation>
     </message>
     <message>
         <source>changed the pinned message</source>
         <comment>myself</comment>
-        <translation type="unfinished"></translation>
+        <translation>修改置顶消息</translation>
     </message>
     <message>
         <source>changed the pinned message</source>
-        <translation type="unfinished"></translation>
+        <translation>修改置顶消息</translation>
     </message>
     <message>
         <source>created a screenshot in this chat</source>
         <comment>myself</comment>
-        <translation type="unfinished"></translation>
+        <translation>已截图此对话</translation>
     </message>
     <message>
         <source>created a screenshot in this chat</source>
-        <translation type="unfinished"></translation>
+        <translation>已截图此对话</translation>
     </message>
     <message>
         <source>sent an unsupported message</source>
         <comment>myself</comment>
-        <translation type="unfinished"></translation>
+        <translation>发送不受支持的消息</translation>
     </message>
     <message>
         <source>sent an unsupported message</source>
-        <translation type="unfinished"></translation>
+        <translation>发送不受支持的消息</translation>
     </message>
     <message>
         <source>sent an unsupported message: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>发送不受支持的消息: %1</translation>
     </message>
     <message>
         <source>upgraded this group to a supergroup</source>
-        <translation type="unfinished"></translation>
+        <translation>已更新此群组为超级群组</translation>
     </message>
     <message>
         <source>sent a self-destructing photo that is expired</source>
         <comment>myself</comment>
-        <translation type="unfinished"></translation>
+        <translation>发送过期即自毁图片</translation>
     </message>
     <message>
         <source>sent a self-destructing video that is expired</source>
         <comment>myself</comment>
-        <translation type="unfinished"></translation>
+        <translation>发送过期即自毁视频</translation>
     </message>
     <message>
         <source>sent a self-destructing video that is expired</source>
-        <translation type="unfinished"></translation>
+        <translation>发送过期即自毁视频</translation>
     </message>
     <message>
         <source>sent an unsupported message: %1</source>
         <comment>myself</comment>
-        <translation type="unfinished"></translation>
+        <translation>发送不受支持的消息: %1</translation>
     </message>
     <message>
         <source>sent a self-destructing photo that is expired</source>
-        <translation type="unfinished"></translation>
+        <translation>发送过期即自毁视频</translation>
     </message>
     <message>
         <source>sent an audio</source>
         <comment>myself</comment>
-        <translation type="unfinished">audiót küldött</translation>
+        <translation>发送音频</translation>
     </message>
     <message>
         <source>sent an audio</source>
-        <translation type="unfinished">audiót küldött</translation>
+        <translation>发送音频</translation>
     </message>
     <message>
         <source>has added %1 to the chat</source>
-        <translation type="unfinished"></translation>
+        <translation>已加入 %1 到此对话</translation>
     </message>
     <message>
         <source>has removed %1 from the chat</source>
-        <translation type="unfinished"></translation>
+        <translation>已从此对话移除 %1</translation>
     </message>
     <message>
         <source>have added %1 to the chat</source>
         <comment>myself</comment>
-        <translation type="unfinished"></translation>
+        <translation>已加入 %1 到此对话</translation>
     </message>
     <message>
         <source>have removed %1 from the chat</source>
         <comment>myself</comment>
-        <translation type="unfinished"></translation>
+        <translation>已从此对话移除 %1</translation>
     </message>
     <message numerus="yes">
         <source>scored %Ln points</source>
         <comment>myself</comment>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>已取得 %Ln 分</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>scored %Ln points</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>已取得 %Ln 分</numerusform>
         </translation>
     </message>
     <message>
         <source>sent a game</source>
         <comment>myself</comment>
-        <translation type="unfinished"></translation>
+        <translation>发送游戏</translation>
     </message>
     <message>
         <source>sent a game</source>
-        <translation type="unfinished"></translation>
+        <translation>发送游戏</translation>
     </message>
     <message>
         <source>sent a video note</source>
         <comment>myself</comment>
-        <translation type="unfinished"></translation>
+        <translation>发送视频消息</translation>
     </message>
     <message>
         <source>sent a video note</source>
-        <translation type="unfinished"></translation>
+        <translation>发送视频消息</translation>
     </message>
 </context>
 <context>
@@ -895,7 +904,7 @@
         <source>Forward %Ln messages</source>
         <comment>dialog header</comment>
         <translation type="unfinished">
-            <numerusform></numerusform>
+            <numerusform>转发 %Ln 则消息</numerusform>
         </translation>
     </message>
 </context>
@@ -903,159 +912,159 @@
     <name>ImagePage</name>
     <message>
         <source>Download Picture</source>
-        <translation>Kép letöltése</translation>
+        <translation>下载图片</translation>
     </message>
     <message>
         <source>Download of %1 successful.</source>
-        <translation>A %1 letöltése sikerült.</translation>
+        <translation>已成功下载 %1 。</translation>
     </message>
     <message>
         <source>Download failed.</source>
-        <translation>A letöltés nem sikerült.</translation>
+        <translation>下载失败。</translation>
     </message>
 </context>
 <context>
     <name>InReplyToRow</name>
     <message>
         <source>You</source>
-        <translation>Te</translation>
+        <translation>你</translation>
     </message>
     <message>
         <source>Unknown</source>
-        <translation type="unfinished">Ismeretlen</translation>
+        <translation>未知</translation>
     </message>
     <message>
         <source>This message was deleted</source>
-        <translation type="unfinished"></translation>
+        <translation>已删除此消息</translation>
     </message>
 </context>
 <context>
     <name>InitializationPage</name>
     <message>
         <source>OK</source>
-        <translation>Rendben</translation>
+        <translation>确认</translation>
     </message>
     <message>
         <source>Welcome to Fernschreiber!</source>
-        <translation>Üdvözöl a Fernschreiber!</translation>
+        <translation>欢迎使用 Fernschreiber ！</translation>
     </message>
     <message>
         <source>Please enter your phone number to continue.</source>
-        <translation>Kérlek add meg a telefonszámodat a folytatáshoz.</translation>
+        <translation>请输入你的电话号码以继续。</translation>
     </message>
     <message>
         <source>Continue</source>
-        <translation>Folytatás</translation>
+        <translation>继续</translation>
     </message>
     <message>
         <source>Please enter the code that you received:</source>
-        <translation>Kérlek add meg a kapott kódot:</translation>
+        <translation>请输入你收到的验证码:</translation>
     </message>
     <message>
         <source>Loading...</source>
-        <translation>Betöltés...</translation>
+        <translation>正在加载…</translation>
     </message>
     <message>
         <source>Unable to authenticate you with the entered code.</source>
-        <translation>A megadott kód azonosítása sikertelen.</translation>
+        <translation>无法使用你输入的验证码进行授权。</translation>
     </message>
     <message>
         <source>Enter code again</source>
-        <translation>Kód ismételt megadása</translation>
+        <translation>再次输入验证码</translation>
     </message>
     <message>
         <source>Restart authentication</source>
-        <translation>Azonosítás újrakezédse</translation>
+        <translation>重新授权</translation>
     </message>
     <message>
         <source>Please enter your password:</source>
-        <translation>Kérlek add meg a jelszavad:</translation>
+        <translation>请输入你的密码:</translation>
     </message>
     <message>
         <source>Register User</source>
-        <translation type="unfinished"></translation>
+        <translation>注册用户</translation>
     </message>
     <message>
         <source>Enter your First Name</source>
-        <translation type="unfinished"></translation>
+        <translation>输入你的名字</translation>
     </message>
     <message>
         <source>Enter your Last Name</source>
-        <translation type="unfinished"></translation>
+        <translation>输入你的姓氏</translation>
     </message>
     <message>
         <source>User Registration</source>
-        <translation type="unfinished"></translation>
+        <translation>用户注册</translation>
     </message>
     <message>
         <source>Use the international format, e.g. %1</source>
-        <translation type="unfinished"></translation>
+        <translation>请使用国际区号格式，例如 %1</translation>
     </message>
     <message>
         <source>About Fernschreiber</source>
-        <translation>A Fernschreiber névjegye</translation>
+        <translation>关于 Fernschreiber</translation>
     </message>
 </context>
 <context>
     <name>MessageListViewItem</name>
     <message>
         <source>Reply to Message</source>
-        <translation type="unfinished">Válasz az üzenetre</translation>
+        <translation>回复此消息</translation>
     </message>
     <message>
         <source>Edit Message</source>
-        <translation type="unfinished">Üzenet szerkesztése</translation>
+        <translation>编辑消息</translation>
     </message>
     <message>
         <source>You</source>
-        <translation type="unfinished">Te</translation>
+        <translation>你</translation>
     </message>
     <message>
         <source>Forwarded Message</source>
-        <translation type="unfinished"></translation>
+        <translation>转发消息</translation>
     </message>
     <message>
         <source>Select Message</source>
-        <translation type="unfinished"></translation>
+        <translation>选择消息</translation>
     </message>
     <message>
         <source>More Options...</source>
-        <translation type="unfinished"></translation>
+        <translation>更多选项…</translation>
     </message>
     <message>
         <source>Message deleted</source>
-        <translation type="unfinished"></translation>
+        <translation>已删除消息</translation>
     </message>
     <message>
         <source>Copy Message to Clipboard</source>
-        <translation type="unfinished"></translation>
+        <translation>复制消息到剪切板</translation>
     </message>
     <message>
         <source>Forward Message</source>
-        <translation type="unfinished"></translation>
+        <translation>转发消息</translation>
     </message>
     <message>
         <source>Delete Message</source>
-        <translation type="unfinished">Üzenet törlése</translation>
+        <translation>删除消息</translation>
     </message>
 </context>
 <context>
     <name>MessageListViewItemSimple</name>
     <message>
         <source>You</source>
-        <translation type="unfinished">Te</translation>
+        <translation>你</translation>
     </message>
     <message numerus="yes">
         <source>scored %Ln points in %2</source>
         <comment>myself</comment>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>已在 %2 取得 %Ln 分</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>scored %Ln points in %2</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>已在 %2 取得 %Ln 分</numerusform>
         </translation>
     </message>
 </context>
@@ -1063,43 +1072,43 @@
     <name>MessageOverlayFlickable</name>
     <message>
         <source>You</source>
-        <translation type="unfinished">Te</translation>
+        <translation>你</translation>
     </message>
     <message>
         <source>This message was forwarded. Original author: %1</source>
-        <translation type="unfinished"></translation>
+        <translation>此消息为转发消息，原作者: %1</translation>
     </message>
 </context>
 <context>
     <name>MessagePoll</name>
     <message>
         <source>Close Poll</source>
-        <translation type="unfinished"></translation>
+        <translation>关闭投票</translation>
     </message>
     <message>
         <source>Reset Answer</source>
-        <translation type="unfinished"></translation>
+        <translation>重设回答</translation>
     </message>
     <message>
         <source>Final Result:</source>
-        <translation type="unfinished"></translation>
+        <translation>最终结果:</translation>
     </message>
     <message>
         <source>Multiple Answers are allowed.</source>
-        <translation type="unfinished"></translation>
+        <translation>允许多个回答。</translation>
     </message>
     <message numerus="yes">
         <source>%Ln%</source>
         <comment>% of votes for option</comment>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%Ln%</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>%Ln vote(s) total</source>
         <comment>number of total votes</comment>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>总计 %Ln 次投票</numerusform>
         </translation>
     </message>
 </context>
@@ -1108,57 +1117,57 @@
     <message>
         <source>via %1</source>
         <comment>message posted via bot user</comment>
-        <translation type="unfinished"></translation>
+        <translation>通过机器用户 %1</translation>
     </message>
 </context>
 <context>
     <name>MessageVoiceNote</name>
     <message>
         <source>Voice Note</source>
-        <translation type="unfinished"></translation>
+        <translation>语音消息</translation>
     </message>
 </context>
 <context>
     <name>NewChatPage</name>
     <message>
         <source>Your Contacts</source>
-        <translation type="unfinished"></translation>
+        <translation>你的联系人</translation>
     </message>
     <message>
         <source>You don&apos;t have any contacts.</source>
-        <translation type="unfinished"></translation>
+        <translation>你还没有任何联系人。</translation>
     </message>
     <message>
         <source>Private Chat</source>
-        <translation type="unfinished"></translation>
+        <translation>个人对话</translation>
     </message>
     <message>
         <source>Secret Chat</source>
-        <translation type="unfinished"></translation>
+        <translation>加密对话</translation>
     </message>
     <message>
         <source>End-to-end-encrypted, accessible on this device only</source>
-        <translation type="unfinished"></translation>
+        <translation>端对端加密，仅能通过此设备访问。</translation>
     </message>
     <message>
         <source>Loading contacts...</source>
-        <translation type="unfinished"></translation>
+        <translation>正在加载联系人…</translation>
     </message>
     <message>
         <source>Transport-encrypted, uses Telegram Cloud, sharable across devices</source>
-        <translation type="unfinished"></translation>
+        <translation>传输加密，使用 Telegram 云，可以在设备之间共享</translation>
     </message>
     <message>
         <source>Search a contact...</source>
-        <translation type="unfinished"></translation>
+        <translation>搜索联系人…</translation>
     </message>
     <message>
         <source>Synchronize Contacts with Telegram</source>
-        <translation type="unfinished"></translation>
+        <translation>同步 Telegram 联系人</translation>
     </message>
     <message>
         <source>Contacts successfully synchronized with Telegram.</source>
-        <translation type="unfinished"></translation>
+        <translation>已成功同步 Telegram 联系人。</translation>
     </message>
     <message>
         <source>No contacts found.</source>
@@ -1169,51 +1178,51 @@
     <name>NotificationManager</name>
     <message numerus="yes">
         <source>%Ln unread messages</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%Ln 则未读消息</numerusform>
         </translation>
     </message>
 </context>
 <context>
     <name>OverviewPage</name>
     <message>
-        <source>About Fernschreiber</source>
-        <translation>A Fernschreiber névjegye</translation>
-    </message>
-    <message>
-        <source>Fernschreiber</source>
-        <translation>Fernschreiber</translation>
-    </message>
-    <message>
         <source>Waiting for network...</source>
-        <translation>Hálózatra várakozás...</translation>
+        <translation type="unfinished">等候网络连接…</translation>
     </message>
     <message>
         <source>Connecting to network...</source>
-        <translation>Csatlakozás a hálózathoz...</translation>
+        <translation type="unfinished">正在连接到网络…</translation>
     </message>
     <message>
         <source>Connecting to proxy...</source>
-        <translation>Csatlakozás a proxy-hoz...</translation>
+        <translation type="unfinished">正在连接到代理…</translation>
     </message>
     <message>
-        <source>Updating content...</source>
-        <translation>Tartalom frissítése...</translation>
-    </message>
-    <message>
-        <source>Loading chat list...</source>
-        <translation>Csevegés lista betöltése...</translation>
-    </message>
-    <message>
-        <source>Settings</source>
-        <translation>Beállítások</translation>
-    </message>
-    <message>
-        <source>You don&apos;t have any chats yet.</source>
+        <source>Fernschreiber</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>New Chat</source>
+        <source>Updating content...</source>
+        <translation type="unfinished">正在更新内容…</translation>
+    </message>
+    <message>
+        <source>Loading chat list...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Logging out</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Download of %1 successful.</source>
+        <translation type="unfinished">已成功下载 %1 。</translation>
+    </message>
+    <message>
+        <source>Download failed.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Unable to open link.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1221,20 +1230,40 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <source>About Fernschreiber</source>
+        <translation type="unfinished">关于 Fernschreiber</translation>
+    </message>
+    <message>
+        <source>Open About app page</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation type="unfinished">设置</translation>
+    </message>
+    <message>
+        <source>Open setting page</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
         <source>Search Chats</source>
+        <translation type="unfinished">搜索对话</translation>
+    </message>
+    <message>
+        <source>Open searching page</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Download of %1 successful.</source>
-        <translation type="unfinished">A %1 letöltése sikerült.</translation>
-    </message>
-    <message>
-        <source>Download failed.</source>
-        <translation type="unfinished">A letöltés nem sikerült.</translation>
-    </message>
-    <message>
-        <source>Tap on the title bar to filter your chats</source>
+        <source>New Chat</source>
         <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Create a new chat</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You don&apos;t have any chats yet.</source>
+        <translation type="unfinished">你还没有任何对话。</translation>
     </message>
     <message>
         <source>No matching chats found.</source>
@@ -1245,11 +1274,11 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Logging out</source>
+        <source>All Chats</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Unable to open link.</source>
+        <source>Unread chats count</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1257,163 +1286,163 @@
     <name>PinnedMessageItem</name>
     <message>
         <source>You</source>
-        <translation type="unfinished">Te</translation>
+        <translation>你</translation>
     </message>
     <message>
         <source>Pinned Message</source>
-        <translation type="unfinished"></translation>
+        <translation>已置顶消息</translation>
     </message>
     <message>
         <source>Message unpinned</source>
-        <translation type="unfinished"></translation>
+        <translation>已取消置顶消息</translation>
     </message>
 </context>
 <context>
     <name>PollCreationPage</name>
     <message>
         <source>All answers have to contain 1-100 characters.</source>
-        <translation type="unfinished"></translation>
+        <translation>所有回答必须包含1-100个字符。</translation>
     </message>
     <message>
         <source>To send a quiz, you have to specify the right answer.</source>
-        <translation type="unfinished"></translation>
+        <translation>如果你想发送 quiz，必须指定正确答案。</translation>
     </message>
     <message>
         <source>You have to enter a question.</source>
-        <translation type="unfinished"></translation>
+        <translation>你必须输入问题。</translation>
     </message>
     <message>
         <source>The question has to be shorter than 256 characters.</source>
-        <translation type="unfinished"></translation>
+        <translation>问题必须短于256个字符。</translation>
     </message>
     <message>
         <source>A poll requires 2-10 answers.</source>
-        <translation type="unfinished"></translation>
+        <translation>一个选项需要包含2-10个回答。</translation>
     </message>
     <message>
         <source>Create a Poll</source>
         <comment>Dialog Header</comment>
-        <translation type="unfinished"></translation>
+        <translation>创建投票</translation>
     </message>
     <message>
         <source>in %1</source>
         <comment>After dialog header… Create a Poll in [group name]</comment>
-        <translation type="unfinished"></translation>
+        <translation>位于 %1</translation>
     </message>
     <message>
         <source>Enter your question here</source>
-        <translation type="unfinished"></translation>
+        <translation>在此输入你的问题</translation>
     </message>
     <message numerus="yes">
         <source>Question (%Ln characters left)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>问题(剩余 %Ln 个字符)</numerusform>
         </translation>
     </message>
     <message>
         <source>Answers</source>
         <comment>Section header</comment>
-        <translation type="unfinished"></translation>
+        <translation>回答</translation>
     </message>
     <message>
         <source>Enter an answer here</source>
-        <translation type="unfinished"></translation>
+        <translation>在此输入回答</translation>
     </message>
     <message numerus="yes">
         <source>Answer (%Ln characters left)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>回答(剩余 %Ln 个字符)</numerusform>
         </translation>
     </message>
     <message>
         <source>Add an answer</source>
-        <translation type="unfinished"></translation>
+        <translation>添加回答</translation>
     </message>
     <message>
         <source>Poll Options</source>
         <comment>Section header</comment>
-        <translation type="unfinished"></translation>
+        <translation>投票选项</translation>
     </message>
     <message>
         <source>Anonymous answers</source>
-        <translation type="unfinished"></translation>
+        <translation>匿名回答</translation>
     </message>
     <message>
         <source>Multiple answers allowed</source>
-        <translation type="unfinished"></translation>
+        <translation>允许选择多个回答</translation>
     </message>
     <message>
         <source>Quiz Mode</source>
-        <translation type="unfinished"></translation>
+        <translation>Quiz 模式</translation>
     </message>
     <message>
         <source>Quizzes have one correct answer. Participants can&apos;t revoke their responses.</source>
-        <translation type="unfinished"></translation>
+        <translation>Quiz 拥有一个正确选项，参与者无法撤销回答。</translation>
     </message>
     <message>
         <source>Enter an optional explanation</source>
-        <translation type="unfinished"></translation>
+        <translation>输入选项提示</translation>
     </message>
     <message>
         <source>Shown when the user selects a wrong answer.</source>
-        <translation type="unfinished"></translation>
+        <translation>当用户选择错误答案时显示。</translation>
     </message>
     <message>
         <source>An explanation can be up to 200 characters long.</source>
-        <translation type="unfinished"></translation>
+        <translation>提示文本可长达200个字符。</translation>
     </message>
 </context>
 <context>
     <name>PollResultsPage</name>
     <message>
         <source>Quiz Results</source>
-        <translation type="unfinished"></translation>
+        <translation>Quiz 结果</translation>
     </message>
     <message>
         <source>Poll Results</source>
-        <translation type="unfinished"></translation>
+        <translation>投票结果</translation>
     </message>
     <message numerus="yes">
         <source>%Ln vote(s) total</source>
         <comment>number of total votes</comment>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>总计 %Ln 次投票</numerusform>
         </translation>
     </message>
     <message>
         <source>Question</source>
         <comment>section header</comment>
-        <translation type="unfinished"></translation>
+        <translation>问题</translation>
     </message>
     <message>
         <source>Results</source>
         <comment>section header</comment>
-        <translation type="unfinished"></translation>
+        <translation>结果</translation>
     </message>
     <message numerus="yes">
         <source>%Ln vote(s)</source>
         <comment>number of votes for option</comment>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%Ln 次投票</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>%Ln%</source>
         <comment>% of votes for option</comment>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%Ln%</numerusform>
         </translation>
     </message>
     <message>
         <source>Chosen by:</source>
         <comment>This answer has been chosen by the following users</comment>
-        <translation type="unfinished"></translation>
+        <translation>选择此项的人:</translation>
     </message>
     <message numerus="yes">
         <source>%Ln vote(s) including yours</source>
         <comment>number of votes for option</comment>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%Ln 次投票，包括你</numerusform>
         </translation>
     </message>
 </context>
@@ -1421,153 +1450,153 @@
     <name>SearchChatsPage</name>
     <message>
         <source>No chats found.</source>
-        <translation type="unfinished"></translation>
+        <translation>没有找到对话。</translation>
     </message>
     <message>
         <source>Searching chats...</source>
-        <translation type="unfinished"></translation>
+        <translation>正在搜索对话…</translation>
     </message>
     <message>
         <source>Private Chat</source>
-        <translation type="unfinished"></translation>
+        <translation>个人对话</translation>
     </message>
     <message>
         <source>Group</source>
-        <translation type="unfinished"></translation>
+        <translation>群组</translation>
     </message>
     <message>
         <source>Channel</source>
-        <translation type="unfinished"></translation>
+        <translation>频道</translation>
     </message>
     <message numerus="yes">
         <source>%1 members</source>
-        <translation type="unfinished">
-            <numerusform>%1 tag</numerusform>
+        <translation>
+            <numerusform>%1 位成员</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>%1 subscribers</source>
-        <translation type="unfinished">
-            <numerusform>%1 feliratkozott</numerusform>
+        <translation>
+            <numerusform>%1 位订阅者</numerusform>
         </translation>
     </message>
     <message>
         <source>Search Chats</source>
-        <translation type="unfinished"></translation>
+        <translation>搜索对话</translation>
     </message>
     <message>
         <source>Search a chat...</source>
-        <translation type="unfinished"></translation>
+        <translation>搜索对话…</translation>
     </message>
     <message>
         <source>Enter your query to start searching (at least 5 characters needed)</source>
-        <translation type="unfinished"></translation>
+        <translation>输入你要搜索的内容（至少需要输入5个字符）</translation>
     </message>
 </context>
 <context>
     <name>SettingsAppearance</name>
     <message>
         <source>Appearance</source>
-        <translation type="unfinished"></translation>
+        <translation>外观</translation>
     </message>
     <message>
         <source>Show stickers as emojis</source>
-        <translation type="unfinished"></translation>
+        <translation>显示表情贴图为 emoji</translation>
     </message>
     <message>
         <source>Only display emojis instead of the actual stickers</source>
-        <translation type="unfinished"></translation>
+        <translation>仅显示 emoji 而非实际的表情贴图</translation>
     </message>
     <message>
         <source>Show stickers as images</source>
-        <translation type="unfinished"></translation>
+        <translation>以图片形式显示表情贴图</translation>
     </message>
     <message>
         <source>Show background for stickers and align them centrally like images</source>
-        <translation type="unfinished"></translation>
+        <translation>显示表情贴图背景并以图片形式自动居中</translation>
     </message>
     <message>
         <source>Animate stickers</source>
-        <translation type="unfinished"></translation>
+        <translation>动态表情贴图</translation>
     </message>
 </context>
 <context>
     <name>SettingsBehavior</name>
     <message>
         <source>Behavior</source>
-        <translation>Működés</translation>
+        <translation>状态</translation>
     </message>
     <message>
         <source>Send message by enter</source>
-        <translation>Üzenet küldése Enter-rel</translation>
+        <translation>通过按下回车键发送消息</translation>
     </message>
     <message>
         <source>Send your message by pressing the enter key</source>
-        <translation>Üzenet küldése az enter gomb lenyomásával</translation>
+        <translation>通过按下回车键发送消息</translation>
     </message>
     <message>
         <source>Focus text input on chat open</source>
-        <translation type="unfinished"></translation>
+        <translation>开启对话时聚焦文本输入区域</translation>
     </message>
     <message>
         <source>Focus the text input area when entering a chat</source>
-        <translation type="unfinished"></translation>
+        <translation>进入对话时聚焦文本输入区域</translation>
     </message>
     <message>
         <source>Focus text input area after send</source>
-        <translation type="unfinished"></translation>
+        <translation>发送后聚焦文本输入区域</translation>
     </message>
     <message>
         <source>Focus the text input area after sending a message</source>
-        <translation type="unfinished"></translation>
+        <translation>发送消息后聚焦文本输入区域</translation>
     </message>
     <message>
         <source>Delay before marking messages as read</source>
-        <translation type="unfinished"></translation>
+        <translation>标记消息已读前延迟</translation>
     </message>
     <message>
         <source>Fernschreiber will wait a bit before messages are marked as read</source>
-        <translation type="unfinished"></translation>
+        <translation>Fernschreiber 将会在标记消息已读之前延迟一下</translation>
     </message>
     <message>
         <source>Open-with menu integration</source>
-        <translation type="unfinished"></translation>
+        <translation>整合打开方式菜单</translation>
     </message>
     <message>
         <source>Integrate Fernschreiber into open-with menu of Sailfish OS</source>
-        <translation type="unfinished"></translation>
+        <translation>整合 Fernschreiber 到旗鱼系统打开方式菜单</translation>
     </message>
     <message>
         <source>Notification feedback</source>
-        <translation type="unfinished"></translation>
+        <translation>通知反馈</translation>
     </message>
     <message>
         <source>Use non-graphical feedback (sound, vibration) for notifications</source>
-        <translation type="unfinished"></translation>
+        <translation>使用非图像反馈方式通知消息（例如声音及振动）</translation>
     </message>
     <message>
         <source>All events</source>
-        <translation type="unfinished"></translation>
+        <translation>全部事件</translation>
     </message>
     <message>
         <source>Only new events</source>
-        <translation type="unfinished"></translation>
+        <translation>仅新事件</translation>
     </message>
     <message>
         <source>None</source>
-        <translation type="unfinished"></translation>
+        <translation>无</translation>
     </message>
     <message>
         <source>Notification turns on the display</source>
-        <translation type="unfinished"></translation>
+        <translation>收到通知时点亮屏幕</translation>
     </message>
     <message>
         <source>Enable notification sounds</source>
-        <translation type="unfinished"></translation>
+        <translation>开启通知声音</translation>
     </message>
     <message>
         <source>When sounds are enabled, Fernschreiber will use the current Sailfish OS notification sound for chats, which can be configured in the system settings.</source>
-        <translation type="unfinished"></translation>
+        <translation>如果开启声音，Fernschreiber 会采用当前旗鱼系统通知声音作为对话通知声音，你可以在系统设置进行配置。</translation>
     </message>
     <message>
         <source>Always append message preview to notifications</source>
@@ -1597,87 +1626,95 @@
         <source>When tapping a quoted message, open it in chat instead of showing it in an overlay.</source>
         <translation type="unfinished"></translation>
     </message>
+    <message>
+        <source>Show reaction button on tap</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The reaction button may appear when you tap the message bubble, to make access to the reactions even easier.</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>SettingsPage</name>
     <message>
         <source>Settings</source>
-        <translation>Beállítások</translation>
+        <translation>设置</translation>
     </message>
 </context>
 <context>
     <name>SettingsPrivacy</name>
     <message>
         <source>Privacy</source>
-        <translation type="unfinished"></translation>
+        <translation>隐私</translation>
     </message>
     <message>
         <source>Allow chat invites</source>
-        <translation type="unfinished"></translation>
+        <translation>允许对话邀请</translation>
     </message>
     <message>
         <source>Privacy setting for managing whether you can be invited to chats.</source>
-        <translation type="unfinished"></translation>
+        <translation>隐私设置，用于管理是否你可以被邀请到对话。</translation>
     </message>
     <message>
         <source>Yes</source>
-        <translation type="unfinished"></translation>
+        <translation>是</translation>
     </message>
     <message>
         <source>Your contacts only</source>
-        <translation type="unfinished"></translation>
+        <translation>仅限联系人</translation>
     </message>
     <message>
         <source>No</source>
-        <translation type="unfinished"></translation>
+        <translation>否</translation>
     </message>
     <message>
         <source>Allow finding by phone number</source>
-        <translation type="unfinished"></translation>
+        <translation>允许通过电话号码找到</translation>
     </message>
     <message>
         <source>Privacy setting for managing whether you can be found by your phone number.</source>
-        <translation type="unfinished"></translation>
+        <translation>隐私设置，用于管理是否你可以被通过电话号码找到。</translation>
     </message>
     <message>
         <source>Show link in forwarded messages</source>
-        <translation type="unfinished"></translation>
+        <translation>在转发消息中显示链接</translation>
     </message>
     <message>
         <source>Privacy setting for managing whether a link to your account is included in forwarded messages.</source>
-        <translation type="unfinished"></translation>
+        <translation>隐私设置，用于管理是否在转发消息中包含你的账户链接。</translation>
     </message>
     <message>
         <source>Show phone number</source>
-        <translation type="unfinished"></translation>
+        <translation>显示电话号码</translation>
     </message>
     <message>
         <source>Privacy setting for managing whether your phone number is visible.</source>
-        <translation type="unfinished"></translation>
+        <translation>隐私设置，用于管理你的电话号码是否可见。</translation>
     </message>
     <message>
         <source>Show profile photo</source>
-        <translation type="unfinished"></translation>
+        <translation>显示简介图片</translation>
     </message>
     <message>
         <source>Privacy setting for managing whether your profile photo is visible.</source>
-        <translation type="unfinished"></translation>
+        <translation>隐私设置，用于管理是否你的简介图片可见。</translation>
     </message>
     <message>
         <source>Show status</source>
-        <translation type="unfinished"></translation>
+        <translation>显示状态</translation>
     </message>
     <message>
         <source>Privacy setting for managing whether your online status is visible.</source>
-        <translation type="unfinished"></translation>
+        <translation>隐私设置，用于管理是否你的在线状态可见。</translation>
     </message>
     <message>
         <source>Allow sending Location to inline bots</source>
-        <translation type="unfinished"></translation>
+        <translation>允许发送位置到内联机器人</translation>
     </message>
     <message>
         <source>Some inline bots request location data when using them</source>
-        <translation type="unfinished"></translation>
+        <translation>使用某些内联机器人时会请求位置数据</translation>
     </message>
 </context>
 <context>
@@ -1688,23 +1725,23 @@
     </message>
     <message>
         <source>Session was terminated</source>
-        <translation type="unfinished"></translation>
+        <translation>已删除设备</translation>
     </message>
     <message>
         <source>Terminating session</source>
-        <translation type="unfinished"></translation>
+        <translation>删除设备</translation>
     </message>
     <message>
         <source>Terminate Session</source>
-        <translation type="unfinished"></translation>
+        <translation>删除设备</translation>
     </message>
     <message>
         <source>This app</source>
-        <translation type="unfinished"></translation>
+        <translation>此应用</translation>
     </message>
     <message>
         <source>Active since: %1, last online: %2</source>
-        <translation type="unfinished"></translation>
+        <translation>活跃时间: %1, 上次在线: %2</translation>
     </message>
     <message numerus="yes">
         <source>%1 day(s)</source>
@@ -1745,89 +1782,89 @@
     <name>SettingsStorage</name>
     <message>
         <source>Storage</source>
-        <translation type="unfinished"></translation>
+        <translation>储存</translation>
     </message>
     <message>
         <source>Enable online-only mode</source>
-        <translation type="unfinished"></translation>
+        <translation>开启仅在线模式</translation>
     </message>
     <message>
         <source>Disables offline caching. Certain features may be limited or missing in this mode. Changes require a restart of Fernschreiber to take effect.</source>
-        <translation type="unfinished"></translation>
+        <translation>禁用离线缓存。某些特定功能会在此模式中受限或消失。切换模式需要重启 fernschreiber 才能生效。</translation>
     </message>
     <message>
         <source>Enable storage optimizer</source>
-        <translation type="unfinished"></translation>
+        <translation>开启储存加速器</translation>
     </message>
 </context>
 <context>
     <name>SettingsUserProfile</name>
     <message>
         <source>User Profile</source>
-        <translation type="unfinished"></translation>
+        <translation>用户简介</translation>
     </message>
     <message>
         <source>First Name</source>
         <comment>first name of the logged-in profile - header</comment>
-        <translation type="unfinished"></translation>
+        <translation>名字</translation>
     </message>
     <message>
         <source>Enter 1-64 characters</source>
-        <translation type="unfinished"></translation>
+        <translation>输入 1-64 个字符</translation>
     </message>
     <message>
         <source>Last Name</source>
         <comment>last name of the logged-in profile - header</comment>
-        <translation type="unfinished"></translation>
+        <translation>姓氏</translation>
     </message>
     <message>
         <source>Enter 0-64 characters</source>
-        <translation type="unfinished"></translation>
+        <translation>输入 0-64 个字符</translation>
     </message>
     <message>
         <source>Username</source>
         <comment>user name of the logged-in profile - header</comment>
-        <translation type="unfinished"></translation>
+        <translation>用户名</translation>
     </message>
     <message>
         <source>Profile Pictures</source>
-        <translation type="unfinished"></translation>
+        <translation>简介图片</translation>
     </message>
     <message>
         <source>Add Picture</source>
-        <translation type="unfinished"></translation>
+        <translation>添加图片</translation>
     </message>
     <message>
         <source>Delete Picture</source>
-        <translation type="unfinished"></translation>
+        <translation>删除图片</translation>
     </message>
     <message>
         <source>Deleting profile picture</source>
-        <translation type="unfinished"></translation>
+        <translation>删除简介图片</translation>
     </message>
     <message>
         <source>Uploading...</source>
-        <translation type="unfinished"></translation>
+        <translation>正在上传…</translation>
     </message>
     <message>
         <source>Log Out</source>
-        <translation type="unfinished"></translation>
+        <translation>登出</translation>
     </message>
     <message>
         <source>Logged out</source>
-        <translation type="unfinished"></translation>
+        <translation>已登出</translation>
     </message>
     <message>
         <source>Phone number: +%1</source>
-        <translation type="unfinished"></translation>
+        <translation>电话号码: +%1</translation>
     </message>
     <message>
         <source>Contacts successfully synchronized with Telegram.</source>
-        <translation type="unfinished"></translation>
+        <translation>已成功同步 Telegram 联系人。</translation>
     </message>
     <message>
         <source>Synchronize Contacts with Telegram</source>
-        <translation type="unfinished"></translation>
+        <translation>同步 Telegram 联系人</translation>
     </message>
 </context>
 <context>
@@ -1849,158 +1886,158 @@
     <name>StickerPicker</name>
     <message>
         <source>Recently used</source>
-        <translation type="unfinished"></translation>
+        <translation>最近使用</translation>
     </message>
     <message>
         <source>Removing sticker set</source>
-        <translation type="unfinished"></translation>
+        <translation>正在移除表情包</translation>
     </message>
     <message>
         <source>Sticker set successfully removed!</source>
-        <translation type="unfinished"></translation>
+        <translation>表情包已成功移除！</translation>
     </message>
 </context>
 <context>
     <name>StickerSetOverlay</name>
     <message>
         <source>Sticker set successfully installed!</source>
-        <translation type="unfinished"></translation>
+        <translation>表情包已成功安装！</translation>
     </message>
     <message>
         <source>Sticker set successfully removed!</source>
-        <translation type="unfinished"></translation>
+        <translation>表情包已成功移除！</translation>
     </message>
 </context>
 <context>
     <name>VideoPage</name>
     <message>
         <source>Download of %1 successful.</source>
-        <translation>A %1 letöltése sikerült.</translation>
+        <translation>已成功下载 %1 。</translation>
     </message>
     <message>
         <source>Download failed.</source>
-        <translation>A letöltés nem sikerült.</translation>
+        <translation>下载失败</translation>
     </message>
     <message>
         <source>Copy video to gallery</source>
-        <translation type="unfinished"></translation>
+        <translation>复制视频到图库</translation>
     </message>
 </context>
 <context>
     <name>VoiceNoteOverlay</name>
     <message>
         <source>Record a Voice Note</source>
-        <translation type="unfinished"></translation>
+        <translation>录制语音消息</translation>
     </message>
     <message>
         <source>Press the button to start recording</source>
-        <translation type="unfinished"></translation>
+        <translation>按下按钮即可开始录音</translation>
     </message>
     <message>
         <source>Unavailable</source>
-        <translation type="unfinished"></translation>
+        <translation>不可用</translation>
     </message>
     <message>
         <source>Starting</source>
-        <translation type="unfinished"></translation>
+        <translation>正在启动</translation>
     </message>
     <message>
         <source>Recording</source>
-        <translation type="unfinished"></translation>
+        <translation>正在录音</translation>
     </message>
     <message>
         <source>Stopping</source>
-        <translation type="unfinished"></translation>
+        <translation>正在停止</translation>
     </message>
     <message>
         <source>Use recording</source>
-        <translation type="unfinished"></translation>
+        <translation>使用录音</translation>
     </message>
     <message>
         <source>Voice Note (%1)</source>
-        <translation type="unfinished"></translation>
+        <translation>语音消息 (%1)</translation>
     </message>
     <message>
         <source>Ready</source>
-        <translation type="unfinished"></translation>
+        <translation>就绪</translation>
     </message>
 </context>
 <context>
     <name>WebPagePreview</name>
     <message>
         <source>Preview not supported for this link...</source>
-        <translation type="unfinished"></translation>
+        <translation>不支持预览此链接…</translation>
     </message>
 </context>
 <context>
     <name>functions</name>
     <message>
         <source>Video: %1</source>
-        <translation>Videó %1</translation>
+        <translation>视频: %1</translation>
     </message>
     <message>
         <source>has registered with Telegram</source>
-        <translation>regisztrált a Telegram-al</translation>
+        <translation>已注册到 Telegram </translation>
     </message>
     <message>
         <source>Picture: %1</source>
-        <translation>Kép: %1</translation>
+        <translation>图片: %1</translation>
     </message>
     <message>
         <source>Audio: %1</source>
-        <translation>Audió: %1</translation>
+        <translation>音频: %1</translation>
     </message>
     <message>
         <source>Voice Note: %1</source>
-        <translation>Hangüzenet: %1</translation>
+        <translation>语音: %1</translation>
     </message>
     <message>
         <source>Animation: %1</source>
-        <translation>Animáció: %1</translation>
+        <translation>动画: %1</translation>
     </message>
     <message>
         <source>Document: %1</source>
-        <translation>Dokument: %1</translation>
+        <translation>文档: %1</translation>
     </message>
     <message>
         <source>sent a picture</source>
-        <translation>képet küldött</translation>
+        <translation>发送图片</translation>
     </message>
     <message>
         <source>sent a video</source>
-        <translation>videót küldött</translation>
+        <translation>发送视频</translation>
     </message>
     <message>
         <source>sent an animation</source>
-        <translation>animációt küldött</translation>
+        <translation>发送动画</translation>
     </message>
     <message>
         <source>sent an audio</source>
-        <translation>audiót küldött</translation>
+        <translation>发送音频</translation>
     </message>
     <message>
         <source>sent a voice note</source>
-        <translation>hangüzenetet küldött</translation>
+        <translation>发送语音消息</translation>
     </message>
     <message>
         <source>sent a document</source>
-        <translation>dokumentumot küldött</translation>
+        <translation>发送文档</translation>
     </message>
     <message>
         <source>sent a location</source>
-        <translation>helyzetmeghatározó információt küldött</translation>
+        <translation>发送位置</translation>
     </message>
     <message>
         <source>joined this chat</source>
-        <translation>csatlakozott a csevegéshez</translation>
+        <translation>已加入对话</translation>
     </message>
     <message>
         <source>was added to this chat</source>
-        <translation>hozzáadva a csevegéshez</translation>
+        <translation>已加入到此对话</translation>
     </message>
     <message>
         <source>left this chat</source>
-        <translation>kilépett a csevegésből</translation>
+        <translation>离开此对话</translation>
     </message>
     <message>
         <source>%1M</source>
@@ -2012,331 +2049,331 @@
     </message>
     <message>
         <source>sent a venue</source>
-        <translation type="unfinished"></translation>
+        <translation>发送地点</translation>
     </message>
     <message>
         <source>sent a picture</source>
         <comment>myself</comment>
-        <translation type="unfinished">képet küldött</translation>
+        <translation>发送图片</translation>
     </message>
     <message>
         <source>sent a video</source>
         <comment>myself</comment>
-        <translation type="unfinished">videót küldött</translation>
+        <translation>发送视频</translation>
     </message>
     <message>
         <source>sent an animation</source>
         <comment>myself</comment>
-        <translation type="unfinished">animációt küldött</translation>
+        <translation>发送动画</translation>
     </message>
     <message>
         <source>sent an audio</source>
         <comment>myself</comment>
-        <translation type="unfinished">audiót küldött</translation>
+        <translation>发送音频</translation>
     </message>
     <message>
         <source>sent a voice note</source>
         <comment>myself</comment>
-        <translation type="unfinished">hangüzenetet küldött</translation>
+        <translation>发送语音</translation>
     </message>
     <message>
         <source>sent a document</source>
         <comment>myself</comment>
-        <translation type="unfinished">dokumentumot küldött</translation>
+        <translation>发送文档</translation>
     </message>
     <message>
         <source>sent a location</source>
         <comment>myself</comment>
-        <translation type="unfinished">helyzetmeghatározó információt küldött</translation>
+        <translation>发送位置</translation>
     </message>
     <message>
         <source>sent a venue</source>
         <comment>myself</comment>
-        <translation type="unfinished"></translation>
+        <translation>发送地点</translation>
     </message>
     <message>
         <source>have registered with Telegram</source>
-        <translation type="unfinished"></translation>
+        <translation>已注册到 Telegram</translation>
     </message>
     <message>
         <source>joined this chat</source>
         <comment>myself</comment>
-        <translation type="unfinished">csatlakozott a csevegéshez</translation>
+        <translation>已加入此对话</translation>
     </message>
     <message>
         <source>were added to this chat</source>
         <comment>myself</comment>
-        <translation type="unfinished"></translation>
+        <translation>已经加入到此对话之中</translation>
     </message>
     <message>
         <source>left this chat</source>
         <comment>myself</comment>
-        <translation type="unfinished">kilépett a csevegésből</translation>
+        <translation>离开此对话</translation>
     </message>
     <message>
         <source>was never online</source>
-        <translation type="unfinished">soha nem volt online</translation>
+        <translation>完全离线</translation>
     </message>
     <message>
         <source>last online: last month</source>
-        <translation type="unfinished">utoljára online: múlt hónapban</translation>
+        <translation>上次在线时间：上月</translation>
     </message>
     <message>
         <source>last online: last week</source>
-        <translation type="unfinished">utoljára online: múlt héten</translation>
+        <translation>上次在线时间：上周</translation>
     </message>
     <message>
         <source>last online: %1</source>
-        <translation type="unfinished">utoljára online: %1</translation>
+        <translation>上次在线时间： %1</translation>
     </message>
     <message>
         <source>online</source>
-        <translation type="unfinished">online</translation>
+        <translation>在线</translation>
     </message>
     <message>
         <source>was recently online</source>
-        <translation type="unfinished">nemrégen volt online</translation>
+        <translation>最近在线</translation>
     </message>
     <message>
         <source>Admin</source>
         <comment>channel user role</comment>
-        <translation type="unfinished"></translation>
+        <translation>管理员</translation>
     </message>
     <message>
         <source>Banned</source>
         <comment>channel user role</comment>
-        <translation type="unfinished"></translation>
+        <translation>已禁止</translation>
     </message>
     <message>
         <source>Creator</source>
         <comment>channel user role</comment>
-        <translation type="unfinished"></translation>
+        <translation>创建者</translation>
     </message>
     <message>
         <source>Restricted</source>
         <comment>channel user role</comment>
-        <translation type="unfinished"></translation>
+        <translation>已受限</translation>
     </message>
     <message>
         <source>changed the chat title to %1</source>
         <comment>myself</comment>
-        <translation type="unfinished"></translation>
+        <translation>已修改对话头衔为 %1</translation>
     </message>
     <message>
         <source>changed the chat title to %1</source>
-        <translation type="unfinished"></translation>
+        <translation>已修改对话头衔为 %1</translation>
     </message>
     <message>
         <source>sent a poll</source>
         <comment>myself</comment>
-        <translation type="unfinished"></translation>
+        <translation>发送投票</translation>
     </message>
     <message>
         <source>sent a poll</source>
-        <translation type="unfinished"></translation>
+        <translation>发送投票</translation>
     </message>
     <message>
         <source>sent an anonymous quiz</source>
         <comment>myself</comment>
-        <translation type="unfinished"></translation>
+        <translation>发送匿名 quiz</translation>
     </message>
     <message>
         <source>sent an anonymous quiz</source>
-        <translation type="unfinished"></translation>
+        <translation>发送匿名 quiz</translation>
     </message>
     <message>
         <source>sent a quiz</source>
         <comment>myself</comment>
-        <translation type="unfinished"></translation>
+        <translation>发送 quiz</translation>
     </message>
     <message>
         <source>sent a quiz</source>
-        <translation type="unfinished"></translation>
+        <translation>发送 quiz</translation>
     </message>
     <message>
         <source>sent an anonymous poll</source>
         <comment>myself</comment>
-        <translation type="unfinished"></translation>
+        <translation>发送匿名投票</translation>
     </message>
     <message>
         <source>sent an anonymous poll</source>
-        <translation type="unfinished"></translation>
+        <translation>发送匿名投票</translation>
     </message>
     <message>
         <source>Anonymous Quiz</source>
-        <translation type="unfinished"></translation>
+        <translation>匿名 Quiz</translation>
     </message>
     <message>
         <source>Quiz</source>
-        <translation type="unfinished"></translation>
+        <translation>Quiz</translation>
     </message>
     <message>
         <source>Anonymous Poll</source>
-        <translation type="unfinished"></translation>
+        <translation>匿名投票</translation>
     </message>
     <message>
         <source>Poll</source>
-        <translation type="unfinished"></translation>
+        <translation>投票</translation>
     </message>
     <message>
         <source>created this group</source>
         <comment>myself</comment>
-        <translation type="unfinished"></translation>
+        <translation>已创建此群组</translation>
     </message>
     <message>
         <source>created this group</source>
-        <translation type="unfinished"></translation>
+        <translation>已创建此群组</translation>
     </message>
     <message>
         <source>changed the chat photo</source>
         <comment>myself</comment>
-        <translation type="unfinished"></translation>
+        <translation>已修改此对话图片</translation>
     </message>
     <message>
         <source>changed the chat photo</source>
-        <translation type="unfinished"></translation>
+        <translation>已修改此对话图片</translation>
     </message>
     <message>
         <source>deleted the chat photo</source>
         <comment>myself</comment>
-        <translation type="unfinished"></translation>
+        <translation>已删除此对话图片</translation>
     </message>
     <message>
         <source>deleted the chat photo</source>
-        <translation type="unfinished"></translation>
+        <translation>已删除此对话图片</translation>
     </message>
     <message>
         <source>changed the secret chat TTL setting</source>
         <comment>myself; TTL = Time To Live</comment>
-        <translation type="unfinished"></translation>
+        <translation>修改加密对话保留时长设置</translation>
     </message>
     <message>
         <source>changed the secret chat TTL setting</source>
         <comment>TTL = Time To Live</comment>
-        <translation type="unfinished"></translation>
+        <translation>修改加密对话保留时长设置</translation>
     </message>
     <message>
         <source>upgraded this group to a supergroup</source>
         <comment>myself</comment>
-        <translation type="unfinished"></translation>
+        <translation>已更新此对话为超级群组。</translation>
     </message>
     <message>
         <source>changed the pinned message</source>
         <comment>myself</comment>
-        <translation type="unfinished"></translation>
+        <translation>修改置顶消息</translation>
     </message>
     <message>
         <source>changed the pinned message</source>
-        <translation type="unfinished"></translation>
+        <translation>修改置顶消息</translation>
     </message>
     <message>
         <source>created a screenshot in this chat</source>
         <comment>myself</comment>
-        <translation type="unfinished"></translation>
+        <translation>已截图此对话</translation>
     </message>
     <message>
         <source>created a screenshot in this chat</source>
-        <translation type="unfinished"></translation>
+        <translation>已截图此对话</translation>
     </message>
     <message>
         <source>sent an unsupported message</source>
         <comment>myself</comment>
-        <translation type="unfinished"></translation>
+        <translation>发送不受支持的消息</translation>
     </message>
     <message>
         <source>sent an unsupported message</source>
-        <translation type="unfinished"></translation>
+        <translation>发送不受支持的消息</translation>
     </message>
     <message>
         <source>sent an unsupported message: %1</source>
         <comment>myself; %1 is message type</comment>
-        <translation type="unfinished"></translation>
+        <translation>发送不受支持的消息: %1</translation>
     </message>
     <message>
         <source>sent an unsupported message: %1</source>
         <comment>%1 is message type</comment>
-        <translation type="unfinished"></translation>
+        <translation>发送不受支持的消息: %1</translation>
     </message>
     <message>
         <source>upgraded this group to a supergroup</source>
-        <translation type="unfinished"></translation>
+        <translation>已更新此群组为超级群组</translation>
     </message>
     <message>
         <source>sent a self-destructing photo that is expired</source>
         <comment>myself</comment>
-        <translation type="unfinished"></translation>
+        <translation>发送过期即自毁图片</translation>
     </message>
     <message>
         <source>sent a self-destructing photo that is expired</source>
-        <translation type="unfinished"></translation>
+        <translation>发送过期即自毁视频</translation>
     </message>
     <message>
         <source>sent a self-destructing video that is expired</source>
         <comment>myself</comment>
-        <translation type="unfinished"></translation>
+        <translation>发送过期即自毁视频</translation>
     </message>
     <message>
         <source>sent a self-destructing video that is expired</source>
-        <translation type="unfinished"></translation>
+        <translation>发送过期即自毁视频</translation>
     </message>
     <message>
         <source>Unable to find user %1</source>
-        <translation type="unfinished"></translation>
+        <translation>无法找到用户 %1</translation>
     </message>
     <message>
         <source>sent a video note</source>
         <comment>myself</comment>
-        <translation type="unfinished"></translation>
+        <translation>发送视频消息</translation>
     </message>
     <message>
         <source>sent a video note</source>
-        <translation type="unfinished"></translation>
+        <translation>发送视频消息</translation>
     </message>
     <message>
         <source>You are already a member of this chat.</source>
-        <translation type="unfinished"></translation>
+        <translation>你已是此对话成员。</translation>
     </message>
     <message>
         <source>Closed!</source>
-        <translation type="unfinished"></translation>
+        <translation>已关闭！</translation>
     </message>
     <message>
         <source>Pending acknowledgement</source>
-        <translation type="unfinished"></translation>
+        <translation>等待确认</translation>
     </message>
     <message>
         <source>has added %1 to the chat</source>
-        <translation type="unfinished"></translation>
+        <translation>已加入 %1 到此对话</translation>
     </message>
     <message>
         <source>has removed %1 from the chat</source>
-        <translation type="unfinished"></translation>
+        <translation>已从此对话移除 %1</translation>
     </message>
     <message>
         <source>have added %1 to the chat</source>
         <comment>myself</comment>
-        <translation type="unfinished"></translation>
+        <translation>已加入 %1 到此对话</translation>
     </message>
     <message>
         <source>have removed %1 from the chat</source>
         <comment>myself</comment>
-        <translation type="unfinished"></translation>
+        <translation>已从此对话移除 %1</translation>
     </message>
     <message numerus="yes">
         <source>scored %Ln points</source>
         <comment>myself</comment>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>取得 %Ln 分</numerusform>
         </translation>
     </message>
     <message>
         <source>sent a game</source>
         <comment>myself</comment>
-        <translation type="unfinished"></translation>
+        <translation>发送游戏</translation>
     </message>
     <message>
         <source>sent a game</source>
-        <translation type="unfinished"></translation>
+        <translation>发送游戏</translation>
     </message>
 </context>
 </TS>

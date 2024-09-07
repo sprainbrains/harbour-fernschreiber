@@ -22,6 +22,7 @@
 #include <QDir>
 #include <QFile>
 #include <QFileInfo>
+#include <QGuiApplication>
 #include <QLocale>
 #include <QProcess>
 #include <QSysInfo>
@@ -43,6 +44,7 @@ namespace {
     const QString STATUS("status");
     const QString ID("id");
     const QString CHAT_ID("chat_id");
+    const QString CHAT_FOLDER_ID("chat_folder_id");
     const QString MESSAGE_ID("message_id");
     const QString TYPE("type");
     const QString LAST_NAME("last_name");
@@ -84,8 +86,7 @@ TDLibWrapper::TDLibWrapper(AppSettings *settings, MceInterface *mce, QObject *pa
     LOG("Initializing TD Lib...");
 
     initializeTDLibReceiver();
-
-    QString tdLibDatabaseDirectoryPath = QStandardPaths::writableLocation(QStandardPaths::AppDataLocation) + "/tdlib";
+    QString tdLibDatabaseDirectoryPath = getApplicationDataPath() + "/tdlib";
     QDir tdLibDatabaseDirectory(tdLibDatabaseDirectoryPath);
     if (!tdLibDatabaseDirectory.exists()) {
         tdLibDatabaseDirectory.mkpath(tdLibDatabaseDirectoryPath);
@@ -102,7 +103,7 @@ TDLibWrapper::TDLibWrapper(AppSettings *settings, MceInterface *mce, QObject *pa
 
     connect(this->appSettings, SIGNAL(useOpenWithChanged()), this, SLOT(handleOpenWithChanged()));
     connect(this->appSettings, SIGNAL(storageOptimizerChanged()), this, SLOT(handleStorageOptimizerChanged()));
-
+    connect(qGuiApp, SIGNAL(applicationStateChanged(Qt::ApplicationState)), this, SLOT(handleApplicationStateChanged(Qt::ApplicationState)));
     connect(networkConfigurationManager, SIGNAL(configurationChanged(QNetworkConfiguration)), this, SLOT(handleNetworkConfigurationChanged(QNetworkConfiguration)));
 
     this->setLogVerbosityLevel();
@@ -131,6 +132,7 @@ void TDLibWrapper::initializeTDLibReceiver() {
     connect(this->tdLibReceiver, SIGNAL(userStatusUpdated(QString, QVariantMap)), this, SLOT(handleUserStatusUpdated(QString, QVariantMap)));
     connect(this->tdLibReceiver, SIGNAL(fileUpdated(QVariantMap)), this, SLOT(handleFileUpdated(QVariantMap)));
     connect(this->tdLibReceiver, SIGNAL(newChatDiscovered(QVariantMap)), this, SLOT(handleNewChatDiscovered(QVariantMap)));
+    connect(this->tdLibReceiver, SIGNAL(updateChatFolders(QVariantList, qlonglong)), this, SLOT(handleChatFolders(QVariantList, qlonglong)));
     connect(this->tdLibReceiver, SIGNAL(unreadMessageCountUpdated(QVariantMap)), this, SLOT(handleUnreadMessageCountUpdated(QVariantMap)));
     connect(this->tdLibReceiver, SIGNAL(unreadChatCountUpdated(QVariantMap)), this, SLOT(handleUnreadChatCountUpdated(QVariantMap)));
     connect(this->tdLibReceiver, SIGNAL(chatLastMessageUpdated(QString, QString, QVariantMap)), this, SIGNAL(chatLastMessageUpdated(QString, QString, QVariantMap)));
@@ -194,6 +196,7 @@ void TDLibWrapper::initializeTDLibReceiver() {
     connect(this->tdLibReceiver, SIGNAL(chatUnreadMentionCountUpdated(qlonglong, int)), this, SIGNAL(chatUnreadMentionCountUpdated(qlonglong, int)));
     connect(this->tdLibReceiver, SIGNAL(chatUnreadReactionCountUpdated(qlonglong, int)), this, SIGNAL(chatUnreadReactionCountUpdated(qlonglong, int)));
     connect(this->tdLibReceiver, SIGNAL(activeEmojiReactionsUpdated(QStringList)), this, SLOT(handleActiveEmojiReactionsUpdated(QStringList)));
+    connect(this->tdLibReceiver, SIGNAL(gotChatFolder(QVarianMap)), this, SLOT(handleChatFolder(QVariantMap)));
 
     this->tdLibReceiver->start();
 }
@@ -346,6 +349,15 @@ void TDLibWrapper::deleteChat(qlonglong chatId)
     QVariantMap requestObject;
     requestObject.insert(_TYPE, "deleteChat");
     requestObject.insert(CHAT_ID, chatId);
+    this->sendRequest(requestObject);
+}
+
+void TDLibWrapper::getChatFolder(qlonglong folderID)
+{
+    LOG("Getting chats for folder  " << folderID);
+    QVariantMap requestObject;
+    requestObject.insert(_TYPE, "getChatFolder");
+    requestObject.insert(CHAT_FOLDER_ID, folderID);
     this->sendRequest(requestObject);
 }
 
@@ -1820,7 +1832,7 @@ void TDLibWrapper::handleAuthorizationStateChanged(const QString &authorizationS
         }
         td_json_client_destroy(this->tdLibClient);
         this->tdLibReceiver->terminate();
-        QDir appPath(QStandardPaths::writableLocation(QStandardPaths::AppDataLocation));
+        QDir appPath(getApplicationDataPath());
         appPath.removeRecursively();
         this->tdLibClient = td_json_client_create();
         initializeTDLibReceiver();
@@ -1910,6 +1922,26 @@ void TDLibWrapper::handleNewChatDiscovered(const QVariantMap &chatInformation)
     this->chats.insert(chatId, chatInformation);
     emit newChatDiscovered(chatId, chatInformation);
 }
+
+void TDLibWrapper::handleChatFolders(const QVariantList &foldersInformation, qlonglong mainChatlistPosition)
+{
+    QString list;
+    for(const auto &folder: foldersInformation) {
+        list.append(" ");
+        list.append(folder.toMap().value("title").toString());
+        getChatFolder(folder.toMap().value("id").toLongLong());
+    }
+    LOG("Got chatlist information" << list);
+
+    emit chatFolders(foldersInformation, mainChatlistPosition);
+}
+
+void TDLibWrapper::handleChatFolder(const QVariantMap &chatFolderInforamtion)
+{
+    LOG("Got ChatFolder information");
+    emit chatFolder(chatFolderInforamtion);
+}
+
 
 void TDLibWrapper::handleChatReceived(const QVariantMap &chatInformation)
 {
@@ -2211,11 +2243,15 @@ void TDLibWrapper::handleGetPageSourceFinished()
     }
 }
 
+void TDLibWrapper::handleApplicationStateChanged(Qt::ApplicationState state) {
+    this->tdLibReceiver->setPowerSavingMode(state != Qt::ApplicationState::ApplicationActive);
+}
+
 QVariantMap& TDLibWrapper::fillTdlibParameters(QVariantMap& parameters)
 {
     parameters.insert("api_id", TDLIB_API_ID);
     parameters.insert("api_hash", TDLIB_API_HASH);
-    parameters.insert("database_directory", QStandardPaths::writableLocation(QStandardPaths::AppDataLocation) + "/tdlib");
+    parameters.insert("database_directory", getApplicationDataPath() + "/tdlib");
     bool onlineOnlyMode = this->appSettings->onlineOnlyMode();
     parameters.insert("use_file_database", !onlineOnlyMode);
     parameters.insert("use_chat_info_database", !onlineOnlyMode);
@@ -2343,9 +2379,9 @@ void TDLibWrapper::initializeOpenWith()
         } else {
             fileOut << QString("MimeType=x-url-handler/t.me;x-scheme-handler/tg;").toUtf8() << "\n";
         }
-        fileOut << QString("X-Maemo-Service=de.ygriega.fernschreiber").toUtf8() << "\n";
-        fileOut << QString("X-Maemo-Object-Path=/de/ygriega/fernschreiber").toUtf8() << "\n";
-        fileOut << QString("X-Maemo-Method=de.ygriega.fernschreiber.openUrl").toUtf8() << "\n";
+        fileOut << QString("X-Maemo-Service=org.ygriega.Fernschreiber").toUtf8() << "\n";
+        fileOut << QString("X-Maemo-Object-Path=/org/ygriega/Fernschreiber").toUtf8() << "\n";
+        fileOut << QString("X-Maemo-Method=org.ygriega.Fernschreiber.openUrl").toUtf8() << "\n";
         fileOut << QString("Hidden=true;").toUtf8() << "\n";
         fileOut.flush();
         desktopFile.close();
@@ -2358,7 +2394,7 @@ void TDLibWrapper::initializeOpenWith()
         LOG("Creating D-Bus directory" << dbusPathName);
         dbusPath.mkpath(dbusPathName);
     }
-    QString dbusServiceFileName = dbusPathName + "/de.ygriega.fernschreiber.service";
+    QString dbusServiceFileName = dbusPathName + "/org.ygriega.Fernschreiber.service";
     QFile dbusServiceFile(dbusServiceFileName);
     if (dbusServiceFile.exists()) {
         LOG("D-BUS service file existing, removing to ensure proper re-creation...");
@@ -2369,8 +2405,8 @@ void TDLibWrapper::initializeOpenWith()
         QTextStream fileOut(&dbusServiceFile);
         fileOut.setCodec("UTF-8");
         fileOut << QString("[D-BUS Service]").toUtf8() << "\n";
-        fileOut << QString("Name=de.ygriega.fernschreiber").toUtf8() << "\n";
-        fileOut << QString("Exec=sailjail -- /usr/bin/harbour-fernschreiber").toUtf8() << "\n";
+        fileOut << QString("Name=org.ygriega.Fernschreiber").toUtf8() << "\n";
+        fileOut << QString("Exec=sailjail -- /usr/bin/org.ygriega.Fernschreiberr").toUtf8() << "\n";
         fileOut.flush();
         dbusServiceFile.close();
     }
@@ -2436,4 +2472,12 @@ TDLibWrapper::ChatMemberStatus TDLibWrapper::Group::chatMemberStatus() const
 {
     const QString statusType(groupInfo.value(STATUS).toMap().value(_TYPE).toString());
     return statusType.isEmpty() ? ChatMemberStatusUnknown : chatMemberStatusFromString(statusType);
+}
+
+QString TDLibWrapper::getApplicationDataPath() const {
+#ifdef QT_DEBUG
+    return QStandardPaths::writableLocation(QStandardPaths::DocumentsLocation);
+#else
+    return QStandardPaths::writableLocation(QStandardPaths::AppDataLocation);
+#endif
 }

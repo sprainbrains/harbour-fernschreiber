@@ -20,6 +20,8 @@ import QtQuick 2.6
 import Sailfish.Silica 1.0
 import Nemo.Notifications 1.0
 import WerkWolf.Fernschreiber 1.0
+import Aurora.Controls 1.0
+
 import "../components"
 import "../js/twemoji.js" as Emoji
 import "../js/functions.js" as Functions
@@ -35,10 +37,14 @@ Page {
     property int connectionState: TelegramAPI.WaitingForNetwork
     property int ownUserId;
     property bool chatListCreated: false;
+    property string appName: qsTr("Fernschreiber");
+    property string allChat: qsTr("All Chats");
+    property string unreadChatsInFolder: qsTr("Unread chats count")
 
     // link handler:
     property string urlToOpen;
     property var chatToOpen: null; //null or [chatId, messageId]
+    property var chatFolderList: chatListModel.chatFolders
 
     onStatusChanged: {
         if (status === PageStatus.Active && initializationCompleted && !chatListCreated && !logoutLoading) {
@@ -69,13 +75,13 @@ Page {
             overviewPage.chatListCreated = true;
             chatListView.scrollToTop();
             updateSecondaryContentTimer.start();
-            var remainingInteractionHints = appSettings.remainingInteractionHints;
+            /*var remainingInteractionHints = appSettings.remainingInteractionHints;
             Debug.log("Remaining interaction hints: " + remainingInteractionHints);
             if (remainingInteractionHints > 0) {
                 interactionHintTimer.start();
                 titleInteractionHint.opacity = 1.0;
                 appSettings.remainingInteractionHints = remainingInteractionHints - 1;
-            }
+            }*/
         }
     }
 
@@ -88,7 +94,7 @@ Page {
     }
     Timer {
         id: updateSecondaryContentTimer
-        interval: 600
+        interval: 1500
         onTriggered: {
             chatListModel.calculateUnreadState();
             tdLibWrapper.getRecentStickers();
@@ -105,7 +111,7 @@ Page {
 
     TextFilterModel {
         id: chatListProxyModel
-        sourceModel: (chatSearchField.opacity > 0) ? chatListModel : null
+        sourceModel: (chatSearchField.activeFocus) ? chatListModel : null
         filterRoleName: "filter"
         filterText: chatSearchField.text
     }
@@ -157,24 +163,29 @@ Page {
     function setPageStatus() {
         switch (overviewPage.connectionState) {
         case TelegramAPI.WaitingForNetwork:
-            pageStatus.color = "red";
-            pageHeader.title = qsTr("Waiting for network...");
+            // pageStatus.color = "red";
+            //pageHeader.title = qsTr("Waiting for network...");
+            topAppBar.subHeaderText = qsTr("Waiting for network...");
             break;
         case TelegramAPI.Connecting:
-            pageStatus.color = "gold";
-            pageHeader.title = qsTr("Connecting to network...");
+            // pageStatus.color = "gold";
+            //pageHeader.title = qsTr("Connecting to network...");
+            topAppBar.subHeaderText =qsTr("Connecting to network...");
             break;
         case TelegramAPI.ConnectingToProxy:
-            pageStatus.color = "gold";
-            pageHeader.title = qsTr("Connecting to proxy...");
+            // pageStatus.color = "gold";
+            //pageHeader.title = qsTr("Connecting to proxy...");
+            topAppBar.subHeaderText = qsTr("Connecting to proxy...");
             break;
         case TelegramAPI.ConnectionReady:
-            pageStatus.color = "green";
-            pageHeader.title = qsTr("Fernschreiber");
+            // pageStatus.color = "green";
+            //pageHeader.title = qsTr("Fernschreiber");
+            topAppBar.subHeaderText = qsTr("Fernschreiber");
             break;
         case TelegramAPI.Updating:
-            pageStatus.color = "lightblue";
-            pageHeader.title = qsTr("Updating content...");
+            // pageStatus.color = "lightblue";
+            //pageHeader.title = qsTr("Updating content...");
+            topAppBar.subHeaderText = qsTr("Updating content...");
             break;
         }
     }
@@ -229,13 +240,16 @@ Page {
         }
     }
 
-    function resetFocus() {
-        if (chatSearchField.text === "") {
-            chatSearchField.opacity = 0.0;
-            pageHeader.opacity = 1.0;
+    Connections {
+        target: chatListModel
+        onChatFoldersChanged: {
+            //Debug
+            //console.log("onChatFolderChanged: ");
+            //console.log(chatFolders);
         }
-        chatSearchField.focus = false;
-        overviewPage.focus = true;
+        onUnreadStateChanged: {
+            //debug
+        }
     }
 
     Connections {
@@ -315,82 +329,91 @@ Page {
         anchors.fill: parent
         visible: !overviewPage.loading
 
-        PullDownMenu {
-            MenuItem {
-                text: "Debug"
-                visible: Debug.enabled
-                onClicked: pageStack.push(Qt.resolvedUrl("../pages/DebugPage.qml"))
-            }
-            MenuItem {
-                text: qsTr("About Fernschreiber")
-                onClicked: pageStack.push(Qt.resolvedUrl("../pages/AboutPage.qml"))
-            }
-            MenuItem {
-                text: qsTr("Settings")
-                onClicked: pageStack.push(Qt.resolvedUrl("../pages/SettingsPage.qml"))
-            }
-            MenuItem {
-                text: qsTr("Search Chats")
-                onClicked: pageStack.push(Qt.resolvedUrl("../pages/SearchChatsPage.qml"))
-            }
-            MenuItem {
-                text: qsTr("New Chat")
-                onClicked: pageStack.push(Qt.resolvedUrl("../pages/NewChatPage.qml"))
-            }
-        }
+        AppBar {
+            id: topAppBar
+            property string appBarHeaderText: folderPopupMenu.items[0].text
+            headerText: appBarHeaderText === ""? allChat : appBarHeaderText
 
-        PageHeader {
-            id: pageHeader
-            title: qsTr("Fernschreiber")
-            leftMargin: Theme.itemSizeMedium
-            visible: opacity > 0
-            Behavior on opacity { FadeAnimation {} }
+            subHeaderText: appName
+            headerClickable: true
 
-            GlassItem {
-                id: pageStatus
-                width: Theme.itemSizeMedium
-                height: Theme.itemSizeMedium
-                color: "red"
-                falloffRadius: 0.1
-                radius: 0.2
-                cache: false
-            }
+            onHeaderClicked: folderPopupMenu.open(topAppBar)
+            onHeaderTextChanged: chatListModel.setSelectedFolderName(text)
 
-            MouseArea {
-                anchors.fill: parent
-                onClicked: {
-                    chatSearchField.focus = true;
-                    chatSearchField.opacity = 1.0;
-                    pageHeader.opacity = 0.0;
+            PopupMenu {
+                id: folderPopupMenu
+
+                Repeater {
+                    id: repeaterFolderPopupMenu
+                    model: chatFolderList
+
+                    PopupMenuItem {
+                        text: modelData === "All Chats"? allChat : modelData
+                        // hint: unreadChatsInFolder + ":"
+                        onClicked: {
+                            topAppBar.headerText = text;
+                        }
+                    }
                 }
             }
 
-        }
-
-        SearchField {
-            id: chatSearchField
-            visible: opacity > 0
-            opacity: 0
-            Behavior on opacity { FadeAnimation {} }
-            width: parent.width
-            height: pageHeader.height
-            placeholderText: qsTr("Filter your chats...")
-            canHide: text === ""
-
-            onHideClicked: {
-                resetFocus();
+            AppBarSearchField {
+                id: chatSearchField
+                placeholderText: qsTr("Filter your chats...")
+                EnterKey.onClicked: {
+                    focus = false;
+                    overviewPage.focus = true;
+                }
             }
 
-            EnterKey.iconSource: "image://theme/icon-m-enter-close"
-            EnterKey.onClicked: {
-                resetFocus();
+            AppBarSpacer {}
+
+            AppBarButton {
+                id: appBarMenuButton
+                icon.source: "image://theme/icon-m-menu"
+                onClicked: mainPopupMenu.open()
+
+                PopupMenu {
+                    id: mainPopupMenu
+
+                    PopupMenuItem {
+                        text: "Debug"
+                        visible: Debug.enabled
+                        onClicked: pageStack.push(Qt.resolvedUrl("../pages/DebugPage.qml"))
+                    }
+
+                    PopupMenuItem {
+                        text: qsTr("About Fernschreiber")
+                        hint: qsTr("Open About app page")
+                        onClicked: pageStack.push(Qt.resolvedUrl("../pages/AboutPage.qml"))
+                    }
+
+                    PopupMenuItem {
+                        text: qsTr("Settings")
+                        hint: qsTr("Open setting page")
+                        onClicked: pageStack.push(Qt.resolvedUrl("../pages/SettingsPage.qml"))
+                    }
+
+                    PopupMenuItem {
+                        text: qsTr("Search Chats")
+                        hint: qsTr("Open searching page")
+                        onClicked: pageStack.push(Qt.resolvedUrl("../pages/SearchChatsPage.qml"))
+                    }
+
+                    PopupMenuItem {
+                        text: qsTr("New Chat")
+                        hint: qsTr("Create a new chat")
+                        onClicked: pageStack.push(Qt.resolvedUrl("../pages/NewChatPage.qml"))
+                    }
+                }
+
             }
         }
 
         SilicaListView {
             id: chatListView
             anchors {
-                top: pageHeader.bottom
+                top: topAppBar.bottom
                 bottom: parent.bottom
                 left: parent.left
                 right: parent.right
@@ -434,24 +457,4 @@ Page {
             }
         }
     }
-
-    Timer {
-        id: interactionHintTimer
-        running: false
-        interval: 4000
-        onTriggered: {
-            titleInteractionHint.opacity = 0.0;
-        }
-    }
-
-    InteractionHintLabel {
-        id: titleInteractionHint
-        text: qsTr("Tap on the title bar to filter your chats")
-        visible: opacity > 0
-        invert: true
-        anchors.fill: parent
-        Behavior on opacity { FadeAnimation {} }
-        opacity: 0
-    }
-
 }

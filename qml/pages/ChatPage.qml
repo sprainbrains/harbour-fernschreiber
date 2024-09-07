@@ -417,7 +417,7 @@ Page {
             chatPage.messageIdToScrollTo = messageId
         }
         if (chatPage.messageIdToScrollTo && chatPage.messageIdToScrollTo != "") {
-            var index = chatModel.getMessageIndex(chatPage.messageIdToScrollTo);
+            var index = chatModel.getDisplayedMessageIndex(chatPage.messageIdToScrollTo);
             if(index !== -1) {
                 chatPage.messageIdToScrollTo = "";
                 chatView.scrollToIndex(index);
@@ -650,7 +650,6 @@ Page {
                 appSettings.remainingDoubleTapHints = remainingDoubleTapHints - 1;
             }
              */
-
         }
         onNewMessageReceived: {
             if (( chatView.manuallyScrolledToBottom && Qt.application.state === Qt.ApplicationActive ) || message.sender_id.user_id === chatPage.myUserId) {
@@ -1233,7 +1232,7 @@ Page {
                             readonly property int paddingMediumDouble: 2 * Theme.paddingMedium
                             readonly property int entryWidth: chatView.width - pageMarginDouble
                             readonly property int textItemWidth: entryWidth - profileThumbnailDimensions - Theme.paddingSmall
-                            readonly property int backgroundWidth: page.isChannel ? textItemWidth : textItemWidth - pageMarginDouble
+                            readonly property int backgroundWidth: page.isPrivateChat ? textItemWidth - pageMarginDouble : textItemWidth  //уменьшенная ширина сообщений для приватных чатов
                             readonly property int backgroundRadius: textItemWidth/50
                             readonly property int textColumnWidth: backgroundWidth - Theme.horizontalPageMargin
                             readonly property int messageInReplyToHeight: Theme.fontSizeExtraSmall * 2.571428571 + Theme.paddingSmall;
@@ -1496,7 +1495,7 @@ Page {
 
                     Item {
                         id: chatUnreadMessagesItem
-                        width: Theme.fontSizeHuge
+                        width: chatUnreadMessagesCount.width + Theme.fontSizeLarge / 2
                         height: Theme.fontSizeHuge
                         anchors.right: parent.right
                         anchors.rightMargin: Theme.paddingMedium

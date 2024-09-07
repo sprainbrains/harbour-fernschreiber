@@ -35,6 +35,7 @@ class TDLibReceiver : public QThread
 public:
     explicit TDLibReceiver(void *tdLibClient, QObject *parent = nullptr);
     void setActive(bool active);
+    void setPowerSavingMode(bool active);
 
 signals:
     void versionDetected(const QString &version);
@@ -45,6 +46,8 @@ signals:
     void userStatusUpdated(const QString &userId, const QVariantMap &userStatusInformation);
     void fileUpdated(const QVariantMap &fileInformation);
     void newChatDiscovered(const QVariantMap &chatInformation);
+    void updateChatFolders(const QVariantList &foldersInformation, qlonglong mainChatlistPosition);
+    void gotChatFolder(const QVariantMap &chatFolderInformation);
     void unreadMessageCountUpdated(const QVariantMap &messageCountInformation);
     void unreadChatCountUpdated(const QVariantMap &chatCountInformation);
     void chatLastMessageUpdated(const QString &chatId, const QString &order, const QVariantMap &lastMessage);
@@ -115,6 +118,7 @@ private:
     QHash<QString, Handler> handlers;
     void *tdLibClient;
     bool isActive;
+    bool powerSavingMode;
 
 private:
     static const QVariantList cleanupList(const QVariantList& list, bool *updated = Q_NULLPTR);
@@ -132,6 +136,8 @@ private:
     void processUpdateNewChat(const QVariantMap &receivedInformation);
     void processUpdateUnreadMessageCount(const QVariantMap &receivedInformation);
     void processUpdateUnreadChatCount(const QVariantMap &receivedInformation);
+    void processUpdateChatFolders(const QVariantMap &receivedInformation);
+    void processChatFolder(const QVariantMap &chatFolderInformation);
     void processUpdateChatLastMessage(const QVariantMap &receivedInformation);
     void processUpdateChatOrder(const QVariantMap &receivedInformation);
     void processUpdateChatPosition(const QVariantMap &receivedInformation);

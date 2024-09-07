@@ -26,7 +26,7 @@ class DBusAdaptor : public QDBusAbstractAdaptor
 {
 
     Q_OBJECT
-    Q_CLASSINFO("D-Bus Interface", "de.ygriega.fernschreiber")
+    Q_CLASSINFO("D-Bus Interface", "org.ygriega.Fernschreiber")
 
 public:
     DBusAdaptor(QObject *parent);

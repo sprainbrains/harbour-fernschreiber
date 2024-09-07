@@ -235,6 +235,21 @@
     </message>
 </context>
 <context>
+    <name>ChatListModel</name>
+    <message>
+        <source>All Chats</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Chats only</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Channels only</source>
+        <translation type="unfinished"></translation>
+    </message>
+</context>
+<context>
     <name>ChatListViewItem</name>
     <message>
         <source>Unknown</source>
@@ -497,13 +512,6 @@
     <message>
         <source>You don&apos;t have any chats yet.</source>
         <translation>Vous n&apos;avez aucune conversation.</translation>
-    </message>
-</context>
-<context>
-    <name>ContactSync</name>
-    <message>
-        <source>Could not synchronize your contacts with Telegram.</source>
-        <translation>Impossible de synchroniser vos contacts avec Telegram.</translation>
     </message>
 </context>
 <context>
@@ -908,7 +916,7 @@
     <message numerus="yes">
         <source>Forward %Ln messages</source>
         <comment>dialog header</comment>
-        <translation>
+        <translation type="unfinished">
             <numerusform>Transférer %Ln message</numerusform>
             <numerusform>Transférer %Ln messages</numerusform>
         </translation>
@@ -1197,80 +1205,100 @@
 <context>
     <name>OverviewPage</name>
     <message>
-        <source>About Fernschreiber</source>
-        <translation>À propos de Fernschreiber</translation>
-    </message>
-    <message>
-        <source>Fernschreiber</source>
-        <translation>Fernschreiber</translation>
-    </message>
-    <message>
         <source>Waiting for network...</source>
-        <translation>En attente de réseau…</translation>
+        <translation type="unfinished">En attente d&apos;une connexion…</translation>
     </message>
     <message>
         <source>Connecting to network...</source>
-        <translation>Connexion au réseau…</translation>
+        <translation type="unfinished">Se connecte au réseau…</translation>
     </message>
     <message>
         <source>Connecting to proxy...</source>
-        <translation>Se connecte au proxy…</translation>
+        <translation type="unfinished">Se connecte à un proxy…</translation>
+    </message>
+    <message>
+        <source>Fernschreiber</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Updating content...</source>
-        <translation>Téléverse du contenu…</translation>
+        <translation type="unfinished">Mise à jour du contenu…</translation>
     </message>
     <message>
         <source>Loading chat list...</source>
-        <translation>Chargement de la liste des conversations…</translation>
-    </message>
-    <message>
-        <source>Settings</source>
-        <translation>Paramètres</translation>
-    </message>
-    <message>
-        <source>You don&apos;t have any chats yet.</source>
-        <translation>Vous n&apos;avez aucune conversation.</translation>
-    </message>
-    <message>
-        <source>New Chat</source>
-        <translation>Nouvelle conversation</translation>
-    </message>
-    <message>
-        <source>Filter your chats...</source>
-        <translation>Filtrer vos conversations…</translation>
-    </message>
-    <message>
-        <source>Search Chats</source>
-        <translation>Rechercher une conversation</translation>
-    </message>
-    <message>
-        <source>Download of %1 successful.</source>
-        <translation>Téléchargement de %1 avec succès.</translation>
-    </message>
-    <message>
-        <source>Download failed.</source>
-        <translation>Échec du téléchargement.</translation>
-    </message>
-    <message>
-        <source>Tap on the title bar to filter your chats</source>
-        <translation>Appuyez sur la barre de titre pour filtrer vos conversations</translation>
-    </message>
-    <message>
-        <source>No matching chats found.</source>
-        <translation>Aucune conversation trouvée.</translation>
-    </message>
-    <message>
-        <source>You can search public chats or create a new chat via the pull-down menu.</source>
-        <translation>Vous pouvez créer une conversation publique ou créer une nouvelle conversation via le menu pull-down.</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Logging out</source>
-        <translation>Se déconnecte</translation>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Download of %1 successful.</source>
+        <translation type="unfinished">Téléchargement de %1 avec succès.</translation>
+    </message>
+    <message>
+        <source>Download failed.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unable to open link.</source>
-        <translation>Impossible d&apos;ouvrir le lien</translation>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Filter your chats...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>About Fernschreiber</source>
+        <translation type="unfinished">À propos de Fernschreiber</translation>
+    </message>
+    <message>
+        <source>Open About app page</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation type="unfinished">Paramètres</translation>
+    </message>
+    <message>
+        <source>Open setting page</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Search Chats</source>
+        <translation type="unfinished">Rechercher des conversations</translation>
+    </message>
+    <message>
+        <source>Open searching page</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>New Chat</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Create a new chat</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You don&apos;t have any chats yet.</source>
+        <translation type="unfinished">Vous n&apos;avez aucune conversation.</translation>
+    </message>
+    <message>
+        <source>No matching chats found.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You can search public chats or create a new chat via the pull-down menu.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>All Chats</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Unread chats count</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
@@ -1623,6 +1651,14 @@
     </message>
     <message>
         <source>When tapping a quoted message, open it in chat instead of showing it in an overlay.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Show reaction button on tap</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The reaction button may appear when you tap the message bubble, to make access to the reactions even easier.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>

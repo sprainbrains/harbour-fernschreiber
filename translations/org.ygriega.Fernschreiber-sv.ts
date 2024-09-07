@@ -1,87 +1,87 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="zh_CN">
+<TS version="2.1" language="sv">
 <context>
     <name>AboutPage</name>
     <message>
         <source>About Fernschreiber</source>
-        <translation>关于 Fernschreiber</translation>
+        <translation>Om Fernschreiber</translation>
     </message>
     <message>
         <source>A Telegram client for Sailfish OS</source>
-        <translation>一个旗鱼系统 Telegram 客户端</translation>
+        <translation>En Telegram-klient för Sailfish OS</translation>
     </message>
     <message>
         <source>Send E-Mail</source>
-        <translation>发送电子邮件</translation>
+        <translation>Skicka e-post</translation>
     </message>
     <message>
         <source>Licensed under GNU GPLv3</source>
-        <translation>采用 GNU GPLv3 许可证</translation>
+        <translation>Licensierad under GNU GPLv3</translation>
     </message>
     <message>
         <source>Sources on GitHub</source>
-        <translation>源代码位于 GitHub</translation>
+        <translation>Källor på GitHub</translation>
     </message>
     <message>
         <source>Terms of Service</source>
-        <translation>服务条款</translation>
+        <translation>Tjänstevillkor</translation>
     </message>
     <message>
         <source>Privacy Policy</source>
-        <translation>隐私政策</translation>
+        <translation>Sekretesspolicy</translation>
     </message>
     <message>
         <source>Credits</source>
-        <translation>信誉</translation>
+        <translation>Medverkande</translation>
     </message>
     <message>
         <source>This project uses the Telegram Database Library (TDLib). Thanks for making it available under the conditions of the Boost Software License 1.0!</source>
-        <translation>该项目使用 Telegram 数据库（TDLib）。感谢使它在 Boost 软件许可证1.0下可用！</translation>
+        <translation>Detta projekt använder Telegram Database Library (TDLib). Tack för att det gjorts tillgängligt under villkoren för Boost Software License 1.0!</translation>
     </message>
     <message>
         <source>Open Telegram Database Library on GitHub</source>
-        <translation>打开位于 Github 的 Telegram 数据库</translation>
+        <translation>Öppna Telegram Database Library på GitHub</translation>
     </message>
     <message>
         <source>About Telegram</source>
-        <translation>关于 Telegram</translation>
+        <translation>Om Telegram</translation>
     </message>
     <message>
         <source>This product uses the Telegram API but is not endorsed or certified by Telegram.</source>
-        <translation>该项目采用 Telegram API ，但未获得 Telegram 批准或背书。</translation>
+        <translation>Denna produkt använder Telegrams API men är inte godkänt eller certifierat av Telegram.</translation>
     </message>
     <message>
         <source>TDLib version %1</source>
-        <translation>TDLib 版本 %1</translation>
+        <translation>TDLib version %1</translation>
     </message>
     <message>
         <source>This project uses twemoji. Copyright 2018 Twitter, Inc. and other contributors. Thanks for making it available under the conditions of the MIT License (coding) and CC-BY 4.0 (graphics)!</source>
-        <translation>该项目使用 twemoji 2018 Twitter, Inc. 版权所有。感谢使它在 MIT 许可证（编码）及 CC-BY 4.0（图像）许可证下可用。</translation>
+        <translation>Detta projekt använder twemoji. Copyright 2018 Twitter, Inc. och andra medverkande. Tack för att det gjorts tillgängligt under villkoren för MIT License (kodning) och CC-BY 4.0 (grafik)!</translation>
     </message>
     <message>
         <source>Open twemoji on GitHub</source>
-        <translation>打开位于 Github 的 Twemoji 页面</translation>
+        <translation>Öppna twemoji på GitHub</translation>
     </message>
     <message>
         <source>By Sebastian J. Wolf and &lt;a href=&quot;https://github.com/Wunderfitz/harbour-fernschreiber#contributions&quot;&gt;other contributors&lt;/a&gt;</source>
-        <translation>开发者 Sebastian J. Wolf 及  &lt;a href=&quot;https://github.com/Wunderfitz/harbour-fernschreiber#contributions&quot;&gt;其它贡献者&lt;/a&gt;</translation>
+        <translation>Av Sebastian J. Wolf och &lt;a href=&quot;https://github.com/Wunderfitz/harbour-fernschreiber#contributions&quot;&gt;andra medverkande&lt;/a&gt;</translation>
     </message>
     <message>
         <source>This project uses rlottie. Copyright 2020 Samsung Electronics Co., Ltd. and other contributors. Thanks for making it available under the conditions of the MIT License!</source>
-        <translation>该项目使用 rlottie 版权所有 2020 三星电子有限责任公司。感谢使它在 MIT 许可证下可用。</translation>
+        <translation>Detta projekt använder rlottie. Copyright 2018 Samsung Electronics Co. och andra medverkande. Tack för att det gjorts tillgängligt under villkoren för MIT License!</translation>
     </message>
     <message>
         <source>Open rlottie on GitHub</source>
-        <translation>在 Github 打开 rlottie</translation>
+        <translation>Öppna rlottie på GitHub</translation>
     </message>
     <message>
         <source>This project uses OpenStreetMap Nominatim for reverse geocoding of location attachments. Thanks for making it available as web service!</source>
-        <translation>该项目使用 OpenStreetMap Nominatim 对位置附件进行反向地理编码。感谢把它作为网络服务提供给我们！</translation>
+        <translation>Detta projekt använder OpenStreetMap Nominatim för omvänd geokodning av platsbilagor. Tack för att ni gjorde den tillgänglig som webbtjänst!</translation>
     </message>
     <message>
         <source>Open OSM Nominatim Wiki</source>
-        <translation>打开 OSM Nominatim Wiki</translation>
+        <translation>Open OSM Nominatim Wiki</translation>
     </message>
 </context>
 <context>
@@ -100,62 +100,64 @@
     <message numerus="yes">
         <source>%1 subscribers</source>
         <translation>
-            <numerusform>%1 位订阅者</numerusform>
+            <numerusform>%1 prenumerant</numerusform>
+            <numerusform>%1 prenumeranter</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>%1 members</source>
         <translation>
-            <numerusform>%1 位成员</numerusform>
+            <numerusform>%1 medlem</numerusform>
+            <numerusform>%1 medlemmar</numerusform>
         </translation>
     </message>
     <message>
         <source>Leave Chat</source>
-        <translation>离开对话</translation>
+        <translation>Lämna chatten</translation>
     </message>
     <message>
         <source>Join Chat</source>
-        <translation>加入对话</translation>
+        <translation>Anslut till chatten</translation>
     </message>
     <message>
         <source>Leaving chat</source>
-        <translation>正在离开对话</translation>
+        <translation>Lämnar chatten</translation>
     </message>
     <message>
         <source>Unknown</source>
-        <translation>未知</translation>
+        <translation>Okänd</translation>
     </message>
     <message>
         <source>Chat Title</source>
         <comment>group title header</comment>
-        <translation>对话标题</translation>
+        <translation>Chattnamn</translation>
     </message>
     <message>
         <source>Enter 1-128 characters</source>
-        <translation>输入 1-128 个字符</translation>
+        <translation>Ange 1-128 tecken</translation>
     </message>
     <message>
         <source>There is no information text available, yet.</source>
-        <translation>暂无信息</translation>
+        <translation>Det finns ingen informationstext än.</translation>
     </message>
     <message>
         <source>Info</source>
         <comment>group or user infotext header</comment>
-        <translation>信息</translation>
+        <translation>Info</translation>
     </message>
     <message>
         <source>Phone Number</source>
         <comment>user phone number header</comment>
-        <translation>电话号码</translation>
+        <translation>Telefonnummer</translation>
     </message>
     <message>
         <source>Invite Link</source>
         <comment>header</comment>
-        <translation>邀请链接</translation>
+        <translation>Inbjudningslänk</translation>
     </message>
     <message>
         <source>The Invite Link has been copied to the clipboard.</source>
-        <translation>邀请链接已复制到剪切板</translation>
+        <translation>Inbjudningslänken har kopierats till urklipp.</translation>
     </message>
     <message>
         <source>%1, %2</source>
@@ -165,24 +167,25 @@
     <message numerus="yes">
         <source>%1 online</source>
         <translation>
-            <numerusform>%1 位在线</numerusform>
+            <numerusform>%1 online</numerusform>
+            <numerusform>%1 online</numerusform>
         </translation>
     </message>
     <message>
         <source>New Secret Chat</source>
-        <translation>新加密对话</translation>
+        <translation>Ny hemlig chatt</translation>
     </message>
     <message>
         <source>Unmute Chat</source>
-        <translation>取消对话静音</translation>
+        <translation>Slå på chatten</translation>
     </message>
     <message>
         <source>Mute Chat</source>
-        <translation>静音对话</translation>
+        <translation>Stäng av chatten</translation>
     </message>
     <message>
         <source>ID has been copied to the clipboard.</source>
-        <translation type="unfinished"></translation>
+        <translation>ID har kopierats till urklipp.</translation>
     </message>
 </context>
 <context>
@@ -190,27 +193,27 @@
     <message>
         <source>Loading common chats…</source>
         <comment>chats you have in common with a user</comment>
-        <translation>正在加载共有对话…</translation>
+        <translation>Läser in gemensamma chattar...</translation>
     </message>
     <message>
         <source>Loading group members…</source>
-        <translation>正在加载群组成员…</translation>
+        <translation>Läser in gruppmedlemmar...</translation>
     </message>
     <message>
         <source>You</source>
-        <translation>你</translation>
+        <translation>Du</translation>
     </message>
     <message>
         <source>You don&apos;t have any groups in common with this user.</source>
-        <translation>你与此用户之间没有相同群组。</translation>
+        <translation>Du har inga grupper gemensamt med denna användare.</translation>
     </message>
     <message>
         <source>This group is empty.</source>
-        <translation>此群组为空。</translation>
+        <translation>Denna grupp är tom.</translation>
     </message>
     <message>
         <source>Channel members are anonymous.</source>
-        <translation>频道成员已匿名。</translation>
+        <translation>Kanalmedlemmar är anonyma.</translation>
     </message>
 </context>
 <context>
@@ -218,168 +221,189 @@
     <message>
         <source>Groups</source>
         <comment>Button: groups in common (short)</comment>
-        <translation>群组</translation>
+        <translation>Grupper</translation>
     </message>
     <message>
         <source>Members</source>
         <comment>Button: Group Members</comment>
-        <translation>成员</translation>
+        <translation>Medlemmar</translation>
     </message>
     <message>
         <source>Settings</source>
         <comment>Button: Chat Settings</comment>
-        <translation>设置</translation>
+        <translation>Inställningar</translation>
+    </message>
+</context>
+<context>
+    <name>ChatListModel</name>
+    <message>
+        <source>All Chats</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Chats only</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Channels only</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>ChatListViewItem</name>
     <message>
         <source>Unknown</source>
-        <translation>未知</translation>
+        <translation>Okänd</translation>
     </message>
     <message>
         <source>You</source>
-        <translation>你</translation>
+        <translation>Du</translation>
     </message>
     <message>
         <source>User Info</source>
-        <translation>用户信息</translation>
+        <translation>Användarinfo</translation>
     </message>
     <message>
         <source>Group Info</source>
-        <translation>群组信息</translation>
+        <translation>Gruppinfo</translation>
     </message>
     <message>
         <source>Mark all messages as read</source>
-        <translation>标记全部消息为已读</translation>
+        <translation>Markera alla meddelanden som lästa</translation>
     </message>
     <message>
         <source>No message in this chat.</source>
-        <translation>该对话没有消息…</translation>
+        <translation>Inget meddelande i den här chatten.</translation>
     </message>
     <message>
         <source>Mark chat as unread</source>
-        <translation>标记此对话为未读</translation>
+        <translation>Markera chatten som oläst</translation>
     </message>
     <message>
         <source>Draft</source>
-        <translation>草稿</translation>
+        <translation>Utkast</translation>
     </message>
     <message>
         <source>Mark chat as read</source>
-        <translation>标记为已读</translation>
+        <translation>Markera chatten som läst</translation>
     </message>
     <message>
         <source>Unpin chat</source>
-        <translation>取消置顶对话</translation>
+        <translation>Frigör chatten</translation>
     </message>
     <message>
         <source>Pin chat</source>
-        <translation>置顶对话</translation>
+        <translation>Fäst chatten</translation>
     </message>
     <message>
         <source>Unmute chat</source>
-        <translation>取消对话静音</translation>
+        <translation>Slå på chatten</translation>
     </message>
     <message>
         <source>Mute chat</source>
-        <translation>静音对话</translation>
+        <translation>Stäng av chatten</translation>
     </message>
 </context>
 <context>
     <name>ChatPage</name>
     <message>
         <source>Unknown</source>
-        <translation>未知</translation>
+        <translation>Okänd</translation>
     </message>
     <message>
         <source>Your message</source>
-        <translation>你的消息</translation>
+        <translation>Ditt meddelande</translation>
     </message>
     <message numerus="yes">
         <source>%1 members</source>
         <translation>
-            <numerusform>%1 位成员</numerusform>
+            <numerusform>%1 medlem</numerusform>
+            <numerusform>%1 medlemmar</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>%1 subscribers</source>
         <translation>
-            <numerusform>%1 位订阅者</numerusform>
+            <numerusform>%1 prenumerant</numerusform>
+            <numerusform>%1 prenumeranter</numerusform>
         </translation>
     </message>
     <message>
         <source>Loading messages...</source>
-        <translation>正在加载消息…</translation>
+        <translation>Läser in meddelanden...</translation>
     </message>
     <message>
         <source>Unmute Chat</source>
-        <translation>取消对话静音</translation>
+        <translation>Slå på chatten</translation>
     </message>
     <message>
         <source>Mute Chat</source>
-        <translation>对话静音</translation>
+        <translation>Stäng av chatten</translation>
     </message>
     <message>
         <source>Edit Message</source>
-        <translation>编辑消息</translation>
+        <translation>Redigera meddelandet</translation>
     </message>
     <message>
         <source>edited</source>
-        <translation>已编辑</translation>
+        <translation>redigerade</translation>
     </message>
     <message>
         <source>Uploading...</source>
-        <translation>正在上传…</translation>
+        <translation>Ladda upp...</translation>
     </message>
     <message>
         <source>This chat is empty.</source>
-        <translation>此对话为空。</translation>
+        <translation>Denna chatt är tom.</translation>
     </message>
     <message>
         <source>Leave Chat</source>
-        <translation>离开对话</translation>
+        <translation>Lämna chatten</translation>
     </message>
     <message>
         <source>Join Chat</source>
-        <translation>加入对话</translation>
+        <translation>Anslut till chatten</translation>
     </message>
     <message>
         <source>Leaving chat</source>
-        <translation>正在离开对话</translation>
+        <translation>Lämnar chatten</translation>
     </message>
     <message>
         <source>You joined the chat %1</source>
-        <translation>你已加入对话 %1</translation>
+        <translation>Du anslöt till chatten %1</translation>
     </message>
     <message>
         <source>Select Messages</source>
-        <translation>选择消息</translation>
+        <translation>Markera meddelanden</translation>
     </message>
     <message numerus="yes">
         <source>%Ln Messages deleted</source>
         <translation>
-            <numerusform>已删除 %Ln 则消息</numerusform>
+            <numerusform>%Ln meddelande borttaget</numerusform>
+            <numerusform>%Ln meddelanden borttagna</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>%Ln messages have been copied</source>
         <translation>
-            <numerusform>已复制 %Ln 则消息</numerusform>
+            <numerusform>%Ln meddelande har kopierats</numerusform>
+            <numerusform>%Ln meddelanden har kopierats</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>Forward %Ln messages</source>
         <comment>dialog header</comment>
         <translation>
-            <numerusform>转发 %Ln 则消息</numerusform>
+            <numerusform>Vidarebefordra %Ln meddelande</numerusform>
+            <numerusform>Vidarebefordra %Ln meddelanden</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>%Ln messages selected</source>
         <comment>number of messages selected</comment>
         <translation>
-            <numerusform>已选择 %Ln 则消息</numerusform>
+            <numerusform>%Ln meddelande markerat</numerusform>
+            <numerusform>%Ln meddelanden markerade</numerusform>
         </translation>
     </message>
     <message>
@@ -390,149 +414,144 @@
     <message numerus="yes">
         <source>%1 online</source>
         <translation>
-            <numerusform>%1 位在线</numerusform>
+            <numerusform>%1 online</numerusform>
+            <numerusform>%1 online</numerusform>
         </translation>
     </message>
     <message>
         <source>This secret chat is not yet ready. Your chat partner needs to go online first.</source>
-        <translation>加密对话未就绪，你的聊天对象必须先上线。</translation>
+        <translation>Den hemliga chatten är inte klar än. Din chattpartner måste gå online först.</translation>
     </message>
     <message>
         <source>Closing chat</source>
-        <translation>正在关闭对话</translation>
+        <translation>Stänger chatten</translation>
     </message>
     <message>
         <source>Close Chat</source>
-        <translation>关闭对话</translation>
+        <translation>Stäng chatten</translation>
     </message>
     <message>
         <source>Search in Chat</source>
-        <translation>对话内搜索</translation>
+        <translation>Sök i chatten</translation>
     </message>
     <message>
         <source>Search in chat...</source>
-        <translation>搜索对话内容…</translation>
+        <translation>Sök i chatten...</translation>
     </message>
     <message>
         <source>Location: Obtaining position...</source>
-        <translation>位置:正在获取位置…</translation>
+        <translation>Plats: Hämtar position...</translation>
     </message>
     <message>
         <source>Location (%1/%2)</source>
-        <translation>位置 (%1/%2)</translation>
+        <translation>Plats (%1/%2)</translation>
     </message>
     <message>
         <source>Copy Message to Clipboard</source>
-        <translation>复制消息到剪切板</translation>
+        <translation>Kopiera meddelandet till urklipp</translation>
     </message>
     <message>
         <source>Message unpinned</source>
-        <translation>已取消置顶消息</translation>
+        <translation>Meddelandet lösgjort</translation>
     </message>
     <message>
         <source>Unpin Message</source>
-        <translation>取消置顶</translation>
+        <translation>Lösgör meddelandet</translation>
     </message>
     <message>
         <source>Pin Message</source>
-        <translation>置顶消息</translation>
+        <translation>Fäst meddelandet</translation>
     </message>
     <message>
         <source>Additional Options</source>
-        <translation>附加选项</translation>
+        <translation>Fler alternativ</translation>
     </message>
     <message>
         <source>Delete Message</source>
-        <translation>删除消息</translation>
+        <translation>Ta bort meddelandet</translation>
     </message>
     <message>
         <source>Forward Message</source>
-        <translation>转发消息</translation>
+        <translation>Vidarebefordra meddelande</translation>
     </message>
     <message>
         <source>Unknown address</source>
-        <translation>未知位置</translation>
+        <translation>Okänd adress</translation>
     </message>
     <message>
         <source>Accuracy: %1m</source>
-        <translation>精度: %1m</translation>
+        <translation>Noggrannhet: %1m</translation>
     </message>
     <message>
         <source>Sponsored Message</source>
-        <translation type="unfinished"></translation>
+        <translation>Reklammeddelande</translation>
     </message>
     <message>
         <source>Deleting chat</source>
-        <translation type="unfinished"></translation>
+        <translation>Tar bort chatt</translation>
     </message>
     <message>
         <source>Delete Chat</source>
-        <translation type="unfinished"></translation>
+        <translation>Ta bort chatt</translation>
     </message>
     <message>
         <source>Deleted User</source>
-        <translation type="unfinished"></translation>
+        <translation>Tog bort användare</translation>
     </message>
     <message>
         <source>Double-tap on a message to choose a reaction</source>
-        <translation type="unfinished"></translation>
+        <translation>Dubbeltryck på ett meddelande för att välja en reaktion</translation>
     </message>
 </context>
 <context>
     <name>ChatSelectionPage</name>
     <message>
         <source>Select Chat</source>
-        <translation>选择对话</translation>
+        <translation>Välj chatt</translation>
     </message>
     <message>
         <source>You don&apos;t have any chats yet.</source>
-        <translation>你还没有任何对话。</translation>
-    </message>
-</context>
-<context>
-    <name>ContactSync</name>
-    <message>
-        <source>Could not synchronize your contacts with Telegram.</source>
-        <translation type="unfinished">无法同步你的云端 Telegram 联系人。</translation>
+        <translation>Du har inga chattar än.</translation>
     </message>
 </context>
 <context>
     <name>CoverPage</name>
     <message>
         <source>in</source>
-        <translation>位于</translation>
+        <translation>i</translation>
     </message>
     <message>
         <source>Waiting for network...</source>
-        <translation>等候网络连接…</translation>
+        <translation>Väntar på nätverket...</translation>
     </message>
     <message>
         <source>Connecting to network...</source>
-        <translation>正在连接到网络…</translation>
+        <translation>Ansluter till nätverket...</translation>
     </message>
     <message>
         <source>Connecting to proxy...</source>
-        <translation>正在连接到代理…</translation>
+        <translation>Ansluter till proxy...</translation>
     </message>
     <message>
         <source>Connected</source>
-        <translation>已连接</translation>
+        <translation>Ansluten</translation>
     </message>
     <message>
         <source>Updating content...</source>
-        <translation>正在更新内容…</translation>
+        <translation>Uppdaterar innehåll...</translation>
     </message>
     <message numerus="yes">
         <source>chats</source>
         <translation>
-            <numerusform>对话</numerusform>
+            <numerusform>chatt</numerusform>
+            <numerusform>chattar</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>unread messages</source>
         <translation>
-            <numerusform>未读
-消息</numerusform>
+            <numerusform>oläst meddelande</numerusform>
+            <numerusform>olästa meddelanden</numerusform>
         </translation>
     </message>
 </context>
@@ -541,67 +560,67 @@
     <message>
         <source>Group Member Permissions</source>
         <comment>what can normal group members do</comment>
-        <translation>群组成员权限</translation>
+        <translation>Gruppmedlemmars rättigheter</translation>
     </message>
     <message>
         <source>Send Messages</source>
         <comment>member permission</comment>
-        <translation>发送消息</translation>
+        <translation>Skicka meddelanden</translation>
     </message>
     <message>
         <source>Send Media Messages</source>
         <comment>member permission</comment>
-        <translation>发送媒体消息</translation>
+        <translation>Skicka mediameddelanden</translation>
     </message>
     <message>
         <source>Send Other Messages</source>
         <comment>member permission</comment>
-        <translation>发送其它消息</translation>
+        <translation>Skicka andra meddelanden</translation>
     </message>
     <message>
         <source>Add Web Page Previews</source>
         <comment>member permission</comment>
-        <translation>添加网页预览</translation>
+        <translation>Lägga till förhandsvisning av webbsida</translation>
     </message>
     <message>
         <source>Change Chat Info</source>
         <comment>member permission</comment>
-        <translation>修改群组消息</translation>
+        <translation>Ändra chattinformation</translation>
     </message>
     <message>
         <source>Invite Users</source>
         <comment>member permission</comment>
-        <translation>邀请用户</translation>
+        <translation>Bjuda in användare</translation>
     </message>
     <message>
         <source>Pin Messages</source>
         <comment>member permission</comment>
-        <translation>置顶消息</translation>
+        <translation>Fästa meddelanden</translation>
     </message>
     <message>
         <source>New Members</source>
         <comment>what can new group members do</comment>
-        <translation>新成员</translation>
+        <translation>Nya medlemmar</translation>
     </message>
     <message>
         <source>New members can see older messages</source>
         <comment>member permission</comment>
-        <translation>新成员可以看见旧消息</translation>
+        <translation>Nya medlemmar kan se gamla meddelanden</translation>
     </message>
 </context>
 <context>
     <name>EditSuperGroupSlowModeColumn</name>
     <message>
         <source>Slow Mode</source>
-        <translation>慢速模式</translation>
+        <translation>Långsamt läge</translation>
     </message>
     <message>
         <source>Off</source>
-        <translation>关闭</translation>
+        <translation>Av</translation>
     </message>
     <message>
         <source>Set how long every chat member has to wait between Messages</source>
-        <translation>设置对话成员在发送两次消息之间需要等候的时间</translation>
+        <translation>Ange hur länge varje chatmedlem måste vänta mellan meddelanden</translation>
     </message>
 </context>
 <context>
@@ -609,285 +628,287 @@
     <message>
         <source>sent a picture</source>
         <comment>myself</comment>
-        <translation>发送图片</translation>
+        <translation>skickade en bild</translation>
     </message>
     <message>
         <source>sent a picture</source>
-        <translation>发送图片</translation>
+        <translation>skickade en bild</translation>
     </message>
     <message>
         <source>sent a video</source>
         <comment>myself</comment>
-        <translation>发送视频</translation>
+        <translation>skickade en video</translation>
     </message>
     <message>
         <source>sent a video</source>
-        <translation>发送视频</translation>
+        <translation>skickade en video</translation>
     </message>
     <message>
         <source>sent an animation</source>
         <comment>myself</comment>
-        <translation>发送动画</translation>
+        <translation>skickade en animering</translation>
     </message>
     <message>
         <source>sent an animation</source>
-        <translation>发送动画</translation>
+        <translation>skickade en animering</translation>
     </message>
     <message>
         <source>sent a voice note</source>
-        <translation>发送语音消息</translation>
+        <translation>skickade ett röstmeddelande</translation>
     </message>
     <message>
         <source>sent a document</source>
         <comment>myself</comment>
-        <translation>发送文档</translation>
+        <translation>skickade ett dokument</translation>
     </message>
     <message>
         <source>sent a document</source>
-        <translation>发送文档</translation>
+        <translation>skickade ett dokument</translation>
     </message>
     <message>
         <source>sent a location</source>
         <comment>myself</comment>
-        <translation>发送位置</translation>
+        <translation>skickade en plats</translation>
     </message>
     <message>
         <source>sent a location</source>
-        <translation>发送位置</translation>
+        <translation>Skickade en plats</translation>
     </message>
     <message>
         <source>have registered with Telegram</source>
         <comment>myself</comment>
-        <translation>已注册到 Telegram</translation>
+        <translation>har registrerats på Telegram</translation>
     </message>
     <message>
         <source>has registered with Telegram</source>
-        <translation>已注册到 Telegram </translation>
+        <translation>har registrerats på Telegram</translation>
     </message>
     <message>
         <source>joined this chat</source>
         <comment>myself</comment>
-        <translation>已加入此对话</translation>
+        <translation>anslöt till denna chat</translation>
     </message>
     <message>
         <source>joined this chat</source>
-        <translation>已加入此对话</translation>
+        <translation>anslöt till denna chat</translation>
     </message>
     <message>
         <source>were added to this chat</source>
         <comment>myself</comment>
-        <translation>已经加入到此对话之中</translation>
+        <translation>lades till i denna chatt</translation>
     </message>
     <message>
         <source>was added to this chat</source>
-        <translation>已加入到此对话</translation>
+        <translation>lades till i denna chatt</translation>
     </message>
     <message>
         <source>left this chat</source>
         <comment>myself</comment>
-        <translation>离开此对话</translation>
+        <translation>lämnade denna chatt</translation>
     </message>
     <message>
         <source>left this chat</source>
-        <translation>离开此对话</translation>
+        <translation>lämnade denna chatt</translation>
     </message>
     <message>
         <source>sent a voice note</source>
         <comment>myself</comment>
-        <translation>发送视频消息</translation>
+        <translation>skickade ett röstmeddelande</translation>
     </message>
     <message>
         <source>sent a venue</source>
         <comment>myself</comment>
-        <translation>发送地点</translation>
+        <translation>skickade en plats</translation>
     </message>
     <message>
         <source>sent a venue</source>
-        <translation>发送地点</translation>
+        <translation>skickade en plats</translation>
     </message>
     <message>
         <source>changed the chat title</source>
         <comment>myself</comment>
-        <translation>修改此对话标题</translation>
+        <translation>ändrade chattnamnet</translation>
     </message>
     <message>
         <source>changed the chat title</source>
-        <translation>修改此对话标题</translation>
-    </message>
-    <message>
-        <source>sent a poll</source>
-        <comment>myself</comment>
-        <translation>发送投票</translation>
-    </message>
-    <message>
-        <source>sent a poll</source>
-        <translation>发送投票</translation>
+        <translation>ändrade chattnamnet</translation>
     </message>
     <message>
         <source>sent a quiz</source>
         <comment>myself</comment>
-        <translation>发送 quiz</translation>
+        <translation>skickade en frågesport</translation>
     </message>
     <message>
         <source>sent a quiz</source>
-        <translation>发送 quiz</translation>
+        <translation>skickade en frågesport</translation>
+    </message>
+    <message>
+        <source>sent a poll</source>
+        <comment>myself</comment>
+        <translation>skickade en omröstning</translation>
+    </message>
+    <message>
+        <source>sent a poll</source>
+        <translation>skickade en omröstning</translation>
     </message>
     <message>
         <source>created this group</source>
         <comment>myself</comment>
-        <translation>已创建此群组</translation>
+        <translation>skapade denna grupp</translation>
     </message>
     <message>
         <source>created this group</source>
-        <translation>已创建此群组</translation>
+        <translation>skapade denna grupp</translation>
     </message>
     <message>
         <source>changed the chat photo</source>
         <comment>myself</comment>
-        <translation>修改此对话图片</translation>
+        <translation>bytte chattfoto</translation>
     </message>
     <message>
         <source>changed the chat photo</source>
-        <translation>修改此对话图片</translation>
+        <translation>bytte chattfoto</translation>
     </message>
     <message>
         <source>deleted the chat photo</source>
         <comment>myself</comment>
-        <translation>已删除此对话图片</translation>
+        <translation>tog bort chattfoto</translation>
     </message>
     <message>
         <source>deleted the chat photo</source>
-        <translation>已删除此对话图片</translation>
+        <translation>tog bort chattfoto</translation>
     </message>
     <message>
         <source>changed the secret chat TTL setting</source>
         <comment>myself</comment>
-        <translation>修改加密对话保留时长设置</translation>
+        <translation>ändrade den hemliga chattens livstidsinställning</translation>
     </message>
     <message>
         <source>changed the secret chat TTL setting</source>
-        <translation>修改加密对话保留时长设置</translation>
+        <translation>ändrade den hemliga chattens livstidsinställning</translation>
     </message>
     <message>
         <source>upgraded this group to a supergroup</source>
         <comment>myself</comment>
-        <translation>已更新此群组为超级群组</translation>
+        <translation>uppgraderade denna grupp till en supergrupp</translation>
     </message>
     <message>
         <source>changed the pinned message</source>
         <comment>myself</comment>
-        <translation>修改置顶消息</translation>
+        <translation>ändrade det fästa meddelandet</translation>
     </message>
     <message>
         <source>changed the pinned message</source>
-        <translation>修改置顶消息</translation>
+        <translation>ändrade det fästa meddelandet</translation>
     </message>
     <message>
         <source>created a screenshot in this chat</source>
         <comment>myself</comment>
-        <translation>已截图此对话</translation>
+        <translation>skapade ett skärmklipp i denna chatt</translation>
     </message>
     <message>
         <source>created a screenshot in this chat</source>
-        <translation>已截图此对话</translation>
+        <translation>skapade ett skärmklipp i denna chatt</translation>
     </message>
     <message>
         <source>sent an unsupported message</source>
         <comment>myself</comment>
-        <translation>发送不受支持的消息</translation>
+        <translation>skickade ett meddelande som inte stöds</translation>
     </message>
     <message>
         <source>sent an unsupported message</source>
-        <translation>发送不受支持的消息</translation>
+        <translation>skickade ett meddelande som inte stöds</translation>
     </message>
     <message>
         <source>sent an unsupported message: %1</source>
-        <translation>发送不受支持的消息: %1</translation>
+        <translation>skickade ett meddelande som inte stöds: %1</translation>
     </message>
     <message>
         <source>upgraded this group to a supergroup</source>
-        <translation>已更新此群组为超级群组</translation>
+        <translation>uppgraderade denna grupp till en supergrupp</translation>
     </message>
     <message>
         <source>sent a self-destructing photo that is expired</source>
         <comment>myself</comment>
-        <translation>发送过期即自毁图片</translation>
+        <translation>skickade ett självförstörande foto som är utgånget</translation>
     </message>
     <message>
         <source>sent a self-destructing video that is expired</source>
         <comment>myself</comment>
-        <translation>发送过期即自毁视频</translation>
+        <translation>skickade en självförstörande video som är utgången</translation>
     </message>
     <message>
         <source>sent a self-destructing video that is expired</source>
-        <translation>发送过期即自毁视频</translation>
+        <translation>skickade en självförstörande video som är utgången</translation>
     </message>
     <message>
         <source>sent an unsupported message: %1</source>
         <comment>myself</comment>
-        <translation>发送不受支持的消息: %1</translation>
+        <translation>skickade ett meddelande som inte stöds: %1</translation>
     </message>
     <message>
         <source>sent a self-destructing photo that is expired</source>
-        <translation>发送过期即自毁视频</translation>
+        <translation>skickade ett självförstörande foto som är utgånget</translation>
     </message>
     <message>
         <source>sent an audio</source>
         <comment>myself</comment>
-        <translation>发送音频</translation>
+        <translation>skickade en ljudfil</translation>
     </message>
     <message>
         <source>sent an audio</source>
-        <translation>发送音频</translation>
+        <translation>skickade en ljudfil</translation>
     </message>
     <message>
         <source>has added %1 to the chat</source>
-        <translation>已加入 %1 到此对话</translation>
+        <translation>har lagt till %1 i chatten</translation>
     </message>
     <message>
         <source>has removed %1 from the chat</source>
-        <translation>已从此对话移除 %1</translation>
+        <translation>har tagit bort %1 från chatten</translation>
     </message>
     <message>
         <source>have added %1 to the chat</source>
         <comment>myself</comment>
-        <translation>已加入 %1 到此对话</translation>
+        <translation>har lagt till %1 i chatten</translation>
     </message>
     <message>
         <source>have removed %1 from the chat</source>
         <comment>myself</comment>
-        <translation>已从此对话移除 %1</translation>
+        <translation>har tagit bort %1 från chatten</translation>
     </message>
     <message numerus="yes">
         <source>scored %Ln points</source>
         <comment>myself</comment>
         <translation>
-            <numerusform>已取得 %Ln 分</numerusform>
+            <numerusform>kom upp i %Ln poäng</numerusform>
+            <numerusform>kom upp i %Ln poäng</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>scored %Ln points</source>
         <translation>
-            <numerusform>已取得 %Ln 分</numerusform>
+            <numerusform>kom upp i %Ln poäng</numerusform>
+            <numerusform>kom upp i %Ln poäng</numerusform>
         </translation>
     </message>
     <message>
         <source>sent a game</source>
         <comment>myself</comment>
-        <translation>发送游戏</translation>
+        <translation>skickade ett spel</translation>
     </message>
     <message>
         <source>sent a game</source>
-        <translation>发送游戏</translation>
+        <translation>skickade ett spel</translation>
     </message>
     <message>
         <source>sent a video note</source>
         <comment>myself</comment>
-        <translation>发送视频消息</translation>
+        <translation>skickade ett videomeddelande</translation>
     </message>
     <message>
         <source>sent a video note</source>
-        <translation>发送视频消息</translation>
+        <translation>skickade ett videomeddelande</translation>
     </message>
 </context>
 <context>
@@ -896,7 +917,8 @@
         <source>Forward %Ln messages</source>
         <comment>dialog header</comment>
         <translation type="unfinished">
-            <numerusform>转发 %Ln 则消息</numerusform>
+            <numerusform>Vidarebefordra %Ln meddelande</numerusform>
+            <numerusform>Vidarebefordra %Ln meddelanden</numerusform>
         </translation>
     </message>
 </context>
@@ -904,159 +926,161 @@
     <name>ImagePage</name>
     <message>
         <source>Download Picture</source>
-        <translation>下载图片</translation>
+        <translation>Ladda ner bild</translation>
     </message>
     <message>
         <source>Download of %1 successful.</source>
-        <translation>已成功下载 %1 。</translation>
+        <translation>Nerladdning av %1 slutförd.</translation>
     </message>
     <message>
         <source>Download failed.</source>
-        <translation>下载失败。</translation>
+        <translation>Nerladdningen misslyckades.</translation>
     </message>
 </context>
 <context>
     <name>InReplyToRow</name>
     <message>
         <source>You</source>
-        <translation>你</translation>
+        <translation>Du</translation>
     </message>
     <message>
         <source>Unknown</source>
-        <translation>未知</translation>
+        <translation>Okänd</translation>
     </message>
     <message>
         <source>This message was deleted</source>
-        <translation>已删除此消息</translation>
+        <translation>Meddelandet togs bort</translation>
     </message>
 </context>
 <context>
     <name>InitializationPage</name>
     <message>
         <source>OK</source>
-        <translation>确认</translation>
+        <translation>OK</translation>
     </message>
     <message>
         <source>Welcome to Fernschreiber!</source>
-        <translation>欢迎使用 Fernschreiber ！</translation>
+        <translation>Välkommen till Fernschreiber!</translation>
     </message>
     <message>
         <source>Please enter your phone number to continue.</source>
-        <translation>请输入你的电话号码以继续。</translation>
+        <translation>Ange ditt telefonnummer för att fortsätta.</translation>
     </message>
     <message>
         <source>Continue</source>
-        <translation>继续</translation>
+        <translation>Fortsätt</translation>
     </message>
     <message>
         <source>Please enter the code that you received:</source>
-        <translation>请输入你收到的验证码:</translation>
+        <translation>Ange koden du mottog:</translation>
     </message>
     <message>
         <source>Loading...</source>
-        <translation>正在加载…</translation>
+        <translation>Läser in...</translation>
     </message>
     <message>
         <source>Unable to authenticate you with the entered code.</source>
-        <translation>无法使用你输入的验证码进行授权。</translation>
+        <translation>Det gick inte att autentisera dig med angiven kod.</translation>
     </message>
     <message>
         <source>Enter code again</source>
-        <translation>再次输入验证码</translation>
+        <translation>Ange koden igen</translation>
     </message>
     <message>
         <source>Restart authentication</source>
-        <translation>重新授权</translation>
+        <translation>Starta om autentisering</translation>
     </message>
     <message>
         <source>Please enter your password:</source>
-        <translation>请输入你的密码:</translation>
-    </message>
-    <message>
-        <source>Register User</source>
-        <translation>注册用户</translation>
-    </message>
-    <message>
-        <source>Enter your First Name</source>
-        <translation>输入你的名字</translation>
-    </message>
-    <message>
-        <source>Enter your Last Name</source>
-        <translation>输入你的姓氏</translation>
+        <translation>Ange ditt lösenord:</translation>
     </message>
     <message>
         <source>User Registration</source>
-        <translation>用户注册</translation>
+        <translation>Användarregistrering</translation>
+    </message>
+    <message>
+        <source>Enter your First Name</source>
+        <translation>Ange ditt förnamn</translation>
+    </message>
+    <message>
+        <source>Enter your Last Name</source>
+        <translation>Ange ditt efternamn</translation>
+    </message>
+    <message>
+        <source>Register User</source>
+        <translation>Registrera användaren</translation>
     </message>
     <message>
         <source>Use the international format, e.g. %1</source>
-        <translation>请使用国际区号格式，例如 %1</translation>
+        <translation>Använd internationellt format, t.ex. %1</translation>
     </message>
     <message>
         <source>About Fernschreiber</source>
-        <translation>关于 Fernschreiber</translation>
+        <translation>Om Fernschreiber</translation>
     </message>
 </context>
 <context>
     <name>MessageListViewItem</name>
     <message>
         <source>Reply to Message</source>
-        <translation>回复此消息</translation>
+        <translation>Svara på meddelandet</translation>
     </message>
     <message>
         <source>Edit Message</source>
-        <translation>编辑消息</translation>
+        <translation>Redigera meddelandet</translation>
     </message>
     <message>
         <source>You</source>
-        <translation>你</translation>
+        <translation>Du</translation>
     </message>
     <message>
         <source>Forwarded Message</source>
-        <translation>转发消息</translation>
+        <translation>Vidarebefordrat meddelande</translation>
     </message>
     <message>
         <source>Select Message</source>
-        <translation>选择消息</translation>
+        <translation>Markera meddelanden</translation>
     </message>
     <message>
         <source>More Options...</source>
-        <translation>更多选项…</translation>
+        <translation>Fler alternativ...</translation>
     </message>
     <message>
         <source>Message deleted</source>
-        <translation>已删除消息</translation>
+        <translation>Mededelande borttaget</translation>
     </message>
     <message>
         <source>Copy Message to Clipboard</source>
-        <translation>复制消息到剪切板</translation>
+        <translation>Kopiera meddelandet till urklipp</translation>
     </message>
     <message>
         <source>Forward Message</source>
-        <translation>转发消息</translation>
+        <translation>Vidarebefordra meddelande</translation>
     </message>
     <message>
         <source>Delete Message</source>
-        <translation>删除消息</translation>
+        <translation>Ta bort meddelandet</translation>
     </message>
 </context>
 <context>
     <name>MessageListViewItemSimple</name>
     <message>
         <source>You</source>
-        <translation>你</translation>
+        <translation>Du</translation>
     </message>
     <message numerus="yes">
         <source>scored %Ln points in %2</source>
         <comment>myself</comment>
         <translation>
-            <numerusform>已在 %2 取得 %Ln 分</numerusform>
+            <numerusform>kom upp i %Ln poäng i %2</numerusform>
+            <numerusform>kom upp i %Ln poäng i %2</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>scored %Ln points in %2</source>
         <translation>
-            <numerusform>已在 %2 取得 %Ln 分</numerusform>
+            <numerusform>kom upp i %Ln poäng i %2</numerusform>
+            <numerusform>kom upp i %Ln poäng i %2</numerusform>
         </translation>
     </message>
 </context>
@@ -1064,35 +1088,36 @@
     <name>MessageOverlayFlickable</name>
     <message>
         <source>You</source>
-        <translation>你</translation>
+        <translation>Du</translation>
     </message>
     <message>
         <source>This message was forwarded. Original author: %1</source>
-        <translation>此消息为转发消息，原作者: %1</translation>
+        <translation>Detta meddelande är vidarebefordrat. Ursprunglig avsändare: %1</translation>
     </message>
 </context>
 <context>
     <name>MessagePoll</name>
     <message>
         <source>Close Poll</source>
-        <translation>关闭投票</translation>
+        <translation>Stäng omröstningen</translation>
     </message>
     <message>
         <source>Reset Answer</source>
-        <translation>重设回答</translation>
+        <translation>Återställ svar</translation>
     </message>
     <message>
         <source>Final Result:</source>
-        <translation>最终结果:</translation>
+        <translation>Slutresultat:</translation>
     </message>
     <message>
         <source>Multiple Answers are allowed.</source>
-        <translation>允许多个回答。</translation>
+        <translation>Flera svarsalternativ är tillåtna.</translation>
     </message>
     <message numerus="yes">
         <source>%Ln%</source>
         <comment>% of votes for option</comment>
         <translation>
+            <numerusform>%Ln%</numerusform>
             <numerusform>%Ln%</numerusform>
         </translation>
     </message>
@@ -1100,7 +1125,8 @@
         <source>%Ln vote(s) total</source>
         <comment>number of total votes</comment>
         <translation>
-            <numerusform>总计 %Ln 次投票</numerusform>
+            <numerusform>%Ln röst sammanlagt</numerusform>
+            <numerusform>%Ln röster sammanlagt</numerusform>
         </translation>
     </message>
 </context>
@@ -1109,61 +1135,61 @@
     <message>
         <source>via %1</source>
         <comment>message posted via bot user</comment>
-        <translation>通过机器用户 %1</translation>
+        <translation>via %1</translation>
     </message>
 </context>
 <context>
     <name>MessageVoiceNote</name>
     <message>
         <source>Voice Note</source>
-        <translation>语音消息</translation>
+        <translation>Röstmeddelande</translation>
     </message>
 </context>
 <context>
     <name>NewChatPage</name>
     <message>
         <source>Your Contacts</source>
-        <translation>你的联系人</translation>
+        <translation>Dina kontakter</translation>
     </message>
     <message>
         <source>You don&apos;t have any contacts.</source>
-        <translation>你还没有任何联系人。</translation>
+        <translation>Du har inga kontakter</translation>
     </message>
     <message>
         <source>Private Chat</source>
-        <translation>个人对话</translation>
+        <translation>Privat chatt</translation>
     </message>
     <message>
         <source>Secret Chat</source>
-        <translation>加密对话</translation>
+        <translation>Hemlig chatt</translation>
     </message>
     <message>
         <source>End-to-end-encrypted, accessible on this device only</source>
-        <translation>端对端加密，仅能通过此设备访问。</translation>
+        <translation>Slutpunkt till slutpunktskrypterad, åtkomlig endast på denna enhet.</translation>
     </message>
     <message>
         <source>Loading contacts...</source>
-        <translation>正在加载联系人…</translation>
+        <translation>Läser in kontakter...</translation>
     </message>
     <message>
         <source>Transport-encrypted, uses Telegram Cloud, sharable across devices</source>
-        <translation>传输加密，使用 Telegram 云，可以在设备之间共享</translation>
+        <translation>Transportkrypterad, använder Telegram Cloud, kan delas mellan enheter.</translation>
     </message>
     <message>
         <source>Search a contact...</source>
-        <translation>搜索联系人…</translation>
+        <translation>Sök en kontakt</translation>
     </message>
     <message>
         <source>Synchronize Contacts with Telegram</source>
-        <translation>同步 Telegram 联系人</translation>
+        <translation>Synkronisera kontakter med Telegram</translation>
     </message>
     <message>
         <source>Contacts successfully synchronized with Telegram.</source>
-        <translation>已成功同步 Telegram 联系人。</translation>
+        <translation>Kontakter synkroniserade med Telegram.</translation>
     </message>
     <message>
         <source>No contacts found.</source>
-        <translation type="unfinished"></translation>
+        <translation>Inga kontakter hittades.</translation>
     </message>
 </context>
 <context>
@@ -1171,86 +1197,107 @@
     <message numerus="yes">
         <source>%Ln unread messages</source>
         <translation>
-            <numerusform>%Ln 则未读消息</numerusform>
+            <numerusform>%Ln oläst meddelande</numerusform>
+            <numerusform>%Ln olästa meddelanden</numerusform>
         </translation>
     </message>
 </context>
 <context>
     <name>OverviewPage</name>
     <message>
-        <source>About Fernschreiber</source>
-        <translation>关于 Fernschreiber</translation>
-    </message>
-    <message>
-        <source>Fernschreiber</source>
-        <translation>Fernschreiber</translation>
-    </message>
-    <message>
         <source>Waiting for network...</source>
-        <translation>等候网络连接…</translation>
+        <translation type="unfinished">Väntar på nätverket...</translation>
     </message>
     <message>
         <source>Connecting to network...</source>
-        <translation>正在连接到网络…</translation>
+        <translation type="unfinished">Ansluter till nätverket...</translation>
     </message>
     <message>
         <source>Connecting to proxy...</source>
-        <translation>正在连接到代理…</translation>
+        <translation type="unfinished">Ansluter till proxy...</translation>
+    </message>
+    <message>
+        <source>Fernschreiber</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Updating content...</source>
-        <translation>正在更新内容…</translation>
+        <translation type="unfinished">Uppdaterar innehåll...</translation>
     </message>
     <message>
         <source>Loading chat list...</source>
-        <translation>正在加载对话列表…</translation>
-    </message>
-    <message>
-        <source>Settings</source>
-        <translation>设置</translation>
-    </message>
-    <message>
-        <source>You don&apos;t have any chats yet.</source>
-        <translation>你还没有任何对话。</translation>
-    </message>
-    <message>
-        <source>New Chat</source>
-        <translation>新对话</translation>
-    </message>
-    <message>
-        <source>Filter your chats...</source>
-        <translation>筛选你的对话…</translation>
-    </message>
-    <message>
-        <source>Search Chats</source>
-        <translation>搜索对话</translation>
-    </message>
-    <message>
-        <source>Download of %1 successful.</source>
-        <translation>已成功下载 %1 。</translation>
-    </message>
-    <message>
-        <source>Download failed.</source>
-        <translation>下载失败。</translation>
-    </message>
-    <message>
-        <source>Tap on the title bar to filter your chats</source>
-        <translation>点击顶部状态栏即可筛选你的对话</translation>
-    </message>
-    <message>
-        <source>No matching chats found.</source>
-        <translation>没有找到匹配的对话。</translation>
-    </message>
-    <message>
-        <source>You can search public chats or create a new chat via the pull-down menu.</source>
-        <translation>你可以搜索公共对话或通过下拉菜单创建新对话。</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Logging out</source>
-        <translation>正在登出</translation>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Download of %1 successful.</source>
+        <translation type="unfinished">Nerladdning av %1 slutförd.</translation>
+    </message>
+    <message>
+        <source>Download failed.</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
         <source>Unable to open link.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Filter your chats...</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>About Fernschreiber</source>
+        <translation type="unfinished">Om Fernschreiber</translation>
+    </message>
+    <message>
+        <source>Open About app page</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Settings</source>
+        <translation type="unfinished">Inställningar</translation>
+    </message>
+    <message>
+        <source>Open setting page</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Search Chats</source>
+        <translation type="unfinished">Sök chattar</translation>
+    </message>
+    <message>
+        <source>Open searching page</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>New Chat</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Create a new chat</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You don&apos;t have any chats yet.</source>
+        <translation type="unfinished">Du har inga chattar än.</translation>
+    </message>
+    <message>
+        <source>No matching chats found.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>You can search public chats or create a new chat via the pull-down menu.</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>All Chats</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Unread chats count</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1258,144 +1305,156 @@
     <name>PinnedMessageItem</name>
     <message>
         <source>You</source>
-        <translation>你</translation>
+        <translation>Du</translation>
     </message>
     <message>
         <source>Pinned Message</source>
-        <translation>已置顶消息</translation>
+        <translation>Fäst meddelande</translation>
     </message>
     <message>
         <source>Message unpinned</source>
-        <translation>已取消置顶消息</translation>
+        <translation>Meddelandet lösgjort</translation>
     </message>
 </context>
 <context>
     <name>PollCreationPage</name>
     <message>
-        <source>All answers have to contain 1-100 characters.</source>
-        <translation>所有回答必须包含1-100个字符。</translation>
-    </message>
-    <message>
-        <source>To send a quiz, you have to specify the right answer.</source>
-        <translation>如果你想发送 quiz，必须指定正确答案。</translation>
-    </message>
-    <message>
         <source>You have to enter a question.</source>
-        <translation>你必须输入问题。</translation>
+        <translation>Du måste ange en fråga.</translation>
     </message>
     <message>
         <source>The question has to be shorter than 256 characters.</source>
-        <translation>问题必须短于256个字符。</translation>
+        <translation>Frågan måste vara kortare än 256 tecken.</translation>
     </message>
     <message>
         <source>A poll requires 2-10 answers.</source>
-        <translation>一个选项需要包含2-10个回答。</translation>
+        <translation>En omröstning kräver 2-10 svarsalternativ.</translation>
+    </message>
+    <message>
+        <source>All answers have to contain 1-100 characters.</source>
+        <translation>Alla svarsalternativ måste innehålla 1-100 tecken.</translation>
+    </message>
+    <message>
+        <source>To send a quiz, you have to specify the right answer.</source>
+        <translation>För att skicka en frågesport, måste du ange rätt svar.</translation>
     </message>
     <message>
         <source>Create a Poll</source>
         <comment>Dialog Header</comment>
-        <translation>创建投票</translation>
+        <translation>Skapa en omröstning</translation>
     </message>
     <message>
         <source>in %1</source>
         <comment>After dialog header… Create a Poll in [group name]</comment>
-        <translation>位于 %1</translation>
+        <translation>i %1</translation>
     </message>
     <message>
         <source>Enter your question here</source>
-        <translation>在此输入你的问题</translation>
+        <translation>Ange din fråga här</translation>
     </message>
     <message numerus="yes">
         <source>Question (%Ln characters left)</source>
         <translation>
-            <numerusform>问题(剩余 %Ln 个字符)</numerusform>
+            <numerusform>Fråga (%Ln tecken kvar)</numerusform>
+            <numerusform>Fråga (%Ln tecken kvar)</numerusform>
         </translation>
     </message>
     <message>
         <source>Answers</source>
         <comment>Section header</comment>
-        <translation>回答</translation>
+        <translation>Svar</translation>
     </message>
     <message>
         <source>Enter an answer here</source>
-        <translation>在此输入回答</translation>
+        <translation>Ange svaret här</translation>
     </message>
     <message numerus="yes">
         <source>Answer (%Ln characters left)</source>
         <translation>
-            <numerusform>回答(剩余 %Ln 个字符)</numerusform>
+            <numerusform>Svar (%Ln tecken kvar)</numerusform>
+            <numerusform>Svar (%Ln tecken kvar)</numerusform>
         </translation>
     </message>
     <message>
         <source>Add an answer</source>
-        <translation>添加回答</translation>
+        <translation>Lägg till ett svar</translation>
     </message>
     <message>
         <source>Poll Options</source>
         <comment>Section header</comment>
-        <translation>投票选项</translation>
+        <translation>Omröstningsalternativ</translation>
     </message>
     <message>
         <source>Anonymous answers</source>
-        <translation>匿名回答</translation>
+        <translation>Anonyma svar</translation>
     </message>
     <message>
         <source>Multiple answers allowed</source>
-        <translation>允许选择多个回答</translation>
+        <translation>Flera svarsalternativ tillåtna</translation>
     </message>
     <message>
         <source>Quiz Mode</source>
-        <translation>Quiz 模式</translation>
+        <translation>Frågesportläge</translation>
     </message>
     <message>
         <source>Quizzes have one correct answer. Participants can&apos;t revoke their responses.</source>
-        <translation>Quiz 拥有一个正确选项，参与者无法撤销回答。</translation>
+        <translation>Frågor har ett (1) korrekt svar. Deltagarna kan inte återkalla sina svar.</translation>
     </message>
     <message>
         <source>Enter an optional explanation</source>
-        <translation>输入选项提示</translation>
+        <translation>Ange en valfri förklaring</translation>
     </message>
     <message>
         <source>Shown when the user selects a wrong answer.</source>
-        <translation>当用户选择错误答案时显示。</translation>
+        <translation>Visas när användaren väljer fel svar.</translation>
     </message>
     <message>
         <source>An explanation can be up to 200 characters long.</source>
-        <translation>提示文本可长达200个字符。</translation>
+        <translation>En förklaring kan vara upp till 200 tecken lång.</translation>
     </message>
 </context>
 <context>
     <name>PollResultsPage</name>
     <message>
         <source>Quiz Results</source>
-        <translation>Quiz 结果</translation>
+        <translation>Frågesportresultat</translation>
     </message>
     <message>
         <source>Poll Results</source>
-        <translation>投票结果</translation>
+        <translation>Omröstningsresultat</translation>
     </message>
     <message numerus="yes">
         <source>%Ln vote(s) total</source>
         <comment>number of total votes</comment>
         <translation>
-            <numerusform>总计 %Ln 次投票</numerusform>
+            <numerusform>%Ln röst sammanlagt</numerusform>
+            <numerusform>%Ln röster sammanlagt</numerusform>
         </translation>
     </message>
     <message>
         <source>Question</source>
         <comment>section header</comment>
-        <translation>问题</translation>
+        <translation>Fråga</translation>
     </message>
     <message>
         <source>Results</source>
         <comment>section header</comment>
-        <translation>结果</translation>
+        <translation>Resultat</translation>
+    </message>
+    <message numerus="yes">
+        <source>%Ln vote(s) including yours</source>
+        <comment>number of votes for option</comment>
+        <translation>
+            <numerusform>%Ln röst inklusive din</numerusform>
+            <numerusform>%Ln röster inklusive din</numerusform>
+        </translation>
     </message>
     <message numerus="yes">
         <source>%Ln vote(s)</source>
         <comment>number of votes for option</comment>
         <translation>
-            <numerusform>%Ln 次投票</numerusform>
+            <numerusform>%Ln röst</numerusform>
+            <numerusform>%Ln röster</numerusform>
         </translation>
     </message>
     <message numerus="yes">
@@ -1403,199 +1462,203 @@
         <comment>% of votes for option</comment>
         <translation>
             <numerusform>%Ln%</numerusform>
+            <numerusform>%Ln%</numerusform>
         </translation>
     </message>
     <message>
         <source>Chosen by:</source>
         <comment>This answer has been chosen by the following users</comment>
-        <translation>选择此项的人:</translation>
-    </message>
-    <message numerus="yes">
-        <source>%Ln vote(s) including yours</source>
-        <comment>number of votes for option</comment>
-        <translation>
-            <numerusform>%Ln 次投票，包括你</numerusform>
-        </translation>
+        <translation>Valt av:</translation>
     </message>
 </context>
 <context>
     <name>SearchChatsPage</name>
     <message>
         <source>No chats found.</source>
-        <translation>没有找到对话。</translation>
+        <translation>Inga chattar hittades.</translation>
     </message>
     <message>
         <source>Searching chats...</source>
-        <translation>正在搜索对话…</translation>
+        <translation>Söker chattar...</translation>
     </message>
     <message>
         <source>Private Chat</source>
-        <translation>个人对话</translation>
+        <translation>Privat chatt</translation>
     </message>
     <message>
         <source>Group</source>
-        <translation>群组</translation>
+        <translation>Grupp</translation>
     </message>
     <message>
         <source>Channel</source>
-        <translation>频道</translation>
+        <translation>Kanal</translation>
     </message>
     <message numerus="yes">
         <source>%1 members</source>
         <translation>
-            <numerusform>%1 位成员</numerusform>
+            <numerusform>%1 medlem</numerusform>
+            <numerusform>%1 medlemmar</numerusform>
         </translation>
     </message>
     <message numerus="yes">
         <source>%1 subscribers</source>
         <translation>
-            <numerusform>%1 位订阅者</numerusform>
+            <numerusform>%1 prenumerant</numerusform>
+            <numerusform>%1 prenumeranter</numerusform>
         </translation>
     </message>
     <message>
         <source>Search Chats</source>
-        <translation>搜索对话</translation>
+        <translation>Sök chattar</translation>
     </message>
     <message>
         <source>Search a chat...</source>
-        <translation>搜索对话…</translation>
+        <translation>Sök en chatt...</translation>
     </message>
     <message>
         <source>Enter your query to start searching (at least 5 characters needed)</source>
-        <translation>输入你要搜索的内容（至少需要输入5个字符）</translation>
+        <translation>Ange din söksträng för att starta sökning (minst 5 tecken behövs)</translation>
     </message>
 </context>
 <context>
     <name>SettingsAppearance</name>
     <message>
         <source>Appearance</source>
-        <translation>外观</translation>
+        <translation>Utseende</translation>
     </message>
     <message>
         <source>Show stickers as emojis</source>
-        <translation>显示表情贴图为 emoji</translation>
+        <translation>Visa dekaler som emoji</translation>
     </message>
     <message>
         <source>Only display emojis instead of the actual stickers</source>
-        <translation>仅显示 emoji 而非实际的表情贴图</translation>
+        <translation>Visa bara emoji istället för de faktiska dekalerna</translation>
     </message>
     <message>
         <source>Show stickers as images</source>
-        <translation>以图片形式显示表情贴图</translation>
+        <translation>Visa dekaler som bilder</translation>
     </message>
     <message>
         <source>Show background for stickers and align them centrally like images</source>
-        <translation>显示表情贴图背景并以图片形式自动居中</translation>
+        <translation>Visa bakgrund för dekaler och justera dem centralt som bilder</translation>
     </message>
     <message>
         <source>Animate stickers</source>
-        <translation>动态表情贴图</translation>
+        <translation>Animera dekaler</translation>
     </message>
 </context>
 <context>
     <name>SettingsBehavior</name>
     <message>
         <source>Behavior</source>
-        <translation>状态</translation>
+        <translation>Beteende</translation>
     </message>
     <message>
         <source>Send message by enter</source>
-        <translation>通过按下回车键发送消息</translation>
+        <translation>Skicka meddelanden med retur</translation>
     </message>
     <message>
         <source>Send your message by pressing the enter key</source>
-        <translation>通过按下回车键发送消息</translation>
+        <translation>Skicka meddelanden genom att trycka på returtangenten</translation>
     </message>
     <message>
         <source>Focus text input on chat open</source>
-        <translation>开启对话时聚焦文本输入区域</translation>
+        <translation>Fokusera textinmatningen vid chatt-öppning</translation>
     </message>
     <message>
         <source>Focus the text input area when entering a chat</source>
-        <translation>进入对话时聚焦文本输入区域</translation>
+        <translation>Fokusera textinmatningsområdet vid anslutning till en chatt</translation>
     </message>
     <message>
         <source>Focus text input area after send</source>
-        <translation>发送后聚焦文本输入区域</translation>
+        <translation>Fokusera textinmatningsfältet efter sändning</translation>
     </message>
     <message>
         <source>Focus the text input area after sending a message</source>
-        <translation>发送消息后聚焦文本输入区域</translation>
+        <translation>Fokusera textinmatningsfältet efter att ett meddelande skickats</translation>
     </message>
     <message>
         <source>Delay before marking messages as read</source>
-        <translation>标记消息已读前延迟</translation>
+        <translation>Fördröjning innan meddelanden markeras som lästa</translation>
     </message>
     <message>
         <source>Fernschreiber will wait a bit before messages are marked as read</source>
-        <translation>Fernschreiber 将会在标记消息已读之前延迟一下</translation>
+        <translation>Fernschreiber väntar en stund innan meddelanden markeras som lästa</translation>
     </message>
     <message>
         <source>Open-with menu integration</source>
-        <translation>整合打开方式菜单</translation>
+        <translation>Integrering av menyn &quot;Öppna med&quot;</translation>
     </message>
     <message>
         <source>Integrate Fernschreiber into open-with menu of Sailfish OS</source>
-        <translation>整合 Fernschreiber 到旗鱼系统打开方式菜单</translation>
+        <translation>Integrera Fernschreiber med menyn &quot;Öppna med&quot;, i Sailfish OS</translation>
     </message>
     <message>
         <source>Notification feedback</source>
-        <translation>通知反馈</translation>
+        <translation>Aviseringsåterkoppling</translation>
     </message>
     <message>
         <source>Use non-graphical feedback (sound, vibration) for notifications</source>
-        <translation>使用非图像反馈方式通知消息（例如声音及振动）</translation>
+        <translation>Använd icke-grafisk återkoppling (ljud, vibration) för avisering</translation>
     </message>
     <message>
         <source>All events</source>
-        <translation>全部事件</translation>
+        <translation>Alla händelser</translation>
     </message>
     <message>
         <source>Only new events</source>
-        <translation>仅新事件</translation>
+        <translation>Endast nya händelser</translation>
     </message>
     <message>
         <source>None</source>
-        <translation>无</translation>
+        <translation>Inget</translation>
     </message>
     <message>
         <source>Notification turns on the display</source>
-        <translation>收到通知时点亮屏幕</translation>
+        <translation>Avisering tänder skärmen</translation>
     </message>
     <message>
         <source>Enable notification sounds</source>
-        <translation>开启通知声音</translation>
+        <translation>Aktivera aviseringsljud</translation>
     </message>
     <message>
         <source>When sounds are enabled, Fernschreiber will use the current Sailfish OS notification sound for chats, which can be configured in the system settings.</source>
-        <translation>如果开启声音，Fernschreiber 会采用当前旗鱼系统通知声音作为对话通知声音，你可以在系统设置进行配置。</translation>
+        <translation>När ljud är aktiverat, använder Fernschreiber aktuell Sailfish-signal för chatt-avisering, vilken kan ställas in i systemets ljudinställningar.</translation>
     </message>
     <message>
         <source>Always append message preview to notifications</source>
-        <translation type="unfinished"></translation>
+        <translation>Visa alltid förhandsgranskning av meddelanden i aviseringar</translation>
     </message>
     <message>
         <source>In addition to showing the number of unread messages, the latest message will also be appended to notifications.</source>
-        <translation type="unfinished"></translation>
+        <translation>Förutom att visa antalet olästa meddelanden kommer det senaste meddelandet också att visas i aviseringarna.</translation>
     </message>
     <message>
         <source>Highlight unread messages</source>
-        <translation type="unfinished"></translation>
+        <translation>Färgmarkera olästa meddelanden</translation>
     </message>
     <message>
         <source>Highlight Conversations with unread messages</source>
-        <translation type="unfinished"></translation>
+        <translation>Färgmarkera konversationer med olästa meddelanden</translation>
     </message>
     <message>
         <source>Hide content in notifications</source>
-        <translation type="unfinished"></translation>
+        <translation>Dölj innehåll i aviseringar</translation>
     </message>
     <message>
         <source>Go to quoted message</source>
-        <translation type="unfinished"></translation>
+        <translation>Gå till citerat meddelande</translation>
     </message>
     <message>
         <source>When tapping a quoted message, open it in chat instead of showing it in an overlay.</source>
+        <translation>Vid tryck på ett citerat meddelande öppnas det i chatten istället för att visas i ett överlägg.</translation>
+    </message>
+    <message>
+        <source>Show reaction button on tap</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>The reaction button may appear when you tap the message bubble, to make access to the reactions even easier.</source>
         <translation type="unfinished"></translation>
     </message>
 </context>
@@ -1603,405 +1666,406 @@
     <name>SettingsPage</name>
     <message>
         <source>Settings</source>
-        <translation>设置</translation>
+        <translation>Inställningar</translation>
     </message>
 </context>
 <context>
     <name>SettingsPrivacy</name>
     <message>
         <source>Privacy</source>
-        <translation>隐私</translation>
+        <translation>Sekretess</translation>
     </message>
     <message>
         <source>Allow chat invites</source>
-        <translation>允许对话邀请</translation>
+        <translation>Tillåt chattinbjudningar</translation>
     </message>
     <message>
         <source>Privacy setting for managing whether you can be invited to chats.</source>
-        <translation>隐私设置，用于管理是否你可以被邀请到对话。</translation>
+        <translation>Sekretessinställning för att hantera om du kan bjudas in till chattar.</translation>
     </message>
     <message>
         <source>Yes</source>
-        <translation>是</translation>
+        <translation>Ja</translation>
     </message>
     <message>
         <source>Your contacts only</source>
-        <translation>仅限联系人</translation>
+        <translation>Endast mina kontakter</translation>
     </message>
     <message>
         <source>No</source>
-        <translation>否</translation>
+        <translation>Nej</translation>
     </message>
     <message>
         <source>Allow finding by phone number</source>
-        <translation>允许通过电话号码找到</translation>
+        <translation>Tillåt att jag hittas via telefonnummer</translation>
     </message>
     <message>
         <source>Privacy setting for managing whether you can be found by your phone number.</source>
-        <translation>隐私设置，用于管理是否你可以被通过电话号码找到。</translation>
+        <translation>Sekretessinställning för att hantera om du kan hittas via ditt telefonnummer.</translation>
     </message>
     <message>
         <source>Show link in forwarded messages</source>
-        <translation>在转发消息中显示链接</translation>
+        <translation>Visa länk i vidarebefordrade meddelanden</translation>
     </message>
     <message>
         <source>Privacy setting for managing whether a link to your account is included in forwarded messages.</source>
-        <translation>隐私设置，用于管理是否在转发消息中包含你的账户链接。</translation>
+        <translation>Sekretessinställning för att hantera om en länk till ditt konto inkluderas i vidarebefordrade meddelanden.</translation>
     </message>
     <message>
         <source>Show phone number</source>
-        <translation>显示电话号码</translation>
+        <translation>Visa telefonnummer</translation>
     </message>
     <message>
         <source>Privacy setting for managing whether your phone number is visible.</source>
-        <translation>隐私设置，用于管理你的电话号码是否可见。</translation>
+        <translation>Sekretessinställning för att hantera om ditt telefonnummer är synligt.</translation>
     </message>
     <message>
         <source>Show profile photo</source>
-        <translation>显示简介图片</translation>
+        <translation>Visa profilbild</translation>
     </message>
     <message>
         <source>Privacy setting for managing whether your profile photo is visible.</source>
-        <translation>隐私设置，用于管理是否你的简介图片可见。</translation>
+        <translation>Sekretessinställning för att hantera om din profilbild är synlig.</translation>
     </message>
     <message>
         <source>Show status</source>
-        <translation>显示状态</translation>
+        <translation>Visa status</translation>
     </message>
     <message>
         <source>Privacy setting for managing whether your online status is visible.</source>
-        <translation>隐私设置，用于管理是否你的在线状态可见。</translation>
+        <translation>Sekretessinställning för att hantera om din online-status är synlig.</translation>
     </message>
     <message>
         <source>Allow sending Location to inline bots</source>
-        <translation>允许发送位置到内联机器人</translation>
+        <translation>Tillåt att skicka plats till infogade robotar</translation>
     </message>
     <message>
         <source>Some inline bots request location data when using them</source>
-        <translation>使用某些内联机器人时会请求位置数据</translation>
+        <translation>Vissa infogade robotar begär platsdata när de används</translation>
     </message>
 </context>
 <context>
     <name>SettingsSession</name>
     <message>
         <source>Sessions</source>
-        <translation type="unfinished"></translation>
+        <translation>Sessioner</translation>
     </message>
     <message>
         <source>Session was terminated</source>
-        <translation>已删除设备</translation>
+        <translation>Sessionen avbröts</translation>
     </message>
     <message>
         <source>Terminating session</source>
-        <translation>删除设备</translation>
+        <translation>Avbryter session</translation>
     </message>
     <message>
         <source>Terminate Session</source>
-        <translation>删除设备</translation>
+        <translation>Avbryt sessionen</translation>
     </message>
     <message>
         <source>This app</source>
-        <translation>此应用</translation>
+        <translation>Denna app</translation>
     </message>
     <message>
         <source>Active since: %1, last online: %2</source>
-        <translation>活跃时间: %1, 上次在线: %2</translation>
+        <translation>Aktiv sedan: %1, senast online: %2</translation>
     </message>
     <message numerus="yes">
         <source>%1 day(s)</source>
-        <translation type="unfinished">
-            <numerusform></numerusform>
+        <translation>
+            <numerusform>%1 dag</numerusform>
+            <numerusform>%1 dagar</numerusform>
         </translation>
     </message>
     <message>
         <source>1 week</source>
-        <translation type="unfinished"></translation>
+        <translation>1 vecka</translation>
     </message>
     <message>
         <source>1 month</source>
-        <translation type="unfinished"></translation>
+        <translation>1 månad</translation>
     </message>
     <message>
         <source>3 months</source>
-        <translation type="unfinished"></translation>
+        <translation>3 månader</translation>
     </message>
     <message>
         <source>6 months</source>
-        <translation type="unfinished"></translation>
+        <translation>6 månader</translation>
     </message>
     <message>
         <source>1 year</source>
-        <translation type="unfinished"></translation>
+        <translation>1 år</translation>
     </message>
     <message>
         <source>Session Timeout</source>
-        <translation type="unfinished"></translation>
+        <translation>Tidsgräns för session</translation>
     </message>
     <message>
         <source>Inactive sessions will be terminated after this timeframe</source>
-        <translation type="unfinished"></translation>
+        <translation>Inaktiva sessioner avslutas efter den här tidsramen</translation>
     </message>
 </context>
 <context>
     <name>SettingsStorage</name>
     <message>
         <source>Storage</source>
-        <translation>储存</translation>
+        <translation>Lagring</translation>
     </message>
     <message>
         <source>Enable online-only mode</source>
-        <translation>开启仅在线模式</translation>
+        <translation>Aktivera endast-online-läge</translation>
     </message>
     <message>
         <source>Disables offline caching. Certain features may be limited or missing in this mode. Changes require a restart of Fernschreiber to take effect.</source>
-        <translation>禁用离线缓存。某些特定功能会在此模式中受限或消失。切换模式需要重启 fernschreiber 才能生效。</translation>
+        <translation>Inaktiverar cachelagring offline. Vissa funktioner kan vara begränsade eller saknas helt i det här läget. Ändringar kräver omstart av Fernschreiber för att träda i kraft.</translation>
     </message>
     <message>
         <source>Enable storage optimizer</source>
-        <translation>开启储存加速器</translation>
+        <translation>Aktivera lagringsoptimering</translation>
     </message>
 </context>
 <context>
     <name>SettingsUserProfile</name>
     <message>
         <source>User Profile</source>
-        <translation>用户简介</translation>
+        <translation>Användarprofil</translation>
     </message>
     <message>
         <source>First Name</source>
         <comment>first name of the logged-in profile - header</comment>
-        <translation>名字</translation>
+        <translation>Förnamn</translation>
     </message>
     <message>
         <source>Enter 1-64 characters</source>
-        <translation>输入 1-64 个字符</translation>
+        <translation>Ange 1-64 tecken</translation>
     </message>
     <message>
         <source>Last Name</source>
         <comment>last name of the logged-in profile - header</comment>
-        <translation>姓氏</translation>
+        <translation>Efternamn</translation>
     </message>
     <message>
         <source>Enter 0-64 characters</source>
-        <translation>输入 0-64 个字符</translation>
+        <translation>Ange 1-64 tecken</translation>
     </message>
     <message>
         <source>Username</source>
         <comment>user name of the logged-in profile - header</comment>
-        <translation>用户名</translation>
+        <translation>Användarnamn</translation>
     </message>
     <message>
         <source>Profile Pictures</source>
-        <translation>简介图片</translation>
+        <translation>Profilbilder</translation>
     </message>
     <message>
         <source>Add Picture</source>
-        <translation>添加图片</translation>
+        <translation>Lägg till bild</translation>
     </message>
     <message>
         <source>Delete Picture</source>
-        <translation>删除图片</translation>
+        <translation>Ta bort bild</translation>
     </message>
     <message>
         <source>Deleting profile picture</source>
-        <translation>删除简介图片</translation>
+        <translation>Tar bort profilbild</translation>
     </message>
     <message>
         <source>Uploading...</source>
-        <translation>正在上传…</translation>
+        <translation>Ladda upp...</translation>
     </message>
     <message>
         <source>Log Out</source>
-        <translation>登出</translation>
+        <translation>Logga ut</translation>
     </message>
     <message>
         <source>Logged out</source>
-        <translation>已登出</translation>
+        <translation>Utloggad</translation>
     </message>
     <message>
         <source>Phone number: +%1</source>
-        <translation>电话号码: +%1</translation>
+        <translation>Telefonnummer: +%1</translation>
     </message>
     <message>
         <source>Contacts successfully synchronized with Telegram.</source>
-        <translation>已成功同步 Telegram 联系人。</translation>
+        <translation>Kontakter synkroniserade med Telegram.</translation>
     </message>
     <message>
         <source>Synchronize Contacts with Telegram</source>
-        <translation>同步 Telegram 联系人</translation>
+        <translation>Synkronisera kontakter med Telegram</translation>
     </message>
 </context>
 <context>
     <name>SponsoredMessage</name>
     <message>
         <source>Go to Channel</source>
-        <translation type="unfinished"></translation>
+        <translation>Gå till kanal</translation>
     </message>
     <message>
         <source>Go to Message</source>
-        <translation type="unfinished"></translation>
+        <translation>Gå till meddelande</translation>
     </message>
     <message>
         <source>Start Bot</source>
-        <translation type="unfinished"></translation>
+        <translation>Starta robot</translation>
     </message>
 </context>
 <context>
     <name>StickerPicker</name>
     <message>
         <source>Recently used</source>
-        <translation>最近使用</translation>
+        <translation>Nyligen använt</translation>
     </message>
     <message>
         <source>Removing sticker set</source>
-        <translation>正在移除表情包</translation>
+        <translation>Tar bort dekaluppsättning</translation>
     </message>
     <message>
         <source>Sticker set successfully removed!</source>
-        <translation>表情包已成功移除！</translation>
+        <translation>Dekaluppsättning borttagen!</translation>
     </message>
 </context>
 <context>
     <name>StickerSetOverlay</name>
     <message>
         <source>Sticker set successfully installed!</source>
-        <translation>表情包已成功安装！</translation>
+        <translation>Dekaluppsättning installerad!</translation>
     </message>
     <message>
         <source>Sticker set successfully removed!</source>
-        <translation>表情包已成功移除！</translation>
+        <translation>Dekaluppsättning borttagen!</translation>
     </message>
 </context>
 <context>
     <name>VideoPage</name>
     <message>
         <source>Download of %1 successful.</source>
-        <translation>已成功下载 %1 。</translation>
+        <translation>Nerladdning av %1 slutförd.</translation>
     </message>
     <message>
         <source>Download failed.</source>
-        <translation>下载失败</translation>
+        <translation>Nerladdning misslyckades.</translation>
     </message>
     <message>
         <source>Copy video to gallery</source>
-        <translation>复制视频到图库</translation>
+        <translation>Kopiera video till Galleri</translation>
     </message>
 </context>
 <context>
     <name>VoiceNoteOverlay</name>
     <message>
         <source>Record a Voice Note</source>
-        <translation>录制语音消息</translation>
+        <translation>Spela in ett röstmeddelande</translation>
     </message>
     <message>
         <source>Press the button to start recording</source>
-        <translation>按下按钮即可开始录音</translation>
+        <translation>Tryck på knappen för att starta inspelning</translation>
     </message>
     <message>
         <source>Unavailable</source>
-        <translation>不可用</translation>
+        <translation>Ej tillgänglig</translation>
     </message>
     <message>
         <source>Starting</source>
-        <translation>正在启动</translation>
+        <translation>Startar</translation>
     </message>
     <message>
         <source>Recording</source>
-        <translation>正在录音</translation>
+        <translation>Spelar in</translation>
     </message>
     <message>
         <source>Stopping</source>
-        <translation>正在停止</translation>
+        <translation>Stoppar</translation>
     </message>
     <message>
         <source>Use recording</source>
-        <translation>使用录音</translation>
+        <translation>Använd inspelning</translation>
     </message>
     <message>
         <source>Voice Note (%1)</source>
-        <translation>语音消息 (%1)</translation>
+        <translation>Röstmeddelande (%1)</translation>
     </message>
     <message>
         <source>Ready</source>
-        <translation>就绪</translation>
+        <translation>Klar</translation>
     </message>
 </context>
 <context>
     <name>WebPagePreview</name>
     <message>
         <source>Preview not supported for this link...</source>
-        <translation>不支持预览此链接…</translation>
+        <translation>Stöd för förhandsvisning av denna länk saknas...</translation>
     </message>
 </context>
 <context>
     <name>functions</name>
     <message>
         <source>Video: %1</source>
-        <translation>视频: %1</translation>
+        <translation>Video: %1</translation>
     </message>
     <message>
         <source>has registered with Telegram</source>
-        <translation>已注册到 Telegram </translation>
+        <translation>har registrerats i Telegram</translation>
     </message>
     <message>
         <source>Picture: %1</source>
-        <translation>图片: %1</translation>
+        <translation>Bild: %1</translation>
     </message>
     <message>
         <source>Audio: %1</source>
-        <translation>音频: %1</translation>
+        <translation>Ljud: %1</translation>
     </message>
     <message>
         <source>Voice Note: %1</source>
-        <translation>语音: %1</translation>
+        <translation>Röstmeddelande: %1</translation>
     </message>
     <message>
         <source>Animation: %1</source>
-        <translation>动画: %1</translation>
+        <translation>Animering: %1</translation>
     </message>
     <message>
         <source>Document: %1</source>
-        <translation>文档: %1</translation>
+        <translation>Dokument: %1</translation>
     </message>
     <message>
         <source>sent a picture</source>
-        <translation>发送图片</translation>
+        <translation>skickade en bild</translation>
     </message>
     <message>
         <source>sent a video</source>
-        <translation>发送视频</translation>
+        <translation>skickade en video</translation>
     </message>
     <message>
         <source>sent an animation</source>
-        <translation>发送动画</translation>
+        <translation>skickade en animering</translation>
     </message>
     <message>
         <source>sent an audio</source>
-        <translation>发送音频</translation>
+        <translation>skickade en ljudfil</translation>
     </message>
     <message>
         <source>sent a voice note</source>
-        <translation>发送语音消息</translation>
+        <translation>skickade ett röstmeddelande</translation>
     </message>
     <message>
         <source>sent a document</source>
-        <translation>发送文档</translation>
+        <translation>skickade ett dokument</translation>
     </message>
     <message>
         <source>sent a location</source>
-        <translation>发送位置</translation>
+        <translation>skickade en plats</translation>
     </message>
     <message>
         <source>joined this chat</source>
-        <translation>已加入对话</translation>
+        <translation>anslöt till den här chatten</translation>
     </message>
     <message>
         <source>was added to this chat</source>
-        <translation>已加入到此对话</translation>
+        <translation>lades till i den här chatten</translation>
     </message>
     <message>
         <source>left this chat</source>
-        <translation>离开此对话</translation>
+        <translation>lämnade den här chatten</translation>
     </message>
     <message>
         <source>%1M</source>
@@ -2013,331 +2077,332 @@
     </message>
     <message>
         <source>sent a venue</source>
-        <translation>发送地点</translation>
+        <translation>skickade en plats</translation>
     </message>
     <message>
         <source>sent a picture</source>
         <comment>myself</comment>
-        <translation>发送图片</translation>
+        <translation>skickade en bild</translation>
     </message>
     <message>
         <source>sent a video</source>
         <comment>myself</comment>
-        <translation>发送视频</translation>
+        <translation>skickade en video</translation>
     </message>
     <message>
         <source>sent an animation</source>
         <comment>myself</comment>
-        <translation>发送动画</translation>
+        <translation>skickade en animering</translation>
     </message>
     <message>
         <source>sent an audio</source>
         <comment>myself</comment>
-        <translation>发送音频</translation>
+        <translation>skickade en ljudfil</translation>
     </message>
     <message>
         <source>sent a voice note</source>
         <comment>myself</comment>
-        <translation>发送语音</translation>
+        <translation>skickade ett röstmeddelande</translation>
     </message>
     <message>
         <source>sent a document</source>
         <comment>myself</comment>
-        <translation>发送文档</translation>
+        <translation>skickade ett dokument</translation>
     </message>
     <message>
         <source>sent a location</source>
         <comment>myself</comment>
-        <translation>发送位置</translation>
+        <translation>skickade en plats</translation>
     </message>
     <message>
         <source>sent a venue</source>
         <comment>myself</comment>
-        <translation>发送地点</translation>
+        <translation>skickade en plats</translation>
     </message>
     <message>
         <source>have registered with Telegram</source>
-        <translation>已注册到 Telegram</translation>
+        <translation>har registrerats i Telegram</translation>
     </message>
     <message>
         <source>joined this chat</source>
         <comment>myself</comment>
-        <translation>已加入此对话</translation>
+        <translation>anslöt till den här chatten</translation>
     </message>
     <message>
         <source>were added to this chat</source>
         <comment>myself</comment>
-        <translation>已经加入到此对话之中</translation>
+        <translation>lades till i den här chatten</translation>
     </message>
     <message>
         <source>left this chat</source>
         <comment>myself</comment>
-        <translation>离开此对话</translation>
+        <translation>lämnade den här chatten</translation>
     </message>
     <message>
         <source>was never online</source>
-        <translation>完全离线</translation>
+        <translation>var aldrig inloggad</translation>
     </message>
     <message>
         <source>last online: last month</source>
-        <translation>上次在线时间：上月</translation>
+        <translation>inloggad senast: Förra månaden</translation>
     </message>
     <message>
         <source>last online: last week</source>
-        <translation>上次在线时间：上周</translation>
+        <translation>inloggad senast: Förra veckan</translation>
     </message>
     <message>
         <source>last online: %1</source>
-        <translation>上次在线时间： %1</translation>
+        <translation>inloggad senast: %1</translation>
     </message>
     <message>
         <source>online</source>
-        <translation>在线</translation>
+        <translation>inloggad</translation>
     </message>
     <message>
         <source>was recently online</source>
-        <translation>最近在线</translation>
+        <translation>var nyligen inloggad</translation>
     </message>
     <message>
         <source>Admin</source>
         <comment>channel user role</comment>
-        <translation>管理员</translation>
+        <translation>Admin</translation>
     </message>
     <message>
         <source>Banned</source>
         <comment>channel user role</comment>
-        <translation>已禁止</translation>
+        <translation>Bannlyst</translation>
     </message>
     <message>
         <source>Creator</source>
         <comment>channel user role</comment>
-        <translation>创建者</translation>
+        <translation>Skapare</translation>
     </message>
     <message>
         <source>Restricted</source>
         <comment>channel user role</comment>
-        <translation>已受限</translation>
+        <translation>Begränsad</translation>
     </message>
     <message>
         <source>changed the chat title to %1</source>
         <comment>myself</comment>
-        <translation>已修改对话头衔为 %1</translation>
+        <translation>ändrade chattnamnet till %1</translation>
     </message>
     <message>
         <source>changed the chat title to %1</source>
-        <translation>已修改对话头衔为 %1</translation>
-    </message>
-    <message>
-        <source>sent a poll</source>
-        <comment>myself</comment>
-        <translation>发送投票</translation>
-    </message>
-    <message>
-        <source>sent a poll</source>
-        <translation>发送投票</translation>
+        <translation>ändrade chattnamnet till %1</translation>
     </message>
     <message>
         <source>sent an anonymous quiz</source>
         <comment>myself</comment>
-        <translation>发送匿名 quiz</translation>
+        <translation>skickade en anonym frågesport</translation>
     </message>
     <message>
         <source>sent an anonymous quiz</source>
-        <translation>发送匿名 quiz</translation>
+        <translation>skickade en anonym frågesport</translation>
     </message>
     <message>
         <source>sent a quiz</source>
         <comment>myself</comment>
-        <translation>发送 quiz</translation>
+        <translation>skickade en frågesport</translation>
     </message>
     <message>
         <source>sent a quiz</source>
-        <translation>发送 quiz</translation>
+        <translation>skickade en frågesport</translation>
     </message>
     <message>
         <source>sent an anonymous poll</source>
         <comment>myself</comment>
-        <translation>发送匿名投票</translation>
+        <translation>skickade en anonym omröstning</translation>
     </message>
     <message>
         <source>sent an anonymous poll</source>
-        <translation>发送匿名投票</translation>
+        <translation>skickade en anonym omröstning</translation>
+    </message>
+    <message>
+        <source>sent a poll</source>
+        <comment>myself</comment>
+        <translation>skickade en omröstning</translation>
+    </message>
+    <message>
+        <source>sent a poll</source>
+        <translation>skickade en omröstning</translation>
     </message>
     <message>
         <source>Anonymous Quiz</source>
-        <translation>匿名 Quiz</translation>
+        <translation>Anonym frågesport</translation>
     </message>
     <message>
         <source>Quiz</source>
-        <translation>Quiz</translation>
+        <translation>Frågesport</translation>
     </message>
     <message>
         <source>Anonymous Poll</source>
-        <translation>匿名投票</translation>
+        <translation>Anonym omröstning</translation>
     </message>
     <message>
         <source>Poll</source>
-        <translation>投票</translation>
+        <translation>Omröstning</translation>
     </message>
     <message>
         <source>created this group</source>
         <comment>myself</comment>
-        <translation>已创建此群组</translation>
+        <translation>skapade denna grupp</translation>
     </message>
     <message>
         <source>created this group</source>
-        <translation>已创建此群组</translation>
+        <translation>skapade denna grupp</translation>
     </message>
     <message>
         <source>changed the chat photo</source>
         <comment>myself</comment>
-        <translation>已修改此对话图片</translation>
+        <translation>bytte chattfoto</translation>
     </message>
     <message>
         <source>changed the chat photo</source>
-        <translation>已修改此对话图片</translation>
+        <translation>bytte chattfoto</translation>
     </message>
     <message>
         <source>deleted the chat photo</source>
         <comment>myself</comment>
-        <translation>已删除此对话图片</translation>
+        <translation>tog bort chattfotot</translation>
     </message>
     <message>
         <source>deleted the chat photo</source>
-        <translation>已删除此对话图片</translation>
+        <translation>tog bort chattfotot</translation>
     </message>
     <message>
         <source>changed the secret chat TTL setting</source>
         <comment>myself; TTL = Time To Live</comment>
-        <translation>修改加密对话保留时长设置</translation>
+        <translation>ändrade den hemliga chattens livstidsinställning</translation>
     </message>
     <message>
         <source>changed the secret chat TTL setting</source>
         <comment>TTL = Time To Live</comment>
-        <translation>修改加密对话保留时长设置</translation>
+        <translation>ändrade den hemliga chattens livstidsinställning</translation>
     </message>
     <message>
         <source>upgraded this group to a supergroup</source>
         <comment>myself</comment>
-        <translation>已更新此对话为超级群组。</translation>
+        <translation>uppgraderade denna grupp till en supergrupp</translation>
     </message>
     <message>
         <source>changed the pinned message</source>
         <comment>myself</comment>
-        <translation>修改置顶消息</translation>
+        <translation>ändrade det fästa meddelandet</translation>
     </message>
     <message>
         <source>changed the pinned message</source>
-        <translation>修改置顶消息</translation>
+        <translation>ändrade det fästa meddelandet</translation>
     </message>
     <message>
         <source>created a screenshot in this chat</source>
         <comment>myself</comment>
-        <translation>已截图此对话</translation>
+        <translation>skapade ett skärmklipp i denna chatt</translation>
     </message>
     <message>
         <source>created a screenshot in this chat</source>
-        <translation>已截图此对话</translation>
+        <translation>skapade ett skärmklipp i denna chatt</translation>
     </message>
     <message>
         <source>sent an unsupported message</source>
         <comment>myself</comment>
-        <translation>发送不受支持的消息</translation>
+        <translation>skickade ett meddelande som inte stöds</translation>
     </message>
     <message>
         <source>sent an unsupported message</source>
-        <translation>发送不受支持的消息</translation>
+        <translation>skickade ett meddelande som inte stöds</translation>
     </message>
     <message>
         <source>sent an unsupported message: %1</source>
         <comment>myself; %1 is message type</comment>
-        <translation>发送不受支持的消息: %1</translation>
+        <translation>skickade ett meddelande som inte stöds: %1</translation>
     </message>
     <message>
         <source>sent an unsupported message: %1</source>
         <comment>%1 is message type</comment>
-        <translation>发送不受支持的消息: %1</translation>
+        <translation>skickade ett meddelande som inte stöds: %1</translation>
     </message>
     <message>
         <source>upgraded this group to a supergroup</source>
-        <translation>已更新此群组为超级群组</translation>
+        <translation>uppgraderade denna grupp till en supergrupp</translation>
     </message>
     <message>
         <source>sent a self-destructing photo that is expired</source>
         <comment>myself</comment>
-        <translation>发送过期即自毁图片</translation>
+        <translation>skickade ett självförstörande foto som är utgånget</translation>
     </message>
     <message>
         <source>sent a self-destructing photo that is expired</source>
-        <translation>发送过期即自毁视频</translation>
+        <translation>skickade ett självförstörande foto som är utgånget</translation>
     </message>
     <message>
         <source>sent a self-destructing video that is expired</source>
         <comment>myself</comment>
-        <translation>发送过期即自毁视频</translation>
+        <translation>skickade en självförstörande video som är utgången</translation>
     </message>
     <message>
         <source>sent a self-destructing video that is expired</source>
-        <translation>发送过期即自毁视频</translation>
+        <translation>skickade en självförstörande video som är utgången</translation>
     </message>
     <message>
         <source>Unable to find user %1</source>
-        <translation>无法找到用户 %1</translation>
+        <translation>Kan inte hitta användare %1</translation>
     </message>
     <message>
         <source>sent a video note</source>
         <comment>myself</comment>
-        <translation>发送视频消息</translation>
+        <translation>skickade ett videomeddelande</translation>
     </message>
     <message>
         <source>sent a video note</source>
-        <translation>发送视频消息</translation>
+        <translation>skickade ett videomeddelande</translation>
     </message>
     <message>
         <source>You are already a member of this chat.</source>
-        <translation>你已是此对话成员。</translation>
+        <translation>Du är redan medlem i den här chatten.</translation>
     </message>
     <message>
         <source>Closed!</source>
-        <translation>已关闭！</translation>
+        <translation>Stängd!</translation>
     </message>
     <message>
         <source>Pending acknowledgement</source>
-        <translation>等待确认</translation>
+        <translation>Väntar på bekräftelse</translation>
     </message>
     <message>
         <source>has added %1 to the chat</source>
-        <translation>已加入 %1 到此对话</translation>
+        <translation>har lagt till %1 i chatten</translation>
     </message>
     <message>
         <source>has removed %1 from the chat</source>
-        <translation>已从此对话移除 %1</translation>
+        <translation>har tagit bort %1 från chatten</translation>
     </message>
     <message>
         <source>have added %1 to the chat</source>
         <comment>myself</comment>
-        <translation>已加入 %1 到此对话</translation>
+        <translation>har lagt till %1 i chatten</translation>
     </message>
     <message>
         <source>have removed %1 from the chat</source>
         <comment>myself</comment>
-        <translation>已从此对话移除 %1</translation>
+        <translation>har tagit bort %1 från chatten</translation>
     </message>
     <message numerus="yes">
         <source>scored %Ln points</source>
         <comment>myself</comment>
         <translation>
-            <numerusform>取得 %Ln 分</numerusform>
+            <numerusform>kom upp i %Ln poäng</numerusform>
+            <numerusform>kom upp i %Ln poäng</numerusform>
         </translation>
     </message>
     <message>
         <source>sent a game</source>
         <comment>myself</comment>
-        <translation>发送游戏</translation>
+        <translation>skickade ett spel</translation>
     </message>
     <message>
         <source>sent a game</source>
-        <translation>发送游戏</translation>
+        <translation>skickade ett spel</translation>
     </message>
 </context>
 </TS>

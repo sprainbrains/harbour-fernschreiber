@@ -56,6 +56,8 @@ namespace {
     const QString PINNED_MESSAGE_ID("pinned_message_id");
     const QString _TYPE("@type");
     const QString SECRET_CHAT_ID("secret_chat_id");
+    const QString CHAT_FOLDERS("chat_folders");
+    const QString MAIN_CHAT_LIST_POSITION_IN_FOLDERS("main_chat_list_position");
 }
 
 class ChatListModel::ChatData
@@ -91,6 +93,7 @@ public:
     QVector<int> updateLastMessage(const QVariantMap &message);
     QVector<int> updateGroup(const TDLibWrapper::Group *group);
     QVector<int> updateSecretChat(const QVariantMap &secretChatDetails);
+    ChatData* clone();
     TDLibWrapper *tdLibWrapper;
 
 public:
@@ -384,7 +387,27 @@ QVector<int> ChatListModel::ChatData::updateSecretChat(const QVariantMap &secret
     return changedRoles;
 }
 
-ChatListModel::ChatListModel(TDLibWrapper *tdLibWrapper, AppSettings *appSettings) : showHiddenChats(false)
+ChatListModel::ChatData* ChatListModel::ChatData::clone() {
+    QVariantMap clonedChatData;
+
+    QList<QString> keys = chatData.keys();
+    for(int i = 0; i < keys.count(); i++) {
+        clonedChatData.insert(keys[i], QVariant(chatData[keys[i]]));
+    }
+    ChatData* res = new ChatData(tdLibWrapper, clonedChatData);
+    res->chatId = chatId;
+    res->order = order;
+    res->groupId = groupId;
+    res->verified = verified;
+    res->chatType = chatType;
+    res->memberStatus = memberStatus;
+    res->secretChatState = secretChatState;
+    return res;
+}
+
+ChatListModel::ChatListModel(TDLibWrapper *tdLibWrapper, AppSettings *appSettings) :
+    showHiddenChats(false),
+    selectedFolder("All Chats")
 {
     this->tdLibWrapper = tdLibWrapper;
     this->appSettings = appSettings;
@@ -408,6 +431,8 @@ ChatListModel::ChatListModel(TDLibWrapper *tdLibWrapper, AppSettings *appSetting
     connect(tdLibWrapper, SIGNAL(chatUnreadMentionCountUpdated(qlonglong, int)), this, SLOT(handleChatUnreadMentionCountUpdated(qlonglong, int)));
     connect(tdLibWrapper, SIGNAL(chatUnreadReactionCountUpdated(qlonglong, int)), this, SLOT(handleChatUnreadReactionCountUpdated(qlonglong, int)));
     connect(tdLibWrapper, SIGNAL(chatAvailableReactionsUpdated(qlonglong,QVariantMap)), this, SLOT(handleChatAvailableReactionsUpdated(qlonglong,QVariantMap)));
+    connect(tdLibWrapper, SIGNAL(chatFolders(QVariantList, qlonglong)), this, SLOT(handleChatFolders(QVariantList, qlonglong)));
+    connect(tdLibWrapper, SIGNAL(chatFolder(QVariantMap)), this, SLOT(handleChatFolderInformation(QVariantMap)));
 
     // Don't start the timer until we have at least one chat
     relativeTimeRefreshTimer = new QTimer(this);
@@ -424,6 +449,15 @@ ChatListModel::~ChatListModel()
     LOG("Destroying myself...");
     qDeleteAll(chatList);
     qDeleteAll(hiddenChats.values());
+}
+
+ChatListModel* ChatListModel::clone() {
+    ChatListModel* res = new ChatListModel(tdLibWrapper, appSettings);
+    res->relativeTimeRefreshTimer->stop();
+    for(int i = 0; i < chatList.count(); i++) {
+        res->chatList.append(chatList.at(i)->clone());
+    }
+    return res;
 }
 
 void ChatListModel::reset()
@@ -459,6 +493,8 @@ QHash<int,QByteArray> ChatListModel::roleNames() const
     roles.insert(ChatListModel::RoleFilter, "filter");
     roles.insert(ChatListModel::RoleDraftMessageDate, "draft_message_date");
     roles.insert(ChatListModel::RoleDraftMessageText, "draft_message_text");
+    roles.insert(ChatListModel::RoleChatFoldersList, "chat_folder");
+    roles.insert(ChatListModel::RoleMainChatPositionId, "main_chats_folder_position");
     return roles;
 }
 
@@ -497,6 +533,8 @@ QVariant ChatListModel::data(const QModelIndex &index, int role) const
         case ChatListModel::RoleFilter: return data->title() + " " + data->senderMessageText();
         case ChatListModel::RoleDraftMessageText: return data->draftMessageText();
         case ChatListModel::RoleDraftMessageDate: return data->draftMessageDate();
+        case ChatListModel::RoleChatFoldersList: return this->getChatFolderList().at(row);
+        case ChatListModel::RoleMainChatPositionId: return mainAllChatFolderPosition;
         }
     }
     return QVariant();
@@ -598,6 +636,13 @@ void ChatListModel::calculateUnreadState()
         LOG("Online-only mode: New unread state:" << unreadMessages << unreadChats);
         emit unreadStateChanged(unreadMessages, unreadChats);
     }
+}
+
+void ChatListModel::setSelectedFolderName(QString title)
+{
+    selectedFolder = title;
+    LOG("Select chat folder: " << selectedFolder);
+    //set choosen chats
 }
 
 void ChatListModel::addVisibleChat(ChatData *chat)
@@ -1073,4 +1118,67 @@ void ChatListModel::handleRelativeTimeRefreshTimer()
     roles.append(ChatListModel::RoleLastMessageDate);
     roles.append(ChatListModel::RoleLastMessageStatus);
     emit dataChanged(index(0), index(chatList.size() - 1), roles);
+}
+
+void ChatListModel::handleChatFolders(const QVariantList &foldersInformation, qlonglong mainChatlistPosition)
+{
+    LOG("Updating available chat Folders" << foldersInformation << "with main Chatlist position" << mainChatlistPosition);
+    chatFolders.clear();
+    chatFolderTitles.clear();
+
+    chatFolders.insert("-1", tr("All Chats"));
+    chatFolderTitles.push_back(tr("All Chats"));
+
+    chatFolders.insert("-2", tr("Chats only"));
+    chatFolderTitles.push_back(tr("Chats only"));
+
+    chatFolders.insert("-3", tr("Channels only"));
+    chatFolderTitles.push_back(tr("Channels only"));
+
+    int positionIndex = 0;
+    mainAllChatFolderPosition = mainChatlistPosition;
+    for (const auto&folder: foldersInformation) {
+        auto map = folder.toMap();
+        QString id = map.value("id").toString();
+        QString title = map.value("title").toString();
+        chatFolders.insert(id, title);
+        chatFolderTitles.push_back(title);
+        ++positionIndex;
+    }
+
+    emit chatFoldersChanged(chatFolders);
+}
+
+void ChatListModel::handleChatFolderInformation(const QVariantMap &chatFolderInformation)
+{
+    QString title = chatFolderInformation.value("title").toString();
+    if (chatFolderList.keys().contains(title)) {
+        auto it = chatFolderList.find(title);
+        if (it != chatFolderList.end())
+            chatFolderList.erase(it);
+    }
+    chatFolderList.insert(title, chatFolderInformation);
+    emit chatFolderInforamtionChanged(chatFolderList);
+}
+
+QVariantList ChatListModel::getChatFolderList() const
+{
+    return chatFolderTitles;
+}
+
+ChatsFolderFilterProxy::ChatsFolderFilterProxy(QObject *parent)
+    :QSortFilterProxyModel(parent)
+{
+
+}
+
+bool ChatsFolderFilterProxy::filterAcceptsRow(int source_row, const QModelIndex &source_parent) const
+{
+    QModelIndex index = sourceModel()->index(source_row, 0, source_parent);
+    return true;
+}
+
+void ChatsFolderFilterProxy::sourceModelChanged()
+{
+    m_model = qobject_cast<ChatListModel*>(sourceModel());
 }
