@@ -67,7 +67,7 @@
 
 Q_IMPORT_PLUGIN(TgsIOPlugin)
 
-void migrateSettings() {
+/*void migrateSettings() {
     const QStringList sailfishOSVersion = QSysInfo::productVersion().split(".");
     int sailfishOSMajorVersion = sailfishOSVersion.value(0).toInt();
     int sailfishOSMinorVersion = sailfishOSVersion.value(1).toInt();
@@ -110,11 +110,11 @@ void migrateSettings() {
                     }
                 }
             }
-        }
+        } // We don't need to migrate anything
 
         settings.setValue("migrated", true);
     }
-}
+}*/
 
 int main(int argc, char *argv[])
 {
@@ -125,7 +125,7 @@ int main(int argc, char *argv[])
 
     QQmlContext *context = view.data()->rootContext();
 
-    migrateSettings();
+    //migrateSettings();
 
     const char *uri = "WerkWolf.Fernschreiber";
     qmlRegisterType<TDLibFile>(uri, 1, 0, "TDLibFile");
